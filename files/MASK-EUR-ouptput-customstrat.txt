@@ -1,0 +1,455 @@
+--------------------------------------------------------------------------------
+|                             Python Crypto Bot                                |
+--------------------------------------------------------------------------------
+|                Release : v2.49.1                                             | 
+--------------------------------------------------------------------------------
+|               Bot Mode : TEST - test trades using dummy funds :)             | 
+|            Bot Started : 2021-08-04 22:46:16.723197                          | 
+================================================================================
+|             Sell Upper : 8.0%                                                | 
+ |    Trailing Stop Loss : -1.5%                                               | 
+|           Sell At Loss : False  --sellatloss False                           | 
+|     Sell At Resistance : False  --sellatresistance                           | 
+|        Trade Bull Only : False  --disablebullonly                            | 
+|          Buy Near High : True  --disablebuynearhigh                          | 
+|           Use Buy MACD : False  --disablebuymacd                             | 
+|            Use Buy EMA : True  --disablebuyema                               | 
+|            Use Buy OBV : True  --disablebuyobv                               | 
+|      Use Buy Elder-Ray : True  --disablebuyelderray                          | 
+|     Sell Fibonacci Low : False  --disablefailsafefibonaccilow                | 
+|        Sell Upper Pcnt : True  --disableprofitbankupperpcnt                  | 
+|   Candlestick Reversal : False  --disableprofitbankreversal                  | 
+|               Telegram : False  --disabletelegram                            | 
+|                    Log : True  --disablelog                                  | 
+|                Tracker : False  --disabletracker                             | 
+|       Auto restart Bot : True  --autorestart                                 | 
+================================================================================
+ |    Sampling start : 2021-07-25T00:00:00                                     | 
+ |      Sampling end : 2021-08-04T22:46:16                                     | 
+ |     WARNING: Using less than 300 intervals                                  | 
+ |     Interval size : 263                                                     | 
+================================================================================
+2021-07-25 00:00:00 | MASK-EUR | 3600 | Close: 3.0800 | EMA12/26: 3.0800 = 3.0800 | OBV: 2172.1000 (0.0000%)ERI: |  | WAIT | Last Action: SELL
+2021-07-25 01:00:00 | MASK-EUR | 3600 | Close: 3.0200 | *v EMA12/26: 3.0707 < 3.0755 v* | v OBV: 555.0000 (-74.4500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 02:00:00 | MASK-EUR | 3600 | Close: 3.0800 | v EMA12/26: 3.0721 < 3.0758 v | ^ OBV: 4645.2000 (736.9700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 03:00:00 | MASK-EUR | 3600 | Close: 3.0500 | v EMA12/26: 3.0687 < 3.0739 v | v OBV: 3314.4399 (-28.6500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 04:00:00 | MASK-EUR | 3600 | Close: 3.0900 | v EMA12/26: 3.0720 < 3.0751 v | ^ OBV: 4401.4699 (32.8000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 05:00:00 | MASK-EUR | 3600 | Close: 3.1400 | *^ EMA12/26: 3.0824 > 3.0799 ^* | ^ OBV: 7580.9199 (72.2400%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-25 05:00:00 | MASK-EUR | 3600 | Close: 3.1400 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 3.02, 'ratio0_768': 3.56}
+ Resistance level of 5.43 formed at 2021-08-04 20:00:00
+2021-07-25 06:00:00 | MASK-EUR | 3600 | Close: 3.1500 | ^ EMA12/26: 3.0928 > 3.0851 ^ | ^ OBV: 8812.0299 (16.2399%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.6823% (delta: 0.01)
+support: 3.15, resistance: 3.2, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-25 07:00:00 | MASK-EUR | 3600 | Close: 3.1200 | ^ EMA12/26: 3.0970 > 3.0877 ^ | v OBV: 7612.9499 (-13.6100%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.6281% (delta: -0.02)
+support: 3.12, resistance: 3.2, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-25 08:00:00 | MASK-EUR | 3600 | Close: 3.1000 | ^ EMA12/26: 3.0975 > 3.0886 ^ | v OBV: 6898.6099 (-9.3801%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.2587% (delta: -0.04)
+support: 3.1, resistance: 3.2, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-25 09:00:00 | MASK-EUR | 3600 | Close: 3.1800 | ^ EMA12/26: 3.1101 > 3.0954 ^ | ^ OBV: 9861.6499 (42.9500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.2636% (delta: 0.04)
+support: 3.18, resistance: 3.2, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-25 10:00:00 | MASK-EUR | 3600 | Close: 3.1700 | ^ EMA12/26: 3.1193 > 3.1009 ^ | v OBV: 7952.5399 (-19.3600%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.0517% (delta: 0.03)
+support: 3.17, resistance: 3.2, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-25 11:00:00 | MASK-EUR | 3600 | Close: 3.1600 | ^ EMA12/26: 3.1256 > 3.1053 ^ | v OBV: 6354.3799 (-20.1000%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.3670% (delta: 0.02)
+support: 3.16, resistance: 3.2, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 12:00:00 | MASK-EUR | 3600 | Close: 3.1600 | ^ EMA12/26: 3.1309 > 3.1093 ^ | OBV: 6354.3799 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | -0.3670% (delta: 0.02)
+support: 3.16, resistance: 3.2, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-25 13:00:00 | MASK-EUR | 3600 | Close: 3.1800 | ^ EMA12/26: 3.1384 > 3.1145 ^ | ^ OBV: 8187.4999 (28.8500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 0.2636% (delta: 0.04)
+support: 3.18, resistance: 3.2, fibonacci (l): 3.02, fibonacci (u): 3.56
+! Profit Bank Triggered (> 8.0%)
+2021-07-25 14:00:00 | MASK-EUR | 3600 | Close: 3.6500 | ^ EMA12/26: 3.2171 > 3.1542 ^ | ^ OBV: 19196.6900 (134.4600%) ^ | ERI: buy |  | SELL | Last Action: BUY | 15.0825% (delta: 0.51)
+support: 3.51, resistance: 3.68, fibonacci (l): 3.56, fibonacci (u): 3.91
+2021-07-25 14:00:00 | MASK-EUR | 3600 | SELL | 3.65 | BUY | 3.14 | DIFF | 0.5099999999999998 | DIFF | 150.82523885 | MARGIN NO FEES | 15.0825% | MARGIN FEES | 5.783
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 15:00:00 | MASK-EUR | 3600 | Close: 3.7000 | ^ EMA12/26: 3.2914 > 3.1946 ^ | ^ OBV: 38166.5600 (98.8199%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 16:00:00 | MASK-EUR | 3600 | Close: 3.6100 | ^ EMA12/26: 3.3404 > 3.2254 ^ | v OBV: 33941.4200 (-11.0700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 17:00:00 | MASK-EUR | 3600 | Close: 3.4700 | ^ EMA12/26: 3.3603 > 3.2435 ^ | v OBV: 27518.4300 (-18.9201%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 18:00:00 | MASK-EUR | 3600 | Close: 3.5300 | ^ EMA12/26: 3.3864 > 3.2647 ^ | ^ OBV: 28689.6800 (4.2600%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-25 19:00:00 | MASK-EUR | 3600 | Close: 3.5400 | ^ EMA12/26: 3.4101 > 3.2851 ^ | ^ OBV: 30855.3300 (7.5500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 20:00:00 | MASK-EUR | 3600 | Close: 3.4500 | ^ EMA12/26: 3.4162 > 3.2973 ^ | v OBV: 29000.1200 (-6.0100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 21:00:00 | MASK-EUR | 3600 | Close: 3.3900 | ^ EMA12/26: 3.4122 > 3.3042 ^ | v OBV: 27507.4800 (-5.1500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 22:00:00 | MASK-EUR | 3600 | Close: 3.4400 | ^ EMA12/26: 3.4164 > 3.3142 ^ | ^ OBV: 29547.4200 (7.4200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 23:00:00 | MASK-EUR | 3600 | Close: 3.5900 | ^ EMA12/26: 3.4431 > 3.3347 ^ | ^ OBV: 34169.9500 (15.6400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 00:00:00 | MASK-EUR | 3600 | Close: 3.5900 | ^ EMA12/26: 3.4657 > 3.3536 ^ | OBV: 34169.9500 (0.0000%)ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 01:00:00 | MASK-EUR | 3600 | Close: 3.5400 | ^ EMA12/26: 3.4771 > 3.3674 ^ | v OBV: 30339.4300 (-11.2101%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 02:00:00 | MASK-EUR | 3600 | Close: 3.6300 | ^ EMA12/26: 3.5006 > 3.3868 ^ | ^ OBV: 34013.1100 (12.1100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 03:00:00 | MASK-EUR | 3600 | Close: 3.5600 | ^ EMA12/26: 3.5098 > 3.3997 ^ | v OBV: 31640.3600 (-6.9800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 04:00:00 | MASK-EUR | 3600 | Close: 3.6100 | ^ EMA12/26: 3.5252 > 3.4152 ^ | ^ OBV: 37261.2800 (17.7700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 05:00:00 | MASK-EUR | 3600 | Close: 3.5800 | ^ EMA12/26: 3.5336 > 3.4274 ^ | v OBV: 34021.5199 (-8.6900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 06:00:00 | MASK-EUR | 3600 | Close: 3.5200 | ^ EMA12/26: 3.5315 > 3.4343 ^ | v OBV: 29763.1199 (-12.5200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 07:00:00 | MASK-EUR | 3600 | Close: 3.4700 | ^ EMA12/26: 3.5220 > 3.4369 ^ | v OBV: 22549.9399 (-24.2400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 08:00:00 | MASK-EUR | 3600 | Close: 3.5600 | ^ EMA12/26: 3.5279 > 3.4460 ^ | ^ OBV: 25346.3999 (12.4000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 09:00:00 | MASK-EUR | 3600 | Close: 3.5100 | ^ EMA12/26: 3.5251 > 3.4508 ^ | v OBV: 24135.1299 (-4.7800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 10:00:00 | MASK-EUR | 3600 | Close: 3.5300 | ^ EMA12/26: 3.5259 > 3.4566 ^ | ^ OBV: 24760.4399 (2.5900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 11:00:00 | MASK-EUR | 3600 | Close: 3.5800 | ^ EMA12/26: 3.5342 > 3.4658 ^ | ^ OBV: 25143.7399 (1.5500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 12:00:00 | MASK-EUR | 3600 | Close: 3.5800 | ^ EMA12/26: 3.5412 > 3.4742 ^ | OBV: 25143.7399 (0.0000%)ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 13:00:00 | MASK-EUR | 3600 | Close: 3.5100 | ^ EMA12/26: 3.5364 > 3.4769 ^ | v OBV: 23770.6299 (-5.4600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 14:00:00 | MASK-EUR | 3600 | Close: 3.5300 | ^ EMA12/26: 3.5354 > 3.4808 ^ | ^ OBV: 24317.2699 (2.3000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 15:00:00 | MASK-EUR | 3600 | Close: 3.5700 | ^ EMA12/26: 3.5407 > 3.4874 ^ | ^ OBV: 25297.8199 (4.0300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 16:00:00 | MASK-EUR | 3600 | Close: 3.7900 | ^ EMA12/26: 3.5791 > 3.5098 ^ | ^ OBV: 34087.5499 (34.7500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 17:00:00 | MASK-EUR | 3600 | Close: 3.7200 | ^ EMA12/26: 3.6007 > 3.5254 ^ | v OBV: 30440.1399 (-10.7000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 18:00:00 | MASK-EUR | 3600 | Close: 3.6300 | ^ EMA12/26: 3.6052 > 3.5331 ^ | v OBV: 28733.2999 (-5.6100%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 19:00:00 | MASK-EUR | 3600 | Close: 3.6200 | ^ EMA12/26: 3.6075 > 3.5396 ^ | v OBV: 27118.0099 (-5.6200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 20:00:00 | MASK-EUR | 3600 | Close: 3.4700 | ^ EMA12/26: 3.5863 > 3.5344 ^ | v OBV: 20971.4299 (-22.6701%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 21:00:00 | MASK-EUR | 3600 | Close: 3.4600 | ^ EMA12/26: 3.5669 > 3.5289 ^ | v OBV: 15510.9099 (-26.0400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 22:00:00 | MASK-EUR | 3600 | Close: 3.5000 | ^ EMA12/26: 3.5566 > 3.5267 ^ | ^ OBV: 17001.7799 (9.6100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 23:00:00 | MASK-EUR | 3600 | Close: 3.4500 | ^ EMA12/26: 3.5402 > 3.5211 ^ | v OBV: 16597.3399 (-2.3800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 00:00:00 | MASK-EUR | 3600 | Close: 3.5000 | ^ EMA12/26: 3.5340 > 3.5195 ^ | ^ OBV: 17300.7599 (4.2400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 01:00:00 | MASK-EUR | 3600 | Close: 3.3100 | *v EMA12/26: 3.4995 < 3.5040 v* | v OBV: 15879.6499 (-8.2101%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 02:00:00 | MASK-EUR | 3600 | Close: 3.2100 | v EMA12/26: 3.4550 < 3.4822 v | v OBV: 15155.5699 (-4.5600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 03:00:00 | MASK-EUR | 3600 | Close: 3.3300 | v EMA12/26: 3.4357 < 3.4709 v | ^ OBV: 15965.9999 (5.3500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 04:00:00 | MASK-EUR | 3600 | Close: 3.3400 | v EMA12/26: 3.4210 < 3.4612 v | ^ OBV: 17159.9099 (7.4800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 05:00:00 | MASK-EUR | 3600 | Close: 3.4400 | v EMA12/26: 3.4239 < 3.4596 v | ^ OBV: 18434.0199 (7.4200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 06:00:00 | MASK-EUR | 3600 | Close: 3.3800 | v EMA12/26: 3.4172 < 3.4537 v | v OBV: 17310.4099 (-6.1000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 07:00:00 | MASK-EUR | 3600 | Close: 3.3400 | v EMA12/26: 3.4053 < 3.4453 v | v OBV: 16978.7799 (-1.9200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 08:00:00 | MASK-EUR | 3600 | Close: 3.3100 | v EMA12/26: 3.3906 < 3.4353 v | v OBV: 16338.5399 (-3.7700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 09:00:00 | MASK-EUR | 3600 | Close: 3.3500 | v EMA12/26: 3.3844 < 3.4290 v | ^ OBV: 16404.7499 (0.4100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 10:00:00 | MASK-EUR | 3600 | Close: 3.3800 | v EMA12/26: 3.3837 < 3.4253 v | ^ OBV: 16751.1699 (2.1100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 11:00:00 | MASK-EUR | 3600 | Close: 3.4400 | v EMA12/26: 3.3923 < 3.4264 v | ^ OBV: 17205.1999 (2.7100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 12:00:00 | MASK-EUR | 3600 | Close: 3.4700 | v EMA12/26: 3.4043 < 3.4296 v | ^ OBV: 17552.4999 (2.0200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 13:00:00 | MASK-EUR | 3600 | Close: 3.4700 | v EMA12/26: 3.4144 < 3.4326 v | OBV: 17552.4999 (0.0000%)ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 14:00:00 | MASK-EUR | 3600 | Close: 3.5000 | v EMA12/26: 3.4275 < 3.4376 v | ^ OBV: 18084.0899 (3.0299%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 15:00:00 | MASK-EUR | 3600 | Close: 3.4700 | v EMA12/26: 3.4341 < 3.4400 v | v OBV: 17857.5499 (-1.2500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 16:00:00 | MASK-EUR | 3600 | Close: 3.3300 | v EMA12/26: 3.4181 < 3.4319 v | v OBV: 17782.2199 (-0.4200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 17:00:00 | MASK-EUR | 3600 | Close: 3.3300 | v EMA12/26: 3.4045 < 3.4243 v | OBV: 17782.2199 (0.0000%)ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 18:00:00 | MASK-EUR | 3600 | Close: 3.3600 | v EMA12/26: 3.3976 < 3.4195 v | ^ OBV: 18122.8699 (1.9200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 19:00:00 | MASK-EUR | 3600 | Close: 3.3400 | v EMA12/26: 3.3888 < 3.4136 v | v OBV: 17884.6499 (-1.3100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 20:00:00 | MASK-EUR | 3600 | Close: 3.3300 | v EMA12/26: 3.3797 < 3.4074 v | v OBV: 17606.0899 (-1.5600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 21:00:00 | MASK-EUR | 3600 | Close: 3.3700 | v EMA12/26: 3.3782 < 3.4047 v | ^ OBV: 17760.3899 (0.8800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 22:00:00 | MASK-EUR | 3600 | Close: 3.3900 | v EMA12/26: 3.3800 < 3.4036 v | ^ OBV: 18173.8599 (2.3300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 23:00:00 | MASK-EUR | 3600 | Close: 3.3800 | v EMA12/26: 3.3800 < 3.4018 v | v OBV: 17801.7599 (-2.0500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 00:00:00 | MASK-EUR | 3600 | Close: 3.3400 | v EMA12/26: 3.3738 < 3.3972 v | v OBV: 16513.4899 (-7.2400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 01:00:00 | MASK-EUR | 3600 | Close: 3.3500 | v EMA12/26: 3.3702 < 3.3937 v | ^ OBV: 16781.1199 (1.6200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 02:00:00 | MASK-EUR | 3600 | Close: 3.4200 | v EMA12/26: 3.3778 < 3.3957 v | ^ OBV: 18354.5099 (9.3800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 03:00:00 | MASK-EUR | 3600 | Close: 3.5100 | v EMA12/26: 3.3982 < 3.4041 v | ^ OBV: 20998.3199 (14.4000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 04:00:00 | MASK-EUR | 3600 | Close: 3.4300 | v EMA12/26: 3.4030 < 3.4061 v | v OBV: 19737.6099 (-6.0000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 05:00:00 | MASK-EUR | 3600 | Close: 3.4200 | v EMA12/26: 3.4056 < 3.4071 v | v OBV: 19505.4999 (-1.1800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 06:00:00 | MASK-EUR | 3600 | Close: 3.3900 | v EMA12/26: 3.4032 < 3.4058 v | v OBV: 19022.3699 (-2.4800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 07:00:00 | MASK-EUR | 3600 | Close: 3.4100 | v EMA12/26: 3.4043 < 3.4061 v | ^ OBV: 19563.9999 (2.8500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 08:00:00 | MASK-EUR | 3600 | Close: 3.3800 | v EMA12/26: 3.4005 < 3.4042 v | v OBV: 19406.7999 (-0.8000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 09:00:00 | MASK-EUR | 3600 | Close: 3.4300 | v EMA12/26: 3.4051 < 3.4061 v | ^ OBV: 19569.9699 (0.8400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 10:00:00 | MASK-EUR | 3600 | Close: 3.4500 | *^ EMA12/26: 3.4120 > 3.4093 ^* | ^ OBV: 20829.3099 (6.4400%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-28 10:00:00 | MASK-EUR | 3600 | Close: 3.4500 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 3.02, 'ratio0_768': 3.56}
+ Resistance level of 5.43 formed at 2021-08-04 20:00:00
+2021-07-28 11:00:00 | MASK-EUR | 3600 | Close: 3.4300 | ^ EMA12/26: 3.4147 > 3.4109 ^ | v OBV: 19354.5999 (-7.0800%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.5715% (delta: -0.02)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-28 12:00:00 | MASK-EUR | 3600 | Close: 3.4100 | ^ EMA12/26: 3.4140 > 3.4108 ^ | v OBV: 18645.2199 (-3.6700%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.1454% (delta: -0.04)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-28 13:00:00 | MASK-EUR | 3600 | Close: 3.4200 | ^ EMA12/26: 3.4149 > 3.4115 ^ | ^ OBV: 19028.2399 (2.0500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.8584% (delta: -0.03)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 14:00:00 | MASK-EUR | 3600 | Close: 3.4100 | ^ EMA12/26: 3.4141 > 3.4114 ^ | v OBV: 17852.7599 (-6.1800%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.1454% (delta: -0.04)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-28 15:00:00 | MASK-EUR | 3600 | Close: 3.4600 | ^ EMA12/26: 3.4212 > 3.4150 ^ | ^ OBV: 18539.1499 (3.8400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.7106% (delta: 0.01)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-28 16:00:00 | MASK-EUR | 3600 | Close: 3.4500 | ^ EMA12/26: 3.4256 > 3.4176 ^ | v OBV: 17716.6799 (-4.4401%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.9975% (delta: 0.0)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-28 17:00:00 | MASK-EUR | 3600 | Close: 3.3900 | ^ EMA12/26: 3.4201 > 3.4155 ^ | v OBV: 17450.1699 (-1.5000%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.7193% (delta: -0.06)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-28 18:00:00 | MASK-EUR | 3600 | Close: 3.4200 | ^ EMA12/26: 3.4201 > 3.4158 ^ | ^ OBV: 17710.3199 (1.4900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.8584% (delta: -0.03)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-28 19:00:00 | MASK-EUR | 3600 | Close: 3.4100 | ^ EMA12/26: 3.4185 > 3.4154 ^ | v OBV: 17196.5299 (-2.9000%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.1454% (delta: -0.04)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-28 20:00:00 | MASK-EUR | 3600 | Close: 3.3900 | ^ EMA12/26: 3.4141 > 3.4135 ^ | v OBV: 16911.9599 (-1.6500%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.7193% (delta: -0.06)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+! Ignore Sell Signal (No Sell At Loss)
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-28 21:00:00 | MASK-EUR | 3600 | Close: 3.3700 | *v EMA12/26: 3.4073 < 3.4103 v* | v OBV: 16688.4799 (-1.3200%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.2933% (delta: -0.08)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-28 22:00:00 | MASK-EUR | 3600 | Close: 3.3800 | v EMA12/26: 3.4031 < 3.4080 v | ^ OBV: 16953.1999 (1.5900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.0063% (delta: -0.07)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-28 23:00:00 | MASK-EUR | 3600 | Close: 3.3600 | v EMA12/26: 3.3965 < 3.4045 v | v OBV: 16283.0899 (-3.9500%) v | ERI: buy |  | WAIT | Last Action: BUY | -3.5802% (delta: -0.09)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 00:00:00 | MASK-EUR | 3600 | Close: 3.3200 | v EMA12/26: 3.3847 < 3.3982 v | v OBV: 15894.7699 (-2.3800%) v | ERI: sell |  | WAIT | Last Action: BUY | -4.7281% (delta: -0.13)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 01:00:00 | MASK-EUR | 3600 | Close: 3.2800 | v EMA12/26: 3.3686 < 3.3895 v | v OBV: 15154.7499 (-4.6600%) v | ERI: sell |  | WAIT | Last Action: BUY | -5.8759% (delta: -0.17)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 02:00:00 | MASK-EUR | 3600 | Close: 3.3400 | v EMA12/26: 3.3642 < 3.3858 v | ^ OBV: 15837.9999 (4.5100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.1542% (delta: -0.11)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 03:00:00 | MASK-EUR | 3600 | Close: 3.2900 | v EMA12/26: 3.3528 < 3.3787 v | v OBV: 15491.0299 (-2.1900%) v | ERI: buy |  | WAIT | Last Action: BUY | -5.5890% (delta: -0.16)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 04:00:00 | MASK-EUR | 3600 | Close: 3.3200 | v EMA12/26: 3.3477 < 3.3743 v | ^ OBV: 15674.3299 (1.1800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -4.7281% (delta: -0.13)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-29 05:00:00 | MASK-EUR | 3600 | Close: 3.3400 | v EMA12/26: 3.3465 < 3.3718 v | ^ OBV: 15924.5199 (1.6000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.1542% (delta: -0.11)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 06:00:00 | MASK-EUR | 3600 | Close: 3.3100 | v EMA12/26: 3.3409 < 3.3672 v | v OBV: 15134.5599 (-4.9600%) v | ERI: sell |  | WAIT | Last Action: BUY | -5.0150% (delta: -0.14)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 07:00:00 | MASK-EUR | 3600 | Close: 3.3000 | v EMA12/26: 3.3346 < 3.3622 v | v OBV: 14055.8699 (-7.1300%) v | ERI: buy |  | WAIT | Last Action: BUY | -5.3020% (delta: -0.15)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 08:00:00 | MASK-EUR | 3600 | Close: 3.2900 | v EMA12/26: 3.3277 < 3.3569 v | v OBV: 12795.5699 (-8.9700%) v | ERI: sell |  | WAIT | Last Action: BUY | -5.5890% (delta: -0.16)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 09:00:00 | MASK-EUR | 3600 | Close: 3.3300 | v EMA12/26: 3.3281 < 3.3549 v | ^ OBV: 13699.5899 (7.0700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.4411% (delta: -0.12)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 10:00:00 | MASK-EUR | 3600 | Close: 3.3000 | v EMA12/26: 3.3237 < 3.3508 v | v OBV: 11609.0099 (-15.2600%) v | ERI: buy |  | WAIT | Last Action: BUY | -5.3020% (delta: -0.15)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 11:00:00 | MASK-EUR | 3600 | Close: 3.3300 | v EMA12/26: 3.3247 < 3.3493 v | ^ OBV: 12098.8799 (4.2200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -4.4411% (delta: -0.12)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 12:00:00 | MASK-EUR | 3600 | Close: 3.3200 | v EMA12/26: 3.3240 < 3.3471 v | v OBV: 11923.9199 (-1.4500%) v | ERI: buy |  | WAIT | Last Action: BUY | -4.7281% (delta: -0.13)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 13:00:00 | MASK-EUR | 3600 | Close: 3.3200 | v EMA12/26: 3.3233 < 3.3451 v | OBV: 11923.9199 (0.0000%)ERI: buy |  | WAIT | Last Action: BUY | -4.7281% (delta: -0.13)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 14:00:00 | MASK-EUR | 3600 | Close: 3.3600 | v EMA12/26: 3.3290 < 3.3462 v | ^ OBV: 12186.7499 (2.2000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.5802% (delta: -0.09)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 15:00:00 | MASK-EUR | 3600 | Close: 3.3400 | v EMA12/26: 3.3307 < 3.3457 v | v OBV: 11241.8699 (-7.7500%) v | ERI: buy |  | WAIT | Last Action: BUY | -4.1542% (delta: -0.11)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 16:00:00 | MASK-EUR | 3600 | Close: 3.3000 | v EMA12/26: 3.3259 < 3.3423 v | v OBV: 10928.2899 (-2.7900%) v | ERI: sell |  | WAIT | Last Action: BUY | -5.3020% (delta: -0.15)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 17:00:00 | MASK-EUR | 3600 | Close: 3.3200 | v EMA12/26: 3.3250 < 3.3407 v | ^ OBV: 11280.4099 (3.2200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.7281% (delta: -0.13)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 18:00:00 | MASK-EUR | 3600 | Close: 3.3200 | v EMA12/26: 3.3242 < 3.3391 v | OBV: 11280.4099 (0.0000%)ERI: buy |  | WAIT | Last Action: BUY | -4.7281% (delta: -0.13)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 19:00:00 | MASK-EUR | 3600 | Close: 3.3100 | v EMA12/26: 3.3220 < 3.3370 v | v OBV: 11097.7499 (-1.6201%) v | ERI: sell |  | WAIT | Last Action: BUY | -5.0150% (delta: -0.14)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 20:00:00 | MASK-EUR | 3600 | Close: 3.3200 | v EMA12/26: 3.3217 < 3.3357 v | ^ OBV: 11239.2799 (1.2800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.7281% (delta: -0.13)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 21:00:00 | MASK-EUR | 3600 | Close: 3.3200 | v EMA12/26: 3.3214 < 3.3345 v | OBV: 11239.2799 (0.0000%)ERI: buy |  | WAIT | Last Action: BUY | -4.7281% (delta: -0.13)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 22:00:00 | MASK-EUR | 3600 | Close: 3.3200 | v EMA12/26: 3.3212 < 3.3335 v | OBV: 11239.2799 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | -4.7281% (delta: -0.13)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-29 23:00:00 | MASK-EUR | 3600 | Close: 3.3300 | v EMA12/26: 3.3226 < 3.3332 v | ^ OBV: 11400.5099 (1.4300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.4411% (delta: -0.12)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-30 00:00:00 | MASK-EUR | 3600 | Close: 3.5400 | *^ EMA12/26: 3.3560 > 3.3485 ^* | ^ OBV: 12897.3399 (13.1300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.5851% (delta: 0.09)
+support: 3.51, resistance: 3.68, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-30 01:00:00 | MASK-EUR | 3600 | Close: 3.4700 | ^ EMA12/26: 3.3735 > 3.3575 ^ | v OBV: 11488.5699 (-10.9200%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.4236% (delta: 0.02)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-30 02:00:00 | MASK-EUR | 3600 | Close: 3.4600 | ^ EMA12/26: 3.3868 > 3.3651 ^ | v OBV: 11426.4099 (-0.5400%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.7106% (delta: 0.01)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-30 03:00:00 | MASK-EUR | 3600 | Close: 3.3500 | ^ EMA12/26: 3.3812 > 3.3640 ^ | v OBV: 10169.4299 (-11.0000%) v | ERI: buy |  | WAIT | Last Action: BUY | -3.8672% (delta: -0.1)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 04:00:00 | MASK-EUR | 3600 | Close: 3.4100 | ^ EMA12/26: 3.3856 > 3.3674 ^ | ^ OBV: 10626.6199 (4.5000%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -2.1454% (delta: -0.04)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-30 05:00:00 | MASK-EUR | 3600 | Close: 3.3700 | ^ EMA12/26: 3.3832 > 3.3676 ^ | v OBV: 10449.5099 (-1.6700%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.2933% (delta: -0.08)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 06:00:00 | MASK-EUR | 3600 | Close: 3.3600 | ^ EMA12/26: 3.3796 > 3.3670 ^ | v OBV: 10144.3099 (-2.9200%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.5802% (delta: -0.09)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-30 07:00:00 | MASK-EUR | 3600 | Close: 3.3400 | ^ EMA12/26: 3.3735 > 3.3650 ^ | v OBV: 10043.2699 (-1.0000%) v | ERI: sell |  | WAIT | Last Action: BUY | -4.1542% (delta: -0.11)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-30 08:00:00 | MASK-EUR | 3600 | Close: 3.2500 | *v EMA12/26: 3.3545 < 3.3565 v* | v OBV: 9706.6899 (-3.3500%) v | ERI: sell |  | SELL | Last Action: BUY | -6.7368% (delta: -0.2)
+support: 3.2, resistance: 3.36, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-30 08:00:00 | MASK-EUR | 3600 | SELL | 3.25 | BUY | 3.45 | DIFF | -0.20000000000000018 | DIFF | -77.52851113 | MARGIN NO FEES | -6.7368% | MARGIN FEES | 5.3935
+2021-07-30 09:00:00 | MASK-EUR | 3600 | Close: 3.2500 | v EMA12/26: 3.3384 < 3.3486 v | OBV: 9706.6899 (0.0000%)ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 10:00:00 | MASK-EUR | 3600 | Close: 3.2400 | v EMA12/26: 3.3233 < 3.3405 v | v OBV: 9398.9199 (-3.1700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 11:00:00 | MASK-EUR | 3600 | Close: 3.2400 | v EMA12/26: 3.3104 < 3.3331 v | OBV: 9398.9199 (0.0000%)ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 12:00:00 | MASK-EUR | 3600 | Close: 3.2900 | v EMA12/26: 3.3073 < 3.3299 v | ^ OBV: 12570.4699 (33.7400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 13:00:00 | MASK-EUR | 3600 | Close: 3.3100 | v EMA12/26: 3.3077 < 3.3284 v | ^ OBV: 13158.0399 (4.6700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 14:00:00 | MASK-EUR | 3600 | Close: 3.3900 | v EMA12/26: 3.3204 < 3.3330 v | ^ OBV: 15098.8499 (14.7500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 15:00:00 | MASK-EUR | 3600 | Close: 3.3300 | v EMA12/26: 3.3218 < 3.3328 v | v OBV: 9169.7099 (-39.2701%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-30 16:00:00 | MASK-EUR | 3600 | Close: 3.2800 | v EMA12/26: 3.3154 < 3.3288 v | v OBV: -136.9901 (-101.4900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-30 17:00:00 | MASK-EUR | 3600 | Close: 3.3100 | v EMA12/26: 3.3146 < 3.3274 v | v OBV: 42.3499 (-130.9100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 18:00:00 | MASK-EUR | 3600 | Close: 3.3100 | v EMA12/26: 3.3138 < 3.3261 v | OBV: 42.3499 (0.0000%)ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 19:00:00 | MASK-EUR | 3600 | Close: 3.3500 | v EMA12/26: 3.3194 < 3.3279 v | ^ OBV: 478.5499 (1029.9900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 20:00:00 | MASK-EUR | 3600 | Close: 3.3700 | v EMA12/26: 3.3272 < 3.3310 v | ^ OBV: 1524.0899 (218.4800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 21:00:00 | MASK-EUR | 3600 | Close: 3.3500 | v EMA12/26: 3.3307 < 3.3324 v | v OBV: 1255.1299 (-17.6500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 22:00:00 | MASK-EUR | 3600 | Close: 3.4100 | *^ EMA12/26: 3.3429 > 3.3382 ^* | ^ OBV: 1625.5899 (29.5200%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-30 22:00:00 | MASK-EUR | 3600 | Close: 3.4100 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 3.02, 'ratio0_768': 3.56}
+ Resistance level of 5.43 formed at 2021-08-04 20:00:00
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-30 23:00:00 | MASK-EUR | 3600 | Close: 3.4100 | ^ EMA12/26: 3.3532 > 3.3435 ^ | OBV: 1625.5899 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | -0.9975% (delta: 0.0)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 00:00:00 | MASK-EUR | 3600 | Close: 3.4100 | ^ EMA12/26: 3.3619 > 3.3484 ^ | OBV: 1625.5899 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | -0.9975% (delta: 0.0)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-31 01:00:00 | MASK-EUR | 3600 | Close: 3.4700 | ^ EMA12/26: 3.3785 > 3.3574 ^ | ^ OBV: 2077.2999 (27.7900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.7444% (delta: 0.06)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-31 02:00:00 | MASK-EUR | 3600 | Close: 3.4700 | ^ EMA12/26: 3.3926 > 3.3657 ^ | OBV: 2077.2999 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | 0.7444% (delta: 0.06)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-31 03:00:00 | MASK-EUR | 3600 | Close: 3.5200 | ^ EMA12/26: 3.4122 > 3.3772 ^ | ^ OBV: 2414.6999 (16.2399%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 2.1961% (delta: 0.11)
+support: 3.51, resistance: 3.68, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-31 04:00:00 | MASK-EUR | 3600 | Close: 3.5400 | ^ EMA12/26: 3.4319 > 3.3892 ^ | ^ OBV: 3037.9599 (25.8100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 2.7767% (delta: 0.13)
+support: 3.51, resistance: 3.68, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-31 05:00:00 | MASK-EUR | 3600 | Close: 3.4900 | ^ EMA12/26: 3.4408 > 3.3967 ^ | v OBV: 2558.8999 (-15.7700%) v | ERI: buy |  | WAIT | Last Action: BUY | 1.3251% (delta: 0.08)
+support: 3.36, resistance: 3.51, fibonacci (l): 3.02, fibonacci (u): 3.56
+2021-07-31 06:00:00 | MASK-EUR | 3600 | Close: 3.5700 | ^ EMA12/26: 3.4607 > 3.4095 ^ | ^ OBV: 2882.1999 (12.6300%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 3.6477% (delta: 0.16)
+support: 3.51, resistance: 3.68, fibonacci (l): 3.56, fibonacci (u): 3.91
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 07:00:00 | MASK-EUR | 3600 | Close: 3.5600 | ^ EMA12/26: 3.4759 > 3.4207 ^ | v OBV: 2451.2799 (-14.9500%) v | ERI: buy |  | WAIT | Last Action: BUY | 3.3574% (delta: 0.15)
+support: 3.51, resistance: 3.68, fibonacci (l): 3.56, fibonacci (u): 3.91
+! Profit Bank Triggered (> 8.0%)
+2021-07-31 08:00:00 | MASK-EUR | 3600 | Close: 4.0599 | ^ EMA12/26: 3.5658 > 3.4680 ^ | ^ OBV: 7179.7299 (192.9000%) ^ | ERI: buy |  | SELL | Last Action: BUY | 17.8739% (delta: 0.65)
+support: 3.93, resistance: 4.23, fibonacci (l): 3.91, fibonacci (u): 4.18
+2021-07-31 08:00:00 | MASK-EUR | 3600 | SELL | 4.06 | BUY | 3.41 | DIFF | 0.6499999999999995 | DIFF | 191.84045907 | MARGIN NO FEES | 17.8739% | MARGIN FEES | 6.3575
+2021-07-31 09:00:00 | MASK-EUR | 3600 | Close: 4.1900 | ^ EMA12/26: 3.6618 > 3.5215 ^ | ^ OBV: 10672.7999 (48.6500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-31 10:00:00 | MASK-EUR | 3600 | Close: 3.9800 | ^ EMA12/26: 3.7108 > 3.5555 ^ | v OBV: 7945.4499 (-25.5500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-31 11:00:00 | MASK-EUR | 3600 | Close: 3.9900 | ^ EMA12/26: 3.7537 > 3.5876 ^ | ^ OBV: 9880.0199 (24.3500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-31 12:00:00 | MASK-EUR | 3600 | Close: 4.0700 | ^ EMA12/26: 3.8024 > 3.6234 ^ | ^ OBV: 10556.0099 (6.8400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-31 13:00:00 | MASK-EUR | 3600 | Close: 3.8400 | ^ EMA12/26: 3.8081 > 3.6394 ^ | v OBV: 10205.9599 (-3.3200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-31 14:00:00 | MASK-EUR | 3600 | Close: 3.8500 | ^ EMA12/26: 3.8146 > 3.6550 ^ | ^ OBV: 11451.3099 (12.2000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-31 15:00:00 | MASK-EUR | 3600 | Close: 3.9200 | ^ EMA12/26: 3.8308 > 3.6746 ^ | ^ OBV: 11628.6499 (1.5500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-31 16:00:00 | MASK-EUR | 3600 | Close: 4.1200 | ^ EMA12/26: 3.8753 > 3.7076 ^ | ^ OBV: 13181.7599 (13.3600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 17:00:00 | MASK-EUR | 3600 | Close: 4.4100 | ^ EMA12/26: 3.9575 > 3.7596 ^ | ^ OBV: 29368.0699 (122.7900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-31 18:00:00 | MASK-EUR | 3600 | Close: 4.5500 | ^ EMA12/26: 4.0487 > 3.8182 ^ | ^ OBV: 35730.4399 (21.6600%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-31 19:00:00 | MASK-EUR | 3600 | Close: 4.4000 | ^ EMA12/26: 4.1027 > 3.8613 ^ | v OBV: 32585.9299 (-8.8000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-31 20:00:00 | MASK-EUR | 3600 | Close: 4.4400 | ^ EMA12/26: 4.1546 > 3.9041 ^ | ^ OBV: 36631.9199 (12.4200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-31 21:00:00 | MASK-EUR | 3600 | Close: 4.3600 | ^ EMA12/26: 4.1862 > 3.9379 ^ | v OBV: 34368.2699 (-6.1800%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 22:00:00 | MASK-EUR | 3600 | Close: 4.3900 | ^ EMA12/26: 4.2175 > 3.9714 ^ | ^ OBV: 35204.0399 (2.4300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-31 23:00:00 | MASK-EUR | 3600 | Close: 4.5500 | ^ EMA12/26: 4.2687 > 4.0142 ^ | ^ OBV: 36766.5499 (4.4400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 00:00:00 | MASK-EUR | 3600 | Close: 4.4400 | ^ EMA12/26: 4.2950 > 4.0458 ^ | v OBV: 33531.1199 (-8.8000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 01:00:00 | MASK-EUR | 3600 | Close: 4.2800 | ^ EMA12/26: 4.2927 > 4.0631 ^ | v OBV: 31106.6099 (-7.2300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 02:00:00 | MASK-EUR | 3600 | Close: 4.3900 | ^ EMA12/26: 4.3077 > 4.0873 ^ | ^ OBV: 31497.5999 (1.2600%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 03:00:00 | MASK-EUR | 3600 | Close: 4.3800 | ^ EMA12/26: 4.3188 > 4.1090 ^ | v OBV: 28186.4499 (-10.5100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 04:00:00 | MASK-EUR | 3600 | Close: 4.3099 | ^ EMA12/26: 4.3174 > 4.1239 ^ | v OBV: 26231.5999 (-6.9400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 05:00:00 | MASK-EUR | 3600 | Close: 4.2900 | ^ EMA12/26: 4.3132 > 4.1362 ^ | v OBV: 25931.4599 (-1.1400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 06:00:00 | MASK-EUR | 3600 | Close: 4.4500 | ^ EMA12/26: 4.3342 > 4.1594 ^ | ^ OBV: 26739.1599 (3.1100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 07:00:00 | MASK-EUR | 3600 | Close: 4.3400 | ^ EMA12/26: 4.3351 > 4.1728 ^ | v OBV: 23502.2599 (-12.1100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 08:00:00 | MASK-EUR | 3600 | Close: 4.2400 | ^ EMA12/26: 4.3205 > 4.1778 ^ | v OBV: 21811.4499 (-7.1900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 09:00:00 | MASK-EUR | 3600 | Close: 4.1000 | ^ EMA12/26: 4.2865 > 4.1720 ^ | v OBV: 18209.2999 (-16.5101%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 10:00:00 | MASK-EUR | 3600 | Close: 4.0500 | ^ EMA12/26: 4.2501 > 4.1630 ^ | v OBV: 17643.4699 (-3.1100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 11:00:00 | MASK-EUR | 3600 | Close: 4.1300 | ^ EMA12/26: 4.2317 > 4.1605 ^ | ^ OBV: 17914.1099 (1.5300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 12:00:00 | MASK-EUR | 3600 | Close: 4.0900 | ^ EMA12/26: 4.2099 > 4.1553 ^ | v OBV: 17888.3199 (-0.1401%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-01 13:00:00 | MASK-EUR | 3600 | Close: 4.0800 | ^ EMA12/26: 4.1899 > 4.1497 ^ | v OBV: 17080.0199 (-4.5200%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-01 14:00:00 | MASK-EUR | 3600 | Close: 4.0400 | ^ EMA12/26: 4.1668 > 4.1416 ^ | v OBV: 15773.2199 (-7.6500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 15:00:00 | MASK-EUR | 3600 | Close: 3.9800 | ^ EMA12/26: 4.1381 > 4.1296 ^ | v OBV: 15515.4999 (-1.6300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 16:00:00 | MASK-EUR | 3600 | Close: 4.0900 | ^ EMA12/26: 4.1307 > 4.1267 ^ | ^ OBV: 19680.4999 (26.8400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 17:00:00 | MASK-EUR | 3600 | Close: 4.0599 | *v EMA12/26: 4.1198 < 4.1217 v* | v OBV: 19370.9099 (-1.5700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 18:00:00 | MASK-EUR | 3600 | Close: 4.0900 | v EMA12/26: 4.1152 < 4.1194 v | ^ OBV: 19647.1699 (1.4300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 19:00:00 | MASK-EUR | 3600 | Close: 4.1500 | v EMA12/26: 4.1205 < 4.1216 v | ^ OBV: 20147.7799 (2.5500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 20:00:00 | MASK-EUR | 3600 | Close: 4.1000 | v EMA12/26: 4.1174 < 4.1200 v | v OBV: 19557.5299 (-2.9300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 21:00:00 | MASK-EUR | 3600 | Close: 4.0800 | v EMA12/26: 4.1116 < 4.1171 v | v OBV: 19481.7499 (-0.3900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 22:00:00 | MASK-EUR | 3600 | Close: 3.9500 | v EMA12/26: 4.0867 < 4.1047 v | v OBV: 18063.2299 (-7.2800%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-01 23:00:00 | MASK-EUR | 3600 | Close: 3.9200 | v EMA12/26: 4.0611 < 4.0910 v | v OBV: 16931.6299 (-6.2600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 00:00:00 | MASK-EUR | 3600 | Close: 3.8000 | v EMA12/26: 4.0209 < 4.0694 v | v OBV: 15595.9599 (-7.8900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 01:00:00 | MASK-EUR | 3600 | Close: 3.8100 | v EMA12/26: 3.9885 < 4.0502 v | ^ OBV: 16183.4699 (3.7700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 02:00:00 | MASK-EUR | 3600 | Close: 3.8400 | v EMA12/26: 3.9656 < 4.0346 v | ^ OBV: 17090.7099 (5.6100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 03:00:00 | MASK-EUR | 3600 | Close: 3.8500 | v EMA12/26: 3.9478 < 4.0210 v | ^ OBV: 17124.3799 (0.2000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 04:00:00 | MASK-EUR | 3600 | Close: 3.7800 | v EMA12/26: 3.9220 < 4.0031 v | v OBV: 16965.0799 (-0.9300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 05:00:00 | MASK-EUR | 3600 | Close: 3.9000 | v EMA12/26: 3.9186 < 3.9955 v | ^ OBV: 17344.8399 (2.2400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 06:00:00 | MASK-EUR | 3600 | Close: 3.9700 | v EMA12/26: 3.9265 < 3.9936 v | ^ OBV: 17700.1099 (2.0500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 07:00:00 | MASK-EUR | 3600 | Close: 4.0000 | v EMA12/26: 3.9378 < 3.9941 v | ^ OBV: 18532.0699 (4.7000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 08:00:00 | MASK-EUR | 3600 | Close: 3.8800 | v EMA12/26: 3.9289 < 3.9856 v | v OBV: 17530.0699 (-5.4100%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-02 09:00:00 | MASK-EUR | 3600 | Close: 3.8800 | v EMA12/26: 3.9214 < 3.9778 v | OBV: 17530.0699 (0.0000%)ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 10:00:00 | MASK-EUR | 3600 | Close: 3.8700 | v EMA12/26: 3.9135 < 3.9698 v | v OBV: 16911.4599 (-3.5300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 11:00:00 | MASK-EUR | 3600 | Close: 3.8500 | v EMA12/26: 3.9037 < 3.9609 v | v OBV: 16001.3999 (-5.3800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 12:00:00 | MASK-EUR | 3600 | Close: 3.8400 | v EMA12/26: 3.8939 < 3.9520 v | v OBV: 15456.7499 (-3.4000%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-02 13:00:00 | MASK-EUR | 3600 | Close: 3.8200 | v EMA12/26: 3.8825 < 3.9422 v | v OBV: 15065.2899 (-2.5300%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-02 14:00:00 | MASK-EUR | 3600 | Close: 3.8300 | v EMA12/26: 3.8744 < 3.9339 v | ^ OBV: 15546.2699 (3.1900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 15:00:00 | MASK-EUR | 3600 | Close: 3.9000 | v EMA12/26: 3.8783 < 3.9313 v | ^ OBV: 16896.4599 (8.6800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 16:00:00 | MASK-EUR | 3600 | Close: 4.0599 | v EMA12/26: 3.9063 < 3.9409 v | ^ OBV: 17743.4799 (5.0100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 17:00:00 | MASK-EUR | 3600 | Close: 3.9700 | v EMA12/26: 3.9161 < 3.9430 v | v OBV: 12630.2599 (-28.8200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 18:00:00 | MASK-EUR | 3600 | Close: 3.9900 | v EMA12/26: 3.9274 < 3.9465 v | ^ OBV: 13094.9899 (3.6800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 19:00:00 | MASK-EUR | 3600 | Close: 3.8400 | v EMA12/26: 3.9140 < 3.9386 v | v OBV: 11173.7999 (-14.6700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 20:00:00 | MASK-EUR | 3600 | Close: 3.8200 | v EMA12/26: 3.8995 < 3.9298 v | v OBV: 8041.5999 (-28.0300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 21:00:00 | MASK-EUR | 3600 | Close: 3.8600 | v EMA12/26: 3.8934 < 3.9246 v | ^ OBV: 8510.6999 (5.8300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 22:00:00 | MASK-EUR | 3600 | Close: 3.8800 | v EMA12/26: 3.8914 < 3.9213 v | ^ OBV: 9146.5199 (7.4700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-02 23:00:00 | MASK-EUR | 3600 | Close: 3.9200 | v EMA12/26: 3.8958 < 3.9212 v | ^ OBV: 9770.9899 (6.8300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 00:00:00 | MASK-EUR | 3600 | Close: 3.9400 | v EMA12/26: 3.9026 < 3.9226 v | ^ OBV: 11131.9499 (13.9300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 01:00:00 | MASK-EUR | 3600 | Close: 4.0199 | v EMA12/26: 3.9206 < 3.9298 v | ^ OBV: 12798.2699 (14.9700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 02:00:00 | MASK-EUR | 3600 | Close: 4.0000 | v EMA12/26: 3.9328 < 3.9350 v | v OBV: 11892.7199 (-7.0800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 03:00:00 | MASK-EUR | 3600 | Close: 4.0800 | *^ EMA12/26: 3.9555 > 3.9458 ^* | ^ OBV: 12713.4899 (6.9000%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-08-03 03:00:00 | MASK-EUR | 3600 | Close: 4.0800 | BUY
+ Fibonacci Retracement Levels:{'ratio0_618': 3.91, 'ratio0_5': 4.18}
+ Resistance level of 5.43 formed at 2021-08-04 20:00:00
+2021-08-03 04:00:00 | MASK-EUR | 3600 | Close: 3.9100 | ^ EMA12/26: 3.9485 > 3.9431 ^ | v OBV: 11808.1399 (-7.1200%) v | ERI: sell |  | WAIT | Last Action: BUY | -5.1227% (delta: -0.17)
+support: 3.8, resistance: 3.93, fibonacci (l): 3.91, fibonacci (u): 4.18
+! Ignore Sell Signal (No Sell At Loss)
+2021-08-03 05:00:00 | MASK-EUR | 3600 | Close: 3.8800 | *v EMA12/26: 3.9379 < 3.9384 v* | v OBV: 10626.8499 (-10.0000%) v | ERI: sell |  | WAIT | Last Action: BUY | -5.8506% (delta: -0.2)
+support: 3.8, resistance: 3.93, fibonacci (l): 3.56, fibonacci (u): 3.91
+*** Candlestick Detected: Morning Star ("Strong - Reversal - Bullish Pattern - Up")
+** Candlestick Detected: Morning Doji Star ("Reliable - Reversal - Bullish Pattern - Up")
+2021-08-03 06:00:00 | MASK-EUR | 3600 | Close: 4.0199 | *^ EMA12/26: 3.9505 > 3.9445 ^* | ^ OBV: 11690.2399 (10.0100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.4535% (delta: -0.06)
+support: 3.93, resistance: 4.23, fibonacci (l): 3.91, fibonacci (u): 4.18
+2021-08-03 07:00:00 | MASK-EUR | 3600 | Close: 4.0300 | ^ EMA12/26: 3.9628 > 3.9508 ^ | ^ OBV: 11919.7799 (1.9600%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -2.2108% (delta: -0.05)
+support: 3.93, resistance: 4.23, fibonacci (l): 3.91, fibonacci (u): 4.18
+2021-08-03 08:00:00 | MASK-EUR | 3600 | Close: 4.0000 | ^ EMA12/26: 3.9685 > 3.9544 ^ | v OBV: 9371.8399 (-21.3800%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.9388% (delta: -0.08)
+support: 3.93, resistance: 4.23, fibonacci (l): 3.91, fibonacci (u): 4.18
+2021-08-03 09:00:00 | MASK-EUR | 3600 | Close: 4.0199 | ^ EMA12/26: 3.9764 > 3.9593 ^ | ^ OBV: 9420.7099 (0.5200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -2.4535% (delta: -0.06)
+support: 3.93, resistance: 4.23, fibonacci (l): 3.91, fibonacci (u): 4.18
+2021-08-03 10:00:00 | MASK-EUR | 3600 | Close: 4.0800 | ^ EMA12/26: 3.9923 > 3.9682 ^ | ^ OBV: 9455.7999 (0.3700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.9975% (delta: 0.0)
+support: 3.93, resistance: 4.23, fibonacci (l): 3.91, fibonacci (u): 4.18
+2021-08-03 11:00:00 | MASK-EUR | 3600 | Close: 4.4500 | ^ EMA12/26: 4.0627 > 4.0039 ^ | ^ OBV: 16901.9699 (78.7500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 7.9806% (delta: 0.37)
+support: 4.37, resistance: 4.57, fibonacci (l): 4.45, fibonacci (u): 4.68
+2021-08-03 12:00:00 | MASK-EUR | 3600 | Close: 4.3600 | ^ EMA12/26: 4.1085 > 4.0303 ^ | v OBV: 14171.5099 (-16.1500%) v | ERI: sell |  | WAIT | Last Action: BUY | 5.7967% (delta: 0.28)
+support: 4.23, resistance: 4.37, fibonacci (l): 4.18, fibonacci (u): 4.45
+2021-08-03 13:00:00 | MASK-EUR | 3600 | Close: 4.3500 | ^ EMA12/26: 4.1456 > 4.0540 ^ | v OBV: 12226.8899 (-13.7200%) v | ERI: sell |  | WAIT | Last Action: BUY | 5.5541% (delta: 0.27)
+support: 4.23, resistance: 4.37, fibonacci (l): 4.18, fibonacci (u): 4.45
+2021-08-03 14:00:00 | MASK-EUR | 3600 | Close: 4.3099 | ^ EMA12/26: 4.1709 > 4.0729 ^ | v OBV: 11479.3399 (-6.1100%) v | ERI: sell |  | WAIT | Last Action: BUY | 4.5835% (delta: 0.23)
+support: 4.23, resistance: 4.37, fibonacci (l): 4.18, fibonacci (u): 4.45
+! Profit Bank Triggered (> 8.0%)
+2021-08-03 15:00:00 | MASK-EUR | 3600 | Close: 4.5700 | ^ EMA12/26: 4.2323 > 4.1097 ^ | ^ OBV: 14327.0099 (24.8100%) ^ | ERI: buy |  | SELL | Last Action: BUY | 10.8925% (delta: 0.49)
+support: 4.57, resistance: 4.87, fibonacci (l): 4.45, fibonacci (u): 4.68
+2021-08-03 15:00:00 | MASK-EUR | 3600 | SELL | 4.57 | BUY | 4.08 | DIFF | 0.4900000000000002 | DIFF | 137.80514558 | MARGIN NO FEES | 10.8925% | MARGIN FEES | 7.05
+2021-08-03 16:00:00 | MASK-EUR | 3600 | Close: 4.7400 | ^ EMA12/26: 4.3104 > 4.1564 ^ | ^ OBV: 19772.4699 (38.0100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 17:00:00 | MASK-EUR | 3600 | Close: 4.6400 | ^ EMA12/26: 4.3611 > 4.1922 ^ | v OBV: 14464.3999 (-26.8500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 18:00:00 | MASK-EUR | 3600 | Close: 4.5400 | ^ EMA12/26: 4.3886 > 4.2180 ^ | v OBV: 13685.2999 (-5.3900%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 19:00:00 | MASK-EUR | 3600 | Close: 4.5599 | ^ EMA12/26: 4.4150 > 4.2433 ^ | ^ OBV: 15180.5399 (10.9300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 20:00:00 | MASK-EUR | 3600 | Close: 4.4400 | ^ EMA12/26: 4.4188 > 4.2579 ^ | v OBV: 13206.0799 (-13.0100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 21:00:00 | MASK-EUR | 3600 | Close: 4.4300 | ^ EMA12/26: 4.4205 > 4.2706 ^ | v OBV: 6011.5899 (-54.4800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 22:00:00 | MASK-EUR | 3600 | Close: 4.3600 | ^ EMA12/26: 4.4112 > 4.2773 ^ | v OBV: 88.3599 (-98.5300%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 23:00:00 | MASK-EUR | 3600 | Close: 4.4300 | ^ EMA12/26: 4.4141 > 4.2886 ^ | ^ OBV: 920.7699 (942.0700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 00:00:00 | MASK-EUR | 3600 | Close: 4.6700 | ^ EMA12/26: 4.4535 > 4.3168 ^ | ^ OBV: 2431.5099 (164.0700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 01:00:00 | MASK-EUR | 3600 | Close: 4.5400 | ^ EMA12/26: 4.4668 > 4.3333 ^ | v OBV: 1963.6899 (-19.2400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 02:00:00 | MASK-EUR | 3600 | Close: 4.6500 | ^ EMA12/26: 4.4949 > 4.3568 ^ | ^ OBV: 2956.0899 (50.5400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 03:00:00 | MASK-EUR | 3600 | Close: 4.5900 | ^ EMA12/26: 4.5096 > 4.3741 ^ | v OBV: 1785.9199 (-39.5901%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 04:00:00 | MASK-EUR | 3600 | Close: 4.6200 | ^ EMA12/26: 4.5265 > 4.3923 ^ | ^ OBV: 21021.7199 (1077.0800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 05:00:00 | MASK-EUR | 3600 | Close: 4.6000 | ^ EMA12/26: 4.5378 > 4.4077 ^ | v OBV: 20580.2099 (-2.1000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 06:00:00 | MASK-EUR | 3600 | Close: 5.0800 | ^ EMA12/26: 4.6212 > 4.4575 ^ | ^ OBV: 24147.5499 (17.3299%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 07:00:00 | MASK-EUR | 3600 | Close: 4.9500 | ^ EMA12/26: 4.6718 > 4.4939 ^ | v OBV: 21426.8199 (-11.2700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 08:00:00 | MASK-EUR | 3600 | Close: 5.1700 | ^ EMA12/26: 4.7484 > 4.5440 ^ | ^ OBV: 22782.7899 (6.3300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 09:00:00 | MASK-EUR | 3600 | Close: 5.2100 | ^ EMA12/26: 4.8194 > 4.5933 ^ | ^ OBV: 28753.6999 (26.2100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 10:00:00 | MASK-EUR | 3600 | Close: 5.1400 | ^ EMA12/26: 4.8688 > 4.6338 ^ | v OBV: 22894.0799 (-20.3800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 11:00:00 | MASK-EUR | 3600 | Close: 5.3099 | ^ EMA12/26: 4.9366 > 4.6839 ^ | ^ OBV: 23628.6099 (3.2100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 12:00:00 | MASK-EUR | 3600 | Close: 5.2400 | ^ EMA12/26: 4.9833 > 4.7251 ^ | v OBV: 22083.1299 (-6.5400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 13:00:00 | MASK-EUR | 3600 | Close: 5.1400 | ^ EMA12/26: 5.0074 > 4.7558 ^ | v OBV: 21205.7299 (-3.9700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 14:00:00 | MASK-EUR | 3600 | Close: 5.3000 | ^ EMA12/26: 5.0524 > 4.7961 ^ | ^ OBV: 22412.6299 (5.6900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 15:00:00 | MASK-EUR | 3600 | Close: 5.2500 | ^ EMA12/26: 5.0828 > 4.8298 ^ | v OBV: 13830.4999 (-38.2900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 16:00:00 | MASK-EUR | 3600 | Close: 5.0300 | ^ EMA12/26: 5.0747 > 4.8446 ^ | v OBV: 12241.1399 (-11.4900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 17:00:00 | MASK-EUR | 3600 | Close: 4.9700 | ^ EMA12/26: 5.0586 > 4.8539 ^ | v OBV: 10133.0999 (-17.2200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 18:00:00 | MASK-EUR | 3600 | Close: 5.0700 | ^ EMA12/26: 5.0603 > 4.8699 ^ | ^ OBV: 11213.4599 (10.6600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 19:00:00 | MASK-EUR | 3600 | Close: 5.2800 | ^ EMA12/26: 5.0941 > 4.9003 ^ | ^ OBV: 14819.3499 (32.1599%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 20:00:00 | MASK-EUR | 3600 | Close: 5.3500 | ^ EMA12/26: 5.1335 > 4.9336 ^ | ^ OBV: 25529.9599 (72.2700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 21:00:00 | MASK-EUR | 3600 | Close: 5.2300 | ^ EMA12/26: 5.1483 > 4.9555 ^ | v OBV: 22565.8799 (-11.6100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 22:00:00 | MASK-EUR | 3600 | Close: 5.1100 | ^ EMA12/26: 5.1424 > 4.9670 ^ | v OBV: 19935.6799 (-11.6600%) v | ERI: sell |  | WAIT | Last Action: SELL
+
+Simulation Summary: 
+
+
+   Buy Count : 4
+  Sell Count : 4
+   First Buy : 1000
+   Last Sell : 1402.942332387461
+
+
+      Margin : 40.2942%
+
+
+  ** non-live simulation, assuming highest fees

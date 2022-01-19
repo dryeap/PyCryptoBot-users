@@ -1,0 +1,399 @@
+--------------------------------------------------------------------------------
+|                             Python Crypto Bot                                |
+--------------------------------------------------------------------------------
+|                Release : v2.49.1                                             | 
+--------------------------------------------------------------------------------
+|               Bot Mode : TEST - test trades using dummy funds :)             | 
+|            Bot Started : 2021-08-05 11:54:59.652001                          | 
+================================================================================
+|             Sell Upper : 15.0%                                               | 
+ |    Trailing Stop Loss : -1.5%                                               | 
+|           Sell At Loss : False  --sellatloss False                           | 
+|     Sell At Resistance : False  --sellatresistance                           | 
+|        Trade Bull Only : False  --disablebullonly                            | 
+|          Buy Near High : True  --disablebuynearhigh                          | 
+|           Use Buy MACD : False  --disablebuymacd                             | 
+|            Use Buy EMA : True  --disablebuyema                               | 
+|            Use Buy OBV : True  --disablebuyobv                               | 
+|      Use Buy Elder-Ray : True  --disablebuyelderray                          | 
+|     Sell Fibonacci Low : False  --disablefailsafefibonaccilow                | 
+|        Sell Upper Pcnt : True  --disableprofitbankupperpcnt                  | 
+|   Candlestick Reversal : False  --disableprofitbankreversal                  | 
+|               Telegram : False  --disabletelegram                            | 
+|                    Log : True  --disablelog                                  | 
+|                Tracker : False  --disabletracker                             | 
+|       Auto restart Bot : True  --autorestart                                 | 
+================================================================================
+ |    Sampling start : 2021-06-01T00:00:00                                     | 
+ |      Sampling end : 2021-08-05T11:54:59                                     | 
+ |     WARNING: Using less than 300 intervals                                  | 
+ |     Interval size : 262                                                     | 
+================================================================================
+2021-06-01 00:00:00 | MIR-GBP | 21600 | Close: 3.5010 | EMA12/26: 3.5010 = 3.5010 | OBV: 4347.3500 (0.0000%)ERI: |  | WAIT | Last Action: SELL
+2021-06-01 06:00:00 | MIR-GBP | 21600 | Close: 3.4280 | *v EMA12/26: 3.4897 < 3.4955 v* | v OBV: 1797.8100 (-58.6500%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-01 12:00:00 | MIR-GBP | 21600 | Close: 3.3800 | v EMA12/26: 3.4728 < 3.4870 v | v OBV: -7535.2400 (-519.1300%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-01 18:00:00 | MIR-GBP | 21600 | Close: 3.3680 | v EMA12/26: 3.4567 < 3.4782 v | ^ OBV: -9520.1400 (26.3400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-02 00:00:00 | MIR-GBP | 21600 | Close: 3.3600 | v EMA12/26: 3.4418 < 3.4694 v | ^ OBV: -9883.1000 (3.8100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-02 06:00:00 | MIR-GBP | 21600 | Close: 3.4360 | v EMA12/26: 3.4409 < 3.4669 v | v OBV: -5001.5600 (-49.3900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-02 12:00:00 | MIR-GBP | 21600 | Close: 3.4720 | v EMA12/26: 3.4457 < 3.4673 v | v OBV: 1562.7400 (-131.2500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-02 18:00:00 | MIR-GBP | 21600 | Close: 3.4450 | v EMA12/26: 3.4456 < 3.4656 v | v OBV: -2643.9000 (-269.1800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-03 00:00:00 | MIR-GBP | 21600 | Close: 3.4060 | v EMA12/26: 3.4395 < 3.4612 v | ^ OBV: -5529.6100 (109.1500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-03 06:00:00 | MIR-GBP | 21600 | Close: 3.4290 | v EMA12/26: 3.4379 < 3.4588 v | v OBV: 3297.7000 (-159.6400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-03 12:00:00 | MIR-GBP | 21600 | Close: 3.4300 | v EMA12/26: 3.4366 < 3.4567 v | ^ OBV: 8847.7400 (168.3000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-03 18:00:00 | MIR-GBP | 21600 | Close: 3.4730 | v EMA12/26: 3.4422 < 3.4579 v | ^ OBV: 17946.4100 (102.8400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-04 00:00:00 | MIR-GBP | 21600 | Close: 3.3220 | v EMA12/26: 3.4237 < 3.4478 v | v OBV: 14910.1900 (-16.9201%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-04 06:00:00 | MIR-GBP | 21600 | Close: 3.2990 | v EMA12/26: 3.4045 < 3.4368 v | v OBV: 13073.7700 (-12.3200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-04 12:00:00 | MIR-GBP | 21600 | Close: 3.5760 | v EMA12/26: 3.4309 < 3.4471 v | ^ OBV: 72418.9500 (453.9300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-04 18:00:00 | MIR-GBP | 21600 | Close: 3.5490 | v EMA12/26: 3.4491 < 3.4547 v | v OBV: 68926.9800 (-4.8200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-05 00:00:00 | MIR-GBP | 21600 | Close: 3.5800 | *^ EMA12/26: 3.4692 > 3.4639 ^* | ^ OBV: 70840.3700 (2.7799%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-05 06:00:00 | MIR-GBP | 21600 | Close: 3.4540 | ^ EMA12/26: 3.4669 > 3.4632 ^ | v OBV: 65837.6000 (-7.0600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-05 12:00:00 | MIR-GBP | 21600 | Close: 3.4450 | ^ EMA12/26: 3.4635 > 3.4618 ^ | v OBV: 64077.0400 (-2.6700%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-06-05 18:00:00 | MIR-GBP | 21600 | Close: 3.4660 | ^ EMA12/26: 3.4639 > 3.4621 ^ | ^ OBV: 65589.8900 (2.3600%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-06 00:00:00 | MIR-GBP | 21600 | Close: 3.4240 | *v EMA12/26: 3.4577 < 3.4593 v* | v OBV: 63940.2200 (-2.5200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-06 06:00:00 | MIR-GBP | 21600 | Close: 3.3950 | v EMA12/26: 3.4481 < 3.4545 v | v OBV: 63629.0000 (-0.4900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-06 12:00:00 | MIR-GBP | 21600 | Close: 3.3700 | v EMA12/26: 3.4360 < 3.4483 v | v OBV: 52890.2300 (-16.8800%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-06-06 18:00:00 | MIR-GBP | 21600 | Close: 3.3660 | v EMA12/26: 3.4253 < 3.4422 v | v OBV: 40793.1300 (-22.8700%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-07 00:00:00 | MIR-GBP | 21600 | Close: 3.3700 | v EMA12/26: 3.4168 < 3.4368 v | ^ OBV: 44133.5400 (8.1900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-07 06:00:00 | MIR-GBP | 21600 | Close: 3.3270 | v EMA12/26: 3.4029 < 3.4287 v | v OBV: 33515.6600 (-24.0600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-07 12:00:00 | MIR-GBP | 21600 | Close: 3.3160 | v EMA12/26: 3.3896 < 3.4203 v | v OBV: 31524.0600 (-5.9401%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-07 18:00:00 | MIR-GBP | 21600 | Close: 3.2030 | v EMA12/26: 3.3608 < 3.4042 v | v OBV: 30152.1500 (-4.3500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-08 00:00:00 | MIR-GBP | 21600 | Close: 3.0520 | v EMA12/26: 3.3133 < 3.3781 v | v OBV: 27923.1900 (-7.3900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-08 06:00:00 | MIR-GBP | 21600 | Close: 3.0460 | v EMA12/26: 3.2722 < 3.3535 v | v OBV: 25242.8700 (-9.6000%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Three Black Crows ("Strong - Reversal - Bearish Pattern - Down")
+2021-06-08 12:00:00 | MIR-GBP | 21600 | Close: 2.9500 | v EMA12/26: 3.2226 < 3.3236 v | v OBV: 24035.7700 (-4.7800%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-08 18:00:00 | MIR-GBP | 21600 | Close: 2.9520 | v EMA12/26: 3.1810 < 3.2961 v | ^ OBV: 29909.8100 (24.4400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-09 00:00:00 | MIR-GBP | 21600 | Close: 2.9810 | v EMA12/26: 3.1502 < 3.2728 v | ^ OBV: 31518.3300 (5.3800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-09 06:00:00 | MIR-GBP | 21600 | Close: 3.0419 | v EMA12/26: 3.1335 < 3.2557 v | ^ OBV: 33470.0600 (6.1900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-09 12:00:00 | MIR-GBP | 21600 | Close: 3.0520 | v EMA12/26: 3.1210 < 3.2406 v | ^ OBV: 39282.6200 (17.3700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-09 18:00:00 | MIR-GBP | 21600 | Close: 2.9590 | v EMA12/26: 3.0961 < 3.2197 v | v OBV: 30772.7100 (-21.6600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-10 00:00:00 | MIR-GBP | 21600 | Close: 2.9230 | v EMA12/26: 3.0694 < 3.1977 v | v OBV: 28990.4000 (-5.7900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-10 06:00:00 | MIR-GBP | 21600 | Close: 2.9330 | v EMA12/26: 3.0484 < 3.1781 v | ^ OBV: 33297.9100 (14.8600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-10 12:00:00 | MIR-GBP | 21600 | Close: 2.8460 | v EMA12/26: 3.0173 < 3.1535 v | v OBV: 29607.0700 (-11.0800%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-10 18:00:00 | MIR-GBP | 21600 | Close: 2.8140 | v EMA12/26: 2.9860 < 3.1284 v | v OBV: 23618.0600 (-20.2300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-11 00:00:00 | MIR-GBP | 21600 | Close: 2.7810 | v EMA12/26: 2.9545 < 3.1026 v | v OBV: 23015.7000 (-2.5500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-11 06:00:00 | MIR-GBP | 21600 | Close: 2.7870 | v EMA12/26: 2.9287 < 3.0792 v | ^ OBV: 24187.3700 (5.0900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-11 12:00:00 | MIR-GBP | 21600 | Close: 2.7639 | v EMA12/26: 2.9033 < 3.0559 v | v OBV: 9201.8100 (-61.9600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-11 18:00:00 | MIR-GBP | 21600 | Close: 2.7170 | v EMA12/26: 2.8747 < 3.0308 v | v OBV: 3522.1600 (-61.7200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-12 00:00:00 | MIR-GBP | 21600 | Close: 2.6600 | v EMA12/26: 2.8416 < 3.0033 v | v OBV: 1056.1700 (-70.0100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-12 06:00:00 | MIR-GBP | 21600 | Close: 2.6520 | v EMA12/26: 2.8125 < 2.9773 v | v OBV: 519.9500 (-50.7701%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-12 12:00:00 | MIR-GBP | 21600 | Close: 2.6410 | v EMA12/26: 2.7861 < 2.9524 v | v OBV: -1979.1900 (-480.6500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-12 18:00:00 | MIR-GBP | 21600 | Close: 2.7610 | v EMA12/26: 2.7822 < 2.9382 v | v OBV: -599.6400 (-69.7000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-13 00:00:00 | MIR-GBP | 21600 | Close: 2.6360 | v EMA12/26: 2.7597 < 2.9158 v | ^ OBV: -1196.6100 (99.5500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-13 06:00:00 | MIR-GBP | 21600 | Close: 2.6180 | v EMA12/26: 2.7379 < 2.8937 v | ^ OBV: -2904.9500 (142.7600%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-13 12:00:00 | MIR-GBP | 21600 | Close: 2.6360 | v EMA12/26: 2.7222 < 2.8746 v | v OBV: -1709.4000 (-41.1600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-13 18:00:00 | MIR-GBP | 21600 | Close: 2.7240 | v EMA12/26: 2.7225 < 2.8635 v | v OBV: 1695.9400 (-199.2100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-14 00:00:00 | MIR-GBP | 21600 | Close: 2.7240 | v EMA12/26: 2.7227 < 2.8531 v | OBV: 1695.9400 (0.0000%)ERI: buy |  | WAIT | Last Action: SELL
+2021-06-14 06:00:00 | MIR-GBP | 21600 | Close: 2.7300 | v EMA12/26: 2.7238 < 2.8440 v | ^ OBV: 2257.4900 (33.1100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-14 12:00:00 | MIR-GBP | 21600 | Close: 2.7710 | v EMA12/26: 2.7311 < 2.8386 v | ^ OBV: 3641.9600 (61.3300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-14 18:00:00 | MIR-GBP | 21600 | Close: 2.8260 | v EMA12/26: 2.7457 < 2.8377 v | ^ OBV: 10000.5200 (174.5900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-06-15 00:00:00 | MIR-GBP | 21600 | Close: 2.8560 | v EMA12/26: 2.7626 < 2.8390 v | ^ OBV: 10810.7300 (8.1000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-15 06:00:00 | MIR-GBP | 21600 | Close: 2.8940 | v EMA12/26: 2.7828 < 2.8431 v | ^ OBV: 53756.2300 (397.2500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-15 12:00:00 | MIR-GBP | 21600 | Close: 2.8440 | v EMA12/26: 2.7922 < 2.8432 v | v OBV: 50289.0700 (-6.4500%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-15 18:00:00 | MIR-GBP | 21600 | Close: 2.8750 | v EMA12/26: 2.8050 < 2.8455 v | ^ OBV: 59027.6300 (17.3800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-16 00:00:00 | MIR-GBP | 21600 | Close: 2.8530 | v EMA12/26: 2.8123 < 2.8461 v | v OBV: 58777.3800 (-0.4200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-16 06:00:00 | MIR-GBP | 21600 | Close: 2.7559 | v EMA12/26: 2.8037 < 2.8394 v | v OBV: 58418.0900 (-0.6100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-16 12:00:00 | MIR-GBP | 21600 | Close: 2.7410 | v EMA12/26: 2.7940 < 2.8321 v | v OBV: 53666.0500 (-8.1301%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-16 18:00:00 | MIR-GBP | 21600 | Close: 2.8080 | v EMA12/26: 2.7962 < 2.8303 v | ^ OBV: 54838.0800 (2.1800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-17 00:00:00 | MIR-GBP | 21600 | Close: 2.9260 | v EMA12/26: 2.8161 < 2.8374 v | ^ OBV: 55899.4600 (1.9400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-17 06:00:00 | MIR-GBP | 21600 | Close: 3.1740 | *^ EMA12/26: 2.8712 > 2.8623 ^* | ^ OBV: 89158.1100 (59.5000%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-06-17 06:00:00 | MIR-GBP | 21600 | Close: 3.1740 | BUY
+ Fibonacci Retracement Levels:{'ratio0_5': 3.12, 'ratio0_382': 3.42}
+ Support level of 2.03 formed at 2021-07-21 12:00:00
+2021-06-17 12:00:00 | MIR-GBP | 21600 | Close: 3.3430 | ^ EMA12/26: 2.9438 > 2.8979 ^ | ^ OBV: 139289.4200 (56.2300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 4.2738% (delta: 0.169)
+support: 3.288, resistance: 3.7, fibonacci (l): 3.12, fibonacci (u): 3.42
+2021-06-17 18:00:00 | MIR-GBP | 21600 | Close: 3.3810 | ^ EMA12/26: 3.0110 > 2.9337 ^ | ^ OBV: 149386.1400 (7.2500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 5.4591% (delta: 0.207)
+support: 3.288, resistance: 3.7, fibonacci (l): 3.12, fibonacci (u): 3.42
+! Profit Bank Triggered (> 15.0%)
+2021-06-18 00:00:00 | MIR-GBP | 21600 | Close: 4.4160 | ^ EMA12/26: 3.2272 > 3.0435 ^ | ^ OBV: 263187.1900 (76.1800%) ^ | ERI: buy |  | SELL | Last Action: BUY | 37.7426% (delta: 1.242)
+support: 2.03, fibonacci (l): 4.41, fibonacci (u): 5.11
+2021-06-18 00:00:00 | MIR-GBP | 21600 | SELL | 4.416 | BUY | 3.174 | DIFF | 1.2420000000000004 | DIFF | 377.42608697 | MARGIN NO FEES | 37.7426% | MARGIN FEES | 6.9217
+2021-06-18 06:00:00 | MIR-GBP | 21600 | Close: 4.2699 | ^ EMA12/26: 3.3876 > 3.1343 ^ | v OBV: 156340.5100 (-40.6000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-18 12:00:00 | MIR-GBP | 21600 | Close: 3.8890 | ^ EMA12/26: 3.4647 > 3.1902 ^ | v OBV: 29880.1100 (-80.8900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-18 18:00:00 | MIR-GBP | 21600 | Close: 3.7410 | ^ EMA12/26: 3.5072 > 3.2310 ^ | v OBV: -2704.0800 (-109.0500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-19 00:00:00 | MIR-GBP | 21600 | Close: 3.4900 | ^ EMA12/26: 3.5046 > 3.2502 ^ | ^ OBV: -12337.0700 (356.2400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-19 06:00:00 | MIR-GBP | 21600 | Close: 3.5230 | ^ EMA12/26: 3.5074 > 3.2704 ^ | v OBV: -2241.4900 (-81.8300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-19 12:00:00 | MIR-GBP | 21600 | Close: 3.3770 | ^ EMA12/26: 3.4873 > 3.2783 ^ | ^ OBV: -21091.9600 (840.9800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-19 18:00:00 | MIR-GBP | 21600 | Close: 3.3660 | ^ EMA12/26: 3.4687 > 3.2848 ^ | ^ OBV: -47316.3900 (124.3300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-20 00:00:00 | MIR-GBP | 21600 | Close: 3.3960 | ^ EMA12/26: 3.4575 > 3.2930 ^ | v OBV: 48830.6300 (-203.2000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-20 06:00:00 | MIR-GBP | 21600 | Close: 3.2060 | ^ EMA12/26: 3.4188 > 3.2866 ^ | v OBV: -143379.5600 (-393.6300%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-20 12:00:00 | MIR-GBP | 21600 | Close: 3.1650 | ^ EMA12/26: 3.3797 > 3.2776 ^ | ^ OBV: -191935.7000 (33.8700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-20 18:00:00 | MIR-GBP | 21600 | Close: 3.2270 | ^ EMA12/26: 3.3562 > 3.2738 ^ | v OBV: -182558.1701 (-4.8900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-21 00:00:00 | MIR-GBP | 21600 | Close: 3.5650 | ^ EMA12/26: 3.3883 > 3.2954 ^ | v OBV: -174894.5601 (-4.2000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-21 06:00:00 | MIR-GBP | 21600 | Close: 3.2519 | ^ EMA12/26: 3.3673 > 3.2922 ^ | ^ OBV: -224784.0401 (28.5300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-21 12:00:00 | MIR-GBP | 21600 | Close: 3.4440 | ^ EMA12/26: 3.3791 > 3.3034 ^ | v OBV: -173554.5501 (-22.7900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-21 18:00:00 | MIR-GBP | 21600 | Close: 3.2380 | ^ EMA12/26: 3.3574 > 3.2986 ^ | ^ OBV: -198211.8601 (14.2100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-22 00:00:00 | MIR-GBP | 21600 | Close: 3.4650 | ^ EMA12/26: 3.3740 > 3.3109 ^ | v OBV: -179952.9301 (-9.2101%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-22 06:00:00 | MIR-GBP | 21600 | Close: 3.3350 | ^ EMA12/26: 3.3680 > 3.3127 ^ | ^ OBV: -189207.7801 (5.1400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-22 12:00:00 | MIR-GBP | 21600 | Close: 3.4060 | ^ EMA12/26: 3.3738 > 3.3196 ^ | v OBV: -173411.8401 (-8.3500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-22 18:00:00 | MIR-GBP | 21600 | Close: 3.3390 | ^ EMA12/26: 3.3684 > 3.3210 ^ | ^ OBV: -174189.8301 (0.4500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-23 00:00:00 | MIR-GBP | 21600 | Close: 3.6500 | ^ EMA12/26: 3.4117 > 3.3454 ^ | v OBV: -171696.1401 (-1.4300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-23 06:00:00 | MIR-GBP | 21600 | Close: 3.6010 | ^ EMA12/26: 3.4409 > 3.3643 ^ | ^ OBV: -174304.7701 (1.5200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-23 12:00:00 | MIR-GBP | 21600 | Close: 3.4720 | ^ EMA12/26: 3.4456 > 3.3723 ^ | ^ OBV: -175868.0101 (0.9000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-23 18:00:00 | MIR-GBP | 21600 | Close: 3.4260 | ^ EMA12/26: 3.4426 > 3.3763 ^ | ^ OBV: -176892.7601 (0.5800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-24 00:00:00 | MIR-GBP | 21600 | Close: 3.3820 | ^ EMA12/26: 3.4333 > 3.3767 ^ | ^ OBV: -177346.7901 (0.2600%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-24 06:00:00 | MIR-GBP | 21600 | Close: 3.3300 | ^ EMA12/26: 3.4174 > 3.3732 ^ | ^ OBV: -195638.4401 (10.3100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-24 12:00:00 | MIR-GBP | 21600 | Close: 3.3810 | ^ EMA12/26: 3.4118 > 3.3738 ^ | v OBV: -192364.0001 (-1.6700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-24 18:00:00 | MIR-GBP | 21600 | Close: 3.3460 | ^ EMA12/26: 3.4016 > 3.3717 ^ | ^ OBV: -194677.6701 (1.2000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-25 00:00:00 | MIR-GBP | 21600 | Close: 3.2810 | ^ EMA12/26: 3.3831 > 3.3650 ^ | ^ OBV: -195267.3901 (0.3000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-25 06:00:00 | MIR-GBP | 21600 | Close: 3.1000 | *v EMA12/26: 3.3395 < 3.3454 v* | ^ OBV: -196618.7201 (0.6899%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-25 12:00:00 | MIR-GBP | 21600 | Close: 3.0500 | v EMA12/26: 3.2950 < 3.3235 v | ^ OBV: -197973.3401 (0.6899%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-25 18:00:00 | MIR-GBP | 21600 | Close: 2.9880 | v EMA12/26: 3.2477 < 3.2986 v | ^ OBV: -206455.6501 (4.2800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Three Black Crows ("Strong - Reversal - Bearish Pattern - Down")
+2021-06-26 00:00:00 | MIR-GBP | 21600 | Close: 2.9400 | v EMA12/26: 3.2004 < 3.2721 v | ^ OBV: -210663.1001 (2.0400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+* Candlestick Detected: Three Black Crows ("Strong - Reversal - Bearish Pattern - Down")
+2021-06-26 06:00:00 | MIR-GBP | 21600 | Close: 2.9190 | v EMA12/26: 3.1571 < 3.2459 v | ^ OBV: -223057.7601 (5.8800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-26 12:00:00 | MIR-GBP | 21600 | Close: 2.9320 | v EMA12/26: 3.1225 < 3.2227 v | v OBV: -203545.4801 (-8.7500%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-06-26 18:00:00 | MIR-GBP | 21600 | Close: 2.9089 | v EMA12/26: 3.0896 < 3.1994 v | ^ OBV: -210947.2101 (3.6400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-27 00:00:00 | MIR-GBP | 21600 | Close: 2.9570 | v EMA12/26: 3.0692 < 3.1815 v | v OBV: -200090.3701 (-5.1500%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-27 06:00:00 | MIR-GBP | 21600 | Close: 2.9430 | v EMA12/26: 3.0498 < 3.1638 v | ^ OBV: -232932.5501 (16.4100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-27 12:00:00 | MIR-GBP | 21600 | Close: 2.8910 | v EMA12/26: 3.0253 < 3.1436 v | ^ OBV: -259771.7101 (11.5200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-27 18:00:00 | MIR-GBP | 21600 | Close: 2.9520 | v EMA12/26: 3.0140 < 3.1294 v | v OBV: -248461.5501 (-4.3500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-28 00:00:00 | MIR-GBP | 21600 | Close: 3.0360 | v EMA12/26: 3.0174 < 3.1225 v | v OBV: -232307.2401 (-6.5000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-28 06:00:00 | MIR-GBP | 21600 | Close: 2.9300 | v EMA12/26: 3.0040 < 3.1082 v | ^ OBV: -257293.0701 (10.7600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-28 12:00:00 | MIR-GBP | 21600 | Close: 2.9440 | v EMA12/26: 2.9947 < 3.0960 v | v OBV: -219706.6901 (-14.6100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-28 18:00:00 | MIR-GBP | 21600 | Close: 2.9670 | v EMA12/26: 2.9905 < 3.0865 v | v OBV: -200158.3901 (-8.9000%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-06-29 00:00:00 | MIR-GBP | 21600 | Close: 2.9700 | v EMA12/26: 2.9873 < 3.0778 v | v OBV: -196358.1201 (-1.9000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-29 06:00:00 | MIR-GBP | 21600 | Close: 3.0010 | v EMA12/26: 2.9894 < 3.0721 v | v OBV: -190176.0601 (-3.1500%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-06-29 12:00:00 | MIR-GBP | 21600 | Close: 2.9800 | v EMA12/26: 2.9879 < 3.0653 v | ^ OBV: -227448.9601 (19.6000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-29 18:00:00 | MIR-GBP | 21600 | Close: 2.9600 | v EMA12/26: 2.9836 < 3.0575 v | ^ OBV: -239481.0901 (5.2900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-30 00:00:00 | MIR-GBP | 21600 | Close: 2.8400 | v EMA12/26: 2.9615 < 3.0414 v | ^ OBV: -242054.5901 (1.0700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-06-30 06:00:00 | MIR-GBP | 21600 | Close: 2.8320 | v EMA12/26: 2.9416 < 3.0259 v | ^ OBV: -243779.1301 (0.7100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-30 12:00:00 | MIR-GBP | 21600 | Close: 2.8830 | v EMA12/26: 2.9326 < 3.0153 v | v OBV: -238376.0201 (-2.2201%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-06-30 18:00:00 | MIR-GBP | 21600 | Close: 2.8769 | v EMA12/26: 2.9240 < 3.0050 v | ^ OBV: -241248.2601 (1.2000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-01 00:00:00 | MIR-GBP | 21600 | Close: 2.8500 | v EMA12/26: 2.9126 < 2.9936 v | ^ OBV: -244650.2301 (1.4100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-01 06:00:00 | MIR-GBP | 21600 | Close: 2.7599 | v EMA12/26: 2.8891 < 2.9763 v | ^ OBV: -246377.1501 (0.7100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-01 12:00:00 | MIR-GBP | 21600 | Close: 2.7910 | v EMA12/26: 2.8740 < 2.9625 v | v OBV: -244434.9001 (-0.7900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-01 18:00:00 | MIR-GBP | 21600 | Close: 2.7639 | v EMA12/26: 2.8571 < 2.9478 v | ^ OBV: -247842.4901 (1.3899%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-02 00:00:00 | MIR-GBP | 21600 | Close: 2.7200 | v EMA12/26: 2.8360 < 2.9309 v | ^ OBV: -256716.3301 (3.5800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-02 06:00:00 | MIR-GBP | 21600 | Close: 2.6870 | v EMA12/26: 2.8131 < 2.9129 v | ^ OBV: -258317.3601 (0.6200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-02 12:00:00 | MIR-GBP | 21600 | Close: 2.6840 | v EMA12/26: 2.7932 < 2.8959 v | ^ OBV: -262918.3401 (1.7800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-02 18:00:00 | MIR-GBP | 21600 | Close: 2.7050 | v EMA12/26: 2.7796 < 2.8818 v | v OBV: -258321.8101 (-1.7500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-03 00:00:00 | MIR-GBP | 21600 | Close: 2.7200 | v EMA12/26: 2.7704 < 2.8698 v | v OBV: -255830.5901 (-0.9600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-03 06:00:00 | MIR-GBP | 21600 | Close: 2.7590 | v EMA12/26: 2.7687 < 2.8616 v | v OBV: -253815.2001 (-0.7900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-03 12:00:00 | MIR-GBP | 21600 | Close: 2.8080 | v EMA12/26: 2.7747 < 2.8576 v | v OBV: -247859.7601 (-2.3500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-03 18:00:00 | MIR-GBP | 21600 | Close: 2.7510 | v EMA12/26: 2.7711 < 2.8497 v | ^ OBV: -250432.3201 (1.0400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-04 00:00:00 | MIR-GBP | 21600 | Close: 2.7410 | v EMA12/26: 2.7664 < 2.8416 v | ^ OBV: -258325.9001 (3.1500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-04 06:00:00 | MIR-GBP | 21600 | Close: 2.7559 | v EMA12/26: 2.7648 < 2.8353 v | v OBV: -245135.3501 (-5.1100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-04 12:00:00 | MIR-GBP | 21600 | Close: 2.7879 | v EMA12/26: 2.7684 < 2.8318 v | v OBV: -241885.9401 (-1.3300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-04 18:00:00 | MIR-GBP | 21600 | Close: 2.8030 | v EMA12/26: 2.7737 < 2.8297 v | v OBV: -229609.2001 (-5.0800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-05 00:00:00 | MIR-GBP | 21600 | Close: 2.7730 | v EMA12/26: 2.7736 < 2.8255 v | ^ OBV: -230625.7401 (0.4400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-05 06:00:00 | MIR-GBP | 21600 | Close: 2.6710 | v EMA12/26: 2.7578 < 2.8140 v | ^ OBV: -236873.2801 (2.7100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-05 12:00:00 | MIR-GBP | 21600 | Close: 2.6900 | v EMA12/26: 2.7474 < 2.8048 v | v OBV: -220186.2801 (-7.0400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-05 18:00:00 | MIR-GBP | 21600 | Close: 2.7340 | v EMA12/26: 2.7453 < 2.7996 v | v OBV: -201915.1601 (-8.3000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-06 00:00:00 | MIR-GBP | 21600 | Close: 2.7679 | v EMA12/26: 2.7488 < 2.7972 v | v OBV: -170646.2301 (-15.4900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-06 06:00:00 | MIR-GBP | 21600 | Close: 2.7519 | v EMA12/26: 2.7493 < 2.7939 v | ^ OBV: -184323.4701 (8.0100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-06 12:00:00 | MIR-GBP | 21600 | Close: 2.7679 | v EMA12/26: 2.7521 < 2.7920 v | v OBV: -157568.7801 (-14.5200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-06 18:00:00 | MIR-GBP | 21600 | Close: 2.7820 | v EMA12/26: 2.7567 < 2.7912 v | v OBV: -139786.4701 (-11.2900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-07 00:00:00 | MIR-GBP | 21600 | Close: 2.8800 | v EMA12/26: 2.7757 < 2.7978 v | v OBV: -119507.8301 (-14.5100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-07 06:00:00 | MIR-GBP | 21600 | Close: 2.9800 | v EMA12/26: 2.8071 < 2.8113 v | v OBV: -94583.4901 (-20.8600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-07 12:00:00 | MIR-GBP | 21600 | Close: 2.9230 | *^ EMA12/26: 2.8249 > 2.8195 ^* | ^ OBV: -99667.6701 (5.3800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-07 18:00:00 | MIR-GBP | 21600 | Close: 2.8670 | ^ EMA12/26: 2.8314 > 2.8231 ^ | ^ OBV: -103679.6301 (4.0300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-08 00:00:00 | MIR-GBP | 21600 | Close: 2.7730 | ^ EMA12/26: 2.8224 > 2.8193 ^ | ^ OBV: -106803.3401 (3.0099%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-08 06:00:00 | MIR-GBP | 21600 | Close: 2.7260 | *v EMA12/26: 2.8076 < 2.8124 v* | ^ OBV: -111799.1101 (4.6800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-08 12:00:00 | MIR-GBP | 21600 | Close: 2.7430 | v EMA12/26: 2.7976 < 2.8073 v | v OBV: -111083.4601 (-0.6400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-08 18:00:00 | MIR-GBP | 21600 | Close: 2.6790 | v EMA12/26: 2.7794 < 2.7978 v | ^ OBV: -115646.8401 (4.1100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-09 00:00:00 | MIR-GBP | 21600 | Close: 2.6620 | v EMA12/26: 2.7613 < 2.7877 v | ^ OBV: -129808.5101 (12.2500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-09 06:00:00 | MIR-GBP | 21600 | Close: 2.6400 | v EMA12/26: 2.7426 < 2.7768 v | ^ OBV: -133074.8401 (2.5200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-09 12:00:00 | MIR-GBP | 21600 | Close: 2.6629 | v EMA12/26: 2.7304 < 2.7683 v | v OBV: -124643.1701 (-6.3400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-09 18:00:00 | MIR-GBP | 21600 | Close: 2.6810 | v EMA12/26: 2.7228 < 2.7619 v | v OBV: -119444.1501 (-4.1700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-10 00:00:00 | MIR-GBP | 21600 | Close: 2.7240 | v EMA12/26: 2.7230 < 2.7591 v | v OBV: -109056.7001 (-8.7000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-10 06:00:00 | MIR-GBP | 21600 | Close: 2.7020 | v EMA12/26: 2.7197 < 2.7548 v | ^ OBV: -110024.6801 (0.8900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-10 12:00:00 | MIR-GBP | 21600 | Close: 2.6620 | v EMA12/26: 2.7108 < 2.7479 v | ^ OBV: -111622.3401 (1.4500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-10 18:00:00 | MIR-GBP | 21600 | Close: 2.6870 | v EMA12/26: 2.7072 < 2.7434 v | v OBV: -111195.8601 (-0.3800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-11 00:00:00 | MIR-GBP | 21600 | Close: 2.6740 | v EMA12/26: 2.7020 < 2.7383 v | ^ OBV: -111750.9301 (0.5000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-11 06:00:00 | MIR-GBP | 21600 | Close: 2.6940 | v EMA12/26: 2.7008 < 2.7350 v | v OBV: -109633.1301 (-1.9000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-11 12:00:00 | MIR-GBP | 21600 | Close: 2.6800 | v EMA12/26: 2.6976 < 2.7309 v | ^ OBV: -110830.6801 (1.0900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-11 18:00:00 | MIR-GBP | 21600 | Close: 2.6850 | v EMA12/26: 2.6956 < 2.7275 v | v OBV: -110269.7401 (-0.5100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-12 00:00:00 | MIR-GBP | 21600 | Close: 2.6740 | v EMA12/26: 2.6923 < 2.7235 v | ^ OBV: -111709.1901 (1.3100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-12 06:00:00 | MIR-GBP | 21600 | Close: 2.6300 | v EMA12/26: 2.6827 < 2.7166 v | ^ OBV: -112062.3401 (0.3200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-12 12:00:00 | MIR-GBP | 21600 | Close: 2.5920 | v EMA12/26: 2.6688 < 2.7074 v | ^ OBV: -112780.5301 (0.6400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Two Black Gapping ("Reliable - Reversal - Bearish Pattern - Down")
+2021-07-12 18:00:00 | MIR-GBP | 21600 | Close: 2.5339 | v EMA12/26: 2.6480 < 2.6945 v | ^ OBV: -113899.8301 (0.9900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-13 00:00:00 | MIR-GBP | 21600 | Close: 2.5099 | v EMA12/26: 2.6268 < 2.6809 v | ^ OBV: -130803.2501 (14.8400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Two Black Gapping ("Reliable - Reversal - Bearish Pattern - Down")
+2021-07-13 06:00:00 | MIR-GBP | 21600 | Close: 2.4800 | v EMA12/26: 2.6042 < 2.6660 v | ^ OBV: -146793.1201 (12.2200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-13 12:00:00 | MIR-GBP | 21600 | Close: 2.4460 | v EMA12/26: 2.5798 < 2.6497 v | ^ OBV: -176929.1101 (20.5300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Two Black Gapping ("Reliable - Reversal - Bearish Pattern - Down")
+2021-07-13 18:00:00 | MIR-GBP | 21600 | Close: 2.4290 | v EMA12/26: 2.5566 < 2.6333 v | ^ OBV: -182980.6501 (3.4200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Three Black Crows ("Strong - Reversal - Bearish Pattern - Down")
+2021-07-14 00:00:00 | MIR-GBP | 21600 | Close: 2.3600 | v EMA12/26: 2.5264 < 2.6131 v | ^ OBV: -189968.8301 (3.8200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-14 06:00:00 | MIR-GBP | 21600 | Close: 2.3250 | v EMA12/26: 2.4954 < 2.5917 v | ^ OBV: -209187.4601 (10.1199%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-14 12:00:00 | MIR-GBP | 21600 | Close: 2.3680 | v EMA12/26: 2.4758 < 2.5752 v | v OBV: -204847.6501 (-2.0700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-14 18:00:00 | MIR-GBP | 21600 | Close: 2.3740 | v EMA12/26: 2.4601 < 2.5603 v | v OBV: -203242.0301 (-0.7800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-15 00:00:00 | MIR-GBP | 21600 | Close: 2.4490 | v EMA12/26: 2.4584 < 2.5520 v | v OBV: -199627.0601 (-1.7800%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-15 06:00:00 | MIR-GBP | 21600 | Close: 2.5019 | v EMA12/26: 2.4651 < 2.5483 v | v OBV: -184514.3501 (-7.5700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-15 12:00:00 | MIR-GBP | 21600 | Close: 2.5000 | v EMA12/26: 2.4705 < 2.5447 v | ^ OBV: -197586.3201 (7.0800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-15 18:00:00 | MIR-GBP | 21600 | Close: 2.3940 | v EMA12/26: 2.4587 < 2.5336 v | ^ OBV: -203364.2101 (2.9200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-16 00:00:00 | MIR-GBP | 21600 | Close: 2.3710 | v EMA12/26: 2.4452 < 2.5215 v | ^ OBV: -204660.3901 (0.6400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-16 06:00:00 | MIR-GBP | 21600 | Close: 2.3400 | v EMA12/26: 2.4290 < 2.5081 v | ^ OBV: -208364.6101 (1.8100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-16 12:00:00 | MIR-GBP | 21600 | Close: 2.3580 | v EMA12/26: 2.4181 < 2.4969 v | v OBV: -206893.0401 (-0.7100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-16 18:00:00 | MIR-GBP | 21600 | Close: 2.2620 | v EMA12/26: 2.3940 < 2.4795 v | ^ OBV: -208016.1101 (0.5400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-17 00:00:00 | MIR-GBP | 21600 | Close: 2.1850 | v EMA12/26: 2.3619 < 2.4577 v | ^ OBV: -210811.9901 (1.3400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-17 06:00:00 | MIR-GBP | 21600 | Close: 2.1830 | v EMA12/26: 2.3344 < 2.4374 v | ^ OBV: -214089.0801 (1.5500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-17 12:00:00 | MIR-GBP | 21600 | Close: 2.1750 | v EMA12/26: 2.3098 < 2.4179 v | ^ OBV: -214174.3101 (0.0400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-17 18:00:00 | MIR-GBP | 21600 | Close: 2.1890 | v EMA12/26: 2.2912 < 2.4010 v | v OBV: -212692.1801 (-0.6900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-18 00:00:00 | MIR-GBP | 21600 | Close: 2.2230 | v EMA12/26: 2.2807 < 2.3878 v | v OBV: -203896.1201 (-4.1400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-18 06:00:00 | MIR-GBP | 21600 | Close: 2.2100 | v EMA12/26: 2.2698 < 2.3746 v | ^ OBV: -207114.4401 (1.5800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-18 12:00:00 | MIR-GBP | 21600 | Close: 2.1780 | v EMA12/26: 2.2557 < 2.3600 v | ^ OBV: -213234.1201 (2.9500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-18 18:00:00 | MIR-GBP | 21600 | Close: 2.1580 | v EMA12/26: 2.2407 < 2.3451 v | ^ OBV: -216613.1401 (1.5800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-19 00:00:00 | MIR-GBP | 21600 | Close: 2.1490 | v EMA12/26: 2.2266 < 2.3305 v | ^ OBV: -219158.0401 (1.1700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-19 06:00:00 | MIR-GBP | 21600 | Close: 2.1160 | v EMA12/26: 2.2095 < 2.3146 v | ^ OBV: -219370.7801 (0.1000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-19 12:00:00 | MIR-GBP | 21600 | Close: 2.0400 | v EMA12/26: 2.1834 < 2.2943 v | ^ OBV: -223579.8901 (1.9200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-19 18:00:00 | MIR-GBP | 21600 | Close: 2.0270 | v EMA12/26: 2.1594 < 2.2745 v | ^ OBV: -224495.7001 (0.4100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-20 00:00:00 | MIR-GBP | 21600 | Close: 1.8390 | v EMA12/26: 2.1101 < 2.2422 v | ^ OBV: -232576.2501 (3.6000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-20 06:00:00 | MIR-GBP | 21600 | Close: 1.8340 | v EMA12/26: 2.0676 < 2.2120 v | ^ OBV: -235953.4201 (1.4500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-20 12:00:00 | MIR-GBP | 21600 | Close: 1.9040 | v EMA12/26: 2.0424 < 2.1892 v | v OBV: -227018.2401 (-3.7900%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-20 18:00:00 | MIR-GBP | 21600 | Close: 1.9160 | v EMA12/26: 2.0230 < 2.1689 v | v OBV: -213969.5501 (-5.7500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-21 00:00:00 | MIR-GBP | 21600 | Close: 1.9680 | v EMA12/26: 2.0145 < 2.1540 v | v OBV: -209015.6901 (-2.3200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-21 06:00:00 | MIR-GBP | 21600 | Close: 2.0000 | v EMA12/26: 2.0123 < 2.1426 v | v OBV: -204413.0401 (-2.2000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-21 12:00:00 | MIR-GBP | 21600 | Close: 2.0200 | v EMA12/26: 2.0134 < 2.1335 v | v OBV: -201817.0901 (-1.2700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-21 18:00:00 | MIR-GBP | 21600 | Close: 1.9910 | v EMA12/26: 2.0100 < 2.1230 v | ^ OBV: -206031.6501 (2.0900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-22 00:00:00 | MIR-GBP | 21600 | Close: 1.9700 | v EMA12/26: 2.0038 < 2.1116 v | ^ OBV: -211721.1101 (2.7599%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-22 06:00:00 | MIR-GBP | 21600 | Close: 1.9620 | v EMA12/26: 1.9974 < 2.1006 v | ^ OBV: -211969.9101 (0.1200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-22 12:00:00 | MIR-GBP | 21600 | Close: 1.9770 | v EMA12/26: 1.9942 < 2.0914 v | v OBV: -208859.1801 (-1.4700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-22 18:00:00 | MIR-GBP | 21600 | Close: 1.9940 | v EMA12/26: 1.9942 < 2.0842 v | v OBV: -205822.7201 (-1.4500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-23 00:00:00 | MIR-GBP | 21600 | Close: 2.0280 | v EMA12/26: 1.9994 < 2.0800 v | v OBV: -200184.9901 (-2.7401%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-23 06:00:00 | MIR-GBP | 21600 | Close: 2.0030 | v EMA12/26: 1.9999 < 2.0743 v | ^ OBV: -205825.2701 (2.8200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-23 12:00:00 | MIR-GBP | 21600 | Close: 1.9480 | v EMA12/26: 1.9919 < 2.0649 v | ^ OBV: -207170.9801 (0.6500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-23 18:00:00 | MIR-GBP | 21600 | Close: 2.0040 | v EMA12/26: 1.9938 < 2.0604 v | v OBV: -201117.2001 (-2.9200%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 00:00:00 | MIR-GBP | 21600 | Close: 2.0000 | v EMA12/26: 1.9947 < 2.0559 v | ^ OBV: -209338.2001 (4.0900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 06:00:00 | MIR-GBP | 21600 | Close: 2.0450 | v EMA12/26: 2.0025 < 2.0551 v | v OBV: -203491.3901 (-2.7900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 12:00:00 | MIR-GBP | 21600 | Close: 2.0560 | v EMA12/26: 2.0107 < 2.0552 v | v OBV: -200717.9501 (-1.3601%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-24 18:00:00 | MIR-GBP | 21600 | Close: 2.0460 | v EMA12/26: 2.0161 < 2.0545 v | ^ OBV: -205874.7401 (2.5700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 00:00:00 | MIR-GBP | 21600 | Close: 2.1090 | v EMA12/26: 2.0304 < 2.0585 v | v OBV: -198456.7601 (-3.6000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 06:00:00 | MIR-GBP | 21600 | Close: 2.0900 | v EMA12/26: 2.0396 < 2.0609 v | ^ OBV: -199755.1801 (0.6500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-25 12:00:00 | MIR-GBP | 21600 | Close: 2.0880 | v EMA12/26: 2.0470 < 2.0629 v | ^ OBV: -202086.9501 (1.1700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 18:00:00 | MIR-GBP | 21600 | Close: 2.1320 | v EMA12/26: 2.0601 < 2.0680 v | v OBV: -195612.9801 (-3.2000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 00:00:00 | MIR-GBP | 21600 | Close: 2.2500 | *^ EMA12/26: 2.0893 > 2.0815 ^* | v OBV: -183827.7101 (-6.0200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 06:00:00 | MIR-GBP | 21600 | Close: 2.2220 | ^ EMA12/26: 2.1097 > 2.0919 ^ | ^ OBV: -185731.6601 (1.0400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 12:00:00 | MIR-GBP | 21600 | Close: 2.2310 | ^ EMA12/26: 2.1283 > 2.1022 ^ | v OBV: -176893.2401 (-4.7600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 18:00:00 | MIR-GBP | 21600 | Close: 2.1520 | ^ EMA12/26: 2.1320 > 2.1059 ^ | ^ OBV: -186890.4701 (5.6500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 00:00:00 | MIR-GBP | 21600 | Close: 2.1150 | ^ EMA12/26: 2.1294 > 2.1065 ^ | ^ OBV: -188387.0001 (0.8000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 06:00:00 | MIR-GBP | 21600 | Close: 2.1380 | ^ EMA12/26: 2.1307 > 2.1089 ^ | v OBV: -185516.8401 (-1.5200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 12:00:00 | MIR-GBP | 21600 | Close: 2.0700 | ^ EMA12/26: 2.1213 > 2.1060 ^ | ^ OBV: -191103.8001 (3.0099%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 18:00:00 | MIR-GBP | 21600 | Close: 2.0960 | ^ EMA12/26: 2.1174 > 2.1052 ^ | v OBV: -181446.7501 (-5.0500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 00:00:00 | MIR-GBP | 21600 | Close: 2.1190 | ^ EMA12/26: 2.1177 > 2.1063 ^ | v OBV: -177085.2801 (-2.4000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 06:00:00 | MIR-GBP | 21600 | Close: 2.0820 | ^ EMA12/26: 2.1122 > 2.1045 ^ | ^ OBV: -179465.5901 (1.3400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 12:00:00 | MIR-GBP | 21600 | Close: 2.0720 | ^ EMA12/26: 2.1060 > 2.1020 ^ | ^ OBV: -180047.3801 (0.3200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 18:00:00 | MIR-GBP | 21600 | Close: 2.0870 | ^ EMA12/26: 2.1031 > 2.1009 ^ | v OBV: -178043.1101 (-1.1101%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 00:00:00 | MIR-GBP | 21600 | Close: 2.1100 | ^ EMA12/26: 2.1041 > 2.1016 ^ | v OBV: -177016.2201 (-0.5800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 06:00:00 | MIR-GBP | 21600 | Close: 2.1020 | ^ EMA12/26: 2.1038 > 2.1016 ^ | ^ OBV: -178664.0901 (0.9300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 12:00:00 | MIR-GBP | 21600 | Close: 2.0860 | ^ EMA12/26: 2.1010 > 2.1005 ^ | ^ OBV: -180238.4101 (0.8800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 18:00:00 | MIR-GBP | 21600 | Close: 2.0930 | *v EMA12/26: 2.0998 < 2.0999 v* | v OBV: -177346.5301 (-1.6000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-30 00:00:00 | MIR-GBP | 21600 | Close: 2.1230 | *^ EMA12/26: 2.1034 > 2.1016 ^* | v OBV: -172647.4501 (-2.6500%) v | ERI: buy |  | BUY | Last Action: SELL
+2021-07-30 00:00:00 | MIR-GBP | 21600 | Close: 2.1230 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 1.83, 'ratio0_768': 2.43}
+ Support level of 2.03 formed at 2021-07-21 12:00:00
+! Ignore Sell Signal (No Sell At Loss)
+2021-07-30 06:00:00 | MIR-GBP | 21600 | Close: 2.0730 | *v EMA12/26: 2.0987 < 2.0995 v* | ^ OBV: -173690.8601 (0.6000%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -3.3292% (delta: -0.05)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 12:00:00 | MIR-GBP | 21600 | Close: 2.0650 | v EMA12/26: 2.0935 < 2.0969 v | ^ OBV: -179229.7201 (3.1900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -3.7023% (delta: -0.058)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+*** Candlestick Detected: Morning Star ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-30 18:00:00 | MIR-GBP | 21600 | Close: 2.0950 | v EMA12/26: 2.0937 < 2.0968 v | v OBV: -173280.3501 (-3.3200%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.3033% (delta: -0.028)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+2021-07-31 00:00:00 | MIR-GBP | 21600 | Close: 2.0850 | v EMA12/26: 2.0924 < 2.0959 v | ^ OBV: -177457.3301 (2.4100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.7696% (delta: -0.038)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+2021-07-31 06:00:00 | MIR-GBP | 21600 | Close: 2.1130 | v EMA12/26: 2.0955 < 2.0972 v | v OBV: -173600.6601 (-2.1700%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.4639% (delta: -0.01)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 12:00:00 | MIR-GBP | 21600 | Close: 2.1160 | *^ EMA12/26: 2.0987 > 2.0986 ^* | v OBV: -156838.7001 (-9.6600%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.3240% (delta: -0.007)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 18:00:00 | MIR-GBP | 21600 | Close: 2.1150 | ^ EMA12/26: 2.1012 > 2.0998 ^ | ^ OBV: -168925.3801 (7.7100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.3706% (delta: -0.008)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+2021-08-01 00:00:00 | MIR-GBP | 21600 | Close: 2.1469 | ^ EMA12/26: 2.1082 > 2.1033 ^ | v OBV: -160828.2901 (-4.7900%) v | ERI: buy |  | WAIT | Last Action: BUY | 0.1216% (delta: 0.024)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+2021-08-01 06:00:00 | MIR-GBP | 21600 | Close: 2.2110 | ^ EMA12/26: 2.1240 > 2.1112 ^ | v OBV: -120403.4901 (-25.1400%) v | ERI: buy |  | WAIT | Last Action: BUY | 3.1062% (delta: 0.088)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+! Trailing Stop Loss Triggered (< -1.5%)
+2021-08-01 12:00:00 | MIR-GBP | 21600 | Close: 2.1680 | ^ EMA12/26: 2.1308 > 2.1154 ^ | ^ OBV: -123503.8701 (2.5700%) ^ | ERI: sell |  | SELL | Last Action: BUY | 1.1009% (delta: 0.045)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+2021-08-01 12:00:00 | MIR-GBP | 21600 | SELL | 2.168 | BUY | 2.123 | DIFF | 0.04499999999999993 | DIFF | 15.16544176 | MARGIN NO FEES | 1.1009% | MARGIN FEES | 6.9979
+2021-08-01 18:00:00 | MIR-GBP | 21600 | Close: 2.1220 | ^ EMA12/26: 2.1294 > 2.1159 ^ | ^ OBV: -129589.8201 (4.9300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 00:00:00 | MIR-GBP | 21600 | Close: 2.0940 | ^ EMA12/26: 2.1240 > 2.1143 ^ | ^ OBV: -131286.1201 (1.3100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-02 06:00:00 | MIR-GBP | 21600 | Close: 2.1020 | ^ EMA12/26: 2.1206 > 2.1134 ^ | v OBV: -130222.8301 (-0.8101%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 12:00:00 | MIR-GBP | 21600 | Close: 2.1370 | ^ EMA12/26: 2.1231 > 2.1151 ^ | v OBV: -128415.7801 (-1.3900%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-02 18:00:00 | MIR-GBP | 21600 | Close: 2.1440 | ^ EMA12/26: 2.1263 > 2.1173 ^ | v OBV: -125723.1501 (-2.1000%) v | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Evening Star ("Strong - Reversal - Bearish Pattern - Down")
+2021-08-03 00:00:00 | MIR-GBP | 21600 | Close: 2.0930 | ^ EMA12/26: 2.1212 > 2.1155 ^ | ^ OBV: -127744.5701 (1.6100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 06:00:00 | MIR-GBP | 21600 | Close: 2.0670 | ^ EMA12/26: 2.1128 > 2.1119 ^ | ^ OBV: -131346.1801 (2.8200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 12:00:00 | MIR-GBP | 21600 | Close: 2.0990 | *v EMA12/26: 2.1107 < 2.1109 v* | v OBV: -127715.1201 (-2.7600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 18:00:00 | MIR-GBP | 21600 | Close: 2.1090 | v EMA12/26: 2.1104 < 2.1108 v | v OBV: -127487.2201 (-0.1800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 00:00:00 | MIR-GBP | 21600 | Close: 2.1010 | v EMA12/26: 2.1090 < 2.1100 v | ^ OBV: -128631.1601 (0.9000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 06:00:00 | MIR-GBP | 21600 | Close: 2.1720 | *^ EMA12/26: 2.1187 > 2.1146 ^* | v OBV: -125837.4601 (-2.1700%) v | ERI: buy |  | BUY | Last Action: SELL
+2021-08-04 06:00:00 | MIR-GBP | 21600 | Close: 2.1720 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 1.83, 'ratio0_768': 2.43}
+ Support level of 2.03 formed at 2021-07-21 12:00:00
+2021-08-04 12:00:00 | MIR-GBP | 21600 | Close: 2.2210 | ^ EMA12/26: 2.1344 > 2.1225 ^ | v OBV: -116616.7501 (-7.3300%) v | ERI: buy |  | WAIT | Last Action: BUY | 1.2359% (delta: 0.049)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 18:00:00 | MIR-GBP | 21600 | Close: 2.2130 | ^ EMA12/26: 2.1465 > 2.1292 ^ | ^ OBV: -120580.5101 (3.4000%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 0.8713% (delta: 0.041)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+2021-08-05 00:00:00 | MIR-GBP | 21600 | Close: 2.1930 | ^ EMA12/26: 2.1536 > 2.1339 ^ | ^ OBV: -122773.7701 (1.8200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.0403% (delta: 0.021)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+2021-08-05 06:00:00 | MIR-GBP | 21600 | Close: 2.1680 | ^ EMA12/26: 2.1558 > 2.1364 ^ | ^ OBV: -127106.9801 (3.5300%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.1799% (delta: -0.004)
+support: 2.03, resistance: 2.242, fibonacci (l): 1.83, fibonacci (u): 2.43
+
+Simulation Summary: 
+
+
+        Note : "sell at loss" is disabled and you have an open trade, if the margin
+               result below is negative it will assume you sold at the end of the
+               simulation which may not be ideal. Try setting --sellatloss 1
+
+
+   Buy Count : 3
+  Sell Count : 2
+   First Buy : 1000
+   Last Sell : 1392.5915287153564
+
+
+      Margin : 39.2591%
+
+
+  ** non-live simulation, assuming highest fees

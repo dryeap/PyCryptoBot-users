@@ -1,0 +1,572 @@
+--------------------------------------------------------------------------------
+|                             Python Crypto Bot                                |
+--------------------------------------------------------------------------------
+|                Release : v2.49.1                                             | 
+--------------------------------------------------------------------------------
+|               Bot Mode : TEST - test trades using dummy funds :)             | 
+|            Bot Started : 2021-08-05 23:26:41.501730                          | 
+================================================================================
+ |    Trailing Stop Loss : -1.5%                                               | 
+|           Sell At Loss : False  --sellatloss False                           | 
+|     Sell At Resistance : False  --sellatresistance                           | 
+|        Trade Bull Only : False  --disablebullonly                            | 
+|          Buy Near High : True  --disablebuynearhigh                          | 
+|           Use Buy MACD : False  --disablebuymacd                             | 
+|            Use Buy EMA : True  --disablebuyema                               | 
+|            Use Buy OBV : True  --disablebuyobv                               | 
+|      Use Buy Elder-Ray : True  --disablebuyelderray                          | 
+|     Sell Fibonacci Low : False  --disablefailsafefibonaccilow                | 
+|   Candlestick Reversal : False  --disableprofitbankreversal                  | 
+|               Telegram : False  --disabletelegram                            | 
+|                    Log : True  --disablelog                                  | 
+|                Tracker : False  --disabletracker                             | 
+|       Auto restart Bot : True  --autorestart                                 | 
+================================================================================
+ |    Sampling start : 2021-07-24T00:00:00                                     | 
+ |      Sampling end : 2021-08-05T00:00:00                                     | 
+ |     WARNING: Using less than 300 intervals                                  | 
+ |     Interval size : 289                                                     | 
+================================================================================
+2021-07-24 00:00:00 | ANKR-EUR | 3600 | Close: 0.0524 | EMA12/26: 0.0524 = 0.0524 | OBV: 0.0 (0.0000%)ERI: |  | WAIT | Last Action: SELL
+2021-07-24 01:00:00 | ANKR-EUR | 3600 | Close: 0.0531 | *^ EMA12/26: 0.0525 > 0.0524 ^* | ^ OBV: 0.0 (68.0300%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-24 01:00:00 | ANKR-EUR | 3600 | Close: 0.0531 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 0.05, 'ratio0_768': 0.06}
+ Resistance level of 0.0776 formed at 2021-08-04 08:00:00
+2021-07-24 02:00:00 | ANKR-EUR | 3600 | Close: 0.0532 | ^ EMA12/26: 0.0526 > 0.0525 ^ | ^ OBV: 0.0 (35.9500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.7925% (delta: 0.0001)
+support: 0.05321, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 03:00:00 | ANKR-EUR | 3600 | Close: 0.0533 | ^ EMA12/26: 0.0527 > 0.0525 ^ | ^ OBV: 0.0 (11.3400%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.5874% (delta: 0.0002)
+support: 0.05332, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 04:00:00 | ANKR-EUR | 3600 | Close: 0.0529 | ^ EMA12/26: 0.0527 > 0.0526 ^ | v OBV: 0.0 (-5.8500%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.2772% (delta: -0.0002)
+support: 0.05295, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 05:00:00 | ANKR-EUR | 3600 | Close: 0.0531 | ^ EMA12/26: 0.0528 > 0.0526 ^ | ^ OBV: 0.0 (30.0800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.9789% (delta: 0.0)
+support: 0.05311, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 06:00:00 | ANKR-EUR | 3600 | Close: 0.0533 | ^ EMA12/26: 0.0529 > 0.0527 ^ | ^ OBV: 0.0 (46.7800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.4755% (delta: 0.0003)
+support: 0.05338, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 07:00:00 | ANKR-EUR | 3600 | Close: 0.0532 | ^ EMA12/26: 0.0529 > 0.0527 ^ | v OBV: 0.0 (-8.8400%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.7179% (delta: 0.0001)
+support: 0.05325, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 08:00:00 | ANKR-EUR | 3600 | Close: 0.0526 | ^ EMA12/26: 0.0529 > 0.0527 ^ | v OBV: 0.0 (-9.6800%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.7806% (delta: -0.0004)
+support: 0.05268, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 09:00:00 | ANKR-EUR | 3600 | Close: 0.0532 | ^ EMA12/26: 0.0529 > 0.0527 ^ | ^ OBV: 0.0 (3.6300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.8111% (delta: 0.0001)
+support: 0.0532, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 10:00:00 | ANKR-EUR | 3600 | Close: 0.0533 | ^ EMA12/26: 0.0530 > 0.0528 ^ | ^ OBV: 0.0 (14.5500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.5314% (delta: 0.0003)
+support: 0.05335, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 11:00:00 | ANKR-EUR | 3600 | Close: 0.0531 | ^ EMA12/26: 0.0530 > 0.0528 ^ | v OBV: 0.0 (-1.8200%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.8670% (delta: 0.0001)
+support: 0.05317, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 12:00:00 | ANKR-EUR | 3600 | Close: 0.0533 | ^ EMA12/26: 0.0530 > 0.0528 ^ | ^ OBV: 0.0 (1.2400%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.5874% (delta: 0.0002)
+support: 0.05332, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 13:00:00 | ANKR-EUR | 3600 | Close: 0.0532 | ^ EMA12/26: 0.0531 > 0.0529 ^ | v OBV: 0.0 (-5.3800%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.7365% (delta: 0.0001)
+support: 0.05324, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 14:00:00 | ANKR-EUR | 3600 | Close: 0.0545 | ^ EMA12/26: 0.0533 > 0.0530 ^ | ^ OBV: 0.0 (21.3000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.7246% (delta: 0.0015)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 15:00:00 | ANKR-EUR | 3600 | Close: 0.0541 | ^ EMA12/26: 0.0534 > 0.0531 ^ | v OBV: 0.0 (-23.4800%) v | ERI: buy |  | WAIT | Last Action: BUY | 0.9788% (delta: 0.0011)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 16:00:00 | ANKR-EUR | 3600 | Close: 0.0548 | ^ EMA12/26: 0.0536 > 0.0532 ^ | ^ OBV: 0.0 (4.5800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 2.2466% (delta: 0.0017)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 17:00:00 | ANKR-EUR | 3600 | Close: 0.0546 | ^ EMA12/26: 0.0538 > 0.0533 ^ | v OBV: 0.0 (-4.1400%) v | ERI: sell |  | WAIT | Last Action: BUY | 1.9296% (delta: 0.0016)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 18:00:00 | ANKR-EUR | 3600 | Close: 0.0544 | ^ EMA12/26: 0.0539 > 0.0534 ^ | v OBV: 0.0 (-4.0600%) v | ERI: sell |  | WAIT | Last Action: BUY | 1.5008% (delta: 0.0013)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+* Candlestick Detected: Three Black Crows ("Strong - Reversal - Bearish Pattern - Down")
+2021-07-24 19:00:00 | ANKR-EUR | 3600 | Close: 0.0534 | ^ EMA12/26: 0.0538 > 0.0534 ^ | v OBV: 0.0 (-29.5400%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.2891% (delta: 0.0004)
+support: 0.05348, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 20:00:00 | ANKR-EUR | 3600 | Close: 0.0532 | ^ EMA12/26: 0.0537 > 0.0534 ^ | v OBV: 0.0 (-13.6300%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.6992% (delta: 0.0002)
+support: 0.05326, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+! Trailing Stop Loss Triggered (< -1.5%)
+2021-07-24 21:00:00 | ANKR-EUR | 3600 | Close: 0.0536 | ^ EMA12/26: 0.0537 > 0.0534 ^ | ^ OBV: 0.0 (12.2800%) ^ | ERI: buy |  | SELL | Last Action: BUY | 0.0838% (delta: 0.0006)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 21:00:00 | ANKR-EUR | 3600 | SELL | 0.05368 | BUY | 0.0531 | DIFF | 0.0005799999999999972 | DIFF | 0.83883239 | MARGIN NO FEES | 0.0838% | MARGIN FEES | 5.0293
+2021-07-24 22:00:00 | ANKR-EUR | 3600 | Close: 0.0536 | ^ EMA12/26: 0.0537 > 0.0534 ^ | v OBV: 0.0 (-9.8000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 23:00:00 | ANKR-EUR | 3600 | Close: 0.0539 | ^ EMA12/26: 0.0537 > 0.0534 ^ | ^ OBV: 0.0 (11.2300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 00:00:00 | ANKR-EUR | 3600 | Close: 0.0525 | ^ EMA12/26: 0.0535 > 0.0534 ^ | v OBV: 0.0 (-38.4100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 01:00:00 | ANKR-EUR | 3600 | Close: 0.0523 | ^ EMA12/26: 0.0533 > 0.0533 ^ | v OBV: 0.0 (-30.7600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 02:00:00 | ANKR-EUR | 3600 | Close: 0.0526 | *v EMA12/26: 0.0532 < 0.0532 v* | ^ OBV: 0.0 (66.7400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 03:00:00 | ANKR-EUR | 3600 | Close: 0.0525 | v EMA12/26: 0.0531 < 0.0532 v | v OBV: 0.0 (-5.3300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 04:00:00 | ANKR-EUR | 3600 | Close: 0.0530 | v EMA12/26: 0.0531 < 0.0532 v | ^ OBV: 0.0 (28.8500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 05:00:00 | ANKR-EUR | 3600 | Close: 0.0533 | v EMA12/26: 0.0531 < 0.0532 v | ^ OBV: 0.0 (7.9300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 06:00:00 | ANKR-EUR | 3600 | Close: 0.0536 | v EMA12/26: 0.0532 < 0.0532 v | ^ OBV: 0.0 (10.4100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 07:00:00 | ANKR-EUR | 3600 | Close: 0.0541 | *^ EMA12/26: 0.0533 > 0.0533 ^* | ^ OBV: 0.0 (9.5900%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-25 07:00:00 | ANKR-EUR | 3600 | Close: 0.0541 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 0.05, 'ratio0_768': 0.06}
+ Resistance level of 0.0776 formed at 2021-08-04 08:00:00
+2021-07-25 08:00:00 | ANKR-EUR | 3600 | Close: 0.0537 | ^ EMA12/26: 0.0534 > 0.0533 ^ | v OBV: 0.0 (-5.8600%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.6013% (delta: -0.0003)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 09:00:00 | ANKR-EUR | 3600 | Close: 0.0541 | ^ EMA12/26: 0.0535 > 0.0534 ^ | ^ OBV: 0.0 (5.8600%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.8695% (delta: 0.0001)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 10:00:00 | ANKR-EUR | 3600 | Close: 0.0535 | ^ EMA12/26: 0.0535 > 0.0534 ^ | v OBV: 0.0 (-31.5500%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.9490% (delta: -0.0005)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 11:00:00 | ANKR-EUR | 3600 | Close: 0.0533 | ^ EMA12/26: 0.0535 > 0.0534 ^ | v OBV: 0.0 (-15.5100%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.3149% (delta: -0.0007)
+support: 0.05339, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 12:00:00 | ANKR-EUR | 3600 | Close: 0.0533 | ^ EMA12/26: 0.0535 > 0.0534 ^ | OBV: 0.0 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | -2.3149% (delta: -0.0007)
+support: 0.05339, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 13:00:00 | ANKR-EUR | 3600 | Close: 0.0528 | ^ EMA12/26: 0.0534 > 0.0533 ^ | v OBV: 0.0 (-34.7400%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.2846% (delta: -0.0013)
+support: 0.05286, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+! Ignore Sell Signal (No Sell At Loss)
+2021-07-25 14:00:00 | ANKR-EUR | 3600 | Close: 0.0526 | *v EMA12/26: 0.0533 < 0.0533 v* | v OBV: 0.0 (-34.6600%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.6140% (delta: -0.0014)
+support: 0.05268, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 15:00:00 | ANKR-EUR | 3600 | Close: 0.0529 | v EMA12/26: 0.0532 < 0.0533 v | ^ OBV: 0.0 (77.1100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.0468% (delta: -0.0011)
+support: 0.05299, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 16:00:00 | ANKR-EUR | 3600 | Close: 0.0532 | v EMA12/26: 0.0532 < 0.0533 v | ^ OBV: 0.0 (204.7900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.6259% (delta: -0.0009)
+support: 0.05322, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 17:00:00 | ANKR-EUR | 3600 | Close: 0.0534 | v EMA12/26: 0.0532 < 0.0533 v | ^ OBV: 0.0 (21.4300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.1868% (delta: -0.0006)
+support: 0.05346, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 18:00:00 | ANKR-EUR | 3600 | Close: 0.0534 | v EMA12/26: 0.0533 < 0.0533 v | v OBV: 0.0 (-4.1400%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.2417% (delta: -0.0007)
+support: 0.05343, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 19:00:00 | ANKR-EUR | 3600 | Close: 0.0535 | v EMA12/26: 0.0533 < 0.0533 v | ^ OBV: 0.0 (11.2800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.0953% (delta: -0.0006)
+support: 0.05351, resistance: 0.05358, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 20:00:00 | ANKR-EUR | 3600 | Close: 0.0537 | *^ EMA12/26: 0.0533 > 0.0533 ^* | ^ OBV: 0.0 (4.3600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.6928% (delta: -0.0004)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 21:00:00 | ANKR-EUR | 3600 | Close: 0.0537 | ^ EMA12/26: 0.0534 > 0.0533 ^ | ^ OBV: 0.0 (5.4700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.6013% (delta: -0.0003)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 22:00:00 | ANKR-EUR | 3600 | Close: 0.0537 | ^ EMA12/26: 0.0535 > 0.0534 ^ | ^ OBV: 0.0 (6.1400%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.5830% (delta: -0.0003)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 23:00:00 | ANKR-EUR | 3600 | Close: 0.0541 | ^ EMA12/26: 0.0536 > 0.0534 ^ | ^ OBV: 0.0 (5.0100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.9610% (delta: 0.0)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-26 00:00:00 | ANKR-EUR | 3600 | Close: 0.0553 | ^ EMA12/26: 0.0538 > 0.0536 ^ | ^ OBV: 0.0 (14.8800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.3444% (delta: 0.0013)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-26 01:00:00 | ANKR-EUR | 3600 | Close: 0.0565 | ^ EMA12/26: 0.0542 > 0.0538 ^ | ^ OBV: 0.0 (80.2099%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 3.4119% (delta: 0.0024)
+support: 0.05358, resistance: 0.05653, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-26 02:00:00 | ANKR-EUR | 3600 | Close: 0.0567 | ^ EMA12/26: 0.0546 > 0.0540 ^ | ^ OBV: 0.0 (19.8000%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 3.8510% (delta: 0.0026)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-26 03:00:00 | ANKR-EUR | 3600 | Close: 0.0583 | ^ EMA12/26: 0.0552 > 0.0543 ^ | ^ OBV: 0.0 (26.7400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 6.8151% (delta: 0.0043)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-26 04:00:00 | ANKR-EUR | 3600 | Close: 0.0582 | ^ EMA12/26: 0.0557 > 0.0546 ^ | v OBV: 0.0 (-13.2300%) v | ERI: sell |  | WAIT | Last Action: BUY | 6.6504% (delta: 0.0042)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-26 05:00:00 | ANKR-EUR | 3600 | Close: 0.0590 | ^ EMA12/26: 0.0562 > 0.0549 ^ | ^ OBV: 0.0 (5.4200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 8.0043% (delta: 0.0049)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-26 06:00:00 | ANKR-EUR | 3600 | Close: 0.0594 | ^ EMA12/26: 0.0567 > 0.0553 ^ | ^ OBV: 0.0 (7.4600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 8.8460% (delta: 0.0054)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-26 07:00:00 | ANKR-EUR | 3600 | Close: 0.0598 | ^ EMA12/26: 0.0572 > 0.0556 ^ | ^ OBV: 0.0 (8.1500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 9.5230% (delta: 0.0057)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-26 08:00:00 | ANKR-EUR | 3600 | Close: 0.0608 | ^ EMA12/26: 0.0577 > 0.0560 ^ | ^ OBV: 0.0 (12.8800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 11.3892% (delta: 0.0068)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 09:00:00 | ANKR-EUR | 3600 | Close: 0.0615 | ^ EMA12/26: 0.0583 > 0.0564 ^ | ^ OBV: 0.0 (17.3100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 12.5785% (delta: 0.0074)
+support: 0.06127, resistance: 0.06587, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 10:00:00 | ANKR-EUR | 3600 | Close: 0.0637 | ^ EMA12/26: 0.0591 > 0.0569 ^ | ^ OBV: 0.0 (23.4300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 16.6952% (delta: 0.0097)
+support: 0.06127, resistance: 0.06587, fibonacci (l): 0.06, fibonacci (u): 0.07
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-26 11:00:00 | ANKR-EUR | 3600 | Close: 0.0665 | ^ EMA12/26: 0.0603 > 0.0577 ^ | ^ OBV: 0.0 (29.1300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 21.8182% (delta: 0.0125)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 12:00:00 | ANKR-EUR | 3600 | Close: 0.0664 | ^ EMA12/26: 0.0612 > 0.0583 ^ | v OBV: 0.0 (-22.8900%) v | ERI: sell |  | WAIT | Last Action: BUY | 21.6353% (delta: 0.0124)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 13:00:00 | ANKR-EUR | 3600 | Close: 0.0709 | ^ EMA12/26: 0.0627 > 0.0592 ^ | ^ OBV: 0.0 (102.3500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 29.7955% (delta: 0.0168)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-26 14:00:00 | ANKR-EUR | 3600 | Close: 0.0692 | ^ EMA12/26: 0.0637 > 0.0600 ^ | v OBV: 0.0 (-10.7800%) v | ERI: sell |  | WAIT | Last Action: BUY | 26.6485% (delta: 0.0151)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 15:00:00 | ANKR-EUR | 3600 | Close: 0.0681 | ^ EMA12/26: 0.0644 > 0.0606 ^ | v OBV: 0.0 (-9.6301%) v | ERI: sell |  | WAIT | Last Action: BUY | 24.6725% (delta: 0.014)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 16:00:00 | ANKR-EUR | 3600 | Close: 0.0677 | ^ EMA12/26: 0.0649 > 0.0611 ^ | v OBV: 0.0 (-8.4100%) v | ERI: sell |  | WAIT | Last Action: BUY | 23.9772% (delta: 0.0137)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 17:00:00 | ANKR-EUR | 3600 | Close: 0.0676 | ^ EMA12/26: 0.0653 > 0.0616 ^ | v OBV: 0.0 (-9.8801%) v | ERI: sell |  | WAIT | Last Action: BUY | 23.7759% (delta: 0.0135)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 18:00:00 | ANKR-EUR | 3600 | Close: 0.0677 | ^ EMA12/26: 0.0657 > 0.0620 ^ | ^ OBV: 0.0 (3.8400%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 23.9406% (delta: 0.0136)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 19:00:00 | ANKR-EUR | 3600 | Close: 0.0665 | ^ EMA12/26: 0.0658 > 0.0624 ^ | v OBV: 0.0 (-11.7200%) v | ERI: buy |  | WAIT | Last Action: BUY | 21.7267% (delta: 0.0124)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 20:00:00 | ANKR-EUR | 3600 | Close: 0.0644 | ^ EMA12/26: 0.0656 > 0.0625 ^ | v OBV: 0.0 (-13.3700%) v | ERI: sell |  | WAIT | Last Action: BUY | 17.8662% (delta: 0.0103)
+support: 0.06127, resistance: 0.06587, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 21:00:00 | ANKR-EUR | 3600 | Close: 0.0620 | ^ EMA12/26: 0.0650 > 0.0625 ^ | v OBV: 0.0 (-9.1600%) v | ERI: sell |  | WAIT | Last Action: BUY | 13.4567% (delta: 0.0079)
+support: 0.06127, resistance: 0.06587, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 22:00:00 | ANKR-EUR | 3600 | Close: 0.0634 | ^ EMA12/26: 0.0648 > 0.0625 ^ | ^ OBV: 0.0 (18.1100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 16.1463% (delta: 0.0094)
+support: 0.06127, resistance: 0.06587, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-26 23:00:00 | ANKR-EUR | 3600 | Close: 0.0616 | ^ EMA12/26: 0.0643 > 0.0625 ^ | v OBV: 0.0 (-14.0700%) v | ERI: buy |  | WAIT | Last Action: BUY | 12.7614% (delta: 0.0075)
+support: 0.06127, resistance: 0.06587, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-27 00:00:00 | ANKR-EUR | 3600 | Close: 0.0599 | ^ EMA12/26: 0.0636 > 0.0623 ^ | v OBV: 0.0 (-12.5600%) v | ERI: sell |  | WAIT | Last Action: BUY | 9.7242% (delta: 0.0059)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-27 01:00:00 | ANKR-EUR | 3600 | Close: 0.0575 | ^ EMA12/26: 0.0627 > 0.0619 ^ | v OBV: 0.0 (-9.8300%) v | ERI: sell |  | WAIT | Last Action: BUY | 5.2965% (delta: 0.0034)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-27 02:00:00 | ANKR-EUR | 3600 | Close: 0.0572 | ^ EMA12/26: 0.0618 > 0.0616 ^ | v OBV: 0.0 (-9.2200%) v | ERI: buy |  | WAIT | Last Action: BUY | 4.6561% (delta: 0.0031)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-27 03:00:00 | ANKR-EUR | 3600 | Close: 0.0583 | *v EMA12/26: 0.0613 < 0.0613 v* | ^ OBV: 0.0 (7.0100%) ^ | ERI: buy |  | SELL | Last Action: BUY | 6.7419% (delta: 0.0042)
+support: 0.05653, resistance: 0.06127, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-27 03:00:00 | ANKR-EUR | 3600 | SELL | 0.05834 | BUY | 0.05411 | DIFF | 0.004230000000000005 | DIFF | 67.47585677 | MARGIN NO FEES | 6.7419% | MARGIN FEES | 5.3684
+2021-07-27 04:00:00 | ANKR-EUR | 3600 | Close: 0.0590 | v EMA12/26: 0.0609 < 0.0612 v | ^ OBV: 0.0 (7.3500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 05:00:00 | ANKR-EUR | 3600 | Close: 0.0626 | v EMA12/26: 0.0612 < 0.0613 v | ^ OBV: 0.0 (14.5100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 06:00:00 | ANKR-EUR | 3600 | Close: 0.0633 | *^ EMA12/26: 0.0615 > 0.0614 ^* | ^ OBV: 0.0 (30.0000%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-27 06:00:00 | ANKR-EUR | 3600 | Close: 0.0633 | BUY
+ Fibonacci Retracement Levels:{'ratio0_768': 0.06, 'ratio0_618': 0.06}
+ Resistance level of 0.0776 formed at 2021-08-04 08:00:00
+2021-07-27 07:00:00 | ANKR-EUR | 3600 | Close: 0.0633 | ^ EMA12/26: 0.0618 > 0.0616 ^ | ^ OBV: 0.0 (7.3700%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.8568% (delta: 0.0001)
+support: 0.06127, resistance: 0.06587, fibonacci (l): 0.06, fibonacci (u): 0.07
+*** Candlestick Detected: Evening Star ("Strong - Reversal - Bearish Pattern - Down")
+2021-07-27 08:00:00 | ANKR-EUR | 3600 | Close: 0.0622 | ^ EMA12/26: 0.0618 > 0.0616 ^ | v OBV: 0.0 (-4.8700%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.6867% (delta: -0.0011)
+support: 0.06127, resistance: 0.06587, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-27 09:00:00 | ANKR-EUR | 3600 | Close: 0.0665 | ^ EMA12/26: 0.0626 > 0.0620 ^ | ^ OBV: 0.0 (21.5900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 4.0855% (delta: 0.0033)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+! Trailing Stop Loss Triggered (< -1.5%)
+2021-07-27 10:00:00 | ANKR-EUR | 3600 | Close: 0.0653 | ^ EMA12/26: 0.0630 > 0.0622 ^ | v OBV: 0.0 (-10.8200%) v | ERI: sell |  | SELL | Last Action: BUY | 2.2556% (delta: 0.0021)
+support: 0.06127, resistance: 0.06587, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-27 10:00:00 | ANKR-EUR | 3600 | SELL | 0.06538 | BUY | 0.0633 | DIFF | 0.0020799999999999985 | DIFF | 24.09757614 | MARGIN NO FEES | 2.2556% | MARGIN FEES | 5.4895
+2021-07-27 11:00:00 | ANKR-EUR | 3600 | Close: 0.0649 | ^ EMA12/26: 0.0633 > 0.0624 ^ | v OBV: 0.0 (-9.7400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 12:00:00 | ANKR-EUR | 3600 | Close: 0.0666 | ^ EMA12/26: 0.0638 > 0.0627 ^ | ^ OBV: 0.0 (5.4400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 13:00:00 | ANKR-EUR | 3600 | Close: 0.0716 | ^ EMA12/26: 0.0650 > 0.0634 ^ | ^ OBV: 0.0 (53.0900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 14:00:00 | ANKR-EUR | 3600 | Close: 0.0692 | ^ EMA12/26: 0.0656 > 0.0638 ^ | v OBV: 0.0 (-11.5900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 15:00:00 | ANKR-EUR | 3600 | Close: 0.0687 | ^ EMA12/26: 0.0661 > 0.0642 ^ | v OBV: 0.0 (-12.6600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 16:00:00 | ANKR-EUR | 3600 | Close: 0.0655 | ^ EMA12/26: 0.0660 > 0.0643 ^ | v OBV: 0.0 (-12.0900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 17:00:00 | ANKR-EUR | 3600 | Close: 0.0683 | ^ EMA12/26: 0.0664 > 0.0646 ^ | ^ OBV: 0.0 (18.3400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 18:00:00 | ANKR-EUR | 3600 | Close: 0.0690 | ^ EMA12/26: 0.0668 > 0.0649 ^ | ^ OBV: 0.0 (7.9600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 19:00:00 | ANKR-EUR | 3600 | Close: 0.0681 | ^ EMA12/26: 0.0670 > 0.0651 ^ | v OBV: 0.0 (-4.7800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 20:00:00 | ANKR-EUR | 3600 | Close: 0.0688 | ^ EMA12/26: 0.0673 > 0.0654 ^ | ^ OBV: 0.0 (4.1800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 21:00:00 | ANKR-EUR | 3600 | Close: 0.0715 | ^ EMA12/26: 0.0679 > 0.0659 ^ | ^ OBV: 0.0 (4.2800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 22:00:00 | ANKR-EUR | 3600 | Close: 0.0700 | ^ EMA12/26: 0.0682 > 0.0662 ^ | v OBV: 0.0 (-6.3300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 23:00:00 | ANKR-EUR | 3600 | Close: 0.0710 | ^ EMA12/26: 0.0686 > 0.0665 ^ | ^ OBV: 0.0 (11.5100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 00:00:00 | ANKR-EUR | 3600 | Close: 0.0730 | ^ EMA12/26: 0.0693 > 0.0670 ^ | ^ OBV: 0.0 (20.3900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 01:00:00 | ANKR-EUR | 3600 | Close: 0.0721 | ^ EMA12/26: 0.0697 > 0.0674 ^ | v OBV: 0.0 (-9.9800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 02:00:00 | ANKR-EUR | 3600 | Close: 0.0724 | ^ EMA12/26: 0.0702 > 0.0677 ^ | ^ OBV: 0.0 (2.6300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 03:00:00 | ANKR-EUR | 3600 | Close: 0.0726 | ^ EMA12/26: 0.0705 > 0.0681 ^ | ^ OBV: 0.0 (2.3800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 04:00:00 | ANKR-EUR | 3600 | Close: 0.0737 | ^ EMA12/26: 0.0710 > 0.0685 ^ | ^ OBV: 0.0 (5.7300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+2021-07-28 05:00:00 | ANKR-EUR | 3600 | Close: 0.0741 | ^ EMA12/26: 0.0715 > 0.0689 ^ | ^ OBV: 0.0 (6.0000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 06:00:00 | ANKR-EUR | 3600 | Close: 0.0723 | ^ EMA12/26: 0.0716 > 0.0692 ^ | v OBV: 0.0 (-2.4901%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 07:00:00 | ANKR-EUR | 3600 | Close: 0.0710 | ^ EMA12/26: 0.0715 > 0.0693 ^ | v OBV: 0.0 (-5.1400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 08:00:00 | ANKR-EUR | 3600 | Close: 0.0717 | ^ EMA12/26: 0.0715 > 0.0695 ^ | ^ OBV: 0.0 (4.8099%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 09:00:00 | ANKR-EUR | 3600 | Close: 0.0728 | ^ EMA12/26: 0.0717 > 0.0697 ^ | ^ OBV: 0.0 (3.7900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 10:00:00 | ANKR-EUR | 3600 | Close: 0.0718 | ^ EMA12/26: 0.0717 > 0.0699 ^ | v OBV: 0.0 (-1.6000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 11:00:00 | ANKR-EUR | 3600 | Close: 0.0729 | ^ EMA12/26: 0.0719 > 0.0701 ^ | ^ OBV: 0.0 (2.5200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 12:00:00 | ANKR-EUR | 3600 | Close: 0.0709 | ^ EMA12/26: 0.0718 > 0.0702 ^ | v OBV: 0.0 (-4.0200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 13:00:00 | ANKR-EUR | 3600 | Close: 0.0699 | ^ EMA12/26: 0.0715 > 0.0702 ^ | v OBV: 0.0 (-4.0200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 14:00:00 | ANKR-EUR | 3600 | Close: 0.0702 | ^ EMA12/26: 0.0713 > 0.0702 ^ | ^ OBV: 0.0 (1.8100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 15:00:00 | ANKR-EUR | 3600 | Close: 0.0708 | ^ EMA12/26: 0.0712 > 0.0702 ^ | ^ OBV: 0.0 (2.2700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 16:00:00 | ANKR-EUR | 3600 | Close: 0.0706 | ^ EMA12/26: 0.0711 > 0.0702 ^ | v OBV: 0.0 (-1.8800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 17:00:00 | ANKR-EUR | 3600 | Close: 0.0692 | ^ EMA12/26: 0.0708 > 0.0702 ^ | v OBV: 0.0 (-1.9700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 18:00:00 | ANKR-EUR | 3600 | Close: 0.0707 | ^ EMA12/26: 0.0708 > 0.0702 ^ | ^ OBV: 0.0 (1.9400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 19:00:00 | ANKR-EUR | 3600 | Close: 0.0703 | ^ EMA12/26: 0.0707 > 0.0702 ^ | v OBV: 0.0 (-2.2600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 20:00:00 | ANKR-EUR | 3600 | Close: 0.0701 | ^ EMA12/26: 0.0706 > 0.0702 ^ | v OBV: 0.0 (-0.9000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 21:00:00 | ANKR-EUR | 3600 | Close: 0.0710 | ^ EMA12/26: 0.0707 > 0.0703 ^ | ^ OBV: 0.0 (3.5200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 22:00:00 | ANKR-EUR | 3600 | Close: 0.0701 | ^ EMA12/26: 0.0706 > 0.0702 ^ | v OBV: 0.0 (-1.3000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 23:00:00 | ANKR-EUR | 3600 | Close: 0.0703 | ^ EMA12/26: 0.0706 > 0.0703 ^ | ^ OBV: 0.0 (2.3200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 00:00:00 | ANKR-EUR | 3600 | Close: 0.0679 | ^ EMA12/26: 0.0701 > 0.0701 ^ | v OBV: 0.0 (-1.3701%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 01:00:00 | ANKR-EUR | 3600 | Close: 0.0682 | *v EMA12/26: 0.0698 < 0.0699 v* | ^ OBV: 0.0 (1.9600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 02:00:00 | ANKR-EUR | 3600 | Close: 0.0684 | v EMA12/26: 0.0696 < 0.0698 v | ^ OBV: 0.0 (0.8000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 03:00:00 | ANKR-EUR | 3600 | Close: 0.0685 | v EMA12/26: 0.0694 < 0.0697 v | ^ OBV: 0.0 (0.6899%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 04:00:00 | ANKR-EUR | 3600 | Close: 0.0692 | v EMA12/26: 0.0694 < 0.0697 v | ^ OBV: 0.0 (0.9500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 05:00:00 | ANKR-EUR | 3600 | Close: 0.0696 | v EMA12/26: 0.0694 < 0.0697 v | ^ OBV: 0.0 (0.8200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 06:00:00 | ANKR-EUR | 3600 | Close: 0.0699 | v EMA12/26: 0.0695 < 0.0697 v | ^ OBV: 0.0 (0.8700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 07:00:00 | ANKR-EUR | 3600 | Close: 0.0694 | v EMA12/26: 0.0695 < 0.0697 v | v OBV: 0.0 (-0.7900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 08:00:00 | ANKR-EUR | 3600 | Close: 0.0707 | v EMA12/26: 0.0697 < 0.0698 v | ^ OBV: 0.0 (1.9500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 09:00:00 | ANKR-EUR | 3600 | Close: 0.0705 | *^ EMA12/26: 0.0698 > 0.0698 ^* | v OBV: 0.0 (-1.1000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 10:00:00 | ANKR-EUR | 3600 | Close: 0.0701 | ^ EMA12/26: 0.0699 > 0.0698 ^ | v OBV: 0.0 (-0.4000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 11:00:00 | ANKR-EUR | 3600 | Close: 0.0690 | *v EMA12/26: 0.0697 < 0.0698 v* | v OBV: 0.0 (-0.8500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 12:00:00 | ANKR-EUR | 3600 | Close: 0.0693 | v EMA12/26: 0.0697 < 0.0697 v | ^ OBV: 0.0 (0.8900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 13:00:00 | ANKR-EUR | 3600 | Close: 0.0704 | v EMA12/26: 0.0698 < 0.0698 v | ^ OBV: 0.0 (0.3200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 14:00:00 | ANKR-EUR | 3600 | Close: 0.0699 | *^ EMA12/26: 0.0698 > 0.0698 ^* | v OBV: 0.0 (-0.8800%) v | ERI: buy |  | BUY | Last Action: SELL
+2021-07-29 14:00:00 | ANKR-EUR | 3600 | Close: 0.0699 | BUY
+ Fibonacci Retracement Levels:{'ratio0_5': 0.06, 'ratio0_382': 0.07}
+ Resistance level of 0.0776 formed at 2021-08-04 08:00:00
+2021-07-29 15:00:00 | ANKR-EUR | 3600 | Close: 0.0709 | ^ EMA12/26: 0.0700 > 0.0699 ^ | ^ OBV: 0.0 (3.0700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.4040% (delta: 0.001)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 16:00:00 | ANKR-EUR | 3600 | Close: 0.0695 | ^ EMA12/26: 0.0699 > 0.0698 ^ | v OBV: 0.0 (-1.1201%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.5780% (delta: -0.0004)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-29 17:00:00 | ANKR-EUR | 3600 | Close: 0.0699 | ^ EMA12/26: 0.0699 > 0.0698 ^ | ^ OBV: 0.0 (0.8400%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.9551% (delta: 0.0)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-29 18:00:00 | ANKR-EUR | 3600 | Close: 0.0705 | ^ EMA12/26: 0.0700 > 0.0699 ^ | ^ OBV: 0.0 (0.8100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.1764% (delta: 0.0006)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 19:00:00 | ANKR-EUR | 3600 | Close: 0.0699 | ^ EMA12/26: 0.0700 > 0.0699 ^ | v OBV: 0.0 (-1.6101%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.0259% (delta: -0.0)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-29 20:00:00 | ANKR-EUR | 3600 | Close: 0.0702 | ^ EMA12/26: 0.0700 > 0.0699 ^ | ^ OBV: 0.0 (0.3000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.4879% (delta: 0.0004)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 21:00:00 | ANKR-EUR | 3600 | Close: 0.0698 | ^ EMA12/26: 0.0700 > 0.0699 ^ | v OBV: 0.0 (-0.5900%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.1391% (delta: -0.0001)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-29 22:00:00 | ANKR-EUR | 3600 | Close: 0.0695 | ^ EMA12/26: 0.0699 > 0.0699 ^ | v OBV: 0.0 (-0.4800%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.5214% (delta: -0.0004)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-29 23:00:00 | ANKR-EUR | 3600 | Close: 0.0702 | ^ EMA12/26: 0.0699 > 0.0699 ^ | ^ OBV: 0.0 (0.9000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.5870% (delta: 0.0003)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+! Ignore Sell Signal (No Sell At Loss)
+2021-07-30 00:00:00 | ANKR-EUR | 3600 | Close: 0.0694 | *v EMA12/26: 0.0699 < 0.0699 v* | v OBV: 0.0 (-1.0400%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.6913% (delta: -0.0005)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 01:00:00 | ANKR-EUR | 3600 | Close: 0.0705 | *^ EMA12/26: 0.0699 > 0.0699 ^* | ^ OBV: 0.0 (3.1400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.1623% (delta: 0.0006)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-30 02:00:00 | ANKR-EUR | 3600 | Close: 0.0703 | ^ EMA12/26: 0.0700 > 0.0699 ^ | v OBV: 0.0 (-0.3600%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.4313% (delta: 0.0004)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-30 03:00:00 | ANKR-EUR | 3600 | Close: 0.0707 | ^ EMA12/26: 0.0701 > 0.0700 ^ | ^ OBV: 0.0 (0.4300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.0926% (delta: 0.0008)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-30 04:00:00 | ANKR-EUR | 3600 | Close: 0.0705 | ^ EMA12/26: 0.0702 > 0.0700 ^ | v OBV: 0.0 (-0.3200%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.1056% (delta: 0.0006)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-30 05:00:00 | ANKR-EUR | 3600 | Close: 0.0703 | ^ EMA12/26: 0.0702 > 0.0700 ^ | v OBV: 0.0 (-0.8700%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.3605% (delta: 0.0004)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-30 06:00:00 | ANKR-EUR | 3600 | Close: 0.0705 | ^ EMA12/26: 0.0702 > 0.0701 ^ | ^ OBV: 0.0 (0.8900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.1481% (delta: 0.0006)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-30 07:00:00 | ANKR-EUR | 3600 | Close: 0.0702 | ^ EMA12/26: 0.0702 > 0.0701 ^ | v OBV: 0.0 (-0.9800%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.6153% (delta: 0.0003)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+! Ignore Sell Signal (No Sell At Loss)
+2021-07-30 08:00:00 | ANKR-EUR | 3600 | Close: 0.0678 | *v EMA12/26: 0.0698 < 0.0699 v* | v OBV: 0.0 (-4.1300%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.9423% (delta: -0.0021)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 09:00:00 | ANKR-EUR | 3600 | Close: 0.0673 | v EMA12/26: 0.0695 < 0.0697 v | v OBV: 0.0 (-2.6000%) v | ERI: sell |  | WAIT | Last Action: BUY | -4.6360% (delta: -0.0026)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 10:00:00 | ANKR-EUR | 3600 | Close: 0.0675 | v EMA12/26: 0.0692 < 0.0696 v | ^ OBV: 0.0 (0.5600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.3812% (delta: -0.0024)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 11:00:00 | ANKR-EUR | 3600 | Close: 0.0671 | v EMA12/26: 0.0688 < 0.0694 v | v OBV: 0.0 (-1.4200%) v | ERI: buy |  | WAIT | Last Action: BUY | -4.9616% (delta: -0.0028)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 12:00:00 | ANKR-EUR | 3600 | Close: 0.0672 | v EMA12/26: 0.0686 < 0.0692 v | ^ OBV: 0.0 (0.3300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.8342% (delta: -0.0027)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 13:00:00 | ANKR-EUR | 3600 | Close: 0.0673 | v EMA12/26: 0.0684 < 0.0691 v | ^ OBV: 0.0 (0.5000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.6785% (delta: -0.0026)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 14:00:00 | ANKR-EUR | 3600 | Close: 0.0679 | v EMA12/26: 0.0683 < 0.0690 v | ^ OBV: 0.0 (0.7700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.7724% (delta: -0.002)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 15:00:00 | ANKR-EUR | 3600 | Close: 0.0680 | v EMA12/26: 0.0683 < 0.0689 v | ^ OBV: 0.0 (0.1300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.6308% (delta: -0.0019)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 16:00:00 | ANKR-EUR | 3600 | Close: 0.0681 | v EMA12/26: 0.0682 < 0.0689 v | ^ OBV: 0.0 (0.1800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.5317% (delta: -0.0018)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 17:00:00 | ANKR-EUR | 3600 | Close: 0.0683 | v EMA12/26: 0.0683 < 0.0688 v | ^ OBV: 0.0 (0.2200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.1919% (delta: -0.0016)
+support: 0.06587, resistance: 0.06864, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 18:00:00 | ANKR-EUR | 3600 | Close: 0.0689 | v EMA12/26: 0.0683 < 0.0688 v | ^ OBV: 0.0 (0.1300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.4558% (delta: -0.001)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 19:00:00 | ANKR-EUR | 3600 | Close: 0.0687 | v EMA12/26: 0.0684 < 0.0688 v | v OBV: 0.0 (-0.3401%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.6823% (delta: -0.0012)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-30 20:00:00 | ANKR-EUR | 3600 | Close: 0.0700 | v EMA12/26: 0.0686 < 0.0689 v | ^ OBV: 0.0 (1.3700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.8984% (delta: 0.0001)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-30 21:00:00 | ANKR-EUR | 3600 | Close: 0.0704 | v EMA12/26: 0.0689 < 0.0690 v | ^ OBV: 0.0 (1.5400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.2897% (delta: 0.0005)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-30 22:00:00 | ANKR-EUR | 3600 | Close: 0.0706 | *^ EMA12/26: 0.0692 > 0.0691 ^* | ^ OBV: 0.0 (1.0800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 0.0501% (delta: 0.0007)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-30 23:00:00 | ANKR-EUR | 3600 | Close: 0.0713 | ^ EMA12/26: 0.0695 > 0.0693 ^ | ^ OBV: 0.0 (0.9900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.9420% (delta: 0.0014)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 00:00:00 | ANKR-EUR | 3600 | Close: 0.0710 | ^ EMA12/26: 0.0697 > 0.0694 ^ | v OBV: 0.0 (-1.1600%) v | ERI: sell |  | WAIT | Last Action: BUY | 0.5881% (delta: 0.0011)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 01:00:00 | ANKR-EUR | 3600 | Close: 0.0706 | ^ EMA12/26: 0.0699 > 0.0695 ^ | v OBV: 0.0 (-5.6200%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.0348% (delta: 0.0007)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 02:00:00 | ANKR-EUR | 3600 | Close: 0.0708 | ^ EMA12/26: 0.0700 > 0.0696 ^ | ^ OBV: 0.0 (0.5900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 0.3049% (delta: 0.0009)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 03:00:00 | ANKR-EUR | 3600 | Close: 0.0704 | ^ EMA12/26: 0.0701 > 0.0697 ^ | v OBV: 0.0 (-0.8600%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.2331% (delta: 0.0005)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 04:00:00 | ANKR-EUR | 3600 | Close: 0.0699 | ^ EMA12/26: 0.0700 > 0.0697 ^ | v OBV: 0.0 (-0.5100%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.9834% (delta: 0.0)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-31 05:00:00 | ANKR-EUR | 3600 | Close: 0.0693 | ^ EMA12/26: 0.0699 > 0.0696 ^ | v OBV: 0.0 (-0.5700%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.7904% (delta: -0.0006)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-31 06:00:00 | ANKR-EUR | 3600 | Close: 0.0693 | ^ EMA12/26: 0.0698 > 0.0696 ^ | ^ OBV: 0.0 (0.3800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.7762% (delta: -0.0006)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-31 07:00:00 | ANKR-EUR | 3600 | Close: 0.0700 | ^ EMA12/26: 0.0699 > 0.0696 ^ | ^ OBV: 0.0 (0.8500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.8560% (delta: 0.0001)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 08:00:00 | ANKR-EUR | 3600 | Close: 0.0708 | ^ EMA12/26: 0.0700 > 0.0697 ^ | ^ OBV: 0.0 (0.6899%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.3332% (delta: 0.0009)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 09:00:00 | ANKR-EUR | 3600 | Close: 0.0703 | ^ EMA12/26: 0.0700 > 0.0698 ^ | v OBV: 0.0 (-0.7900%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.4737% (delta: 0.0004)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 10:00:00 | ANKR-EUR | 3600 | Close: 0.0701 | ^ EMA12/26: 0.0701 > 0.0698 ^ | v OBV: 0.0 (-0.9300%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.6861% (delta: 0.0002)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 11:00:00 | ANKR-EUR | 3600 | Close: 0.0700 | ^ EMA12/26: 0.0700 > 0.0698 ^ | v OBV: 0.0 (-0.6700%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.7710% (delta: 0.0002)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 12:00:00 | ANKR-EUR | 3600 | Close: 0.0705 | ^ EMA12/26: 0.0701 > 0.0699 ^ | ^ OBV: 0.0 (0.6700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.1198% (delta: 0.0006)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 13:00:00 | ANKR-EUR | 3600 | Close: 0.0696 | ^ EMA12/26: 0.0700 > 0.0698 ^ | v OBV: 0.0 (-0.4900%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.4081% (delta: -0.0003)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-31 14:00:00 | ANKR-EUR | 3600 | Close: 0.0698 | ^ EMA12/26: 0.0700 > 0.0698 ^ | ^ OBV: 0.0 (1.2200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.1674% (delta: -0.0001)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-31 15:00:00 | ANKR-EUR | 3600 | Close: 0.0695 | ^ EMA12/26: 0.0699 > 0.0698 ^ | v OBV: 0.0 (-1.2600%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.5355% (delta: -0.0004)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-31 16:00:00 | ANKR-EUR | 3600 | Close: 0.0693 | ^ EMA12/26: 0.0698 > 0.0698 ^ | v OBV: 0.0 (-0.1500%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.8045% (delta: -0.0006)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-31 17:00:00 | ANKR-EUR | 3600 | Close: 0.0694 | ^ EMA12/26: 0.0698 > 0.0697 ^ | ^ OBV: 0.0 (0.2100%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.7054% (delta: -0.0005)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+! Ignore Sell Signal (No Sell At Loss)
+2021-07-31 18:00:00 | ANKR-EUR | 3600 | Close: 0.0696 | *v EMA12/26: 0.0697 < 0.0697 v* | ^ OBV: 0.0 (0.8300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.4223% (delta: -0.0003)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-31 19:00:00 | ANKR-EUR | 3600 | Close: 0.0700 | *^ EMA12/26: 0.0698 > 0.0698 ^* | ^ OBV: 0.0 (0.7800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.7710% (delta: 0.0002)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 20:00:00 | ANKR-EUR | 3600 | Close: 0.0706 | ^ EMA12/26: 0.0699 > 0.0698 ^ | ^ OBV: 0.0 (0.8700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.0348% (delta: 0.0007)
+support: 0.06864, resistance: 0.0707, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 21:00:00 | ANKR-EUR | 3600 | Close: 0.0708 | ^ EMA12/26: 0.0700 > 0.0699 ^ | ^ OBV: 0.0 (0.4000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.3474% (delta: 0.0009)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 22:00:00 | ANKR-EUR | 3600 | Close: 0.0708 | ^ EMA12/26: 0.0702 > 0.0700 ^ | ^ OBV: 0.0 (1.1200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.3616% (delta: 0.001)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-31 23:00:00 | ANKR-EUR | 3600 | Close: 0.0718 | ^ EMA12/26: 0.0704 > 0.0701 ^ | ^ OBV: 0.0 (0.6300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.7207% (delta: 0.0019)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-08-01 00:00:00 | ANKR-EUR | 3600 | Close: 0.0728 | ^ EMA12/26: 0.0708 > 0.0703 ^ | ^ OBV: 0.0 (4.3000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 3.1930% (delta: 0.003)
+support: 0.0707, resistance: 0.0745, fibonacci (l): 0.07, fibonacci (u): 0.08
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-08-01 01:00:00 | ANKR-EUR | 3600 | Close: 0.0762 | ^ EMA12/26: 0.0716 > 0.0707 ^ | ^ OBV: 0.0 (7.4100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 7.9641% (delta: 0.0063)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-08-01 02:00:00 | ANKR-EUR | 3600 | Close: 0.0820 | ^ EMA12/26: 0.0732 > 0.0716 ^ | ^ OBV: 0.0 (13.5500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 16.1329% (delta: 0.0121)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-01 03:00:00 | ANKR-EUR | 3600 | Close: 0.0821 | ^ EMA12/26: 0.0746 > 0.0724 ^ | ^ OBV: 0.0 (5.9200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 16.3594% (delta: 0.0123)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-01 04:00:00 | ANKR-EUR | 3600 | Close: 0.0820 | ^ EMA12/26: 0.0757 > 0.0731 ^ | v OBV: 0.0 (-2.9400%) v | ERI: sell |  | WAIT | Last Action: BUY | 16.1329% (delta: 0.0121)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-01 05:00:00 | ANKR-EUR | 3600 | Close: 0.0821 | ^ EMA12/26: 0.0767 > 0.0737 ^ | ^ OBV: 0.0 (1.7600%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 16.2461% (delta: 0.0122)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-01 06:00:00 | ANKR-EUR | 3600 | Close: 0.0814 | ^ EMA12/26: 0.0774 > 0.0743 ^ | v OBV: 0.0 (-2.0900%) v | ERI: sell |  | WAIT | Last Action: BUY | 15.3259% (delta: 0.0115)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-01 07:00:00 | ANKR-EUR | 3600 | Close: 0.0800 | ^ EMA12/26: 0.0778 > 0.0747 ^ | v OBV: 0.0 (-2.6100%) v | ERI: sell |  | WAIT | Last Action: BUY | 13.3156% (delta: 0.0101)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-01 08:00:00 | ANKR-EUR | 3600 | Close: 0.0788 | ^ EMA12/26: 0.0780 > 0.0750 ^ | v OBV: 0.0 (-1.7600%) v | ERI: sell |  | WAIT | Last Action: BUY | 11.5600% (delta: 0.0089)
+support: 0.0776, resistance: 0.07974, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 09:00:00 | ANKR-EUR | 3600 | Close: 0.0781 | ^ EMA12/26: 0.0780 > 0.0752 ^ | v OBV: 0.0 (-2.6800%) v | ERI: sell |  | WAIT | Last Action: BUY | 10.6115% (delta: 0.0082)
+support: 0.0776, resistance: 0.07974, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 10:00:00 | ANKR-EUR | 3600 | Close: 0.0774 | ^ EMA12/26: 0.0779 > 0.0754 ^ | v OBV: 0.0 (-2.0300%) v | ERI: sell |  | WAIT | Last Action: BUY | 9.6913% (delta: 0.0075)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 11:00:00 | ANKR-EUR | 3600 | Close: 0.0777 | ^ EMA12/26: 0.0779 > 0.0756 ^ | ^ OBV: 0.0 (0.9900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 10.0594% (delta: 0.0078)
+support: 0.0776, resistance: 0.07974, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 12:00:00 | ANKR-EUR | 3600 | Close: 0.0772 | ^ EMA12/26: 0.0778 > 0.0757 ^ | v OBV: 0.0 (-0.8600%) v | ERI: buy |  | WAIT | Last Action: BUY | 9.2949% (delta: 0.0073)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 13:00:00 | ANKR-EUR | 3600 | Close: 0.0771 | ^ EMA12/26: 0.0777 > 0.0758 ^ | v OBV: 0.0 (-0.6100%) v | ERI: sell |  | WAIT | Last Action: BUY | 9.2807% (delta: 0.0073)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+*** Candlestick Detected: Morning Star ("Strong - Reversal - Bullish Pattern - Up")
+2021-08-01 14:00:00 | ANKR-EUR | 3600 | Close: 0.0775 | ^ EMA12/26: 0.0776 > 0.0759 ^ | ^ OBV: 0.0 (1.4900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 9.7196% (delta: 0.0076)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 15:00:00 | ANKR-EUR | 3600 | Close: 0.0782 | ^ EMA12/26: 0.0777 > 0.0761 ^ | ^ OBV: 0.0 (2.1500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 10.7814% (delta: 0.0083)
+support: 0.0776, resistance: 0.07974, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 16:00:00 | ANKR-EUR | 3600 | Close: 0.0773 | ^ EMA12/26: 0.0777 > 0.0762 ^ | v OBV: 0.0 (-2.0600%) v | ERI: sell |  | WAIT | Last Action: BUY | 9.5638% (delta: 0.0075)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 17:00:00 | ANKR-EUR | 3600 | Close: 0.0770 | ^ EMA12/26: 0.0776 > 0.0762 ^ | v OBV: 0.0 (-1.3601%) v | ERI: buy |  | WAIT | Last Action: BUY | 9.1250% (delta: 0.0071)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 18:00:00 | ANKR-EUR | 3600 | Close: 0.0774 | ^ EMA12/26: 0.0775 > 0.0763 ^ | ^ OBV: 0.0 (1.3100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 9.6913% (delta: 0.0075)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 19:00:00 | ANKR-EUR | 3600 | Close: 0.0789 | ^ EMA12/26: 0.0777 > 0.0765 ^ | ^ OBV: 0.0 (1.6800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 11.7299% (delta: 0.009)
+support: 0.0776, resistance: 0.07974, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-01 20:00:00 | ANKR-EUR | 3600 | Close: 0.0805 | ^ EMA12/26: 0.0782 > 0.0768 ^ | ^ OBV: 0.0 (1.4300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 14.0517% (delta: 0.0106)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-01 21:00:00 | ANKR-EUR | 3600 | Close: 0.0811 | ^ EMA12/26: 0.0786 > 0.0771 ^ | ^ OBV: 0.0 (1.6800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 14.9012% (delta: 0.0112)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-01 22:00:00 | ANKR-EUR | 3600 | Close: 0.0828 | ^ EMA12/26: 0.0793 > 0.0776 ^ | ^ OBV: 0.0 (6.9300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 17.2938% (delta: 0.0129)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-01 23:00:00 | ANKR-EUR | 3600 | Close: 0.0874 | ^ EMA12/26: 0.0805 > 0.0783 ^ | ^ OBV: 0.0 (11.0800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 23.8345% (delta: 0.0175)
+support: 0.08567, resistance: 0.09, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 00:00:00 | ANKR-EUR | 3600 | Close: 0.0789 | ^ EMA12/26: 0.0803 > 0.0783 ^ | v OBV: 0.0 (-7.5900%) v | ERI: sell |  | WAIT | Last Action: BUY | 11.7158% (delta: 0.009)
+support: 0.0776, resistance: 0.07974, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-02 01:00:00 | ANKR-EUR | 3600 | Close: 0.0790 | ^ EMA12/26: 0.0801 > 0.0784 ^ | ^ OBV: 0.0 (2.5000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 11.9564% (delta: 0.0091)
+support: 0.0776, resistance: 0.07974, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-02 02:00:00 | ANKR-EUR | 3600 | Close: 0.0779 | ^ EMA12/26: 0.0797 > 0.0783 ^ | v OBV: 0.0 (-2.6300%) v | ERI: sell |  | WAIT | Last Action: BUY | 10.3283% (delta: 0.008)
+support: 0.0776, resistance: 0.07974, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-02 03:00:00 | ANKR-EUR | 3600 | Close: 0.0768 | ^ EMA12/26: 0.0793 > 0.0782 ^ | v OBV: 0.0 (-1.2200%) v | ERI: sell |  | WAIT | Last Action: BUY | 8.8135% (delta: 0.0069)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-02 04:00:00 | ANKR-EUR | 3600 | Close: 0.0770 | ^ EMA12/26: 0.0789 > 0.0781 ^ | ^ OBV: 0.0 (1.8400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 9.0400% (delta: 0.0071)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-02 05:00:00 | ANKR-EUR | 3600 | Close: 0.0763 | ^ EMA12/26: 0.0785 > 0.0780 ^ | v OBV: 0.0 (-2.1600%) v | ERI: sell |  | WAIT | Last Action: BUY | 8.0490% (delta: 0.0064)
+support: 0.0745, resistance: 0.0776, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-02 06:00:00 | ANKR-EUR | 3600 | Close: 0.0777 | ^ EMA12/26: 0.0784 > 0.0780 ^ | ^ OBV: 0.0 (1.9600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 10.1443% (delta: 0.0079)
+support: 0.0776, resistance: 0.07974, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-02 07:00:00 | ANKR-EUR | 3600 | Close: 0.0800 | ^ EMA12/26: 0.0786 > 0.0781 ^ | ^ OBV: 0.0 (3.0600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 13.3014% (delta: 0.0101)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 08:00:00 | ANKR-EUR | 3600 | Close: 0.0793 | ^ EMA12/26: 0.0787 > 0.0782 ^ | v OBV: 0.0 (-2.1500%) v | ERI: buy |  | WAIT | Last Action: BUY | 12.2821% (delta: 0.0094)
+support: 0.0776, resistance: 0.07974, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-08-02 09:00:00 | ANKR-EUR | 3600 | Close: 0.0831 | ^ EMA12/26: 0.0794 > 0.0786 ^ | ^ OBV: 0.0 (3.0600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 17.7468% (delta: 0.0132)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 10:00:00 | ANKR-EUR | 3600 | Close: 0.0821 | ^ EMA12/26: 0.0798 > 0.0788 ^ | v OBV: 0.0 (-5.5700%) v | ERI: buy |  | WAIT | Last Action: BUY | 16.2603% (delta: 0.0122)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 11:00:00 | ANKR-EUR | 3600 | Close: 0.0816 | ^ EMA12/26: 0.0801 > 0.0790 ^ | v OBV: 0.0 (-1.9700%) v | ERI: sell |  | WAIT | Last Action: BUY | 15.5241% (delta: 0.0117)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 12:00:00 | ANKR-EUR | 3600 | Close: 0.0808 | ^ EMA12/26: 0.0802 > 0.0792 ^ | v OBV: 0.0 (-2.3100%) v | ERI: sell |  | WAIT | Last Action: BUY | 14.4906% (delta: 0.0109)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 13:00:00 | ANKR-EUR | 3600 | Close: 0.0822 | ^ EMA12/26: 0.0805 > 0.0794 ^ | ^ OBV: 0.0 (2.2700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 16.4160% (delta: 0.0123)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 14:00:00 | ANKR-EUR | 3600 | Close: 0.0822 | ^ EMA12/26: 0.0808 > 0.0796 ^ | v OBV: 0.0 (-1.9500%) v | ERI: buy |  | WAIT | Last Action: BUY | 16.4019% (delta: 0.0123)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 15:00:00 | ANKR-EUR | 3600 | Close: 0.0833 | ^ EMA12/26: 0.0812 > 0.0799 ^ | ^ OBV: 0.0 (3.6900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 18.0016% (delta: 0.0134)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 16:00:00 | ANKR-EUR | 3600 | Close: 0.0832 | ^ EMA12/26: 0.0815 > 0.0801 ^ | v OBV: 0.0 (-3.0500%) v | ERI: sell |  | WAIT | Last Action: BUY | 17.9025% (delta: 0.0134)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 17:00:00 | ANKR-EUR | 3600 | Close: 0.0858 | ^ EMA12/26: 0.0821 > 0.0805 ^ | ^ OBV: 0.0 (6.2500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 21.5127% (delta: 0.0159)
+support: 0.08567, resistance: 0.09, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 18:00:00 | ANKR-EUR | 3600 | Close: 0.0858 | ^ EMA12/26: 0.0827 > 0.0809 ^ | v OBV: 0.0 (-4.8100%) v | ERI: sell |  | WAIT | Last Action: BUY | 21.4844% (delta: 0.0159)
+support: 0.08567, resistance: 0.09, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 19:00:00 | ANKR-EUR | 3600 | Close: 0.0831 | ^ EMA12/26: 0.0828 > 0.0811 ^ | v OBV: 0.0 (-2.3900%) v | ERI: sell |  | WAIT | Last Action: BUY | 17.7468% (delta: 0.0132)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 20:00:00 | ANKR-EUR | 3600 | Close: 0.0821 | ^ EMA12/26: 0.0826 > 0.0812 ^ | v OBV: 0.0 (-2.9600%) v | ERI: sell |  | WAIT | Last Action: BUY | 16.2320% (delta: 0.0122)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 21:00:00 | ANKR-EUR | 3600 | Close: 0.0827 | ^ EMA12/26: 0.0827 > 0.0813 ^ | ^ OBV: 0.0 (1.2400%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 17.2088% (delta: 0.0129)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 22:00:00 | ANKR-EUR | 3600 | Close: 0.0835 | ^ EMA12/26: 0.0828 > 0.0814 ^ | ^ OBV: 0.0 (1.4300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 18.2565% (delta: 0.0136)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-02 23:00:00 | ANKR-EUR | 3600 | Close: 0.0831 | ^ EMA12/26: 0.0828 > 0.0816 ^ | v OBV: 0.0 (-1.3300%) v | ERI: sell |  | WAIT | Last Action: BUY | 17.7610% (delta: 0.0132)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 00:00:00 | ANKR-EUR | 3600 | Close: 0.0849 | ^ EMA12/26: 0.0832 > 0.0818 ^ | ^ OBV: 0.0 (10.0399%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 20.2810% (delta: 0.015)
+support: 0.0838, resistance: 0.08567, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 01:00:00 | ANKR-EUR | 3600 | Close: 0.0822 | ^ EMA12/26: 0.0830 > 0.0818 ^ | v OBV: 0.0 (-1.6600%) v | ERI: sell |  | WAIT | Last Action: BUY | 16.4443% (delta: 0.0123)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 02:00:00 | ANKR-EUR | 3600 | Close: 0.0850 | ^ EMA12/26: 0.0833 > 0.0821 ^ | ^ OBV: 0.0 (2.1200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 20.4226% (delta: 0.0151)
+support: 0.0838, resistance: 0.08567, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 03:00:00 | ANKR-EUR | 3600 | Close: 0.0835 | ^ EMA12/26: 0.0833 > 0.0822 ^ | v OBV: 0.0 (-4.4600%) v | ERI: buy |  | WAIT | Last Action: BUY | 18.2565% (delta: 0.0136)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 04:00:00 | ANKR-EUR | 3600 | Close: 0.0827 | ^ EMA12/26: 0.0832 > 0.0822 ^ | v OBV: 0.0 (-4.1100%) v | ERI: sell |  | WAIT | Last Action: BUY | 17.1664% (delta: 0.0128)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 05:00:00 | ANKR-EUR | 3600 | Close: 0.0818 | ^ EMA12/26: 0.0830 > 0.0822 ^ | v OBV: 0.0 (-1.5100%) v | ERI: sell |  | WAIT | Last Action: BUY | 15.8922% (delta: 0.0119)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 06:00:00 | ANKR-EUR | 3600 | Close: 0.0828 | ^ EMA12/26: 0.0830 > 0.0822 ^ | ^ OBV: 0.0 (0.7400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 17.2513% (delta: 0.0129)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+2021-08-03 07:00:00 | ANKR-EUR | 3600 | Close: 0.0831 | ^ EMA12/26: 0.0830 > 0.0823 ^ | ^ OBV: 0.0 (2.1700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 17.7468% (delta: 0.0132)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+*** Candlestick Detected: Evening Star ("Strong - Reversal - Bearish Pattern - Down")
+2021-08-03 08:00:00 | ANKR-EUR | 3600 | Close: 0.0826 | ^ EMA12/26: 0.0829 > 0.0823 ^ | v OBV: 0.0 (-0.3800%) v | ERI: sell |  | WAIT | Last Action: BUY | 16.9965% (delta: 0.0127)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 09:00:00 | ANKR-EUR | 3600 | Close: 0.0834 | ^ EMA12/26: 0.0830 > 0.0824 ^ | ^ OBV: 0.0 (1.0900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 18.1432% (delta: 0.0135)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 10:00:00 | ANKR-EUR | 3600 | Close: 0.0816 | ^ EMA12/26: 0.0828 > 0.0823 ^ | v OBV: 0.0 (-1.5900%) v | ERI: buy |  | WAIT | Last Action: BUY | 15.5524% (delta: 0.0117)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 11:00:00 | ANKR-EUR | 3600 | Close: 0.0800 | ^ EMA12/26: 0.0824 > 0.0822 ^ | v OBV: 0.0 (-1.2000%) v | ERI: sell |  | WAIT | Last Action: BUY | 13.2731% (delta: 0.0101)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 12:00:00 | ANKR-EUR | 3600 | Close: 0.0807 | ^ EMA12/26: 0.0821 > 0.0821 ^ | ^ OBV: 0.0 (1.1299%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 14.3632% (delta: 0.0108)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+2021-08-03 13:00:00 | ANKR-EUR | 3600 | Close: 0.0810 | *v EMA12/26: 0.0819 < 0.0820 v* | ^ OBV: 0.0 (1.0200%) ^ | ERI: buy |  | SELL | Last Action: BUY | 14.7454% (delta: 0.0111)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 13:00:00 | ANKR-EUR | 3600 | SELL | 0.08105 | BUY | 0.06993 | DIFF | 0.011119999999999991 | DIFF | 161.0816209 | MARGIN NO FEES | 14.7454% | MARGIN FEES | 6.299
+2021-08-03 14:00:00 | ANKR-EUR | 3600 | Close: 0.0798 | v EMA12/26: 0.0816 < 0.0818 v | v OBV: 0.0 (-0.4900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 15:00:00 | ANKR-EUR | 3600 | Close: 0.0797 | v EMA12/26: 0.0813 < 0.0817 v | v OBV: 0.0 (-1.2100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 16:00:00 | ANKR-EUR | 3600 | Close: 0.0799 | v EMA12/26: 0.0811 < 0.0815 v | ^ OBV: 0.0 (0.3200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 17:00:00 | ANKR-EUR | 3600 | Close: 0.0788 | v EMA12/26: 0.0807 < 0.0813 v | v OBV: 0.0 (-2.0400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 18:00:00 | ANKR-EUR | 3600 | Close: 0.0791 | v EMA12/26: 0.0805 < 0.0812 v | ^ OBV: 0.0 (0.5900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 19:00:00 | ANKR-EUR | 3600 | Close: 0.0784 | v EMA12/26: 0.0802 < 0.0810 v | v OBV: 0.0 (-0.1900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 20:00:00 | ANKR-EUR | 3600 | Close: 0.0785 | v EMA12/26: 0.0799 < 0.0808 v | ^ OBV: 0.0 (1.0000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 21:00:00 | ANKR-EUR | 3600 | Close: 0.0788 | v EMA12/26: 0.0797 < 0.0806 v | ^ OBV: 0.0 (0.6000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 22:00:00 | ANKR-EUR | 3600 | Close: 0.0791 | v EMA12/26: 0.0796 < 0.0805 v | ^ OBV: 0.0 (0.1800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 23:00:00 | ANKR-EUR | 3600 | Close: 0.0794 | v EMA12/26: 0.0796 < 0.0804 v | ^ OBV: 0.0 (0.2900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 00:00:00 | ANKR-EUR | 3600 | Close: 0.0794 | v EMA12/26: 0.0796 < 0.0803 v | ^ OBV: 0.0 (1.2800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 01:00:00 | ANKR-EUR | 3600 | Close: 0.0795 | v EMA12/26: 0.0796 < 0.0803 v | ^ OBV: 0.0 (0.4500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+2021-08-04 02:00:00 | ANKR-EUR | 3600 | Close: 0.0798 | v EMA12/26: 0.0796 < 0.0802 v | ^ OBV: 0.0 (0.5400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 03:00:00 | ANKR-EUR | 3600 | Close: 0.0793 | v EMA12/26: 0.0795 < 0.0802 v | v OBV: 0.0 (-0.1000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 04:00:00 | ANKR-EUR | 3600 | Close: 0.0786 | v EMA12/26: 0.0794 < 0.0801 v | v OBV: 0.0 (-0.7900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 05:00:00 | ANKR-EUR | 3600 | Close: 0.0795 | v EMA12/26: 0.0794 < 0.0800 v | ^ OBV: 0.0 (0.3600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 06:00:00 | ANKR-EUR | 3600 | Close: 0.0790 | v EMA12/26: 0.0793 < 0.0799 v | v OBV: 0.0 (-0.3401%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 07:00:00 | ANKR-EUR | 3600 | Close: 0.0792 | v EMA12/26: 0.0793 < 0.0799 v | ^ OBV: 0.0 (0.5100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 08:00:00 | ANKR-EUR | 3600 | Close: 0.0779 | v EMA12/26: 0.0791 < 0.0797 v | v OBV: 0.0 (-1.1201%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 09:00:00 | ANKR-EUR | 3600 | Close: 0.0785 | v EMA12/26: 0.0790 < 0.0796 v | ^ OBV: 0.0 (0.5000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 10:00:00 | ANKR-EUR | 3600 | Close: 0.0786 | v EMA12/26: 0.0789 < 0.0796 v | ^ OBV: 0.0 (0.5200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 11:00:00 | ANKR-EUR | 3600 | Close: 0.0785 | v EMA12/26: 0.0789 < 0.0795 v | v OBV: 0.0 (-0.5000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 12:00:00 | ANKR-EUR | 3600 | Close: 0.0802 | v EMA12/26: 0.0791 < 0.0795 v | ^ OBV: 0.0 (1.6299%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 13:00:00 | ANKR-EUR | 3600 | Close: 0.0809 | v EMA12/26: 0.0794 < 0.0796 v | ^ OBV: 0.0 (1.1000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 14:00:00 | ANKR-EUR | 3600 | Close: 0.0829 | *^ EMA12/26: 0.0799 > 0.0799 ^* | ^ OBV: 0.0 (3.2300%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-08-04 14:00:00 | ANKR-EUR | 3600 | Close: 0.0829 | BUY
+ Fibonacci Retracement Levels:{'ratio0_286': 0.07, 'ratio0': 0.08}
+ Support level of 0.0776 formed at 2021-08-04 08:00:00
+2021-08-04 15:00:00 | ANKR-EUR | 3600 | Close: 0.0815 | ^ EMA12/26: 0.0801 > 0.0800 ^ | v OBV: 0.0 (-0.7500%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.6689% (delta: -0.0014)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 16:00:00 | ANKR-EUR | 3600 | Close: 0.0819 | ^ EMA12/26: 0.0804 > 0.0801 ^ | ^ OBV: 0.0 (0.5600%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -2.2033% (delta: -0.001)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 17:00:00 | ANKR-EUR | 3600 | Close: 0.0811 | ^ EMA12/26: 0.0805 > 0.0802 ^ | v OBV: 0.0 (-0.2100%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.1464% (delta: -0.0018)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 18:00:00 | ANKR-EUR | 3600 | Close: 0.0811 | ^ EMA12/26: 0.0806 > 0.0803 ^ | ^ OBV: 0.0 (0.6300%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -3.0987% (delta: -0.0018)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 19:00:00 | ANKR-EUR | 3600 | Close: 0.0814 | ^ EMA12/26: 0.0807 > 0.0804 ^ | ^ OBV: 0.0 (0.3100%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -2.7524% (delta: -0.0015)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 20:00:00 | ANKR-EUR | 3600 | Close: 0.0810 | ^ EMA12/26: 0.0808 > 0.0804 ^ | v OBV: 0.0 (-0.3401%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.2897% (delta: -0.0019)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 21:00:00 | ANKR-EUR | 3600 | Close: 0.0820 | ^ EMA12/26: 0.0809 > 0.0805 ^ | ^ OBV: 0.0 (0.2900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.1078% (delta: -0.0009)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 22:00:00 | ANKR-EUR | 3600 | Close: 0.0810 | ^ EMA12/26: 0.0810 > 0.0806 ^ | v OBV: 0.0 (-0.5400%) v | ERI: buy |  | WAIT | Last Action: BUY | -3.2777% (delta: -0.0019)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 23:00:00 | ANKR-EUR | 3600 | Close: 0.0818 | ^ EMA12/26: 0.0811 > 0.0806 ^ | ^ OBV: 0.0 (0.4100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.3107% (delta: -0.0011)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-05 00:00:00 | ANKR-EUR | 3600 | Close: 0.0800 | ^ EMA12/26: 0.0809 > 0.0806 ^ | v OBV: 0.0 (-1.4200%) v | ERI: buy |  | WAIT | Last Action: BUY | -4.4238% (delta: -0.0029)
+support: 0.07974, resistance: 0.0838, fibonacci (l): 0.08, fibonacci (u): 0.09
+
+Simulation Summary: 
+
+
+        Note : "sell at loss" is disabled and you have an open trade, if the margin
+               result below is negative it will assume you sold at the end of the
+               simulation which may not be ideal. Try setting --sellatloss 1
+
+
+   Buy Count : 5
+  Sell Count : 4
+   First Buy : 1000
+   Last Sell : 1253.493886199759
+
+
+      Margin : 25.3493%
+
+
+  ** non-live simulation, assuming highest fees

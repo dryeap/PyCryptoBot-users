@@ -1,0 +1,548 @@
+--------------------------------------------------------------------------------
+|                             Python Crypto Bot                                |
+--------------------------------------------------------------------------------
+|                Release : v2.49.1                                             | 
+--------------------------------------------------------------------------------
+|               Bot Mode : TEST - test trades using dummy funds :)             | 
+|            Bot Started : 2021-08-05 23:59:34.808779                          | 
+================================================================================
+ |    Trailing Stop Loss : -1.5%                                               | 
+|           Sell At Loss : False  --sellatloss False                           | 
+|     Sell At Resistance : False  --sellatresistance                           | 
+|        Trade Bull Only : False  --disablebullonly                            | 
+|          Buy Near High : True  --disablebuynearhigh                          | 
+|           Use Buy MACD : False  --disablebuymacd                             | 
+|            Use Buy EMA : True  --disablebuyema                               | 
+|            Use Buy OBV : True  --disablebuyobv                               | 
+|      Use Buy Elder-Ray : True  --disablebuyelderray                          | 
+|     Sell Fibonacci Low : False  --disablefailsafefibonaccilow                | 
+|   Candlestick Reversal : False  --disableprofitbankreversal                  | 
+|               Telegram : False  --disabletelegram                            | 
+|                    Log : True  --disablelog                                  | 
+|                Tracker : False  --disabletracker                             | 
+|       Auto restart Bot : True  --autorestart                                 | 
+================================================================================
+ |    Sampling start : 2021-07-24T00:00:00                                     | 
+ |      Sampling end : 2021-08-05T00:00:00                                     | 
+ |     WARNING: Using less than 300 intervals                                  | 
+ |     Interval size : 289                                                     | 
+================================================================================
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 00:00:00 | LPT-USD | 3600 | Close: 12.0900 | EMA12/26: 12.0900 = 12.0900 | OBV: 9906.7520 (0.0000%)ERI: |  | WAIT | Last Action: SELL
+2021-07-24 01:00:00 | LPT-USD | 3600 | Close: 12.0000 | *v EMA12/26: 12.0761 < 12.0833 v* | v OBV: 5100.7850 (-48.5100%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 02:00:00 | LPT-USD | 3600 | Close: 12.2600 | *^ EMA12/26: 12.1044 > 12.0964 ^* | ^ OBV: 20225.2710 (296.5100%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-24 02:00:00 | LPT-USD | 3600 | Close: 12.2600 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 11.87, 'ratio0_768': 14.06}
+ Resistance level of 16.46 formed at 2021-08-03 14:00:00
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 03:00:00 | LPT-USD | 3600 | Close: 12.1600 | ^ EMA12/26: 12.1129 > 12.1011 ^ | v OBV: 13199.8950 (-34.7400%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.8051% (delta: -0.1)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 04:00:00 | LPT-USD | 3600 | Close: 12.4600 | ^ EMA12/26: 12.1663 > 12.1277 ^ | ^ OBV: 14876.0730 (12.7000%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 0.6175% (delta: 0.2)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-24 05:00:00 | LPT-USD | 3600 | Close: 12.4000 | ^ EMA12/26: 12.2023 > 12.1478 ^ | v OBV: 13290.4710 (-10.6600%) v | ERI: sell |  | WAIT | Last Action: BUY | 0.1330% (delta: 0.14)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 06:00:00 | LPT-USD | 3600 | Close: 12.2500 | ^ EMA12/26: 12.2096 > 12.1554 ^ | v OBV: 11698.3850 (-11.9800%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.0783% (delta: -0.01)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 07:00:00 | LPT-USD | 3600 | Close: 12.2200 | ^ EMA12/26: 12.2112 > 12.1602 ^ | v OBV: 9819.1060 (-16.0600%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.3206% (delta: -0.04)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 08:00:00 | LPT-USD | 3600 | Close: 11.9500 | ^ EMA12/26: 12.1710 > 12.1446 ^ | v OBV: 7541.3100 (-23.2000%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.5009% (delta: -0.31)
+support: 11.95, resistance: 11.97, fibonacci (l): 11.87, fibonacci (u): 14.06
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 09:00:00 | LPT-USD | 3600 | Close: 11.9500 | ^ EMA12/26: 12.1370 > 12.1302 ^ | OBV: 7541.3100 (0.0000%)ERI: buy |  | WAIT | Last Action: BUY | -3.5009% (delta: -0.31)
+support: 11.95, resistance: 11.97, fibonacci (l): 11.87, fibonacci (u): 14.06
+! Ignore Sell Signal (No Sell At Loss)
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 10:00:00 | LPT-USD | 3600 | Close: 11.9900 | *v EMA12/26: 12.1144 < 12.1198 v* | ^ OBV: 11672.7069 (54.7800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.1779% (delta: -0.27)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 11:00:00 | LPT-USD | 3600 | Close: 11.8699 | v EMA12/26: 12.0768 < 12.1013 v | v OBV: 9453.7869 (-19.0101%) v | ERI: sell |  | WAIT | Last Action: BUY | -4.1469% (delta: -0.39)
+support: 11.87, resistance: 11.97, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 12:00:00 | LPT-USD | 3600 | Close: 12.3300 | v EMA12/26: 12.1157 < 12.1182 v | ^ OBV: 14770.7880 (56.2400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.4323% (delta: 0.07)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 13:00:00 | LPT-USD | 3600 | Close: 12.0500 | v EMA12/26: 12.1056 < 12.1132 v | v OBV: 10959.2709 (-25.8000%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.6934% (delta: -0.21)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 14:00:00 | LPT-USD | 3600 | Close: 12.2000 | *^ EMA12/26: 12.1201 > 12.1196 ^* | ^ OBV: 18253.9329 (66.5600%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.4821% (delta: -0.06)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 15:00:00 | LPT-USD | 3600 | Close: 12.2500 | ^ EMA12/26: 12.1401 > 12.1293 ^ | ^ OBV: 20661.0709 (13.1900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.0783% (delta: -0.01)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 16:00:00 | LPT-USD | 3600 | Close: 12.6900 | ^ EMA12/26: 12.2247 > 12.1708 ^ | ^ OBV: 26932.3450 (30.3500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 2.4748% (delta: 0.43)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 17:00:00 | LPT-USD | 3600 | Close: 12.5300 | ^ EMA12/26: 12.2716 > 12.1974 ^ | v OBV: 19651.8889 (-27.0300%) v | ERI: sell |  | WAIT | Last Action: BUY | 1.1828% (delta: 0.27)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 18:00:00 | LPT-USD | 3600 | Close: 12.3300 | ^ EMA12/26: 12.2806 > 12.2072 ^ | v OBV: 16806.7519 (-14.4800%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.4323% (delta: 0.07)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 19:00:00 | LPT-USD | 3600 | Close: 12.0000 | ^ EMA12/26: 12.2374 > 12.1919 ^ | v OBV: 11094.4839 (-33.9900%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.0971% (delta: -0.26)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 20:00:00 | LPT-USD | 3600 | Close: 11.9900 | ^ EMA12/26: 12.1994 > 12.1769 ^ | v OBV: 8727.5449 (-21.3300%) v | ERI: buy |  | WAIT | Last Action: BUY | -3.1779% (delta: -0.27)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 21:00:00 | LPT-USD | 3600 | Close: 12.0700 | ^ EMA12/26: 12.1795 > 12.1690 ^ | ^ OBV: 10834.4679 (24.1400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.5318% (delta: -0.19)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-24 22:00:00 | LPT-USD | 3600 | Close: 12.1100 | ^ EMA12/26: 12.1688 > 12.1646 ^ | ^ OBV: 13773.0819 (27.1200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.2088% (delta: -0.15)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+! Ignore Sell Signal (No Sell At Loss)
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-24 23:00:00 | LPT-USD | 3600 | Close: 12.1000 | *v EMA12/26: 12.1582 < 12.1598 v* | v OBV: 12235.9209 (-11.1600%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.2896% (delta: -0.16)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 00:00:00 | LPT-USD | 3600 | Close: 12.0300 | v EMA12/26: 12.1384 < 12.1502 v | v OBV: 6014.2179 (-50.8500%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.8549% (delta: -0.23)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 01:00:00 | LPT-USD | 3600 | Close: 11.9100 | v EMA12/26: 12.1033 < 12.1324 v | v OBV: 755.3029 (-87.4400%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.8239% (delta: -0.35)
+support: 11.91, resistance: 11.97, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 02:00:00 | LPT-USD | 3600 | Close: 11.9900 | v EMA12/26: 12.0859 < 12.1219 v | ^ OBV: 5042.3999 (567.6000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.1779% (delta: -0.27)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 03:00:00 | LPT-USD | 3600 | Close: 12.1600 | v EMA12/26: 12.0973 < 12.1247 v | ^ OBV: 9372.6579 (85.8800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.8051% (delta: -0.1)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 04:00:00 | LPT-USD | 3600 | Close: 12.2500 | v EMA12/26: 12.1207 < 12.1340 v | ^ OBV: 12118.9639 (29.3000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.0783% (delta: -0.01)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 05:00:00 | LPT-USD | 3600 | Close: 12.0800 | v EMA12/26: 12.1145 < 12.1300 v | v OBV: 10854.0209 (-10.4400%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.4511% (delta: -0.18)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 06:00:00 | LPT-USD | 3600 | Close: 12.0200 | v EMA12/26: 12.0999 < 12.1218 v | v OBV: 9296.1559 (-14.3500%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.9356% (delta: -0.24)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 07:00:00 | LPT-USD | 3600 | Close: 12.2200 | v EMA12/26: 12.1184 < 12.1291 v | ^ OBV: 13977.4669 (50.3600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.3206% (delta: -0.04)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 08:00:00 | LPT-USD | 3600 | Close: 12.2000 | v EMA12/26: 12.1309 < 12.1343 v | v OBV: 12814.0729 (-8.3200%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.4821% (delta: -0.06)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 09:00:00 | LPT-USD | 3600 | Close: 12.1700 | v EMA12/26: 12.1369 < 12.1370 v | v OBV: 11435.2489 (-10.7600%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.7243% (delta: -0.09)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 10:00:00 | LPT-USD | 3600 | Close: 12.1500 | *^ EMA12/26: 12.1389 > 12.1379 ^* | v OBV: 10412.5999 (-8.9400%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.8858% (delta: -0.11)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+! Ignore Sell Signal (No Sell At Loss)
+2021-07-25 11:00:00 | LPT-USD | 3600 | Close: 12.1100 | *v EMA12/26: 12.1345 < 12.1359 v* | v OBV: 7549.3499 (-27.5000%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.2088% (delta: -0.15)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 12:00:00 | LPT-USD | 3600 | Close: 12.0399 | v EMA12/26: 12.1199 < 12.1287 v | v OBV: 4044.2219 (-46.4300%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.7741% (delta: -0.22)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 13:00:00 | LPT-USD | 3600 | Close: 11.9400 | v EMA12/26: 12.0922 < 12.1148 v | v OBV: 1898.1109 (-53.0700%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.5816% (delta: -0.32)
+support: 11.94, resistance: 11.97, fibonacci (l): 11.87, fibonacci (u): 14.06
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 14:00:00 | LPT-USD | 3600 | Close: 11.9200 | v EMA12/26: 12.0657 < 12.1003 v | v OBV: -1137.1291 (-159.9100%) v | ERI: buy |  | WAIT | Last Action: BUY | -3.7431% (delta: -0.34)
+support: 11.92, resistance: 11.97, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 15:00:00 | LPT-USD | 3600 | Close: 11.9500 | v EMA12/26: 12.0479 < 12.0892 v | v OBV: 955.9069 (-184.0600%) v | ERI: buy |  | WAIT | Last Action: BUY | -3.5009% (delta: -0.31)
+support: 11.95, resistance: 11.97, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 16:00:00 | LPT-USD | 3600 | Close: 11.8900 | v EMA12/26: 12.0236 < 12.0744 v | v OBV: -3893.1751 (-507.2800%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.9854% (delta: -0.37)
+support: 11.89, resistance: 11.97, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 17:00:00 | LPT-USD | 3600 | Close: 12.3300 | v EMA12/26: 12.0708 < 12.0934 v | v OBV: 4720.3039 (-221.2500%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.4323% (delta: 0.07)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 18:00:00 | LPT-USD | 3600 | Close: 12.1900 | v EMA12/26: 12.0891 < 12.1005 v | v OBV: 3266.4519 (-30.8000%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.5628% (delta: -0.07)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 19:00:00 | LPT-USD | 3600 | Close: 12.1199 | v EMA12/26: 12.0938 < 12.1020 v | v OBV: 1654.1589 (-49.3600%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.1281% (delta: -0.14)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 20:00:00 | LPT-USD | 3600 | Close: 12.1100 | v EMA12/26: 12.0963 < 12.1025 v | v OBV: 1089.3999 (-34.1400%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.2088% (delta: -0.15)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 21:00:00 | LPT-USD | 3600 | Close: 12.0800 | v EMA12/26: 12.0938 < 12.1009 v | v OBV: -4378.2001 (-501.8900%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.4511% (delta: -0.18)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 22:00:00 | LPT-USD | 3600 | Close: 12.0500 | v EMA12/26: 12.0871 < 12.0971 v | ^ OBV: -5779.7761 (32.0100%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -2.6934% (delta: -0.21)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-25 23:00:00 | LPT-USD | 3600 | Close: 12.3500 | *^ EMA12/26: 12.1275 > 12.1158 ^* | v OBV: -600.0141 (-89.6200%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.2708% (delta: 0.09)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-26 00:00:00 | LPT-USD | 3600 | Close: 12.6500 | ^ EMA12/26: 12.2079 > 12.1554 ^ | v OBV: 8264.5649 (-1477.4000%) v | ERI: buy |  | WAIT | Last Action: BUY | 2.1518% (delta: 0.39)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-26 01:00:00 | LPT-USD | 3600 | Close: 12.5399 | ^ EMA12/26: 12.2590 > 12.1839 ^ | v OBV: -1330.1931 (-116.1000%) v | ERI: buy |  | WAIT | Last Action: BUY | 1.2635% (delta: 0.28)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+! Trailing Stop Loss Triggered (< -1.5%)
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 02:00:00 | LPT-USD | 3600 | Close: 12.4700 | ^ EMA12/26: 12.2914 > 12.2051 ^ | ^ OBV: -8731.5651 (556.4100%) ^ | ERI: sell |  | SELL | Last Action: BUY | 0.6983% (delta: 0.21)
+support: 11.97, resistance: 12.72, fibonacci (l): 11.87, fibonacci (u): 14.06
+2021-07-26 02:00:00 | LPT-USD | 3600 | SELL | 12.47 | BUY | 12.26 | DIFF | 0.21000000000000085 | DIFF | 6.98301383 | MARGIN NO FEES | 0.6983% | MARGIN FEES | 5.0602
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 03:00:00 | LPT-USD | 3600 | Close: 12.6300 | ^ EMA12/26: 12.3435 > 12.2365 ^ | v OBV: 11114.6999 (-227.2900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 04:00:00 | LPT-USD | 3600 | Close: 12.8699 | ^ EMA12/26: 12.4245 > 12.2835 ^ | ^ OBV: 54015.9690 (385.9900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 05:00:00 | LPT-USD | 3600 | Close: 13.1000 | ^ EMA12/26: 12.5284 > 12.3439 ^ | ^ OBV: 64082.7380 (18.6400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 06:00:00 | LPT-USD | 3600 | Close: 12.8900 | ^ EMA12/26: 12.5840 > 12.3844 ^ | v OBV: 58430.3800 (-8.8200%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 07:00:00 | LPT-USD | 3600 | Close: 12.9000 | ^ EMA12/26: 12.6326 > 12.4226 ^ | ^ OBV: 63728.6910 (9.0700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 08:00:00 | LPT-USD | 3600 | Close: 12.8699 | ^ EMA12/26: 12.6691 > 12.4557 ^ | v OBV: 61642.7970 (-3.2700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 09:00:00 | LPT-USD | 3600 | Close: 12.7400 | ^ EMA12/26: 12.6800 > 12.4768 ^ | v OBV: 59247.2800 (-3.8900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 10:00:00 | LPT-USD | 3600 | Close: 12.9800 | ^ EMA12/26: 12.7262 > 12.5140 ^ | ^ OBV: 61401.2070 (3.6400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 11:00:00 | LPT-USD | 3600 | Close: 12.8100 | ^ EMA12/26: 12.7391 > 12.5360 ^ | v OBV: 57983.1270 (-5.5700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 12:00:00 | LPT-USD | 3600 | Close: 13.2200 | ^ EMA12/26: 12.8130 > 12.5866 ^ | ^ OBV: 61652.6740 (6.3300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 13:00:00 | LPT-USD | 3600 | Close: 12.8500 | ^ EMA12/26: 12.8187 > 12.6061 ^ | v OBV: 59013.4190 (-4.2800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 14:00:00 | LPT-USD | 3600 | Close: 12.7300 | ^ EMA12/26: 12.8051 > 12.6153 ^ | v OBV: 56943.6630 (-3.5100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 15:00:00 | LPT-USD | 3600 | Close: 12.8400 | ^ EMA12/26: 12.8104 > 12.6319 ^ | ^ OBV: 58182.5570 (2.1800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 16:00:00 | LPT-USD | 3600 | Close: 12.8400 | ^ EMA12/26: 12.8150 > 12.6474 ^ | OBV: 58182.5570 (0.0000%)ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 17:00:00 | LPT-USD | 3600 | Close: 13.0700 | ^ EMA12/26: 12.8542 > 12.6787 ^ | ^ OBV: 62287.8250 (7.0600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 18:00:00 | LPT-USD | 3600 | Close: 13.3200 | ^ EMA12/26: 12.9259 > 12.7262 ^ | ^ OBV: 67569.4100 (8.4800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 19:00:00 | LPT-USD | 3600 | Close: 13.6200 | ^ EMA12/26: 13.0326 > 12.7924 ^ | ^ OBV: 71185.8900 (5.3500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 20:00:00 | LPT-USD | 3600 | Close: 12.5200 | ^ EMA12/26: 12.9538 > 12.7722 ^ | v OBV: 65083.4880 (-8.5700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 21:00:00 | LPT-USD | 3600 | Close: 12.3100 | ^ EMA12/26: 12.8547 > 12.7379 ^ | v OBV: 53587.0830 (-17.6600%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 22:00:00 | LPT-USD | 3600 | Close: 12.2600 | ^ EMA12/26: 12.7632 > 12.7025 ^ | v OBV: 52657.9350 (-1.7300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 23:00:00 | LPT-USD | 3600 | Close: 12.3600 | ^ EMA12/26: 12.7012 > 12.6772 ^ | ^ OBV: 54591.9610 (3.6700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 00:00:00 | LPT-USD | 3600 | Close: 13.0800 | ^ EMA12/26: 12.7594 > 12.7070 ^ | ^ OBV: 59826.1390 (9.5900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 01:00:00 | LPT-USD | 3600 | Close: 13.6000 | ^ EMA12/26: 12.8888 > 12.7731 ^ | ^ OBV: 141279.6410 (136.1500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 02:00:00 | LPT-USD | 3600 | Close: 12.8200 | ^ EMA12/26: 12.8782 > 12.7766 ^ | v OBV: 125788.0400 (-10.9700%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 03:00:00 | LPT-USD | 3600 | Close: 13.2000 | ^ EMA12/26: 12.9277 > 12.8080 ^ | ^ OBV: 145683.0960 (15.8200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 04:00:00 | LPT-USD | 3600 | Close: 13.4700 | ^ EMA12/26: 13.0111 > 12.8570 ^ | ^ OBV: 168346.6880 (15.5600%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 05:00:00 | LPT-USD | 3600 | Close: 13.4800 | ^ EMA12/26: 13.0832 > 12.9031 ^ | ^ OBV: 176254.3570 (4.7000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+*** Candlestick Detected: Evening Star ("Strong - Reversal - Bearish Pattern - Down")
+2021-07-27 06:00:00 | LPT-USD | 3600 | Close: 13.4000 | ^ EMA12/26: 13.1320 > 12.9399 ^ | v OBV: 172529.8100 (-2.1100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 07:00:00 | LPT-USD | 3600 | Close: 13.2100 | ^ EMA12/26: 13.1440 > 12.9599 ^ | v OBV: 169936.8960 (-1.5000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 08:00:00 | LPT-USD | 3600 | Close: 13.2100 | ^ EMA12/26: 13.1541 > 12.9785 ^ | OBV: 169936.8960 (0.0000%)ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 09:00:00 | LPT-USD | 3600 | Close: 13.1100 | ^ EMA12/26: 13.1473 > 12.9882 ^ | v OBV: 168700.5620 (-0.7300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 10:00:00 | LPT-USD | 3600 | Close: 13.2000 | ^ EMA12/26: 13.1554 > 13.0039 ^ | ^ OBV: 172659.4340 (2.3500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 11:00:00 | LPT-USD | 3600 | Close: 13.4800 | ^ EMA12/26: 13.2053 > 13.0392 ^ | ^ OBV: 181216.5800 (4.9600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 12:00:00 | LPT-USD | 3600 | Close: 14.5100 | ^ EMA12/26: 13.4061 > 13.1481 ^ | ^ OBV: 212768.1680 (17.4100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 13:00:00 | LPT-USD | 3600 | Close: 14.5500 | ^ EMA12/26: 13.5820 > 13.2519 ^ | ^ OBV: 249678.4710 (17.3500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 14:00:00 | LPT-USD | 3600 | Close: 14.3300 | ^ EMA12/26: 13.6971 > 13.3318 ^ | v OBV: 232138.7720 (-7.0200%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 15:00:00 | LPT-USD | 3600 | Close: 14.1600 | ^ EMA12/26: 13.7683 > 13.3931 ^ | v OBV: 219194.0120 (-5.5800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 16:00:00 | LPT-USD | 3600 | Close: 13.6700 | ^ EMA12/26: 13.7532 > 13.4136 ^ | v OBV: 202705.7740 (-7.5200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 17:00:00 | LPT-USD | 3600 | Close: 13.3900 | ^ EMA12/26: 13.6973 > 13.4119 ^ | v OBV: 195915.3230 (-3.3500%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 18:00:00 | LPT-USD | 3600 | Close: 13.5000 | ^ EMA12/26: 13.6669 > 13.4184 ^ | ^ OBV: 203140.5090 (3.6900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 19:00:00 | LPT-USD | 3600 | Close: 13.5900 | ^ EMA12/26: 13.6551 > 13.4311 ^ | ^ OBV: 206831.6300 (1.8200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 20:00:00 | LPT-USD | 3600 | Close: 13.7000 | ^ EMA12/26: 13.6620 > 13.4510 ^ | ^ OBV: 208824.9850 (0.9600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 21:00:00 | LPT-USD | 3600 | Close: 13.6500 | ^ EMA12/26: 13.6601 > 13.4658 ^ | v OBV: 199649.0720 (-4.3900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 22:00:00 | LPT-USD | 3600 | Close: 13.9900 | ^ EMA12/26: 13.7109 > 13.5046 ^ | ^ OBV: 203049.5450 (1.7000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 23:00:00 | LPT-USD | 3600 | Close: 14.4600 | ^ EMA12/26: 13.8261 > 13.5754 ^ | ^ OBV: 237593.7280 (17.0100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 00:00:00 | LPT-USD | 3600 | Close: 13.8200 | ^ EMA12/26: 13.8252 > 13.5935 ^ | v OBV: 224012.9490 (-5.7200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 01:00:00 | LPT-USD | 3600 | Close: 14.0100 | ^ EMA12/26: 13.8536 > 13.6243 ^ | ^ OBV: 231925.7200 (3.5300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 02:00:00 | LPT-USD | 3600 | Close: 13.8400 | ^ EMA12/26: 13.8515 > 13.6403 ^ | v OBV: 226256.2350 (-2.4400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 03:00:00 | LPT-USD | 3600 | Close: 13.9300 | ^ EMA12/26: 13.8636 > 13.6618 ^ | ^ OBV: 232361.1270 (2.7000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-28 04:00:00 | LPT-USD | 3600 | Close: 13.8800 | ^ EMA12/26: 13.8661 > 13.6779 ^ | v OBV: 228852.0720 (-1.5100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 05:00:00 | LPT-USD | 3600 | Close: 14.0100 | ^ EMA12/26: 13.8882 > 13.7025 ^ | ^ OBV: 230002.3630 (0.5000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-28 06:00:00 | LPT-USD | 3600 | Close: 13.8200 | ^ EMA12/26: 13.8777 > 13.7112 ^ | v OBV: 222746.2600 (-3.1500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 07:00:00 | LPT-USD | 3600 | Close: 14.0100 | ^ EMA12/26: 13.8981 > 13.7333 ^ | ^ OBV: 226048.6680 (1.4800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-28 08:00:00 | LPT-USD | 3600 | Close: 14.1300 | ^ EMA12/26: 13.9337 > 13.7627 ^ | ^ OBV: 231693.9260 (2.5000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 09:00:00 | LPT-USD | 3600 | Close: 14.1100 | ^ EMA12/26: 13.9608 > 13.7884 ^ | v OBV: 230053.5310 (-0.7100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 10:00:00 | LPT-USD | 3600 | Close: 14.3700 | ^ EMA12/26: 14.0238 > 13.8315 ^ | ^ OBV: 232733.8490 (1.1700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 11:00:00 | LPT-USD | 3600 | Close: 14.6500 | ^ EMA12/26: 14.1201 > 13.8921 ^ | ^ OBV: 238051.6600 (2.2799%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 12:00:00 | LPT-USD | 3600 | Close: 14.2800 | ^ EMA12/26: 14.1447 > 13.9209 ^ | v OBV: 231879.5000 (-2.5900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 13:00:00 | LPT-USD | 3600 | Close: 14.4400 | ^ EMA12/26: 14.1901 > 13.9593 ^ | ^ OBV: 237929.5740 (2.6100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 14:00:00 | LPT-USD | 3600 | Close: 14.2300 | ^ EMA12/26: 14.1963 > 13.9794 ^ | v OBV: 232505.6810 (-2.2800%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-28 15:00:00 | LPT-USD | 3600 | Close: 14.2800 | ^ EMA12/26: 14.2091 > 14.0016 ^ | ^ OBV: 236254.0239 (1.6100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 16:00:00 | LPT-USD | 3600 | Close: 14.0100 | ^ EMA12/26: 14.1785 > 14.0022 ^ | v OBV: 232174.4720 (-1.7300%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-28 17:00:00 | LPT-USD | 3600 | Close: 13.9500 | ^ EMA12/26: 14.1433 > 13.9984 ^ | v OBV: 226492.5130 (-2.4500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 18:00:00 | LPT-USD | 3600 | Close: 14.2000 | ^ EMA12/26: 14.1520 > 14.0133 ^ | ^ OBV: 232952.3099 (2.8500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 19:00:00 | LPT-USD | 3600 | Close: 14.0900 | ^ EMA12/26: 14.1425 > 14.0190 ^ | v OBV: 229874.6769 (-1.3200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 20:00:00 | LPT-USD | 3600 | Close: 13.9900 | ^ EMA12/26: 14.1190 > 14.0168 ^ | v OBV: 228741.1009 (-0.4900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 21:00:00 | LPT-USD | 3600 | Close: 14.0500 | ^ EMA12/26: 14.1084 > 14.0193 ^ | ^ OBV: 231511.8099 (1.2100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 22:00:00 | LPT-USD | 3600 | Close: 13.9800 | ^ EMA12/26: 14.0886 > 14.0164 ^ | v OBV: 230048.0670 (-0.6300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 23:00:00 | LPT-USD | 3600 | Close: 14.1000 | ^ EMA12/26: 14.0904 > 14.0226 ^ | ^ OBV: 231298.6130 (0.5400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 00:00:00 | LPT-USD | 3600 | Close: 14.0600 | ^ EMA12/26: 14.0857 > 14.0253 ^ | v OBV: 229570.0670 (-0.7500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 01:00:00 | LPT-USD | 3600 | Close: 13.9000 | ^ EMA12/26: 14.0571 > 14.0160 ^ | v OBV: 227103.6240 (-1.0700%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 02:00:00 | LPT-USD | 3600 | Close: 13.8600 | ^ EMA12/26: 14.0268 > 14.0045 ^ | v OBV: 225163.1380 (-0.8500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 03:00:00 | LPT-USD | 3600 | Close: 13.9000 | ^ EMA12/26: 14.0073 > 13.9967 ^ | ^ OBV: 226048.2490 (0.3900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-29 04:00:00 | LPT-USD | 3600 | Close: 13.9000 | ^ EMA12/26: 13.9908 > 13.9896 ^ | OBV: 226048.2490 (0.0000%)ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 05:00:00 | LPT-USD | 3600 | Close: 13.8800 | *v EMA12/26: 13.9737 < 13.9814 v* | v OBV: 225819.0709 (-0.1000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 06:00:00 | LPT-USD | 3600 | Close: 13.9300 | v EMA12/26: 13.9670 < 13.9776 v | ^ OBV: 228955.5219 (1.3899%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 07:00:00 | LPT-USD | 3600 | Close: 14.1200 | *^ EMA12/26: 13.9905 > 13.9882 ^* | ^ OBV: 237289.6870 (3.6400%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-29 07:00:00 | LPT-USD | 3600 | Close: 14.1200 | BUY
+ Fibonacci Retracement Levels:{'ratio0_768': 14.06, 'ratio0_618': 15.49}
+ Resistance level of 16.46 formed at 2021-08-03 14:00:00
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 08:00:00 | LPT-USD | 3600 | Close: 14.1900 | ^ EMA12/26: 14.0212 > 14.0031 ^ | ^ OBV: 246215.3300 (3.7600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.5067% (delta: 0.07)
+support: 13.53, resistance: 14.2, fibonacci (l): 14.06, fibonacci (u): 15.49
+2021-07-29 09:00:00 | LPT-USD | 3600 | Close: 14.2700 | ^ EMA12/26: 14.0595 > 14.0229 ^ | ^ OBV: 248136.7440 (0.7800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 0.0542% (delta: 0.15)
+support: 14.2, resistance: 15.0, fibonacci (l): 14.06, fibonacci (u): 15.49
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 10:00:00 | LPT-USD | 3600 | Close: 14.2300 | ^ EMA12/26: 14.0857 > 14.0382 ^ | v OBV: 244982.9610 (-1.2700%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.2263% (delta: 0.11)
+support: 14.2, resistance: 15.0, fibonacci (l): 14.06, fibonacci (u): 15.49
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 11:00:00 | LPT-USD | 3600 | Close: 14.2100 | ^ EMA12/26: 14.1048 > 14.0509 ^ | v OBV: 233593.3259 (-4.6500%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.3665% (delta: 0.09)
+support: 14.2, resistance: 15.0, fibonacci (l): 14.06, fibonacci (u): 15.49
+2021-07-29 12:00:00 | LPT-USD | 3600 | Close: 14.4100 | ^ EMA12/26: 14.1518 > 14.0775 ^ | ^ OBV: 235625.5329 (0.8700%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 1.0358% (delta: 0.29)
+support: 14.2, resistance: 15.0, fibonacci (l): 14.06, fibonacci (u): 15.49
+2021-07-29 13:00:00 | LPT-USD | 3600 | Close: 14.8900 | ^ EMA12/26: 14.2653 > 14.1377 ^ | ^ OBV: 237730.2919 (0.8900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 4.4013% (delta: 0.77)
+support: 14.2, resistance: 15.0, fibonacci (l): 14.06, fibonacci (u): 15.49
+2021-07-29 14:00:00 | LPT-USD | 3600 | Close: 15.0700 | ^ EMA12/26: 14.3891 > 14.2068 ^ | ^ OBV: 245111.8709 (3.1100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 5.6634% (delta: 0.95)
+support: 15.0, resistance: 15.52, fibonacci (l): 14.06, fibonacci (u): 15.49
+2021-07-29 15:00:00 | LPT-USD | 3600 | Close: 16.5500 | ^ EMA12/26: 14.7215 > 14.3803 ^ | ^ OBV: 292183.4819 (19.2000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 16.0404% (delta: 2.43)
+support: 16.46, resistance: 17.55, fibonacci (l): 15.49, fibonacci (u): 16.61
+2021-07-29 16:00:00 | LPT-USD | 3600 | Close: 16.2399 | ^ EMA12/26: 14.9551 > 14.5181 ^ | v OBV: 258306.1779 (-11.5900%) v | ERI: sell |  | WAIT | Last Action: BUY | 13.8668% (delta: 2.12)
+support: 15.52, resistance: 16.46, fibonacci (l): 15.49, fibonacci (u): 16.61
+2021-07-29 17:00:00 | LPT-USD | 3600 | Close: 15.9800 | ^ EMA12/26: 15.1128 > 14.6264 ^ | v OBV: 242204.7529 (-6.2301%) v | ERI: sell |  | WAIT | Last Action: BUY | 12.0439% (delta: 1.86)
+support: 15.52, resistance: 16.46, fibonacci (l): 15.49, fibonacci (u): 16.61
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 18:00:00 | LPT-USD | 3600 | Close: 15.7800 | ^ EMA12/26: 15.2154 > 14.7118 ^ | v OBV: 225247.0329 (-7.0000%) v | ERI: buy |  | WAIT | Last Action: BUY | 10.6416% (delta: 1.66)
+support: 15.52, resistance: 16.46, fibonacci (l): 15.49, fibonacci (u): 16.61
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-29 19:00:00 | LPT-USD | 3600 | Close: 15.8000 | ^ EMA12/26: 15.3054 > 14.7924 ^ | ^ OBV: 228699.5579 (1.5300%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 10.7818% (delta: 1.68)
+support: 15.52, resistance: 16.46, fibonacci (l): 15.49, fibonacci (u): 16.61
+2021-07-29 20:00:00 | LPT-USD | 3600 | Close: 15.6600 | ^ EMA12/26: 15.3599 > 14.8567 ^ | v OBV: 226695.0999 (-0.8800%) v | ERI: buy |  | WAIT | Last Action: BUY | 9.8002% (delta: 1.54)
+support: 15.52, resistance: 16.46, fibonacci (l): 15.49, fibonacci (u): 16.61
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 21:00:00 | LPT-USD | 3600 | Close: 15.7100 | ^ EMA12/26: 15.4138 > 14.9199 ^ | ^ OBV: 231931.9359 (2.3100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 10.1507% (delta: 1.59)
+support: 15.52, resistance: 16.46, fibonacci (l): 15.49, fibonacci (u): 16.61
+2021-07-29 22:00:00 | LPT-USD | 3600 | Close: 16.9400 | ^ EMA12/26: 15.6486 > 15.0695 ^ | ^ OBV: 239636.6019 (3.3200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 18.7749% (delta: 2.82)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+2021-07-29 23:00:00 | LPT-USD | 3600 | Close: 16.0900 | ^ EMA12/26: 15.7165 > 15.1451 ^ | v OBV: 225664.7979 (-5.8300%) v | ERI: buy |  | WAIT | Last Action: BUY | 12.8151% (delta: 1.97)
+support: 15.52, resistance: 16.46, fibonacci (l): 15.49, fibonacci (u): 16.61
+2021-07-30 00:00:00 | LPT-USD | 3600 | Close: 16.4200 | ^ EMA12/26: 15.8247 > 15.2395 ^ | ^ OBV: 237794.9629 (5.3800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 15.1289% (delta: 2.3)
+support: 15.52, resistance: 16.46, fibonacci (l): 15.49, fibonacci (u): 16.61
+2021-07-30 01:00:00 | LPT-USD | 3600 | Close: 17.6600 | ^ EMA12/26: 16.1070 > 15.4188 ^ | ^ OBV: 248403.0649 (4.4600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 23.8232% (delta: 3.54)
+support: 17.55, resistance: 18.25, fibonacci (l): 16.61, fibonacci (u): 17.72
+2021-07-30 02:00:00 | LPT-USD | 3600 | Close: 20.2200 | ^ EMA12/26: 16.7398 > 15.7745 ^ | ^ OBV: 332004.5120 (33.6599%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 41.7727% (delta: 6.1)
+support: 19.95, resistance: 21.5, fibonacci (l): 18.63, fibonacci (u): 21.35
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 03:00:00 | LPT-USD | 3600 | Close: 21.1500 | ^ EMA12/26: 17.4183 > 16.1727 ^ | ^ OBV: 530070.6459 (59.6600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 48.2934% (delta: 7.03)
+support: 19.95, resistance: 21.5, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 04:00:00 | LPT-USD | 3600 | Close: 20.4400 | ^ EMA12/26: 17.8832 > 16.4888 ^ | v OBV: 455517.6349 (-14.0600%) v | ERI: sell |  | WAIT | Last Action: BUY | 43.3152% (delta: 6.32)
+support: 19.95, resistance: 21.5, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 05:00:00 | LPT-USD | 3600 | Close: 19.9200 | ^ EMA12/26: 18.1965 > 16.7429 ^ | v OBV: 418084.3500 (-8.2200%) v | ERI: sell |  | WAIT | Last Action: BUY | 39.6692% (delta: 5.8)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 06:00:00 | LPT-USD | 3600 | Close: 19.4000 | ^ EMA12/26: 18.3817 > 16.9397 ^ | v OBV: 374486.3600 (-10.4300%) v | ERI: buy |  | WAIT | Last Action: BUY | 36.0232% (delta: 5.28)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 07:00:00 | LPT-USD | 3600 | Close: 19.7200 | ^ EMA12/26: 18.5875 > 17.1457 ^ | ^ OBV: 394576.3019 (5.3600%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 38.2669% (delta: 5.6)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 08:00:00 | LPT-USD | 3600 | Close: 18.8900 | ^ EMA12/26: 18.6341 > 17.2749 ^ | v OBV: 365722.5209 (-7.3100%) v | ERI: sell |  | WAIT | Last Action: BUY | 32.4473% (delta: 4.77)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 09:00:00 | LPT-USD | 3600 | Close: 18.5700 | ^ EMA12/26: 18.6242 > 17.3708 ^ | v OBV: 312225.4429 (-14.6300%) v | ERI: sell |  | WAIT | Last Action: BUY | 30.2037% (delta: 4.45)
+support: 18.25, resistance: 19.95, fibonacci (l): 17.72, fibonacci (u): 18.63
+2021-07-30 10:00:00 | LPT-USD | 3600 | Close: 17.9800 | ^ EMA12/26: 18.5251 > 17.4159 ^ | v OBV: 293659.3679 (-5.9500%) v | ERI: sell |  | WAIT | Last Action: BUY | 26.0669% (delta: 3.86)
+support: 17.55, resistance: 18.25, fibonacci (l): 17.72, fibonacci (u): 18.63
+2021-07-30 11:00:00 | LPT-USD | 3600 | Close: 18.9600 | ^ EMA12/26: 18.5920 > 17.5303 ^ | ^ OBV: 330138.4059 (12.4200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 32.9382% (delta: 4.84)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 12:00:00 | LPT-USD | 3600 | Close: 21.3500 | ^ EMA12/26: 19.0163 > 17.8132 ^ | ^ OBV: 408962.7599 (23.8800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 49.6957% (delta: 7.23)
+support: 19.95, resistance: 21.5, fibonacci (l): 21.35, fibonacci (u): 23.92
+2021-07-30 13:00:00 | LPT-USD | 3600 | Close: 19.4200 | ^ EMA12/26: 19.0784 > 17.9323 ^ | v OBV: 365942.4779 (-10.5200%) v | ERI: sell |  | WAIT | Last Action: BUY | 36.1634% (delta: 5.3)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 14:00:00 | LPT-USD | 3600 | Close: 19.6900 | ^ EMA12/26: 19.1725 > 18.0625 ^ | ^ OBV: 392635.6719 (7.2900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 38.0566% (delta: 5.57)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 15:00:00 | LPT-USD | 3600 | Close: 18.9800 | ^ EMA12/26: 19.1429 > 18.1304 ^ | v OBV: 371362.4939 (-5.4200%) v | ERI: buy |  | WAIT | Last Action: BUY | 33.0784% (delta: 4.86)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 16:00:00 | LPT-USD | 3600 | Close: 19.7700 | ^ EMA12/26: 19.2393 > 18.2519 ^ | ^ OBV: 399762.6579 (7.6500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 38.6175% (delta: 5.65)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 17:00:00 | LPT-USD | 3600 | Close: 19.2000 | ^ EMA12/26: 19.2333 > 18.3221 ^ | v OBV: 389582.7999 (-2.5500%) v | ERI: buy |  | WAIT | Last Action: BUY | 34.6209% (delta: 5.08)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 18:00:00 | LPT-USD | 3600 | Close: 19.0700 | ^ EMA12/26: 19.2081 > 18.3775 ^ | v OBV: 383607.3369 (-1.5300%) v | ERI: sell |  | WAIT | Last Action: BUY | 33.7094% (delta: 4.95)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-30 19:00:00 | LPT-USD | 3600 | Close: 19.1000 | ^ EMA12/26: 19.1915 > 18.4310 ^ | ^ OBV: 388643.8839 (1.3100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 33.9198% (delta: 4.98)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 20:00:00 | LPT-USD | 3600 | Close: 18.9500 | ^ EMA12/26: 19.1543 > 18.4694 ^ | v OBV: 381979.6889 (-1.7100%) v | ERI: buy |  | WAIT | Last Action: BUY | 32.8680% (delta: 4.83)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 21:00:00 | LPT-USD | 3600 | Close: 19.5200 | ^ EMA12/26: 19.2106 > 18.5473 ^ | ^ OBV: 403481.9349 (5.6300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 36.8646% (delta: 5.4)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 22:00:00 | LPT-USD | 3600 | Close: 19.1300 | ^ EMA12/26: 19.1982 > 18.5904 ^ | v OBV: 389113.2039 (-3.5600%) v | ERI: buy |  | WAIT | Last Action: BUY | 34.1301% (delta: 5.01)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-30 23:00:00 | LPT-USD | 3600 | Close: 19.1100 | ^ EMA12/26: 19.1846 > 18.6289 ^ | v OBV: 368419.2529 (-5.3200%) v | ERI: sell |  | WAIT | Last Action: BUY | 33.9899% (delta: 4.99)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+*** Candlestick Detected: Morning Star ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-31 00:00:00 | LPT-USD | 3600 | Close: 20.2200 | ^ EMA12/26: 19.3439 > 18.7468 ^ | ^ OBV: 422900.8919 (14.7900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 41.7727% (delta: 6.1)
+support: 19.95, resistance: 21.5, fibonacci (l): 18.63, fibonacci (u): 21.35
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 01:00:00 | LPT-USD | 3600 | Close: 20.2900 | ^ EMA12/26: 19.4894 > 18.8611 ^ | ^ OBV: 437971.3559 (3.5600%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 42.2635% (delta: 6.17)
+support: 19.95, resistance: 21.5, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 02:00:00 | LPT-USD | 3600 | Close: 20.4400 | ^ EMA12/26: 19.6357 > 18.9780 ^ | ^ OBV: 456451.0569 (4.2200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 43.3152% (delta: 6.32)
+support: 19.95, resistance: 21.5, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 03:00:00 | LPT-USD | 3600 | Close: 20.1000 | ^ EMA12/26: 19.7071 > 19.0611 ^ | v OBV: 451936.1579 (-0.9900%) v | ERI: sell |  | WAIT | Last Action: BUY | 40.9313% (delta: 5.98)
+support: 19.95, resistance: 21.5, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 04:00:00 | LPT-USD | 3600 | Close: 20.0400 | ^ EMA12/26: 19.7583 > 19.1336 ^ | v OBV: 441724.5960 (-2.2600%) v | ERI: sell |  | WAIT | Last Action: BUY | 40.5106% (delta: 5.92)
+support: 19.95, resistance: 21.5, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 05:00:00 | LPT-USD | 3600 | Close: 19.4100 | ^ EMA12/26: 19.7047 > 19.1541 ^ | v OBV: 428038.2209 (-3.1000%) v | ERI: sell |  | WAIT | Last Action: BUY | 36.0933% (delta: 5.29)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 06:00:00 | LPT-USD | 3600 | Close: 19.1200 | ^ EMA12/26: 19.6147 > 19.1516 ^ | v OBV: 419118.2429 (-2.0800%) v | ERI: buy |  | WAIT | Last Action: BUY | 34.0600% (delta: 5.0)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 07:00:00 | LPT-USD | 3600 | Close: 19.9400 | ^ EMA12/26: 19.6648 > 19.2100 ^ | ^ OBV: 427256.7489 (1.9400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 39.8094% (delta: 5.82)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 08:00:00 | LPT-USD | 3600 | Close: 19.5900 | ^ EMA12/26: 19.6533 > 19.2381 ^ | v OBV: 419001.8589 (-1.9300%) v | ERI: buy |  | WAIT | Last Action: BUY | 37.3554% (delta: 5.47)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 09:00:00 | LPT-USD | 3600 | Close: 19.6200 | ^ EMA12/26: 19.6481 > 19.2664 ^ | ^ OBV: 421046.5649 (0.4900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 37.5657% (delta: 5.5)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 10:00:00 | LPT-USD | 3600 | Close: 20.0799 | ^ EMA12/26: 19.7146 > 19.3267 ^ | ^ OBV: 434086.4779 (3.1000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 40.7910% (delta: 5.96)
+support: 19.95, resistance: 21.5, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 11:00:00 | LPT-USD | 3600 | Close: 19.8400 | ^ EMA12/26: 19.7339 > 19.3647 ^ | v OBV: 413636.7459 (-4.7100%) v | ERI: buy |  | WAIT | Last Action: BUY | 39.1083% (delta: 5.72)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 12:00:00 | LPT-USD | 3600 | Close: 19.7100 | ^ EMA12/26: 19.7302 > 19.3903 ^ | v OBV: 411387.0279 (-0.5400%) v | ERI: buy |  | WAIT | Last Action: BUY | 38.1968% (delta: 5.59)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 13:00:00 | LPT-USD | 3600 | Close: 18.7300 | ^ EMA12/26: 19.5763 > 19.3413 ^ | v OBV: 393954.9929 (-4.2400%) v | ERI: buy |  | WAIT | Last Action: BUY | 31.3255% (delta: 4.61)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 14:00:00 | LPT-USD | 3600 | Close: 18.7800 | ^ EMA12/26: 19.4538 > 19.2998 ^ | ^ OBV: 404052.1259 (2.5600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 31.6761% (delta: 4.66)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 15:00:00 | LPT-USD | 3600 | Close: 19.3200 | ^ EMA12/26: 19.4332 > 19.3013 ^ | ^ OBV: 416755.6969 (3.1400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 35.4623% (delta: 5.2)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 16:00:00 | LPT-USD | 3600 | Close: 19.2399 | ^ EMA12/26: 19.4035 > 19.2967 ^ | v OBV: 410817.5669 (-1.4200%) v | ERI: buy |  | WAIT | Last Action: BUY | 34.9014% (delta: 5.12)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 17:00:00 | LPT-USD | 3600 | Close: 19.4200 | ^ EMA12/26: 19.4060 > 19.3058 ^ | ^ OBV: 414960.9529 (1.0100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 36.1634% (delta: 5.3)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 18:00:00 | LPT-USD | 3600 | Close: 19.5000 | ^ EMA12/26: 19.4205 > 19.3202 ^ | ^ OBV: 418938.4869 (0.9600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 36.7244% (delta: 5.38)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 19:00:00 | LPT-USD | 3600 | Close: 19.1100 | ^ EMA12/26: 19.3727 > 19.3046 ^ | v OBV: 410089.3039 (-2.1100%) v | ERI: sell |  | WAIT | Last Action: BUY | 33.9899% (delta: 4.99)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 20:00:00 | LPT-USD | 3600 | Close: 19.2500 | ^ EMA12/26: 19.3538 > 19.3006 ^ | ^ OBV: 413309.8399 (0.7900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 34.9715% (delta: 5.13)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 21:00:00 | LPT-USD | 3600 | Close: 19.1100 | ^ EMA12/26: 19.3163 > 19.2865 ^ | v OBV: 409818.3739 (-0.8400%) v | ERI: buy |  | WAIT | Last Action: BUY | 33.9899% (delta: 4.99)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 22:00:00 | LPT-USD | 3600 | Close: 19.2300 | ^ EMA12/26: 19.3030 > 19.2823 ^ | ^ OBV: 414012.6269 (1.0200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 34.8313% (delta: 5.11)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 23:00:00 | LPT-USD | 3600 | Close: 18.7800 | *v EMA12/26: 19.2225 < 19.2451 v* | v OBV: 406997.3609 (-1.6900%) v | ERI: buy |  | SELL | Last Action: BUY | 31.6761% (delta: 4.66)
+support: 18.25, resistance: 19.95, fibonacci (l): 18.63, fibonacci (u): 21.35
+2021-07-31 23:00:00 | LPT-USD | 3600 | SELL | 18.78 | BUY | 14.12 | DIFF | 4.660000000000002 | DIFF | 318.97324451 | MARGIN NO FEES | 31.6761% | MARGIN FEES | 6.6631
+2021-08-01 00:00:00 | LPT-USD | 3600 | Close: 19.0400 | v EMA12/26: 19.1944 < 19.2299 v | ^ OBV: 412815.7609 (1.4300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 01:00:00 | LPT-USD | 3600 | Close: 18.9800 | v EMA12/26: 19.1614 < 19.2114 v | v OBV: 410180.8579 (-0.6400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 02:00:00 | LPT-USD | 3600 | Close: 18.2200 | v EMA12/26: 19.0166 < 19.1379 v | v OBV: 383420.2269 (-6.5200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 03:00:00 | LPT-USD | 3600 | Close: 18.7300 | v EMA12/26: 18.9725 < 19.1077 v | ^ OBV: 391942.4690 (2.2200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 04:00:00 | LPT-USD | 3600 | Close: 18.7000 | v EMA12/26: 18.9306 < 19.0775 v | v OBV: 385044.7209 (-1.7600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 05:00:00 | LPT-USD | 3600 | Close: 18.3600 | v EMA12/26: 18.8428 < 19.0244 v | v OBV: 380810.1909 (-1.1000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 06:00:00 | LPT-USD | 3600 | Close: 19.0100 | v EMA12/26: 18.8685 < 19.0233 v | ^ OBV: 389225.3189 (2.2100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-01 07:00:00 | LPT-USD | 3600 | Close: 18.9000 | v EMA12/26: 18.8733 < 19.0142 v | v OBV: 384364.3099 (-1.2500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 08:00:00 | LPT-USD | 3600 | Close: 19.0700 | v EMA12/26: 18.9036 < 19.0183 v | ^ OBV: 385853.4469 (0.3900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 09:00:00 | LPT-USD | 3600 | Close: 18.7000 | v EMA12/26: 18.8723 < 18.9947 v | v OBV: 379470.2559 (-1.6500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 10:00:00 | LPT-USD | 3600 | Close: 18.7300 | v EMA12/26: 18.8504 < 18.9751 v | ^ OBV: 380448.1459 (0.2600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 11:00:00 | LPT-USD | 3600 | Close: 18.5500 | v EMA12/26: 18.8041 < 18.9436 v | v OBV: 379296.8959 (-0.3000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 12:00:00 | LPT-USD | 3600 | Close: 18.9899 | v EMA12/26: 18.8327 < 18.9470 v | ^ OBV: 385848.3239 (1.7300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 13:00:00 | LPT-USD | 3600 | Close: 18.8299 | v EMA12/26: 18.8323 < 18.9384 v | v OBV: 378449.0039 (-1.9200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 14:00:00 | LPT-USD | 3600 | Close: 18.6800 | v EMA12/26: 18.8089 < 18.9192 v | v OBV: 374845.2359 (-0.9500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 15:00:00 | LPT-USD | 3600 | Close: 18.5799 | v EMA12/26: 18.7736 < 18.8941 v | v OBV: 370717.8019 (-1.1000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 16:00:00 | LPT-USD | 3600 | Close: 18.2399 | v EMA12/26: 18.6915 < 18.8456 v | v OBV: 363489.7699 (-1.9500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 17:00:00 | LPT-USD | 3600 | Close: 18.1100 | v EMA12/26: 18.6021 < 18.7911 v | v OBV: 361289.8980 (-0.6100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 18:00:00 | LPT-USD | 3600 | Close: 18.1500 | v EMA12/26: 18.5325 < 18.7436 v | ^ OBV: 363290.2209 (0.5500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 19:00:00 | LPT-USD | 3600 | Close: 18.1800 | v EMA12/26: 18.4783 < 18.7019 v | ^ OBV: 365150.5859 (0.5100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 20:00:00 | LPT-USD | 3600 | Close: 18.0400 | v EMA12/26: 18.4108 < 18.6529 v | v OBV: 358162.8669 (-1.9100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 21:00:00 | LPT-USD | 3600 | Close: 18.1200 | v EMA12/26: 18.3661 < 18.6134 v | ^ OBV: 359710.9850 (0.4300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 22:00:00 | LPT-USD | 3600 | Close: 17.7200 | v EMA12/26: 18.2667 < 18.5472 v | v OBV: 355430.7309 (-1.1900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 23:00:00 | LPT-USD | 3600 | Close: 16.8700 | v EMA12/26: 18.0518 < 18.4230 v | v OBV: 337413.8750 (-5.0700%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-02 00:00:00 | LPT-USD | 3600 | Close: 16.7300 | v EMA12/26: 17.8484 < 18.2976 v | v OBV: 327022.8380 (-3.0800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 01:00:00 | LPT-USD | 3600 | Close: 17.0799 | v EMA12/26: 17.7302 < 18.2074 v | ^ OBV: 332888.6680 (1.7900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 02:00:00 | LPT-USD | 3600 | Close: 17.0300 | v EMA12/26: 17.6225 < 18.1201 v | v OBV: 329971.2050 (-0.8800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 03:00:00 | LPT-USD | 3600 | Close: 17.3900 | v EMA12/26: 17.5867 < 18.0661 v | ^ OBV: 331360.3580 (0.4200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 04:00:00 | LPT-USD | 3600 | Close: 17.2900 | v EMA12/26: 17.5410 < 18.0086 v | v OBV: 329215.3990 (-0.6500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 05:00:00 | LPT-USD | 3600 | Close: 17.1400 | v EMA12/26: 17.4793 < 17.9442 v | v OBV: 326894.4340 (-0.7000%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-02 06:00:00 | LPT-USD | 3600 | Close: 17.2399 | v EMA12/26: 17.4425 < 17.8921 v | ^ OBV: 330931.1550 (1.2300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 07:00:00 | LPT-USD | 3600 | Close: 17.4100 | v EMA12/26: 17.4375 < 17.8563 v | ^ OBV: 335708.2200 (1.4400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 08:00:00 | LPT-USD | 3600 | Close: 17.2000 | v EMA12/26: 17.4010 < 17.8077 v | v OBV: 334375.1750 (-0.4000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 09:00:00 | LPT-USD | 3600 | Close: 17.0500 | v EMA12/26: 17.3470 < 17.7516 v | v OBV: 333581.6270 (-0.2400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 10:00:00 | LPT-USD | 3600 | Close: 17.1600 | v EMA12/26: 17.3182 < 17.7078 v | ^ OBV: 334275.5170 (0.2100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 11:00:00 | LPT-USD | 3600 | Close: 17.1000 | v EMA12/26: 17.2846 < 17.6627 v | v OBV: 333186.8070 (-0.3300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 12:00:00 | LPT-USD | 3600 | Close: 16.9800 | v EMA12/26: 17.2377 < 17.6122 v | v OBV: 332154.3050 (-0.3100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 13:00:00 | LPT-USD | 3600 | Close: 17.1400 | v EMA12/26: 17.2227 < 17.5772 v | ^ OBV: 333995.7390 (0.5500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-02 14:00:00 | LPT-USD | 3600 | Close: 17.1600 | v EMA12/26: 17.2130 < 17.5463 v | ^ OBV: 336659.9420 (0.8000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 15:00:00 | LPT-USD | 3600 | Close: 17.4700 | v EMA12/26: 17.2526 < 17.5406 v | ^ OBV: 338247.5850 (0.4700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 16:00:00 | LPT-USD | 3600 | Close: 17.3500 | v EMA12/26: 17.2675 < 17.5265 v | v OBV: 337660.7030 (-0.1701%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 17:00:00 | LPT-USD | 3600 | Close: 17.2399 | v EMA12/26: 17.2633 < 17.5053 v | v OBV: 336641.6150 (-0.3000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 18:00:00 | LPT-USD | 3600 | Close: 17.3200 | v EMA12/26: 17.2720 < 17.4915 v | ^ OBV: 337680.7980 (0.3100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 19:00:00 | LPT-USD | 3600 | Close: 17.2000 | v EMA12/26: 17.2609 < 17.4699 v | v OBV: 333512.9040 (-1.2300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 20:00:00 | LPT-USD | 3600 | Close: 17.0300 | v EMA12/26: 17.2254 < 17.4374 v | v OBV: 331194.6960 (-0.7000%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-02 21:00:00 | LPT-USD | 3600 | Close: 17.0500 | v EMA12/26: 17.1984 < 17.4087 v | ^ OBV: 331799.8700 (0.1800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-02 22:00:00 | LPT-USD | 3600 | Close: 17.0600 | v EMA12/26: 17.1771 < 17.3828 v | ^ OBV: 334051.5850 (0.6800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 23:00:00 | LPT-USD | 3600 | Close: 17.0900 | v EMA12/26: 17.1637 < 17.3611 v | ^ OBV: 335230.6270 (0.3500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 00:00:00 | LPT-USD | 3600 | Close: 17.0200 | v EMA12/26: 17.1416 < 17.3359 v | v OBV: 331772.1550 (-1.0300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 01:00:00 | LPT-USD | 3600 | Close: 16.9300 | v EMA12/26: 17.1090 < 17.3058 v | v OBV: 330504.8180 (-0.3800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 02:00:00 | LPT-USD | 3600 | Close: 16.7600 | v EMA12/26: 17.0553 < 17.2654 v | v OBV: 326106.8570 (-1.3300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 03:00:00 | LPT-USD | 3600 | Close: 16.4600 | v EMA12/26: 16.9637 < 17.2057 v | v OBV: 320606.4800 (-1.6900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 04:00:00 | LPT-USD | 3600 | Close: 16.4400 | v EMA12/26: 16.8831 < 17.1490 v | v OBV: 318872.7000 (-0.5400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 05:00:00 | LPT-USD | 3600 | Close: 15.7600 | v EMA12/26: 16.7103 < 17.0461 v | v OBV: 304478.3140 (-4.5100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 06:00:00 | LPT-USD | 3600 | Close: 15.6900 | v EMA12/26: 16.5534 < 16.9456 v | v OBV: 300855.9350 (-1.1900%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 07:00:00 | LPT-USD | 3600 | Close: 15.6800 | v EMA12/26: 16.4190 < 16.8519 v | v OBV: 298809.1140 (-0.6801%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 08:00:00 | LPT-USD | 3600 | Close: 15.7000 | v EMA12/26: 16.3084 < 16.7666 v | ^ OBV: 300234.1930 (0.4800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 09:00:00 | LPT-USD | 3600 | Close: 15.7800 | v EMA12/26: 16.2271 < 16.6935 v | ^ OBV: 303488.6860 (1.0800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 10:00:00 | LPT-USD | 3600 | Close: 15.9300 | v EMA12/26: 16.1814 < 16.6369 v | ^ OBV: 305680.9330 (0.7200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 11:00:00 | LPT-USD | 3600 | Close: 15.8800 | v EMA12/26: 16.1350 < 16.5808 v | v OBV: 303669.4710 (-0.6600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 12:00:00 | LPT-USD | 3600 | Close: 15.7700 | v EMA12/26: 16.0788 < 16.5208 v | v OBV: 301426.0450 (-0.7400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 13:00:00 | LPT-USD | 3600 | Close: 16.0000 | v EMA12/26: 16.0667 < 16.4822 v | ^ OBV: 308131.1560 (2.2200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 14:00:00 | LPT-USD | 3600 | Close: 16.3100 | v EMA12/26: 16.1041 < 16.4694 v | ^ OBV: 315476.7530 (2.3800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 15:00:00 | LPT-USD | 3600 | Close: 16.2500 | v EMA12/26: 16.1266 < 16.4532 v | v OBV: 312458.2190 (-0.9600%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 16:00:00 | LPT-USD | 3600 | Close: 16.2200 | v EMA12/26: 16.1409 < 16.4359 v | v OBV: 310665.7180 (-0.5700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 17:00:00 | LPT-USD | 3600 | Close: 16.0799 | v EMA12/26: 16.1315 < 16.4095 v | v OBV: 308569.3110 (-0.6700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 18:00:00 | LPT-USD | 3600 | Close: 15.8700 | v EMA12/26: 16.0913 < 16.3696 v | v OBV: 305495.4770 (-1.0000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 19:00:00 | LPT-USD | 3600 | Close: 15.7500 | v EMA12/26: 16.0388 < 16.3237 v | v OBV: 301205.1170 (-1.4000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 20:00:00 | LPT-USD | 3600 | Close: 15.6600 | v EMA12/26: 15.9805 < 16.2745 v | v OBV: 297051.1750 (-1.3800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 21:00:00 | LPT-USD | 3600 | Close: 15.8000 | v EMA12/26: 15.9527 < 16.2394 v | ^ OBV: 298708.8870 (0.5600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 22:00:00 | LPT-USD | 3600 | Close: 16.0000 | v EMA12/26: 15.9600 < 16.2216 v | ^ OBV: 300539.3620 (0.6100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 23:00:00 | LPT-USD | 3600 | Close: 15.9000 | v EMA12/26: 15.9508 < 16.1978 v | v OBV: 297582.5750 (-0.9800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 00:00:00 | LPT-USD | 3600 | Close: 16.6000 | v EMA12/26: 16.0506 < 16.2276 v | ^ OBV: 315020.3800 (5.8600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 01:00:00 | LPT-USD | 3600 | Close: 16.3800 | v EMA12/26: 16.1013 < 16.2389 v | v OBV: 302740.8870 (-3.9000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 02:00:00 | LPT-USD | 3600 | Close: 16.3500 | v EMA12/26: 16.1395 < 16.2471 v | v OBV: 302188.9560 (-0.1800%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-04 03:00:00 | LPT-USD | 3600 | Close: 16.3800 | v EMA12/26: 16.1765 < 16.2569 v | ^ OBV: 302402.4060 (0.0700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 04:00:00 | LPT-USD | 3600 | Close: 16.1600 | v EMA12/26: 16.1740 < 16.2498 v | v OBV: 300557.2380 (-0.6100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 05:00:00 | LPT-USD | 3600 | Close: 16.3800 | v EMA12/26: 16.2057 < 16.2594 v | ^ OBV: 302768.1810 (0.7400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 06:00:00 | LPT-USD | 3600 | Close: 16.2399 | v EMA12/26: 16.2109 < 16.2580 v | v OBV: 301071.1530 (-0.5601%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 07:00:00 | LPT-USD | 3600 | Close: 16.1000 | v EMA12/26: 16.1939 < 16.2463 v | v OBV: 300364.8900 (-0.2300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 08:00:00 | LPT-USD | 3600 | Close: 15.9800 | v EMA12/26: 16.1610 < 16.2265 v | v OBV: 299130.3320 (-0.4100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 09:00:00 | LPT-USD | 3600 | Close: 16.1900 | v EMA12/26: 16.1654 < 16.2238 v | ^ OBV: 300260.7110 (0.3800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 10:00:00 | LPT-USD | 3600 | Close: 16.3800 | v EMA12/26: 16.1984 < 16.2354 v | ^ OBV: 300528.8820 (0.0900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 11:00:00 | LPT-USD | 3600 | Close: 16.5700 | v EMA12/26: 16.2556 < 16.2602 v | ^ OBV: 304807.8730 (1.4200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 12:00:00 | LPT-USD | 3600 | Close: 16.7300 | *^ EMA12/26: 16.3286 > 16.2950 ^* | ^ OBV: 310007.0510 (1.7100%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-08-04 12:00:00 | LPT-USD | 3600 | Close: 16.7300 | BUY
+ Fibonacci Retracement Levels:{'ratio0_5': 16.61, 'ratio0_382': 17.72}
+ Support level of 16.46 formed at 2021-08-03 14:00:00
+2021-08-04 13:00:00 | LPT-USD | 3600 | Close: 16.5300 | ^ EMA12/26: 16.3595 > 16.3124 ^ | v OBV: 279864.3700 (-9.7200%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.1811% (delta: -0.2)
+support: 16.46, resistance: 17.55, fibonacci (l): 15.49, fibonacci (u): 16.61
+2021-08-04 14:00:00 | LPT-USD | 3600 | Close: 16.5799 | ^ EMA12/26: 16.3935 > 16.3322 ^ | ^ OBV: 282355.5710 (0.8900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.8852% (delta: -0.15)
+support: 16.46, resistance: 17.55, fibonacci (l): 15.49, fibonacci (u): 16.61
+2021-08-04 15:00:00 | LPT-USD | 3600 | Close: 16.8100 | ^ EMA12/26: 16.4575 > 16.3676 ^ | ^ OBV: 287100.7270 (1.6800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.5241% (delta: 0.08)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+2021-08-04 16:00:00 | LPT-USD | 3600 | Close: 16.9800 | ^ EMA12/26: 16.5379 > 16.4129 ^ | ^ OBV: 292263.6940 (1.8000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.4819% (delta: 0.25)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 17:00:00 | LPT-USD | 3600 | Close: 17.1000 | ^ EMA12/26: 16.6244 > 16.4638 ^ | ^ OBV: 298781.2590 (2.2300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.1920% (delta: 0.37)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 18:00:00 | LPT-USD | 3600 | Close: 17.1800 | ^ EMA12/26: 16.7098 > 16.5169 ^ | ^ OBV: 310131.7410 (3.8000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.6654% (delta: 0.45)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+2021-08-04 19:00:00 | LPT-USD | 3600 | Close: 17.2100 | ^ EMA12/26: 16.7868 > 16.5682 ^ | ^ OBV: 313478.6900 (1.0800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 1.8429% (delta: 0.48)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+2021-08-04 20:00:00 | LPT-USD | 3600 | Close: 17.0400 | ^ EMA12/26: 16.8257 > 16.6032 ^ | v OBV: 312818.5950 (-0.2100%) v | ERI: sell |  | WAIT | Last Action: BUY | 0.8369% (delta: 0.31)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+2021-08-04 21:00:00 | LPT-USD | 3600 | Close: 16.8700 | ^ EMA12/26: 16.8325 > 16.6229 ^ | v OBV: 310226.4800 (-0.8300%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.1691% (delta: 0.14)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+* Candlestick Detected: Three Black Crows ("Strong - Reversal - Bearish Pattern - Down")
+2021-08-04 22:00:00 | LPT-USD | 3600 | Close: 16.7900 | ^ EMA12/26: 16.8260 > 16.6353 ^ | v OBV: 308962.8850 (-0.4100%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.6425% (delta: 0.06)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+2021-08-04 23:00:00 | LPT-USD | 3600 | Close: 17.2000 | ^ EMA12/26: 16.8835 > 16.6771 ^ | ^ OBV: 314401.2940 (1.7600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.7838% (delta: 0.47)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+2021-08-05 00:00:00 | LPT-USD | 3600 | Close: 16.7800 | ^ EMA12/26: 16.8676 > 16.6847 ^ | v OBV: 304524.7050 (-3.1400%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.7017% (delta: 0.05)
+support: 16.46, resistance: 17.55, fibonacci (l): 16.61, fibonacci (u): 17.72
+
+Simulation Summary: 
+
+
+        Note : "sell at loss" is disabled and you have an open trade, if the margin
+               result below is negative it will assume you sold at the end of the
+               simulation which may not be ideal. Try setting --sellatloss 1
+
+
+   Buy Count : 3
+  Sell Count : 2
+   First Buy : 1000
+   Last Sell : 1325.9562584179296
+
+
+      Margin : 32.5956%
+
+
+  ** non-live simulation, assuming highest fees

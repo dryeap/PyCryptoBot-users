@@ -1,0 +1,58 @@
+{
+    "coinbasepro": {
+        "api_url": "https://api.pro.coinbase.com",
+        "config": {
+            "autorestart": 1,
+            "live": 1,
+            "sellatloss" : 1,
+            "selllowerpcnt" : -15,
+            "nosellminpcnt" : -15,
+            "nosellmaxpcnt" : 10,
+            "trailingstoplosstrigger" : 15,
+            "trailingstoploss" : -1.5,
+            "sellatresistance" : 1,
+            "disablebuynearhigh" : 1,
+            "buynearhighpcnt" : 3,
+            "disablebuymacd" : 0,
+            "disablebuyobv" : 0,
+            "disablebuyelderray" : 0,
+            "disablefailsafefibonaccilow" : 1,
+            "disableprofitbankreversal" : 1,
+            "disabletracker" : 1,
+            "graphs" : 0,
+            "verbose" : 0,
+            "stats" : 0
+        },
+        "api_key_file": "coinbasepro.key"
+    },
+    "binance": {
+        "api_url": "https://api.binance.us",
+        "config": {
+            "autorestart": 1,
+            "live": 1,
+            "sellatloss" : 1,
+            "selllowerpcnt" : -15,
+            "nosellminpcnt" : -15,
+            "nosellmaxpcnt" : 10,
+            "trailingstoplosstrigger" : 15,
+            "trailingstoploss" : -1.5,
+            "sellatresistance" : 1,
+            "disablebuynearhigh" : 1,
+            "buynearhighpcnt" : 3,
+            "disablebuymacd" : 0,
+            "disablebuyobv" : 0,
+            "disablebuyelderray" : 0,
+            "disablefailsafefibonaccilow" : 1,
+            "disableprofitbankreversal" : 1,
+            "disabletracker" : 1,
+            "graphs" : 0,
+            "verbose" : 0,
+            "stats" : 0
+        },
+        "api_key_file": "binance.key"
+    },	
+    "telegram": {
+        "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "client_id": "xxxxxxxx"
+    }
+}

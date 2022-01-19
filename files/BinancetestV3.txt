@@ -1,0 +1,162 @@
+--------------------------------------------------------------------------------
+|                             Python Crypto Bot                                |
+--------------------------------------------------------------------------------
+|                Release : v3.0.0                                              | 
+--------------------------------------------------------------------------------
+|                 Market : EOSEUR                                              | 
+|            Granularity : 3600 seconds                                        | 
+-----------------------------------------------------------------------------
+|               Bot Mode : TEST - test trades using dummy funds :)             | 
+|            Bot Started : 2021-08-03 09:05:26.535902                          | 
+================================================================================
+|             Sell Upper : 2.0%                                                | 
+ |    Trailing Stop Loss : -1.5%                                               | 
+|           Sell At Loss : True  --sellatloss True                             | 
+|     Sell At Resistance : True  --sellatresistance                            | 
+|        Trade Bull Only : False  --disablebullonly                            | 
+|          Buy Near High : False  --disablebuynearhigh                         | 
+|           Use Buy MACD : True  --disablebuymacd                              | 
+|            Use Buy EMA : True  --disablebuyema                               | 
+|            Use Buy OBV : False  --disablebuyobv                              | 
+|      Use Buy Elder-Ray : True  --disablebuyelderray                          | 
+|     Sell Fibonacci Low : False  --disablefailsafefibonaccilow                | 
+|        Sell Upper Pcnt : True  --disableprofitbankupperpcnt                  | 
+|   Candlestick Reversal : False  --disableprofitbankreversal                  | 
+|               Telegram : False  --disabletelegram                            | 
+|                    Log : True  --disablelog                                  | 
+|                Tracker : True  --disabletracker                              | 
+|       Auto restart Bot : True  --autorestart                                 | 
+|           Max Buy Size : 11.0  --buymaxsize <size>                           | 
+================================================================================
+
+================================================================================
+ |         Iteration : 1                                                       | 
+ |         Timestamp : 2021-07-21 20:00:00                                     | 
+--------------------------------------------------------------------------------
+ |             Close : 2.9540                                                  | 
+ |             EMA12 : 2.9540                                                  | 
+ |             EMA26 : 2.9540                                                  | 
+ |    Crossing Above : False                                                   | 
+ |   Currently Above : False                                                   | 
+ |    Crossing Below : False                                                   | 
+ |   Currently Below : False                                                   | 
+ |         Condition : -                                                       | 
+ |             SMA20 : 2.9540                                                  | 
+ |            SMA200 : 2.9540                                                  | 
+--------------------------------------------------------------------------------
+ |              MACD : 0.0000                                                  | 
+ |            Signal : 0.0000                                                  | 
+ |   Currently Above : False                                                   | 
+ |   Currently Below : False                                                   | 
+ |         Condition : -                                                       | 
+--------------------------------------------------------------------------------
+ |            Action : WAIT                                                    | 
+================================================================================
+*** smart switch from granularity 3600 (1 hour) to 900 (15 min) ***
+
+================================================================================
+ |         Iteration : 2                                                       | 
+ |         Timestamp : 2021-07-21 21:00:00                                     | 
+--------------------------------------------------------------------------------
+ |             Close : 2.9620                                                  | 
+ |             EMA12 : 2.9552                                                  | 
+ |             EMA26 : 2.9545                                                  | 
+ |    Crossing Above : True                                                    | 
+ |   Currently Above : True                                                    | 
+ |    Crossing Below : False                                                   | 
+ |   Currently Below : False                                                   | 
+ |         Condition : EMA12 is currently crossing above EMA26                 | 
+ |             SMA20 : 2.9580                                                  | 
+ |            SMA200 : 2.9580                                                  | 
+--------------------------------------------------------------------------------
+ |              MACD : 0.0006                                                  | 
+ |            Signal : 0.0001                                                  | 
+ |   Currently Above : True                                                    | 
+ |   Currently Below : False                                                   | 
+ |         Condition : MACD is currently crossing above Signal                 | 
+--------------------------------------------------------------------------------
+ |            Action : BUY                                                     | 
+================================================================================
+--------------------------------------------------------------------------------
+|                      *** Executing TEST Buy Order ***                        |
+--------------------------------------------------------------------------------
+QStandardPaths: runtime directory '/run/user/1000' is not owned by UID 0, but a directory permissions 0700 owned by UID 1000 GID 1000
+QStandardPaths: runtime directory '/run/user/1000' is not owned by UID 0, but a directory permissions 0700 owned by UID 1000 GID 1000
+             *** getting smartswitch (900) market data ***
+Restarting application after exception: KeyError('2021-07-21 22:00:00')
+
+================================================================================
+ |         Iteration : 4                                                       | 
+ |         Timestamp : 2021-07-21 23:00:00                                     | 
+--------------------------------------------------------------------------------
+ |             Close : 2.9980                                                  | 
+ |             EMA12 : 2.9658                                                  | 
+ |             EMA26 : 2.9599                                                  | 
+ |    Crossing Above : False                                                   | 
+ |   Currently Above : True                                                    | 
+ |    Crossing Below : False                                                   | 
+ |   Currently Below : False                                                   | 
+ |         Condition : EMA12 is currently above EMA26 and has crossed over     | 
+ |             SMA20 : 2.9750                                                  | 
+ |            SMA200 : 2.9750                                                  | 
+--------------------------------------------------------------------------------
+ |              MACD : 0.0058                                                  | 
+ |            Signal : 0.0017                                                  | 
+ |   Currently Above : True                                                    | 
+ |   Currently Below : False                                                   | 
+ |         Condition : MACD is currently above Signal and has crossed over     | 
+--------------------------------------------------------------------------------
+ |            Action : WAIT                                                    | 
+================================================================================
+ |            Margin : 1.0130%                                                 | 
+================================================================================
+KeyError('2021-07-22 00:00:00')
+Traceback (most recent call last):
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1039, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1626904800000000000
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas/_libs/index.pyx", line 446, in pandas._libs.index.DatetimeEngine.get_loc
+KeyError: Timestamp('2021-07-21 22:00:00')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: Timestamp('2021-07-21 22:00:00')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/pandas/core/indexes/datetimes.py", line 627, in get_loc
+    raise KeyError(orig_key) from err
+KeyError: '2021-07-21 22:00:00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1039, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1626912000000000000
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas/_libs/index.pyx", line 446, in pandas._libs.index.DatetimeEngine.get_loc
+KeyError: Timestamp('2021-07-22 00:00:00')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: Timestamp('2021-07-22 00:00:00')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/pandas/core/indexes/datetimes.py", line 627, in get_loc
+    raise KeyError(orig_key) from err
+KeyError: '2021-07-22 00:00:00'

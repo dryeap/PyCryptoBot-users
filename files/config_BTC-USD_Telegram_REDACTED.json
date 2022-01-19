@@ -1,0 +1,21 @@
+{
+    "coinbasepro": {
+        "api_url": "https://api.pro.coinbase.com",
+		"api_key" : "",
+		"api_secret" : "",
+		"api_passphrase" : "",
+        "config": {
+            "base_currency": "BTC",
+            "quote_currency": "USD",
+            "granularity": 900,
+            "live": 0,
+            "sellatloss": -2,
+            "sellatresistance": 1,
+            "autorestart": 1
+		}
+	},
+    "telegram": {
+        "token": "",
+        "client_id": ""
+    }
+}

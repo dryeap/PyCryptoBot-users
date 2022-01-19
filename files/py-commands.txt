@@ -1,0 +1,61 @@
+optional arguments:
+  -h, --help            show this help message and exit
+  --init                config.json configuration builder
+  --exchange EXCHANGE   'coinbasepro', 'binance', 'dummy'
+  --granularity GRANULARITY
+                        coinbasepro: (60,300,900,3600,21600,86400), 
+                        binance: (1m,5m,15m,1h,6h,1d)
+  --graphs GRAPHS       save graphs=1, do not save graphs=0
+  --live LIVE           live=1, test=0
+  --market MARKET       coinbasepro: BTC-GBP, binance: BTCGBP etc.
+  --sellatloss SELLATLOSS
+                        toggle if bot should sell at a loss
+  --sellupperpcnt SELLUPPERPCNT
+                        optionally set sell upper percent limit
+  --selllowerpcnt SELLLOWERPCNT
+                        optionally set sell lower percent limit
+  --trailingstoploss TRAILINGSTOPLOSS
+                        optionally set a trailing stop percent loss 
+                        below last buy high
+  --sim SIM             simulation modes: fast, fast-sample, slow-sample
+  --simstartdate SIMSTARTDATE
+                        start date for sample simulation e.g '2021-01-15'
+  --simenddate SIMENDDATE
+                        end date for sample simulation e.g '2021-01-15' or 'now'
+  --smartswitch SMARTSWITCH
+                        optionally smart switch between 1 hour and 15 minute intervals
+  --verbose VERBOSE     verbose output=1, minimal output=0
+  --config CONFIG       Use the config file at the given location. e.g 'myconfig.json'
+  --logfile LOGFILE     Use the log file at the given location. e.g 'mymarket.log'
+  --buypercent BUYPERCENT
+                        percentage of quote currency to buy
+  --sellpercent SELLPERCENT
+                        percentage of base currency to sell
+  --lastaction LASTACTION
+                        optionally set the last action (BUY, SELL)
+  --buymaxsize BUYMAXSIZE
+                        maximum size on buy
+  --sellatresistance    sell at resistance or upper fibonacci band
+  --autorestart         Auto restart the bot in case of exception
+  --stats               display summary of completed trades
+  --statgroup STATGROUP [STATGROUP ...]
+                        add multiple currency pairs to merge stats
+  --statstartdate STATSTARTDATE
+                        trades before this date are ignored in stats function e.g 2021-01-15
+  --statdetail          display detail of completed transactions for a given market
+  --disablebullonly     disable only buying in bull market
+  --disablebuynearhigh  disable buy within 5 percent of high
+  --disablebuymacd      disable macd buy signal
+  --disablebuyobv       disable obv buy signal
+  --disablebuyelderray  disable elder ray buy signal
+  --disablefailsafefibonaccilow
+                        disable failsafe sell on fibonacci lower band
+  --disablefailsafelowerpcnt
+                        disable failsafe sell on 'selllowerpcnt'
+  --disableprofitbankupperpcnt
+                        disable profit bank on 'sellupperpcnt'
+  --disableprofitbankreversal
+                        disable profit bank on strong candlestick reversal
+  --disabletelegram     disable telegram messages
+  --disablelog          disable pycryptobot.log
+  --disabletracker      disable tracker.csv

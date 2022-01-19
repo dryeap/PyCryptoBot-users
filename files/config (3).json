@@ -1,0 +1,42 @@
+{
+    "coinbasepro": {
+        "api_url": "https://api.pro.coinbase.com",
+        "config": {
+            "base_currency": "LRC",
+            "quote_currency": "USD",
+            "autorestart": 1,
+            "live": 1,
+            "disabletelegram" : 0,
+#           "granularity" : 300,
+#           "sim" : fast-sample,
+#           "simstartdate" : "2021-06-01",
+#           "simenddate" : "2021-08-30",
+            "sellatloss" : 1,
+            "selllowerpcnt" : -15,
+            "nosellminpcnt" : -15,
+            "nosellmaxpcnt" : 3,
+            "trailingstoplosstrigger" : 5,
+            "trailingstoploss" : -1.5,
+            "sellatresistance" : 0,
+            "disablebullonly" : 0,
+            "disablebuynearhigh" : 1,
+            "buynearhighpcnt" : 10,
+            "disablebuymacd" : 0,
+            "disablebuyobv" : 0,
+            "disablebuyelderray" : 0,
+            "disablefailsafefibonaccilow" : 1,
+            "disableprofitbankreversal" : 1,
+            "disabletracker" : 1,
+            "autorestart" : 1,
+            "graphs" : 0,
+            "verbose" : 0,
+            "stats" : 0,
+            "buymaxsize": 100
+        },
+        "api_key_file": "coinbasepro.key"
+    },
+    "telegram": {
+        "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "client_id": "xxxxxxxxxx"
+    }
+}

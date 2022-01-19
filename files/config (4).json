@@ -1,0 +1,31 @@
+{
+    "binance": {
+        "api_url": "https://api.binance.com",
+        "api_key_file": "binance.key",
+        "config" : {
+            "base_currency" : "BTC",
+            "quote_currency" : "USDT",
+            "live" : 1,
+            "sellatloss" : 0,
+            "sellatresistance" : 0,
+            "trailingstoploss" : -1.5,
+            "trailingstoplosstrigger" : 5,
+            "nosellmaxpcnt" : 3,
+            "nosellminpcnt" : -3,
+            "disablebullonly" : 0,
+            "disablebuynearhigh" : 1,
+            "disablebuymacd" : 0,
+            "disablebuyobv" : 1,
+            "disablebuyelderray" : 0,
+            "disablefailsafefibonaccilow" : 1,
+            "disableprofitbankreversal" : 0,
+            "disabletracker" : 0,
+            "disabletelegram" : 1,
+            "autorestart" : 0,
+            "graphs" : 0,
+            "verbose" : 0,
+            "stats" : 1,
+            "smartswitch" : 1
+        }
+      }
+    }

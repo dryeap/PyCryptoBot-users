@@ -1,0 +1,114 @@
+1INCH-USD
+ 
+ADA-USD
+ --disablebullonly
+ALGO-USD
+ --disablebullonly
+ATOM-USD
+ --disablebullonly
+AXS-USD
+ --disablebullonly
+BAL-USD
+ 
+BAND-USD
+ --disablebullonly
+BCH-USD
+ --disablebullonly
+BNT-USD
+ 
+BOND-USD
+ 
+BTC-USD
+ --disablebullonly
+CGLD-USD
+ 
+CHZ-USD
+ --disablebullonly
+CLV-USD
+ --disablebullonly
+CRV-USD
+ --disablebullonly
+CTSI-USD
+ 
+DASH-USD
+ --disablebullonly
+DOGE-USD
+ 
+DOT-USD
+ 
+ETC-USD
+ 
+ETH-USD
+ --disablebullonly
+FARM-USD
+ --disablebullonly
+FET-USD
+ --disablebullonly
+GRT-USD
+ 
+GTC-USD
+ --disablebullonly
+KEEP-USD
+ --disablebullonly
+KNC-USD
+ 
+LINK-USD
+ 
+LPT-USD
+ 
+LRC-USD
+ 
+MANA-USD
+ --disablebullonly
+MASK-USD
+ --disablebullonly
+MKR-USD
+ --disablebullonly
+MLN-USD
+ 
+NKN-USD
+ --disablebullonly
+NMR-USD
+ 
+NU-USD
+ 
+POLY-USD
+ --disablebullonly
+QNT-USD
+ --disablebullonly
+REN-USD
+ 
+REQ-USD
+ --disablebullonly
+RLC-USD
+ --disablebullonly
+RLY-USD
+ --disablebullonly
+SKL-USD
+ 
+SNX-USD
+ --disablebullonly
+SOL-USD
+ --disablebullonly
+STORJ-USD
+ 
+SUSHI-USD
+ 
+TRB-USD
+ 
+TRIBE-USD
+ --disablebullonly
+UMA-USD
+ 
+UNI-USD
+ 
+WBTC-USD
+ --disablebullonly
+WLUNA-USD
+ 
+XTZ-USD
+ --disablebullonly
+YFI-USD
+ 
+ZRX-USD
+ --disablebullonly

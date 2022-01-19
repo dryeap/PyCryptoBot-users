@@ -1,0 +1,158 @@
+{
+    "trades": {
+        "2021-10-09 20:55:54": {
+            "pair": "ATOM-USD",
+            "price": "Close: 34.4709",
+            "margin": "-15.1547%"
+        },
+        "2021-10-12 20:03:36": {
+            "pair": "REQ-USD",
+            "price": "Close: 0.2409",
+            "margin": "15.0968%"
+        },
+        "2021-10-13 02:36:00": {
+            "pair": "QNT-USD",
+            "price": "Close: 273.4500",
+            "margin": "-15.0252%"
+        },
+        "2021-10-13 03:02:01": {
+            "pair": "MATIC-USD",
+            "price": "Close: 1.2057",
+            "margin": "-13.0239%"
+        },
+        "2021-10-13 04:02:50": {
+            "pair": "SKL-USD",
+            "price": "Close: 0.2921",
+            "margin": "-12.3722%"
+        },
+        "2021-10-13 07:11:42": {
+            "pair": "RGT-USD",
+            "price": "Close: 32.1900",
+            "margin": "8.7386%"
+        },
+        "2021-10-15 21:55:59": {
+            "pair": "DOT-USD",
+            "price": "Close: 43.9750",
+            "margin": "2.0063%"
+        },
+        "2021-10-15 21:56:03": {
+            "pair": "DOT-USD",
+            "price": "Close: 43.9680",
+            "margin": "2.0455%"
+        },
+        "2021-10-16 04:35:37": {
+            "pair": "XLM-USD",
+            "price": "Close: 0.3822",
+            "margin": "4.0650%"
+        },
+        "2021-10-16 18:43:27": {
+            "pair": "QNT-USD",
+            "price": "Close: 319.7700",
+            "margin": "5.0362%"
+        },
+        "2021-10-17 05:37:33": {
+            "pair": "NKN-USD",
+            "price": "Close: 0.5694",
+            "margin": "8.7781%"
+        },
+        "2021-10-17 13:19:37": {
+            "pair": "CGLD-USD",
+            "price": "Close: 6.4500",
+            "margin": "6.8555%"
+        },
+        "2021-10-17 14:51:33": {
+            "pair": "TRU-USD",
+            "price": "Close: 0.5741",
+            "margin": "9.3904%"
+        }
+    },
+    "markets": {
+        "ADA-USD": {
+            "overrides": "--exchange coinbasepro --market ADA-USD --buymaxsize 100  --sellpercent 95 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "ALGO-USD": {
+            "overrides": "--exchange coinbasepro --market ALGO-USD --buymaxsize 100  --sellpercent 95 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "AMP-USD": {
+            "overrides": "--exchange coinbasepro --market AMP-USD --buymaxsize 20"
+        },
+        "ATOM-USD": {
+            "overrides": "--exchange coinbasepro --market ATOM-USD --buymaxsize 50 --sellpercent 95 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "CGLD-USD": {
+            "overrides": "--exchange coinbasepro --market CGLD-USD --buymaxsize 20"
+        },
+        "DOGE-USD": {
+            "overrides": "--exchange coinbasepro --market DOGE-USD --buymaxsize 50  --sellpercent 95 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "DOT-USD": {
+            "overrides": "--exchange coinbasepro --market DOT-USD --buymaxsize 50 --sellpercent 95 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "GALAX-USDT": {
+            "overrides": "--exchange kucoin --market GALAX-USDT --buymaxsize 50  --sellpercent 94 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "GRT-USD": {
+            "overrides": "--exchange coinbasepro --market GRT-USD --buymaxsize 20"
+        },
+        "HBAR-USDT": {
+            "overrides": "--exchange kucoin --market HBAR-USDT --buymaxsize 50  --sellpercent 95 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "IOTX-USD": {
+            "overrides": "--exchange coinbasepro --market IOTX-USD --buymaxsize 20"
+        },
+        "KEEP-USD": {
+            "overrides": "--exchange coinbasepro --market KEEP-USD --buymaxsize 20"
+        },
+        "LTC-USD": {
+            "overrides": "--exchange coinbasepro --market LTC-USD --buymaxsize 50  --sellpercent 96 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 1 --trailingstoploss -1"
+        },
+        "NKN-USD": {
+            "overrides": "--exchange coinbasepro --market NKN-USD --buymaxsize 20"
+        },
+        "NU-USD": {
+            "overrides": "--exchange coinbasepro --market NU-USD --buymaxsize 20"
+        },
+        "POLY-USD": {
+            "overrides": "--exchange coinbasepro --market POLY-USD --buymaxsize 20"
+        },
+        "REN-USD": {
+            "overrides": "--exchange coinbasepro --market REN-USD --buymaxsize 20"
+        },
+        "REQ-USD": {
+            "overrides": "--exchange coinbasepro --market REQ-USD --buymaxsize 20"
+        },
+        "RGT-USD": {
+            "overrides": "--exchange coinbasepro --market RGT-USD --buymaxsize 20"
+        },
+        "RLY-USD": {
+            "overrides": "--exchange coinbasepro --market RLY-USD --buymaxsize 20"
+        },
+        "SHIB-USD": {
+            "overrides": "--exchange coinbasepro --market SHIB-USD --buymaxsize 50 --sellpercent 95 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "SKL-USD": {
+            "overrides": "--exchange coinbasepro --market SKL-USD --buymaxsize 20"
+        },
+        "SOL-USD": {
+            "overrides": "--exchange coinbasepro --market SOL-USD --buymaxsize 50 --sellpercent 95 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "THETA-USDT": {
+            "overrides": "--exchange kucoin --market THETA-USDT --buymaxsize 50 --sellpercent 94 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "TRU-USD": {
+            "overrides": "--exchange coinbasepro --market TRU-USD --buymaxsize 20"
+        },
+        "QNT-USD": {
+            "overrides": "--exchange coinbasepro --market QNT-USD --buymaxsize 160 --sellpercent 95 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 3 --trailingstoploss -1.5"
+        },
+        "XLM-USD": {
+            "overrides": "--exchange coinbasepro --market XLM-USD --buymaxsize 100  --sellpercent 96 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 3 --trailingstoploss -1"
+        },
+        "XDC-USDT": {
+            "overrides": "--exchange kucoin --market XDC-USDT --buymaxsize 50  --sellpercent 94 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        },
+        "XRP-USDC": {
+            "overrides": "--exchange kucoin --market XRP-USDC --buymaxsize 100  --sellpercent 95 --selllowerpcnt -15 --nosellminpcnt -15 --nosellmaxpcnt 1 --trailingstoplosstrigger 2 --trailingstoploss -1"
+        }
+    }
+}

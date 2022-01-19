@@ -1,0 +1,29 @@
+{
+        "binance" : {
+        "api_url" : "https://api.binance.com",
+        "api_key_file" : "binance.key",
+        "config" : {
+            "base_currency" : "ETH",
+            "quote_currency" : "EUR",
+            "smartswitch" : 1,
+            "live" : 1,
+            "verbose" : 1,
+            "stats" : 0,
+            "autorestart" : 1
+        }
+    },
+    "telegram": {
+        "token": "xxx",
+        "client_id": "xxx",
+        "user_id": "xxx",
+        "datafolder": ""
+    },
+	"scanner" : {
+		"atr72_pcnt" : 2.0,
+		"enableexitaftersell" : 1,
+		"enableleverage" : 0,
+		"maxbotcount" : 10,
+        "autoscandelay" : 48,
+        "enable_buy_next": 1
+	}
+}

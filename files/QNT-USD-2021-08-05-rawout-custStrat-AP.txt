@@ -1,0 +1,580 @@
+--------------------------------------------------------------------------------
+|                             Python Crypto Bot                                |
+--------------------------------------------------------------------------------
+|                Release : v2.49.1                                             | 
+--------------------------------------------------------------------------------
+|               Bot Mode : TEST - test trades using dummy funds :)             | 
+|            Bot Started : 2021-08-06 00:15:41.218269                          | 
+================================================================================
+ |    Trailing Stop Loss : -1.5%                                               | 
+|           Sell At Loss : False  --sellatloss False                           | 
+|     Sell At Resistance : False  --sellatresistance                           | 
+|        Trade Bull Only : False  --disablebullonly                            | 
+|          Buy Near High : True  --disablebuynearhigh                          | 
+|           Use Buy MACD : False  --disablebuymacd                             | 
+|            Use Buy EMA : True  --disablebuyema                               | 
+|            Use Buy OBV : True  --disablebuyobv                               | 
+|      Use Buy Elder-Ray : True  --disablebuyelderray                          | 
+|     Sell Fibonacci Low : False  --disablefailsafefibonaccilow                | 
+|   Candlestick Reversal : False  --disableprofitbankreversal                  | 
+|               Telegram : False  --disabletelegram                            | 
+|                    Log : True  --disablelog                                  | 
+|                Tracker : False  --disabletracker                             | 
+|       Auto restart Bot : True  --autorestart                                 | 
+================================================================================
+ |    Sampling start : 2021-07-24T00:00:00                                     | 
+ |      Sampling end : 2021-08-05T00:00:00                                     | 
+ |     WARNING: Using less than 300 intervals                                  | 
+ |     Interval size : 289                                                     | 
+================================================================================
+2021-07-24 00:00:00 | QNT-USD | 3600 | Close: 75.5400 | EMA12/26: 75.5400 = 75.5400 | OBV: 1093.7580 (0.0000%)ERI: |  | WAIT | Last Action: SELL
+2021-07-24 01:00:00 | QNT-USD | 3600 | Close: 76.1300 | *^ EMA12/26: 75.6307 > 75.5837 ^* | ^ OBV: 2373.6000 (117.0100%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-24 01:00:00 | QNT-USD | 3600 | Close: 76.1300 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 75.54, 'ratio0_768': 100.05}
+ Resistance level of 188.99 formed at 2021-08-04 14:00:00
+2021-07-24 02:00:00 | QNT-USD | 3600 | Close: 78.9800 | ^ EMA12/26: 76.1460 > 75.8352 ^ | ^ OBV: 3554.2110 (49.7400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 2.7087% (delta: 2.85)
+support: 78.98, resistance: 84.74, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-24 03:00:00 | QNT-USD | 3600 | Close: 76.8000 | ^ EMA12/26: 76.2466 > 75.9067 ^ | v OBV: 1536.9160 (-56.7600%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.1263% (delta: 0.67)
+support: 76.8, resistance: 84.74, fibonacci (l): 75.54, fibonacci (u): 100.05
+! Trailing Stop Loss Triggered (< -1.5%)
+2021-07-24 04:00:00 | QNT-USD | 3600 | Close: 77.7000 | ^ EMA12/26: 76.4702 > 76.0395 ^ | ^ OBV: 2099.4030 (36.6000%) ^ | ERI: sell |  | SELL | Last Action: BUY | 1.0441% (delta: 1.57)
+support: 77.7, resistance: 84.74, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-24 04:00:00 | QNT-USD | 3600 | SELL | 77.7 | BUY | 76.13 | DIFF | 1.5700000000000074 | DIFF | 10.44190832 | MARGIN NO FEES | 1.0441% | MARGIN FEES | 5.0776
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 05:00:00 | QNT-USD | 3600 | Close: 77.7400 | ^ EMA12/26: 76.6655 > 76.1655 ^ | ^ OBV: 3497.8020 (66.6100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 06:00:00 | QNT-USD | 3600 | Close: 77.0500 | ^ EMA12/26: 76.7247 > 76.2310 ^ | v OBV: 3049.4800 (-12.8200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-24 07:00:00 | QNT-USD | 3600 | Close: 77.6400 | ^ EMA12/26: 76.8655 > 76.3354 ^ | ^ OBV: 3285.6960 (7.7500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-24 08:00:00 | QNT-USD | 3600 | Close: 78.1300 | ^ EMA12/26: 77.0600 > 76.4683 ^ | ^ OBV: 3406.0140 (3.6600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 09:00:00 | QNT-USD | 3600 | Close: 78.3199 | ^ EMA12/26: 77.2539 > 76.6055 ^ | ^ OBV: 3723.3950 (9.3200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 10:00:00 | QNT-USD | 3600 | Close: 79.4200 | ^ EMA12/26: 77.5871 > 76.8139 ^ | ^ OBV: 4931.7220 (32.4500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 11:00:00 | QNT-USD | 3600 | Close: 80.6300 | ^ EMA12/26: 78.0552 > 77.0966 ^ | ^ OBV: 6235.9889 (26.4500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-24 12:00:00 | QNT-USD | 3600 | Close: 81.4599 | ^ EMA12/26: 78.5790 > 77.4198 ^ | ^ OBV: 9925.2660 (59.1600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 13:00:00 | QNT-USD | 3600 | Close: 80.9900 | ^ EMA12/26: 78.9499 > 77.6843 ^ | v OBV: 8802.4640 (-11.3100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-24 14:00:00 | QNT-USD | 3600 | Close: 82.9900 | ^ EMA12/26: 79.5715 > 78.0773 ^ | ^ OBV: 10720.1559 (21.7900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 15:00:00 | QNT-USD | 3600 | Close: 83.6400 | ^ EMA12/26: 80.1974 > 78.4893 ^ | ^ OBV: 14766.8610 (37.7500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 16:00:00 | QNT-USD | 3600 | Close: 82.7000 | ^ EMA12/26: 80.5824 > 78.8012 ^ | v OBV: 9430.0710 (-36.1400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 17:00:00 | QNT-USD | 3600 | Close: 82.2200 | ^ EMA12/26: 80.8343 > 79.0545 ^ | v OBV: 7271.3360 (-22.8900%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-24 18:00:00 | QNT-USD | 3600 | Close: 82.9000 | ^ EMA12/26: 81.1521 > 79.3393 ^ | ^ OBV: 8688.4370 (19.4899%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-24 19:00:00 | QNT-USD | 3600 | Close: 80.9100 | ^ EMA12/26: 81.1149 > 79.4557 ^ | v OBV: 6856.5350 (-21.0800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 20:00:00 | QNT-USD | 3600 | Close: 80.2900 | ^ EMA12/26: 80.9880 > 79.5175 ^ | v OBV: 4629.1630 (-32.4900%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 21:00:00 | QNT-USD | 3600 | Close: 80.2500 | ^ EMA12/26: 80.8744 > 79.5717 ^ | v OBV: 3570.6730 (-22.8700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 22:00:00 | QNT-USD | 3600 | Close: 82.9800 | ^ EMA12/26: 81.1983 > 79.8242 ^ | ^ OBV: 5395.8110 (51.1100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-24 23:00:00 | QNT-USD | 3600 | Close: 83.1300 | ^ EMA12/26: 81.4955 > 80.0691 ^ | ^ OBV: 6651.9940 (23.2800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 00:00:00 | QNT-USD | 3600 | Close: 83.1000 | ^ EMA12/26: 81.7424 > 80.2936 ^ | v OBV: 4455.9310 (-33.0100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 01:00:00 | QNT-USD | 3600 | Close: 82.4200 | ^ EMA12/26: 81.8466 > 80.4511 ^ | v OBV: 3359.8690 (-24.6000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 02:00:00 | QNT-USD | 3600 | Close: 82.5900 | ^ EMA12/26: 81.9610 > 80.6095 ^ | ^ OBV: 7517.6090 (123.7500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-25 03:00:00 | QNT-USD | 3600 | Close: 81.6600 | ^ EMA12/26: 81.9147 > 80.6873 ^ | v OBV: 5135.3570 (-31.6900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 04:00:00 | QNT-USD | 3600 | Close: 83.5500 | ^ EMA12/26: 82.1662 > 80.8994 ^ | ^ OBV: 6078.3210 (18.3600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 05:00:00 | QNT-USD | 3600 | Close: 84.9900 | ^ EMA12/26: 82.6007 > 81.2024 ^ | ^ OBV: 9584.2790 (57.6800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-25 06:00:00 | QNT-USD | 3600 | Close: 84.9900 | ^ EMA12/26: 82.9682 > 81.4829 ^ | OBV: 9584.2790 (0.0000%)ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-25 07:00:00 | QNT-USD | 3600 | Close: 85.7300 | ^ EMA12/26: 83.3931 > 81.7975 ^ | ^ OBV: 10536.8290 (9.9400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+*** Candlestick Detected: Evening Star ("Strong - Reversal - Bearish Pattern - Down")
+2021-07-25 08:00:00 | QNT-USD | 3600 | Close: 85.1400 | ^ EMA12/26: 83.6619 > 82.0451 ^ | v OBV: 10027.0620 (-4.8400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 09:00:00 | QNT-USD | 3600 | Close: 85.8700 | ^ EMA12/26: 84.0016 > 82.3284 ^ | ^ OBV: 10570.3740 (5.4200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 10:00:00 | QNT-USD | 3600 | Close: 84.6000 | ^ EMA12/26: 84.0936 > 82.4967 ^ | v OBV: 7890.1750 (-25.3600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 11:00:00 | QNT-USD | 3600 | Close: 85.3000 | ^ EMA12/26: 84.2792 > 82.7043 ^ | ^ OBV: 8744.1610 (10.8200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 12:00:00 | QNT-USD | 3600 | Close: 87.9400 | ^ EMA12/26: 84.8424 > 83.0922 ^ | ^ OBV: 12609.4350 (44.2000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 13:00:00 | QNT-USD | 3600 | Close: 93.4599 | ^ EMA12/26: 86.1682 > 83.8602 ^ | ^ OBV: 24094.1460 (91.0800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 14:00:00 | QNT-USD | 3600 | Close: 96.0800 | ^ EMA12/26: 87.6931 > 84.7653 ^ | ^ OBV: 42084.8650 (74.6700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 15:00:00 | QNT-USD | 3600 | Close: 91.6800 | ^ EMA12/26: 88.3064 > 85.2775 ^ | v OBV: 31949.5920 (-24.0800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 16:00:00 | QNT-USD | 3600 | Close: 94.2000 | ^ EMA12/26: 89.2131 > 85.9384 ^ | ^ OBV: 39966.4270 (25.0900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 17:00:00 | QNT-USD | 3600 | Close: 90.8800 | ^ EMA12/26: 89.4696 > 86.3045 ^ | v OBV: 34937.6080 (-12.5800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 18:00:00 | QNT-USD | 3600 | Close: 93.6800 | ^ EMA12/26: 90.1173 > 86.8508 ^ | ^ OBV: 40725.3240 (16.5700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-25 19:00:00 | QNT-USD | 3600 | Close: 93.3900 | ^ EMA12/26: 90.6208 > 87.3352 ^ | v OBV: 37815.9940 (-7.1400%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 20:00:00 | QNT-USD | 3600 | Close: 92.8600 | ^ EMA12/26: 90.9653 > 87.7444 ^ | v OBV: 35639.9910 (-5.7500%) v | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Morning Star ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-25 21:00:00 | QNT-USD | 3600 | Close: 95.9300 | ^ EMA12/26: 91.7291 > 88.3508 ^ | ^ OBV: 41436.3980 (16.2600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 22:00:00 | QNT-USD | 3600 | Close: 98.1900 | ^ EMA12/26: 92.7231 > 89.0796 ^ | ^ OBV: 45498.1360 (9.8000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 23:00:00 | QNT-USD | 3600 | Close: 95.2500 | ^ EMA12/26: 93.1118 > 89.5367 ^ | v OBV: 38923.0940 (-14.4500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 00:00:00 | QNT-USD | 3600 | Close: 96.9100 | ^ EMA12/26: 93.6961 > 90.0828 ^ | ^ OBV: 41656.3610 (7.0200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 01:00:00 | QNT-USD | 3600 | Close: 96.9599 | ^ EMA12/26: 94.1983 > 90.5922 ^ | ^ OBV: 49543.5399 (18.9300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 02:00:00 | QNT-USD | 3600 | Close: 95.5800 | ^ EMA12/26: 94.4108 > 90.9617 ^ | v OBV: 46137.5619 (-6.8700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 03:00:00 | QNT-USD | 3600 | Close: 94.8700 | ^ EMA12/26: 94.4815 > 91.2512 ^ | v OBV: 42919.2689 (-6.9800%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 04:00:00 | QNT-USD | 3600 | Close: 95.5100 | ^ EMA12/26: 94.6397 > 91.5667 ^ | ^ OBV: 44403.5649 (3.4600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 05:00:00 | QNT-USD | 3600 | Close: 94.0900 | ^ EMA12/26: 94.5551 > 91.7536 ^ | v OBV: 43917.7250 (-1.0900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 06:00:00 | QNT-USD | 3600 | Close: 94.4400 | ^ EMA12/26: 94.5374 > 91.9526 ^ | ^ OBV: 46299.6900 (5.4200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 07:00:00 | QNT-USD | 3600 | Close: 93.4700 | ^ EMA12/26: 94.3732 > 92.0650 ^ | v OBV: 45528.6320 (-1.6700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 08:00:00 | QNT-USD | 3600 | Close: 93.5000 | ^ EMA12/26: 94.2388 > 92.1713 ^ | ^ OBV: 45909.2830 (0.8400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 09:00:00 | QNT-USD | 3600 | Close: 95.6200 | ^ EMA12/26: 94.4513 > 92.4267 ^ | ^ OBV: 46656.4760 (1.6299%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 10:00:00 | QNT-USD | 3600 | Close: 95.3000 | ^ EMA12/26: 94.5819 > 92.6396 ^ | v OBV: 46075.2600 (-1.2500%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 11:00:00 | QNT-USD | 3600 | Close: 95.3900 | ^ EMA12/26: 94.7062 > 92.8433 ^ | ^ OBV: 47043.6810 (2.1000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 12:00:00 | QNT-USD | 3600 | Close: 91.8000 | ^ EMA12/26: 94.2591 > 92.7660 ^ | v OBV: 44305.7580 (-5.8200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 13:00:00 | QNT-USD | 3600 | Close: 88.4200 | ^ EMA12/26: 93.3608 > 92.4441 ^ | v OBV: 39294.1670 (-11.3100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 14:00:00 | QNT-USD | 3600 | Close: 91.6800 | ^ EMA12/26: 93.1022 > 92.3875 ^ | ^ OBV: 45441.9760 (15.6500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 15:00:00 | QNT-USD | 3600 | Close: 91.9300 | ^ EMA12/26: 92.9218 > 92.3536 ^ | ^ OBV: 48948.8660 (7.7200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 16:00:00 | QNT-USD | 3600 | Close: 91.5000 | ^ EMA12/26: 92.7031 > 92.2903 ^ | v OBV: 45953.9920 (-6.1200%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 17:00:00 | QNT-USD | 3600 | Close: 91.3500 | ^ EMA12/26: 92.4949 > 92.2207 ^ | v OBV: 44478.1069 (-3.2100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 18:00:00 | QNT-USD | 3600 | Close: 93.0800 | ^ EMA12/26: 92.5849 > 92.2843 ^ | ^ OBV: 45909.3970 (3.2200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 19:00:00 | QNT-USD | 3600 | Close: 93.7400 | ^ EMA12/26: 92.7626 > 92.3922 ^ | ^ OBV: 49929.1199 (8.7600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 20:00:00 | QNT-USD | 3600 | Close: 87.0400 | *v EMA12/26: 91.8822 < 91.9957 v* | v OBV: 45975.1669 (-7.9200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 21:00:00 | QNT-USD | 3600 | Close: 88.9700 | v EMA12/26: 91.4342 < 91.7716 v | ^ OBV: 48767.9929 (6.0700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 22:00:00 | QNT-USD | 3600 | Close: 89.6500 | v EMA12/26: 91.1597 < 91.6144 v | ^ OBV: 50553.2709 (3.6600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 23:00:00 | QNT-USD | 3600 | Close: 90.5500 | v EMA12/26: 91.0659 < 91.5356 v | ^ OBV: 51804.3379 (2.4700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 00:00:00 | QNT-USD | 3600 | Close: 90.2900 | v EMA12/26: 90.9465 < 91.4433 v | v OBV: 49975.7869 (-3.5300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 01:00:00 | QNT-USD | 3600 | Close: 86.1300 | v EMA12/26: 90.2055 < 91.0497 v | v OBV: 48264.4189 (-3.4200%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 02:00:00 | QNT-USD | 3600 | Close: 85.9800 | v EMA12/26: 89.5554 < 90.6742 v | v OBV: 46561.9419 (-3.5300%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 03:00:00 | QNT-USD | 3600 | Close: 85.8600 | v EMA12/26: 88.9869 < 90.3176 v | v OBV: 45610.0019 (-2.0400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 04:00:00 | QNT-USD | 3600 | Close: 85.8800 | v EMA12/26: 88.5089 < 89.9889 v | ^ OBV: 46385.4049 (1.7000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 05:00:00 | QNT-USD | 3600 | Close: 87.6100 | v EMA12/26: 88.3706 < 89.8126 v | ^ OBV: 48641.6769 (4.8600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 06:00:00 | QNT-USD | 3600 | Close: 87.9800 | v EMA12/26: 88.3105 < 89.6769 v | ^ OBV: 48873.4499 (0.4800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 07:00:00 | QNT-USD | 3600 | Close: 87.9300 | v EMA12/26: 88.2519 < 89.5475 v | v OBV: 48527.7639 (-0.7100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 08:00:00 | QNT-USD | 3600 | Close: 90.2300 | v EMA12/26: 88.5563 < 89.5980 v | ^ OBV: 49124.3709 (1.2300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 09:00:00 | QNT-USD | 3600 | Close: 91.4200 | v EMA12/26: 88.9968 < 89.7330 v | ^ OBV: 49636.9219 (1.0400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 10:00:00 | QNT-USD | 3600 | Close: 92.4000 | v EMA12/26: 89.5204 < 89.9305 v | ^ OBV: 50344.8859 (1.4300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-27 11:00:00 | QNT-USD | 3600 | Close: 93.5200 | v EMA12/26: 90.1357 < 90.1964 v | ^ OBV: 53889.5219 (7.0400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 12:00:00 | QNT-USD | 3600 | Close: 95.2099 | *^ EMA12/26: 90.9164 > 90.5678 ^* | ^ OBV: 56016.0519 (3.9500%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-27 12:00:00 | QNT-USD | 3600 | Close: 95.2099 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 75.54, 'ratio0_768': 100.05}
+ Resistance level of 188.99 formed at 2021-08-04 14:00:00
+2021-07-27 13:00:00 | QNT-USD | 3600 | Close: 95.8700 | ^ EMA12/26: 91.6784 > 90.9606 ^ | ^ OBV: 57736.8159 (3.0700%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.3113% (delta: 0.66)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 14:00:00 | QNT-USD | 3600 | Close: 95.2700 | ^ EMA12/26: 92.2310 > 91.2798 ^ | v OBV: 56070.0919 (-2.8900%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.9352% (delta: 0.06)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-27 15:00:00 | QNT-USD | 3600 | Close: 95.7500 | ^ EMA12/26: 92.7724 > 91.6109 ^ | ^ OBV: 58102.4649 (3.6200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.4360% (delta: 0.54)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-27 16:00:00 | QNT-USD | 3600 | Close: 92.9300 | ^ EMA12/26: 92.7966 > 91.7086 ^ | v OBV: 54384.6289 (-6.4000%) v | ERI: buy |  | WAIT | Last Action: BUY | -3.3684% (delta: -2.28)
+support: 84.74, resistance: 93.61, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-27 17:00:00 | QNT-USD | 3600 | Close: 93.6400 | ^ EMA12/26: 92.9264 > 91.8517 ^ | ^ OBV: 55426.5589 (1.9200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.6301% (delta: -1.57)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-27 18:00:00 | QNT-USD | 3600 | Close: 92.9500 | ^ EMA12/26: 92.9300 > 91.9330 ^ | v OBV: 54398.8829 (-1.8500%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.3476% (delta: -2.26)
+support: 84.74, resistance: 93.61, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 19:00:00 | QNT-USD | 3600 | Close: 93.2700 | ^ EMA12/26: 92.9823 > 92.0320 ^ | ^ OBV: 56308.1489 (3.5100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.0148% (delta: -1.94)
+support: 84.74, resistance: 93.61, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-27 20:00:00 | QNT-USD | 3600 | Close: 94.3600 | ^ EMA12/26: 93.1942 > 92.2045 ^ | ^ OBV: 57189.9699 (1.5700%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.8814% (delta: -0.85)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-27 21:00:00 | QNT-USD | 3600 | Close: 94.5000 | ^ EMA12/26: 93.3951 > 92.3745 ^ | ^ OBV: 58438.7209 (2.1800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.7358% (delta: -0.71)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 22:00:00 | QNT-USD | 3600 | Close: 93.2099 | ^ EMA12/26: 93.3666 > 92.4364 ^ | v OBV: 56195.5649 (-3.8400%) v | ERI: buy |  | WAIT | Last Action: BUY | -3.0772% (delta: -2.0)
+support: 84.74, resistance: 93.61, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-27 23:00:00 | QNT-USD | 3600 | Close: 93.6100 | ^ EMA12/26: 93.4041 > 92.5233 ^ | ^ OBV: 56979.7349 (1.4000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.6613% (delta: -1.6)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 00:00:00 | QNT-USD | 3600 | Close: 94.3300 | ^ EMA12/26: 93.5465 > 92.6572 ^ | ^ OBV: 57711.6759 (1.2800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.9126% (delta: -0.88)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 01:00:00 | QNT-USD | 3600 | Close: 93.9300 | ^ EMA12/26: 93.6055 > 92.7514 ^ | v OBV: 56934.9929 (-1.3500%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.3285% (delta: -1.28)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 02:00:00 | QNT-USD | 3600 | Close: 94.3199 | ^ EMA12/26: 93.7154 > 92.8676 ^ | ^ OBV: 57482.3649 (0.9600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.9230% (delta: -0.89)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 03:00:00 | QNT-USD | 3600 | Close: 94.2099 | ^ EMA12/26: 93.7915 > 92.9671 ^ | v OBV: 56816.8119 (-1.1600%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.0374% (delta: -1.0)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+*** Candlestick Detected: Morning Star ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-28 04:00:00 | QNT-USD | 3600 | Close: 94.9400 | ^ EMA12/26: 93.9682 > 93.1132 ^ | ^ OBV: 58297.9389 (2.6100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.2783% (delta: -0.27)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 05:00:00 | QNT-USD | 3600 | Close: 95.0900 | ^ EMA12/26: 94.1408 > 93.2596 ^ | ^ OBV: 59159.7839 (1.4800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.1223% (delta: -0.12)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 06:00:00 | QNT-USD | 3600 | Close: 94.3900 | ^ EMA12/26: 94.1791 > 93.3433 ^ | v OBV: 58613.4479 (-0.9200%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.8502% (delta: -0.82)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 07:00:00 | QNT-USD | 3600 | Close: 94.6900 | ^ EMA12/26: 94.2577 > 93.4431 ^ | ^ OBV: 58972.6029 (0.6100%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.5383% (delta: -0.52)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 08:00:00 | QNT-USD | 3600 | Close: 95.5500 | ^ EMA12/26: 94.4565 > 93.5992 ^ | ^ OBV: 59518.8939 (0.9300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.6440% (delta: 0.34)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 09:00:00 | QNT-USD | 3600 | Close: 94.7900 | ^ EMA12/26: 94.5078 > 93.6874 ^ | v OBV: 59198.2059 (-0.5400%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.4343% (delta: -0.42)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 10:00:00 | QNT-USD | 3600 | Close: 95.5500 | ^ EMA12/26: 94.6681 > 93.8253 ^ | ^ OBV: 59805.5549 (1.0300%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.6440% (delta: 0.34)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 11:00:00 | QNT-USD | 3600 | Close: 95.5500 | ^ EMA12/26: 94.8038 > 93.9531 ^ | OBV: 59805.5549 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | -0.6440% (delta: 0.34)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 12:00:00 | QNT-USD | 3600 | Close: 93.7099 | ^ EMA12/26: 94.6355 > 93.9351 ^ | v OBV: 58568.4119 (-2.0700%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.5573% (delta: -1.5)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 13:00:00 | QNT-USD | 3600 | Close: 95.1100 | ^ EMA12/26: 94.7085 > 94.0221 ^ | ^ OBV: 59851.9839 (2.1900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.1015% (delta: -0.1)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 14:00:00 | QNT-USD | 3600 | Close: 95.5400 | ^ EMA12/26: 94.8364 > 94.1345 ^ | ^ OBV: 60801.0249 (1.5900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.6544% (delta: 0.33)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 15:00:00 | QNT-USD | 3600 | Close: 95.3500 | ^ EMA12/26: 94.9154 > 94.2246 ^ | v OBV: 60154.6959 (-1.0600%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.8520% (delta: 0.14)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 16:00:00 | QNT-USD | 3600 | Close: 95.1400 | ^ EMA12/26: 94.9500 > 94.2924 ^ | v OBV: 59439.7109 (-1.1900%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.0703% (delta: -0.07)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 17:00:00 | QNT-USD | 3600 | Close: 95.4200 | ^ EMA12/26: 95.0223 > 94.3759 ^ | ^ OBV: 60263.4159 (1.3899%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.7792% (delta: 0.21)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 18:00:00 | QNT-USD | 3600 | Close: 96.3800 | ^ EMA12/26: 95.2311 > 94.5243 ^ | ^ OBV: 64041.9399 (6.2699%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.2191% (delta: 1.17)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 19:00:00 | QNT-USD | 3600 | Close: 97.2800 | ^ EMA12/26: 95.5463 > 94.7285 ^ | ^ OBV: 68412.5429 (6.8200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.1549% (delta: 2.07)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 20:00:00 | QNT-USD | 3600 | Close: 97.2800 | ^ EMA12/26: 95.8131 > 94.9175 ^ | OBV: 68412.5429 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | 1.1549% (delta: 2.07)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 21:00:00 | QNT-USD | 3600 | Close: 98.1300 | ^ EMA12/26: 96.1695 > 95.1554 ^ | ^ OBV: 72031.2269 (5.2900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 2.0388% (delta: 2.92)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-28 22:00:00 | QNT-USD | 3600 | Close: 99.2200 | ^ EMA12/26: 96.6388 > 95.4565 ^ | ^ OBV: 74142.2179 (2.9300%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 3.1722% (delta: 4.01)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 23:00:00 | QNT-USD | 3600 | Close: 99.3199 | ^ EMA12/26: 97.0513 > 95.7427 ^ | ^ OBV: 77640.8609 (4.7200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 3.2762% (delta: 4.11)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-29 00:00:00 | QNT-USD | 3600 | Close: 96.0699 | ^ EMA12/26: 96.9003 > 95.7669 ^ | v OBV: 74602.1339 (-3.9100%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.1033% (delta: 0.86)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-29 01:00:00 | QNT-USD | 3600 | Close: 99.3600 | ^ EMA12/26: 97.2787 > 96.0331 ^ | ^ OBV: 76358.4289 (2.3500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 3.3178% (delta: 4.15)
+support: 93.61, resistance: 99.86, fibonacci (l): 75.54, fibonacci (u): 100.05
+2021-07-29 02:00:00 | QNT-USD | 3600 | Close: 108.4500 | ^ EMA12/26: 98.9974 > 96.9528 ^ | ^ OBV: 91632.8729 (20.0000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 12.7698% (delta: 13.24)
+support: 99.86, resistance: 118.5, fibonacci (l): 100.05, fibonacci (u): 115.9
+2021-07-29 03:00:00 | QNT-USD | 3600 | Close: 110.7900 | ^ EMA12/26: 100.8116 > 97.9778 ^ | ^ OBV: 102663.5369 (12.0399%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 15.2030% (delta: 15.58)
+support: 99.86, resistance: 118.5, fibonacci (l): 100.05, fibonacci (u): 115.9
+2021-07-29 04:00:00 | QNT-USD | 3600 | Close: 112.3700 | ^ EMA12/26: 102.5898 > 99.0439 ^ | ^ OBV: 109326.0129 (6.4900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 16.8460% (delta: 17.16)
+support: 99.86, resistance: 118.5, fibonacci (l): 100.05, fibonacci (u): 115.9
+2021-07-29 05:00:00 | QNT-USD | 3600 | Close: 118.3300 | ^ EMA12/26: 105.0114 > 100.4725 ^ | ^ OBV: 127132.5819 (16.2900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 23.0434% (delta: 23.12)
+support: 99.86, resistance: 118.5, fibonacci (l): 115.9, fibonacci (u): 128.37
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 06:00:00 | QNT-USD | 3600 | Close: 118.3000 | ^ EMA12/26: 107.0558 > 101.7930 ^ | v OBV: 109432.0819 (-13.9200%) v | ERI: sell |  | WAIT | Last Action: BUY | 23.0122% (delta: 23.09)
+support: 99.86, resistance: 118.5, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-29 07:00:00 | QNT-USD | 3600 | Close: 108.4000 | ^ EMA12/26: 107.2626 > 102.2824 ^ | v OBV: 95651.3479 (-12.5900%) v | ERI: sell |  | WAIT | Last Action: BUY | 12.7178% (delta: 13.19)
+support: 99.86, resistance: 118.5, fibonacci (l): 100.05, fibonacci (u): 115.9
+2021-07-29 08:00:00 | QNT-USD | 3600 | Close: 113.5600 | ^ EMA12/26: 108.2314 > 103.1178 ^ | ^ OBV: 107933.5729 (12.8400%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 18.0834% (delta: 18.35)
+support: 99.86, resistance: 118.5, fibonacci (l): 100.05, fibonacci (u): 115.9
+2021-07-29 09:00:00 | QNT-USD | 3600 | Close: 117.9500 | ^ EMA12/26: 109.7266 > 104.2165 ^ | ^ OBV: 111924.1859 (3.7000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 22.6483% (delta: 22.74)
+support: 99.86, resistance: 118.5, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-29 10:00:00 | QNT-USD | 3600 | Close: 131.4800 | ^ EMA12/26: 113.0732 > 106.2360 ^ | ^ OBV: 120702.3539 (7.8400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 36.7172% (delta: 36.27)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 11:00:00 | QNT-USD | 3600 | Close: 140.1000 | ^ EMA12/26: 117.2312 > 108.7444 ^ | ^ OBV: 159145.6889 (31.8500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 45.6806% (delta: 44.89)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-29 12:00:00 | QNT-USD | 3600 | Close: 131.6200 | ^ EMA12/26: 119.4448 > 110.4389 ^ | v OBV: 140013.1979 (-12.0200%) v | ERI: sell |  | WAIT | Last Action: BUY | 36.8628% (delta: 36.41)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-29 13:00:00 | QNT-USD | 3600 | Close: 131.7800 | ^ EMA12/26: 121.3426 > 112.0197 ^ | ^ OBV: 152319.3749 (8.7899%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 37.0291% (delta: 36.57)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-29 14:00:00 | QNT-USD | 3600 | Close: 130.6500 | ^ EMA12/26: 122.7745 > 113.3998 ^ | v OBV: 145921.7129 (-4.2000%) v | ERI: sell |  | WAIT | Last Action: BUY | 35.8541% (delta: 35.44)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-29 15:00:00 | QNT-USD | 3600 | Close: 128.6900 | ^ EMA12/26: 123.6845 > 114.5324 ^ | v OBV: 136415.1619 (-6.5100%) v | ERI: sell |  | WAIT | Last Action: BUY | 33.8161% (delta: 33.48)
+support: 118.5, resistance: 128.72, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-29 16:00:00 | QNT-USD | 3600 | Close: 126.6800 | ^ EMA12/26: 124.1454 > 115.4322 ^ | v OBV: 130822.8999 (-4.1000%) v | ERI: sell |  | WAIT | Last Action: BUY | 31.7260% (delta: 31.47)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-29 17:00:00 | QNT-USD | 3600 | Close: 119.8000 | ^ EMA12/26: 123.4768 > 115.7557 ^ | v OBV: 121841.1899 (-6.8700%) v | ERI: sell |  | WAIT | Last Action: BUY | 24.5719% (delta: 24.59)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-29 18:00:00 | QNT-USD | 3600 | Close: 135.5900 | ^ EMA12/26: 125.3404 > 117.2249 ^ | ^ OBV: 151311.4029 (24.1900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 40.9909% (delta: 40.38)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 19:00:00 | QNT-USD | 3600 | Close: 141.2100 | ^ EMA12/26: 127.7819 > 119.0016 ^ | ^ OBV: 181016.8819 (19.6300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 46.8348% (delta: 46.0)
+support: 128.72, resistance: 146.0, fibonacci (l): 140.84, fibonacci (u): 150.98
+2021-07-29 20:00:00 | QNT-USD | 3600 | Close: 136.5400 | ^ EMA12/26: 129.1293 > 120.3007 ^ | v OBV: 169594.5219 (-6.3100%) v | ERI: sell |  | WAIT | Last Action: BUY | 41.9787% (delta: 41.33)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-29 21:00:00 | QNT-USD | 3600 | Close: 145.2400 | ^ EMA12/26: 131.6078 > 122.1481 ^ | ^ OBV: 181274.0039 (6.8900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 51.0253% (delta: 50.03)
+support: 128.72, resistance: 146.0, fibonacci (l): 140.84, fibonacci (u): 150.98
+2021-07-29 22:00:00 | QNT-USD | 3600 | Close: 137.5000 | ^ EMA12/26: 132.5143 > 123.2853 ^ | v OBV: 168478.4349 (-7.0600%) v | ERI: sell |  | WAIT | Last Action: BUY | 42.9770% (delta: 42.29)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-29 23:00:00 | QNT-USD | 3600 | Close: 138.8400 | ^ EMA12/26: 133.4875 > 124.4375 ^ | ^ OBV: 178922.0459 (6.2000%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 44.3704% (delta: 43.63)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 00:00:00 | QNT-USD | 3600 | Close: 135.4700 | ^ EMA12/26: 133.7925 > 125.2547 ^ | v OBV: 171068.6599 (-4.3900%) v | ERI: sell |  | WAIT | Last Action: BUY | 40.8661% (delta: 40.26)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 01:00:00 | QNT-USD | 3600 | Close: 127.9300 | ^ EMA12/26: 132.8906 > 125.4528 ^ | v OBV: 163767.3689 (-4.2700%) v | ERI: sell |  | WAIT | Last Action: BUY | 33.0258% (delta: 32.72)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 02:00:00 | QNT-USD | 3600 | Close: 130.2800 | ^ EMA12/26: 132.4889 > 125.8104 ^ | ^ OBV: 172966.8649 (5.6200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 35.4694% (delta: 35.07)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 03:00:00 | QNT-USD | 3600 | Close: 128.6399 | ^ EMA12/26: 131.8968 > 126.0200 ^ | v OBV: 168124.4849 (-2.8000%) v | ERI: buy |  | WAIT | Last Action: BUY | 33.7641% (delta: 33.43)
+support: 118.5, resistance: 128.72, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 04:00:00 | QNT-USD | 3600 | Close: 129.0100 | ^ EMA12/26: 131.4526 > 126.2415 ^ | ^ OBV: 172798.8359 (2.7799%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 34.1488% (delta: 33.8)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 05:00:00 | QNT-USD | 3600 | Close: 133.0000 | ^ EMA12/26: 131.6907 > 126.7421 ^ | ^ OBV: 175794.9379 (1.7300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 38.2977% (delta: 37.79)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 06:00:00 | QNT-USD | 3600 | Close: 131.1200 | ^ EMA12/26: 131.6029 > 127.0664 ^ | v OBV: 174176.6859 (-0.9200%) v | ERI: buy |  | WAIT | Last Action: BUY | 36.3429% (delta: 35.91)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 07:00:00 | QNT-USD | 3600 | Close: 127.3200 | ^ EMA12/26: 130.9440 > 127.0852 ^ | v OBV: 172395.7999 (-1.0200%) v | ERI: sell |  | WAIT | Last Action: BUY | 32.3915% (delta: 32.11)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-30 08:00:00 | QNT-USD | 3600 | Close: 131.4500 | ^ EMA12/26: 131.0218 > 127.4085 ^ | ^ OBV: 174195.3609 (1.0400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 36.6860% (delta: 36.24)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 09:00:00 | QNT-USD | 3600 | Close: 125.3600 | ^ EMA12/26: 130.1508 > 127.2567 ^ | v OBV: 171099.0439 (-1.7800%) v | ERI: buy |  | WAIT | Last Action: BUY | 30.3534% (delta: 30.15)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-30 10:00:00 | QNT-USD | 3600 | Close: 122.1300 | ^ EMA12/26: 128.9168 > 126.8770 ^ | v OBV: 168167.8129 (-1.7100%) v | ERI: sell |  | WAIT | Last Action: BUY | 26.9948% (delta: 26.92)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-30 11:00:00 | QNT-USD | 3600 | Close: 121.7300 | ^ EMA12/26: 127.8111 > 126.4957 ^ | v OBV: 164502.2569 (-2.1800%) v | ERI: sell |  | WAIT | Last Action: BUY | 26.5788% (delta: 26.52)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-30 12:00:00 | QNT-USD | 3600 | Close: 128.1600 | ^ EMA12/26: 127.8648 > 126.6190 ^ | ^ OBV: 167377.6019 (1.7500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 33.2649% (delta: 32.95)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-30 13:00:00 | QNT-USD | 3600 | Close: 128.5800 | ^ EMA12/26: 127.9748 > 126.7643 ^ | ^ OBV: 169660.7429 (1.3600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 33.7017% (delta: 33.37)
+support: 118.5, resistance: 128.72, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 14:00:00 | QNT-USD | 3600 | Close: 136.0300 | ^ EMA12/26: 129.2141 > 127.4506 ^ | ^ OBV: 178635.6199 (5.2900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 41.4484% (delta: 40.82)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 15:00:00 | QNT-USD | 3600 | Close: 130.5700 | ^ EMA12/26: 129.4227 > 127.6817 ^ | v OBV: 173412.6179 (-2.9200%) v | ERI: buy |  | WAIT | Last Action: BUY | 35.7709% (delta: 35.36)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 16:00:00 | QNT-USD | 3600 | Close: 129.5800 | ^ EMA12/26: 129.4469 > 127.8223 ^ | v OBV: 168119.1999 (-3.0500%) v | ERI: sell |  | WAIT | Last Action: BUY | 34.7415% (delta: 34.37)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 17:00:00 | QNT-USD | 3600 | Close: 132.1000 | ^ EMA12/26: 129.8550 > 128.1391 ^ | ^ OBV: 170372.8659 (1.3400%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 37.3619% (delta: 36.89)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 18:00:00 | QNT-USD | 3600 | Close: 130.5600 | ^ EMA12/26: 129.9635 > 128.3185 ^ | v OBV: 167788.6369 (-1.5200%) v | ERI: buy |  | WAIT | Last Action: BUY | 35.7605% (delta: 35.35)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 19:00:00 | QNT-USD | 3600 | Close: 128.1500 | ^ EMA12/26: 129.6845 > 128.3060 ^ | v OBV: 165506.0719 (-1.3601%) v | ERI: sell |  | WAIT | Last Action: BUY | 33.2545% (delta: 32.94)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 20:00:00 | QNT-USD | 3600 | Close: 127.5000 | ^ EMA12/26: 129.3484 > 128.2463 ^ | v OBV: 160383.6079 (-3.1000%) v | ERI: buy |  | WAIT | Last Action: BUY | 32.5787% (delta: 32.29)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 21:00:00 | QNT-USD | 3600 | Close: 128.4199 | ^ EMA12/26: 129.2056 > 128.2591 ^ | ^ OBV: 166259.1479 (3.6600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 33.5353% (delta: 33.21)
+support: 118.5, resistance: 128.72, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 22:00:00 | QNT-USD | 3600 | Close: 130.1900 | ^ EMA12/26: 129.3570 > 128.4022 ^ | ^ OBV: 169810.6579 (2.1400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 35.3758% (delta: 34.98)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-30 23:00:00 | QNT-USD | 3600 | Close: 134.0100 | ^ EMA12/26: 130.0728 > 128.8176 ^ | ^ OBV: 173098.8789 (1.9400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 39.3480% (delta: 38.8)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-31 00:00:00 | QNT-USD | 3600 | Close: 128.1399 | ^ EMA12/26: 129.7755 > 128.7674 ^ | v OBV: 169649.0919 (-1.9900%) v | ERI: sell |  | WAIT | Last Action: BUY | 33.2442% (delta: 32.93)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-31 01:00:00 | QNT-USD | 3600 | Close: 127.0000 | ^ EMA12/26: 129.3485 > 128.6364 ^ | v OBV: 167434.6179 (-1.3100%) v | ERI: buy |  | WAIT | Last Action: BUY | 32.0587% (delta: 31.79)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-31 02:00:00 | QNT-USD | 3600 | Close: 128.8000 | ^ EMA12/26: 129.2641 > 128.6486 ^ | ^ OBV: 169020.1819 (0.9500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 33.9304% (delta: 33.59)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-31 03:00:00 | QNT-USD | 3600 | Close: 127.2800 | ^ EMA12/26: 128.9588 > 128.5472 ^ | v OBV: 167464.2769 (-0.9200%) v | ERI: buy |  | WAIT | Last Action: BUY | 32.3499% (delta: 32.07)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-31 04:00:00 | QNT-USD | 3600 | Close: 128.8600 | ^ EMA12/26: 128.9436 > 128.5703 ^ | ^ OBV: 168686.1539 (0.7300%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 33.9928% (delta: 33.65)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-31 05:00:00 | QNT-USD | 3600 | Close: 126.2800 | ^ EMA12/26: 128.5338 > 128.4007 ^ | v OBV: 167978.6299 (-0.4200%) v | ERI: buy |  | WAIT | Last Action: BUY | 31.3101% (delta: 31.07)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-31 06:00:00 | QNT-USD | 3600 | Close: 127.5500 | ^ EMA12/26: 128.3825 > 128.3377 ^ | ^ OBV: 168575.4739 (0.3600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 32.6306% (delta: 32.34)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 07:00:00 | QNT-USD | 3600 | Close: 127.9300 | ^ EMA12/26: 128.3128 > 128.3075 ^ | ^ OBV: 168906.5729 (0.2000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 33.0258% (delta: 32.72)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 08:00:00 | QNT-USD | 3600 | Close: 128.2700 | ^ EMA12/26: 128.3062 > 128.3047 ^ | ^ OBV: 169620.0149 (0.4200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 33.3793% (delta: 33.06)
+support: 118.5, resistance: 128.72, fibonacci (l): 115.9, fibonacci (u): 128.37
+2021-07-31 09:00:00 | QNT-USD | 3600 | Close: 130.6600 | ^ EMA12/26: 128.6684 > 128.4792 ^ | ^ OBV: 170480.1569 (0.5100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 35.8645% (delta: 35.45)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 10:00:00 | QNT-USD | 3600 | Close: 130.1200 | ^ EMA12/26: 128.8917 > 128.6007 ^ | v OBV: 169558.0129 (-0.5400%) v | ERI: buy |  | WAIT | Last Action: BUY | 35.3030% (delta: 34.91)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-31 11:00:00 | QNT-USD | 3600 | Close: 131.8899 | ^ EMA12/26: 129.3529 > 128.8443 ^ | ^ OBV: 170234.7979 (0.4000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 37.1435% (delta: 36.68)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 12:00:00 | QNT-USD | 3600 | Close: 130.9900 | ^ EMA12/26: 129.6048 > 129.0033 ^ | v OBV: 169341.5719 (-0.5200%) v | ERI: sell |  | WAIT | Last Action: BUY | 36.2077% (delta: 35.78)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-31 13:00:00 | QNT-USD | 3600 | Close: 128.6100 | ^ EMA12/26: 129.4517 > 128.9741 ^ | v OBV: 168406.3269 (-0.5500%) v | ERI: sell |  | WAIT | Last Action: BUY | 33.7329% (delta: 33.4)
+support: 118.5, resistance: 128.72, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 14:00:00 | QNT-USD | 3600 | Close: 129.0600 | ^ EMA12/26: 129.3915 > 128.9805 ^ | ^ OBV: 169931.5609 (0.9100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 34.2008% (delta: 33.85)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 15:00:00 | QNT-USD | 3600 | Close: 129.5700 | ^ EMA12/26: 129.4189 > 129.0242 ^ | ^ OBV: 171355.8059 (0.8400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 34.7311% (delta: 34.36)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 16:00:00 | QNT-USD | 3600 | Close: 130.4900 | ^ EMA12/26: 129.5837 > 129.1327 ^ | ^ OBV: 172543.1759 (0.6899%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 35.6878% (delta: 35.28)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-31 17:00:00 | QNT-USD | 3600 | Close: 130.2100 | ^ EMA12/26: 129.6800 > 129.2125 ^ | v OBV: 170906.6659 (-0.9500%) v | ERI: buy |  | WAIT | Last Action: BUY | 35.3966% (delta: 35.0)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-31 18:00:00 | QNT-USD | 3600 | Close: 134.6600 | ^ EMA12/26: 130.4462 > 129.6160 ^ | ^ OBV: 173749.3099 (1.6600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 40.0239% (delta: 39.45)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-31 19:00:00 | QNT-USD | 3600 | Close: 136.6699 | ^ EMA12/26: 131.4037 > 130.1386 ^ | ^ OBV: 177420.2639 (2.1100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 42.1139% (delta: 41.46)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 20:00:00 | QNT-USD | 3600 | Close: 137.0900 | ^ EMA12/26: 132.2785 > 130.6535 ^ | ^ OBV: 181418.9499 (2.2500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 42.5507% (delta: 41.88)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-31 21:00:00 | QNT-USD | 3600 | Close: 135.1800 | ^ EMA12/26: 132.7249 > 130.9888 ^ | v OBV: 179875.7089 (-0.8500%) v | ERI: sell |  | WAIT | Last Action: BUY | 40.5646% (delta: 39.97)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-07-31 22:00:00 | QNT-USD | 3600 | Close: 135.3500 | ^ EMA12/26: 133.1287 > 131.3118 ^ | ^ OBV: 180998.9539 (0.6200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 40.7413% (delta: 40.14)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 23:00:00 | QNT-USD | 3600 | Close: 135.0800 | ^ EMA12/26: 133.4289 > 131.5909 ^ | v OBV: 179986.3299 (-0.5601%) v | ERI: sell |  | WAIT | Last Action: BUY | 40.4606% (delta: 39.87)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-08-01 00:00:00 | QNT-USD | 3600 | Close: 137.8200 | ^ EMA12/26: 134.1045 > 132.0523 ^ | ^ OBV: 182547.9139 (1.4200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 43.3097% (delta: 42.61)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 01:00:00 | QNT-USD | 3600 | Close: 138.0000 | ^ EMA12/26: 134.7038 > 132.4929 ^ | ^ OBV: 183922.7449 (0.7500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 43.4969% (delta: 42.79)
+support: 128.72, resistance: 146.0, fibonacci (l): 128.37, fibonacci (u): 140.84
+2021-08-01 02:00:00 | QNT-USD | 3600 | Close: 154.3300 | ^ EMA12/26: 137.7232 > 134.1105 ^ | ^ OBV: 199583.9519 (8.5200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 60.4774% (delta: 59.12)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 03:00:00 | QNT-USD | 3600 | Close: 152.1000 | ^ EMA12/26: 139.9350 > 135.4430 ^ | v OBV: 190245.9929 (-4.6800%) v | ERI: sell |  | WAIT | Last Action: BUY | 58.1585% (delta: 56.89)
+support: 146.0, resistance: 152.5, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 04:00:00 | QNT-USD | 3600 | Close: 147.6699 | ^ EMA12/26: 141.1250 > 136.3487 ^ | v OBV: 185216.6729 (-2.6400%) v | ERI: sell |  | WAIT | Last Action: BUY | 53.5521% (delta: 52.46)
+support: 146.0, resistance: 152.5, fibonacci (l): 140.84, fibonacci (u): 150.98
+2021-08-01 05:00:00 | QNT-USD | 3600 | Close: 158.6300 | ^ EMA12/26: 143.8181 > 137.9992 ^ | ^ OBV: 191336.7889 (3.3000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 64.9487% (delta: 63.42)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 06:00:00 | QNT-USD | 3600 | Close: 162.7000 | ^ EMA12/26: 146.7230 > 139.8289 ^ | ^ OBV: 206140.3139 (7.7400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 69.1808% (delta: 67.49)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 07:00:00 | QNT-USD | 3600 | Close: 165.5900 | ^ EMA12/26: 149.6256 > 141.7371 ^ | ^ OBV: 210790.6599 (2.2599%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 72.1859% (delta: 70.38)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 08:00:00 | QNT-USD | 3600 | Close: 173.9700 | ^ EMA12/26: 153.3709 > 144.1247 ^ | ^ OBV: 225963.0899 (7.2000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 80.8997% (delta: 78.76)
+support: 170.0, resistance: 180.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 09:00:00 | QNT-USD | 3600 | Close: 169.1399 | ^ EMA12/26: 155.7969 > 145.9777 ^ | v OBV: 219284.9689 (-2.9600%) v | ERI: sell |  | WAIT | Last Action: BUY | 75.8773% (delta: 73.93)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-01 10:00:00 | QNT-USD | 3600 | Close: 167.8800 | ^ EMA12/26: 157.6558 > 147.6001 ^ | v OBV: 215121.1429 (-1.9000%) v | ERI: sell |  | WAIT | Last Action: BUY | 74.5671% (delta: 72.67)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 11:00:00 | QNT-USD | 3600 | Close: 164.5000 | ^ EMA12/26: 158.7088 > 148.8519 ^ | v OBV: 205752.0819 (-4.3600%) v | ERI: buy |  | WAIT | Last Action: BUY | 71.0525% (delta: 69.29)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 12:00:00 | QNT-USD | 3600 | Close: 160.0000 | ^ EMA12/26: 158.9074 > 149.6777 ^ | v OBV: 199446.8879 (-3.0600%) v | ERI: sell |  | WAIT | Last Action: BUY | 66.3732% (delta: 64.79)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 13:00:00 | QNT-USD | 3600 | Close: 163.9900 | ^ EMA12/26: 159.6893 > 150.7379 ^ | ^ OBV: 205008.8059 (2.7900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 70.5222% (delta: 68.78)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 14:00:00 | QNT-USD | 3600 | Close: 169.8300 | ^ EMA12/26: 161.2494 > 152.1521 ^ | ^ OBV: 212190.7389 (3.5000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 76.5948% (delta: 74.62)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 15:00:00 | QNT-USD | 3600 | Close: 168.5700 | ^ EMA12/26: 162.3757 > 153.3682 ^ | v OBV: 202552.5569 (-4.5400%) v | ERI: buy |  | WAIT | Last Action: BUY | 75.2846% (delta: 73.36)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 16:00:00 | QNT-USD | 3600 | Close: 159.6000 | ^ EMA12/26: 161.9486 > 153.8298 ^ | v OBV: 192547.3519 (-4.9401%) v | ERI: sell |  | WAIT | Last Action: BUY | 65.9573% (delta: 64.39)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 17:00:00 | QNT-USD | 3600 | Close: 156.9400 | ^ EMA12/26: 161.1781 > 154.0602 ^ | v OBV: 184129.1759 (-4.3700%) v | ERI: sell |  | WAIT | Last Action: BUY | 63.1913% (delta: 61.73)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 18:00:00 | QNT-USD | 3600 | Close: 157.8700 | ^ EMA12/26: 160.6691 > 154.3424 ^ | ^ OBV: 188610.2529 (2.4300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 64.1584% (delta: 62.66)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 19:00:00 | QNT-USD | 3600 | Close: 160.9900 | ^ EMA12/26: 160.7185 > 154.8348 ^ | ^ OBV: 193973.0529 (2.8400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 67.4027% (delta: 65.78)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 20:00:00 | QNT-USD | 3600 | Close: 170.7300 | ^ EMA12/26: 162.2587 > 156.0123 ^ | ^ OBV: 202409.4839 (4.3500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 77.5306% (delta: 75.52)
+support: 170.0, resistance: 180.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 21:00:00 | QNT-USD | 3600 | Close: 176.4100 | ^ EMA12/26: 164.4358 > 157.5232 ^ | ^ OBV: 215970.4789 (6.7000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 83.4369% (delta: 81.2)
+support: 170.0, resistance: 180.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 22:00:00 | QNT-USD | 3600 | Close: 169.0500 | ^ EMA12/26: 165.1457 > 158.3770 ^ | v OBV: 201252.5429 (-6.8100%) v | ERI: sell |  | WAIT | Last Action: BUY | 75.7837% (delta: 73.84)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-01 23:00:00 | QNT-USD | 3600 | Close: 176.3100 | ^ EMA12/26: 166.8633 > 159.7054 ^ | ^ OBV: 211276.4969 (4.9800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 83.3329% (delta: 81.1)
+support: 170.0, resistance: 180.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-02 00:00:00 | QNT-USD | 3600 | Close: 178.7000 | ^ EMA12/26: 168.6843 > 161.1124 ^ | ^ OBV: 242195.2979 (14.6300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 85.8181% (delta: 83.49)
+support: 170.0, resistance: 180.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 01:00:00 | QNT-USD | 3600 | Close: 172.2000 | ^ EMA12/26: 169.2252 > 161.9337 ^ | v OBV: 222788.9829 (-8.0100%) v | ERI: sell |  | WAIT | Last Action: BUY | 79.0592% (delta: 76.99)
+support: 170.0, resistance: 180.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 02:00:00 | QNT-USD | 3600 | Close: 166.9800 | ^ EMA12/26: 168.8797 > 162.3075 ^ | v OBV: 212726.4319 (-4.5200%) v | ERI: sell |  | WAIT | Last Action: BUY | 73.6313% (delta: 71.77)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 03:00:00 | QNT-USD | 3600 | Close: 169.9800 | ^ EMA12/26: 169.0490 > 162.8758 ^ | ^ OBV: 218466.2169 (2.7000%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 76.7508% (delta: 74.77)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 04:00:00 | QNT-USD | 3600 | Close: 159.8300 | ^ EMA12/26: 167.6307 > 162.6502 ^ | v OBV: 203973.2099 (-6.6300%) v | ERI: buy |  | WAIT | Last Action: BUY | 66.1965% (delta: 64.62)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 05:00:00 | QNT-USD | 3600 | Close: 156.0000 | ^ EMA12/26: 165.8413 > 162.1576 ^ | v OBV: 197328.0149 (-3.2600%) v | ERI: sell |  | WAIT | Last Action: BUY | 62.2139% (delta: 60.79)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 06:00:00 | QNT-USD | 3600 | Close: 159.8600 | ^ EMA12/26: 164.9211 > 161.9874 ^ | ^ OBV: 203574.8209 (3.1700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 66.2277% (delta: 64.65)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 07:00:00 | QNT-USD | 3600 | Close: 158.7600 | ^ EMA12/26: 163.9733 > 161.7483 ^ | v OBV: 199936.1539 (-1.7900%) v | ERI: buy |  | WAIT | Last Action: BUY | 65.0838% (delta: 63.55)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 08:00:00 | QNT-USD | 3600 | Close: 160.4000 | ^ EMA12/26: 163.4235 > 161.6484 ^ | ^ OBV: 202374.0419 (1.2200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 66.7892% (delta: 65.19)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 09:00:00 | QNT-USD | 3600 | Close: 164.7600 | ^ EMA12/26: 163.6291 > 161.8789 ^ | ^ OBV: 204704.4819 (1.1500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 71.3228% (delta: 69.55)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 10:00:00 | QNT-USD | 3600 | Close: 167.1500 | ^ EMA12/26: 164.1708 > 162.2694 ^ | ^ OBV: 206925.1989 (1.0800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 73.8080% (delta: 71.94)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 11:00:00 | QNT-USD | 3600 | Close: 164.2100 | ^ EMA12/26: 164.1768 > 162.4131 ^ | v OBV: 204077.9899 (-1.3800%) v | ERI: sell |  | WAIT | Last Action: BUY | 70.7509% (delta: 69.0)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 12:00:00 | QNT-USD | 3600 | Close: 156.1300 | ^ EMA12/26: 162.9388 > 161.9477 ^ | v OBV: 198043.0789 (-2.9600%) v | ERI: sell |  | WAIT | Last Action: BUY | 62.3491% (delta: 60.92)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 13:00:00 | QNT-USD | 3600 | Close: 151.9500 | ^ EMA12/26: 161.2482 > 161.2071 ^ | v OBV: 188202.6999 (-4.9700%) v | ERI: sell |  | WAIT | Last Action: BUY | 58.0026% (delta: 56.74)
+support: 146.0, resistance: 152.5, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 14:00:00 | QNT-USD | 3600 | Close: 160.0100 | *v EMA12/26: 161.0577 < 161.1184 v* | ^ OBV: 196915.7179 (4.6300%) ^ | ERI: buy |  | SELL | Last Action: BUY | 66.3836% (delta: 64.8)
+support: 152.5, resistance: 164.32, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-02 14:00:00 | QNT-USD | 3600 | SELL | 160.01 | BUY | 95.21 | DIFF | 64.8 | DIFF | 670.76850694 | MARGIN NO FEES | 66.3836% | MARGIN FEES | 8.4483
+2021-08-02 15:00:00 | QNT-USD | 3600 | Close: 154.9500 | v EMA12/26: 160.1181 < 160.6615 v | v OBV: 191804.7299 (-2.6000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 16:00:00 | QNT-USD | 3600 | Close: 160.0000 | v EMA12/26: 160.0999 < 160.6125 v | ^ OBV: 198236.1549 (3.3500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 17:00:00 | QNT-USD | 3600 | Close: 149.5300 | v EMA12/26: 158.4738 < 159.7916 v | v OBV: 179938.9899 (-9.2300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 18:00:00 | QNT-USD | 3600 | Close: 146.6600 | v EMA12/26: 156.6562 < 158.8189 v | v OBV: 172543.8579 (-4.1100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 19:00:00 | QNT-USD | 3600 | Close: 143.9600 | v EMA12/26: 154.7030 < 157.7182 v | v OBV: 164674.2559 (-4.5600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 20:00:00 | QNT-USD | 3600 | Close: 149.7500 | v EMA12/26: 153.9410 < 157.1280 v | ^ OBV: 173631.5199 (5.4400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 21:00:00 | QNT-USD | 3600 | Close: 156.0000 | v EMA12/26: 154.2577 < 157.0444 v | ^ OBV: 183440.3979 (5.6500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 22:00:00 | QNT-USD | 3600 | Close: 162.5900 | v EMA12/26: 155.5396 < 157.4552 v | ^ OBV: 191219.3599 (4.2400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 23:00:00 | QNT-USD | 3600 | Close: 158.8800 | v EMA12/26: 156.0535 < 157.5607 v | v OBV: 185668.1549 (-2.9000%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 00:00:00 | QNT-USD | 3600 | Close: 158.9100 | v EMA12/26: 156.4930 < 157.6607 v | ^ OBV: 191302.0709 (3.0299%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 01:00:00 | QNT-USD | 3600 | Close: 151.1900 | v EMA12/26: 155.6771 < 157.1814 v | v OBV: 186488.1029 (-2.5200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 02:00:00 | QNT-USD | 3600 | Close: 154.2100 | v EMA12/26: 155.4514 < 156.9613 v | ^ OBV: 189620.8399 (1.6800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 03:00:00 | QNT-USD | 3600 | Close: 151.7800 | v EMA12/26: 154.8866 < 156.5775 v | v OBV: 186765.1879 (-1.5100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 04:00:00 | QNT-USD | 3600 | Close: 148.2900 | v EMA12/26: 153.8717 < 155.9636 v | v OBV: 184956.1159 (-0.9700%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 05:00:00 | QNT-USD | 3600 | Close: 149.0300 | v EMA12/26: 153.1268 < 155.4500 v | ^ OBV: 187074.4329 (1.1500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 06:00:00 | QNT-USD | 3600 | Close: 153.4500 | v EMA12/26: 153.1765 < 155.3018 v | ^ OBV: 189641.9119 (1.3700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 07:00:00 | QNT-USD | 3600 | Close: 151.6900 | v EMA12/26: 152.9478 < 155.0343 v | v OBV: 188977.4149 (-0.3500%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 08:00:00 | QNT-USD | 3600 | Close: 151.3899 | v EMA12/26: 152.7081 < 154.7643 v | v OBV: 187647.3869 (-0.7000%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 09:00:00 | QNT-USD | 3600 | Close: 151.2400 | v EMA12/26: 152.4823 < 154.5033 v | v OBV: 186157.0319 (-0.7900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 10:00:00 | QNT-USD | 3600 | Close: 153.6699 | v EMA12/26: 152.6650 < 154.4415 v | ^ OBV: 187289.2169 (0.6100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 11:00:00 | QNT-USD | 3600 | Close: 151.1200 | v EMA12/26: 152.4273 < 154.1955 v | v OBV: 185266.3749 (-1.0800%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 12:00:00 | QNT-USD | 3600 | Close: 151.3000 | v EMA12/26: 152.2539 < 153.9810 v | ^ OBV: 188325.8369 (1.6500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 13:00:00 | QNT-USD | 3600 | Close: 150.7700 | v EMA12/26: 152.0256 < 153.7431 v | v OBV: 186580.4399 (-0.9300%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 14:00:00 | QNT-USD | 3600 | Close: 151.8400 | v EMA12/26: 151.9970 < 153.6022 v | ^ OBV: 189454.3899 (1.5400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 15:00:00 | QNT-USD | 3600 | Close: 149.7700 | v EMA12/26: 151.6544 < 153.3183 v | v OBV: 186923.4129 (-1.3400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 16:00:00 | QNT-USD | 3600 | Close: 152.4400 | v EMA12/26: 151.7752 < 153.2532 v | ^ OBV: 188812.6079 (1.0100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 17:00:00 | QNT-USD | 3600 | Close: 155.4700 | v EMA12/26: 152.3437 < 153.4174 v | ^ OBV: 192271.2709 (1.8300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-03 18:00:00 | QNT-USD | 3600 | Close: 156.4800 | v EMA12/26: 152.9800 < 153.6443 v | ^ OBV: 194661.3709 (1.2400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-03 19:00:00 | QNT-USD | 3600 | Close: 160.8600 | *^ EMA12/26: 154.1923 > 154.1788 ^* | ^ OBV: 210167.0159 (7.9700%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-08-03 19:00:00 | QNT-USD | 3600 | Close: 160.8600 | BUY
+ Fibonacci Retracement Levels:{'ratio0_286': 150.98, 'ratio0': 181.21}
+ Resistance level of 188.99 formed at 2021-08-04 14:00:00
+2021-08-03 20:00:00 | QNT-USD | 3600 | Close: 172.3200 | ^ EMA12/26: 156.9812 > 155.5226 ^ | ^ OBV: 221846.2319 (5.5599%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 6.0556% (delta: 11.46)
+support: 170.0, resistance: 180.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 21:00:00 | QNT-USD | 3600 | Close: 171.5300 | ^ EMA12/26: 159.2194 > 156.7083 ^ | v OBV: 208089.4209 (-6.2000%) v | ERI: sell |  | WAIT | Last Action: BUY | 5.5694% (delta: 10.67)
+support: 170.0, resistance: 180.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+! Trailing Stop Loss Triggered (< -1.5%)
+2021-08-03 22:00:00 | QNT-USD | 3600 | Close: 166.3100 | ^ EMA12/26: 160.3103 > 157.4195 ^ | v OBV: 201020.4179 (-3.4000%) v | ERI: sell |  | SELL | Last Action: BUY | 2.3567% (delta: 5.45)
+support: 164.32, resistance: 170.0, fibonacci (l): 150.98, fibonacci (u): 181.21
+2021-08-03 22:00:00 | QNT-USD | 3600 | SELL | 166.31 | BUY | 160.86 | DIFF | 5.449999999999989 | DIFF | 39.62181871 | MARGIN NO FEES | 2.3567% | MARGIN FEES | 8.6474
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 23:00:00 | QNT-USD | 3600 | Close: 165.3500 | ^ EMA12/26: 161.0856 > 158.0070 ^ | v OBV: 192434.1489 (-4.2700%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+*** Candlestick Detected: Morning Star ("Strong - Reversal - Bullish Pattern - Up")
+2021-08-04 00:00:00 | QNT-USD | 3600 | Close: 165.9600 | ^ EMA12/26: 161.8355 > 158.5961 ^ | ^ OBV: 196817.2209 (2.2799%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 01:00:00 | QNT-USD | 3600 | Close: 164.1100 | ^ EMA12/26: 162.1854 > 159.0045 ^ | v OBV: 192971.0349 (-1.9500%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 02:00:00 | QNT-USD | 3600 | Close: 165.8200 | ^ EMA12/26: 162.7446 > 159.5094 ^ | ^ OBV: 196914.8529 (2.0400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 03:00:00 | QNT-USD | 3600 | Close: 167.4700 | ^ EMA12/26: 163.4716 > 160.0990 ^ | ^ OBV: 199412.6179 (1.2700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 04:00:00 | QNT-USD | 3600 | Close: 169.3400 | ^ EMA12/26: 164.3744 > 160.7836 ^ | ^ OBV: 203988.5969 (2.2900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 05:00:00 | QNT-USD | 3600 | Close: 166.0100 | ^ EMA12/26: 164.6260 > 161.1707 ^ | v OBV: 200557.9049 (-1.6800%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 06:00:00 | QNT-USD | 3600 | Close: 165.7100 | ^ EMA12/26: 164.7928 > 161.5069 ^ | v OBV: 197742.9419 (-1.4000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 07:00:00 | QNT-USD | 3600 | Close: 162.0200 | ^ EMA12/26: 164.3662 > 161.5449 ^ | v OBV: 195873.2079 (-0.9500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 08:00:00 | QNT-USD | 3600 | Close: 158.3899 | ^ EMA12/26: 163.4468 > 161.3112 ^ | v OBV: 193019.3289 (-1.4600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 09:00:00 | QNT-USD | 3600 | Close: 168.5000 | ^ EMA12/26: 164.2242 > 161.8437 ^ | ^ OBV: 196240.2089 (1.6700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 10:00:00 | QNT-USD | 3600 | Close: 167.3700 | ^ EMA12/26: 164.7081 > 162.2531 ^ | v OBV: 192916.9829 (-1.6900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 11:00:00 | QNT-USD | 3600 | Close: 166.6500 | ^ EMA12/26: 165.0069 > 162.5788 ^ | v OBV: 191091.9629 (-0.9500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 12:00:00 | QNT-USD | 3600 | Close: 169.3100 | ^ EMA12/26: 165.6689 > 163.0774 ^ | ^ OBV: 193468.3889 (1.2400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 13:00:00 | QNT-USD | 3600 | Close: 176.0000 | ^ EMA12/26: 167.2583 > 164.0346 ^ | ^ OBV: 199853.1309 (3.3000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 14:00:00 | QNT-USD | 3600 | Close: 173.6399 | ^ EMA12/26: 168.2401 > 164.7461 ^ | v OBV: 180283.3359 (-9.7900%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 15:00:00 | QNT-USD | 3600 | Close: 173.8800 | ^ EMA12/26: 169.1078 > 165.4227 ^ | ^ OBV: 188693.9779 (4.6700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 16:00:00 | QNT-USD | 3600 | Close: 176.4100 | ^ EMA12/26: 170.2312 > 166.2366 ^ | ^ OBV: 193902.1849 (2.7599%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 17:00:00 | QNT-USD | 3600 | Close: 181.2100 | ^ EMA12/26: 171.9202 > 167.3457 ^ | ^ OBV: 198876.9659 (2.5700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 18:00:00 | QNT-USD | 3600 | Close: 176.7600 | ^ EMA12/26: 172.6648 > 168.0431 ^ | v OBV: 193662.8129 (-2.6200%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 19:00:00 | QNT-USD | 3600 | Close: 175.0100 | ^ EMA12/26: 173.0256 > 168.5591 ^ | v OBV: 187865.4609 (-2.9901%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 20:00:00 | QNT-USD | 3600 | Close: 170.8899 | ^ EMA12/26: 172.6970 > 168.7318 ^ | v OBV: 180409.3199 (-3.9700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-04 21:00:00 | QNT-USD | 3600 | Close: 172.7100 | ^ EMA12/26: 172.6990 > 169.0265 ^ | ^ OBV: 184837.6689 (2.4500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 22:00:00 | QNT-USD | 3600 | Close: 173.6300 | ^ EMA12/26: 172.8422 > 169.3675 ^ | ^ OBV: 187833.1719 (1.6200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-04 23:00:00 | QNT-USD | 3600 | Close: 174.7000 | ^ EMA12/26: 173.1280 > 169.7625 ^ | ^ OBV: 189913.9649 (1.1100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-05 00:00:00 | QNT-USD | 3600 | Close: 171.1800 | ^ EMA12/26: 172.8283 > 169.8675 ^ | v OBV: 186648.8579 (-1.7200%) v | ERI: buy |  | WAIT | Last Action: SELL
+
+Simulation Summary: 
+
+
+   Buy Count : 3
+  Sell Count : 3
+   First Buy : 1000
+   Last Sell : 1720.8322349087039
+
+
+      Margin : 72.0832%
+
+
+  ** non-live simulation, assuming highest fees

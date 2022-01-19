@@ -1,0 +1,540 @@
+--------------------------------------------------------------------------------
+|                             Python Crypto Bot                                |
+--------------------------------------------------------------------------------
+|                Release : v2.49.1                                             | 
+--------------------------------------------------------------------------------
+|               Bot Mode : TEST - test trades using dummy funds :)             | 
+|            Bot Started : 2021-08-06 00:18:00.263182                          | 
+================================================================================
+ |    Trailing Stop Loss : -1.5%                                               | 
+|           Sell At Loss : False  --sellatloss False                           | 
+|     Sell At Resistance : False  --sellatresistance                           | 
+|        Trade Bull Only : False  --disablebullonly                            | 
+|          Buy Near High : True  --disablebuynearhigh                          | 
+|           Use Buy MACD : False  --disablebuymacd                             | 
+|            Use Buy EMA : True  --disablebuyema                               | 
+|            Use Buy OBV : True  --disablebuyobv                               | 
+|      Use Buy Elder-Ray : True  --disablebuyelderray                          | 
+|     Sell Fibonacci Low : False  --disablefailsafefibonaccilow                | 
+|   Candlestick Reversal : False  --disableprofitbankreversal                  | 
+|               Telegram : False  --disabletelegram                            | 
+|                    Log : True  --disablelog                                  | 
+|                Tracker : False  --disabletracker                             | 
+|       Auto restart Bot : True  --autorestart                                 | 
+================================================================================
+ |    Sampling start : 2021-07-24T00:00:00                                     | 
+ |      Sampling end : 2021-08-05T00:00:00                                     | 
+ |     WARNING: Using less than 300 intervals                                  | 
+ |     Interval size : 289                                                     | 
+================================================================================
+2021-07-24 00:00:00 | RLC-USD | 3600 | Close: 2.4410 | EMA12/26: 2.4410 = 2.4410 | OBV: 87348.5399 (0.0000%)ERI: |  | WAIT | Last Action: SELL
+2021-07-24 01:00:00 | RLC-USD | 3600 | Close: 2.4700 | *^ EMA12/26: 2.4454 > 2.4431 ^* | ^ OBV: 111268.1200 (27.3800%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-24 01:00:00 | RLC-USD | 3600 | Close: 2.4700 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 2.4, 'ratio0_768': 2.71}
+ Resistance level of 3.165 formed at 2021-08-03 12:00:00
+2021-07-24 02:00:00 | RLC-USD | 3600 | Close: 2.4590 | ^ EMA12/26: 2.4475 > 2.4443 ^ | v OBV: 86805.4299 (-21.9900%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.4385% (delta: -0.011)
+support: 2.386, resistance: 2.465, fibonacci (l): 2.4, fibonacci (u): 2.71
+2021-07-24 03:00:00 | RLC-USD | 3600 | Close: 2.5470 | ^ EMA12/26: 2.4628 > 2.4519 ^ | ^ OBV: 130901.8100 (50.8000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 2.0888% (delta: 0.077)
+support: 2.465, resistance: 2.56, fibonacci (l): 2.4, fibonacci (u): 2.71
+2021-07-24 04:00:00 | RLC-USD | 3600 | Close: 2.4860 | ^ EMA12/26: 2.4664 > 2.4544 ^ | v OBV: 105237.7600 (-19.6100%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.3562% (delta: 0.016)
+support: 2.465, resistance: 2.56, fibonacci (l): 2.4, fibonacci (u): 2.71
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 05:00:00 | RLC-USD | 3600 | Close: 2.4870 | ^ EMA12/26: 2.4695 > 2.4568 ^ | ^ OBV: 114909.5100 (9.1900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.3162% (delta: 0.017)
+support: 2.465, resistance: 2.56, fibonacci (l): 2.4, fibonacci (u): 2.71
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-24 06:00:00 | RLC-USD | 3600 | Close: 2.4860 | ^ EMA12/26: 2.4721 > 2.4590 ^ | v OBV: 102281.4400 (-10.9900%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.3562% (delta: 0.016)
+support: 2.465, resistance: 2.56, fibonacci (l): 2.4, fibonacci (u): 2.71
+2021-07-24 07:00:00 | RLC-USD | 3600 | Close: 2.5770 | ^ EMA12/26: 2.4882 > 2.4677 ^ | ^ OBV: 231591.4400 (126.4300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 3.2912% (delta: 0.107)
+support: 2.56, resistance: 2.68, fibonacci (l): 2.4, fibonacci (u): 2.71
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 08:00:00 | RLC-USD | 3600 | Close: 2.5520 | ^ EMA12/26: 2.4980 > 2.4740 ^ | v OBV: 84960.9000 (-63.3100%) v | ERI: buy |  | WAIT | Last Action: BUY | 2.2892% (delta: 0.082)
+support: 2.465, resistance: 2.56, fibonacci (l): 2.4, fibonacci (u): 2.71
+2021-07-24 09:00:00 | RLC-USD | 3600 | Close: 2.5510 | ^ EMA12/26: 2.5061 > 2.4797 ^ | v OBV: 67842.1099 (-20.1500%) v | ERI: sell |  | WAIT | Last Action: BUY | 2.2491% (delta: 0.081)
+support: 2.465, resistance: 2.56, fibonacci (l): 2.4, fibonacci (u): 2.71
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-24 10:00:00 | RLC-USD | 3600 | Close: 2.5480 | ^ EMA12/26: 2.5126 > 2.4847 ^ | v OBV: 44367.8699 (-34.6000%) v | ERI: sell |  | WAIT | Last Action: BUY | 2.1288% (delta: 0.078)
+support: 2.465, resistance: 2.56, fibonacci (l): 2.4, fibonacci (u): 2.71
+2021-07-24 11:00:00 | RLC-USD | 3600 | Close: 2.5660 | ^ EMA12/26: 2.5208 > 2.4907 ^ | ^ OBV: 65548.4799 (47.7400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 2.8503% (delta: 0.096)
+support: 2.56, resistance: 2.68, fibonacci (l): 2.4, fibonacci (u): 2.71
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-24 12:00:00 | RLC-USD | 3600 | Close: 2.5710 | ^ EMA12/26: 2.5285 > 2.4967 ^ | ^ OBV: 89737.2099 (36.9000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 3.0507% (delta: 0.101)
+support: 2.56, resistance: 2.68, fibonacci (l): 2.4, fibonacci (u): 2.71
+*** Candlestick Detected: Evening Star ("Strong - Reversal - Bearish Pattern - Down")
+2021-07-24 13:00:00 | RLC-USD | 3600 | Close: 2.5430 | ^ EMA12/26: 2.5307 > 2.5001 ^ | v OBV: -13093.4601 (-114.5900%) v | ERI: sell |  | WAIT | Last Action: BUY | 1.9284% (delta: 0.073)
+support: 2.465, resistance: 2.56, fibonacci (l): 2.4, fibonacci (u): 2.71
+2021-07-24 14:00:00 | RLC-USD | 3600 | Close: 2.5650 | ^ EMA12/26: 2.5360 > 2.5049 ^ | v OBV: 7445.5599 (-156.8601%) v | ERI: sell |  | WAIT | Last Action: BUY | 2.8102% (delta: 0.095)
+support: 2.56, resistance: 2.68, fibonacci (l): 2.4, fibonacci (u): 2.71
+! Trailing Stop Loss Triggered (< -1.5%)
+2021-07-24 15:00:00 | RLC-USD | 3600 | Close: 2.4980 | ^ EMA12/26: 2.5301 > 2.5044 ^ | v OBV: -21826.0501 (-393.1400%) v | ERI: sell |  | SELL | Last Action: BUY | 0.1247% (delta: 0.028)
+support: 2.465, resistance: 2.56, fibonacci (l): 2.4, fibonacci (u): 2.71
+2021-07-24 15:00:00 | RLC-USD | 3600 | SELL | 2.498 | BUY | 2.47 | DIFF | 0.028000000000000025 | DIFF | 1.24795547 | MARGIN NO FEES | 0.1247% | MARGIN FEES | 5.0314
+2021-07-24 16:00:00 | RLC-USD | 3600 | Close: 2.5590 | ^ EMA12/26: 2.5346 > 2.5084 ^ | v OBV: 24423.8699 (-211.9000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 17:00:00 | RLC-USD | 3600 | Close: 2.5430 | ^ EMA12/26: 2.5359 > 2.5110 ^ | v OBV: -1391.4501 (-105.7000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 18:00:00 | RLC-USD | 3600 | Close: 2.5339 | ^ EMA12/26: 2.5356 > 2.5127 ^ | ^ OBV: -15017.3301 (979.2600%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-24 19:00:00 | RLC-USD | 3600 | Close: 2.4740 | ^ EMA12/26: 2.5261 > 2.5098 ^ | ^ OBV: -39773.9701 (164.8500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-24 20:00:00 | RLC-USD | 3600 | Close: 2.4400 | ^ EMA12/26: 2.5128 > 2.5046 ^ | ^ OBV: -58035.5601 (45.9099%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-24 21:00:00 | RLC-USD | 3600 | Close: 2.4640 | ^ EMA12/26: 2.5053 > 2.5016 ^ | v OBV: -49146.9501 (-15.3200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 22:00:00 | RLC-USD | 3600 | Close: 2.4790 | ^ EMA12/26: 2.5013 > 2.4999 ^ | v OBV: -1624.8701 (-96.6900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 23:00:00 | RLC-USD | 3600 | Close: 2.4890 | ^ EMA12/26: 2.4994 > 2.4991 ^ | v OBV: 9238.6399 (-668.5800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 00:00:00 | RLC-USD | 3600 | Close: 2.4260 | *v EMA12/26: 2.4881 < 2.4937 v* | v OBV: -16046.3801 (-273.6900%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 01:00:00 | RLC-USD | 3600 | Close: 2.4000 | v EMA12/26: 2.4745 < 2.4868 v | ^ OBV: -38610.8001 (140.6200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 02:00:00 | RLC-USD | 3600 | Close: 2.4390 | v EMA12/26: 2.4690 < 2.4832 v | v OBV: -27008.9601 (-30.0500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 03:00:00 | RLC-USD | 3600 | Close: 2.4280 | v EMA12/26: 2.4627 < 2.4791 v | ^ OBV: -35096.0001 (29.9400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 04:00:00 | RLC-USD | 3600 | Close: 2.4630 | v EMA12/26: 2.4628 < 2.4779 v | v OBV: -28013.3701 (-20.1800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 05:00:00 | RLC-USD | 3600 | Close: 2.4340 | v EMA12/26: 2.4583 < 2.4747 v | ^ OBV: -78258.1501 (179.3600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 06:00:00 | RLC-USD | 3600 | Close: 2.4580 | v EMA12/26: 2.4583 < 2.4734 v | v OBV: -74224.8101 (-5.1500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 07:00:00 | RLC-USD | 3600 | Close: 2.4980 | v EMA12/26: 2.4644 < 2.4753 v | v OBV: -63621.9101 (-14.2800%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 08:00:00 | RLC-USD | 3600 | Close: 2.4990 | v EMA12/26: 2.4697 < 2.4770 v | v OBV: -40306.6301 (-36.6500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 09:00:00 | RLC-USD | 3600 | Close: 2.4960 | v EMA12/26: 2.4737 < 2.4784 v | ^ OBV: -58337.7901 (44.7299%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 10:00:00 | RLC-USD | 3600 | Close: 2.4640 | v EMA12/26: 2.4722 < 2.4773 v | ^ OBV: -66239.4801 (13.5400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 11:00:00 | RLC-USD | 3600 | Close: 2.4670 | v EMA12/26: 2.4714 < 2.4766 v | v OBV: -60967.8701 (-7.9600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 12:00:00 | RLC-USD | 3600 | Close: 2.4840 | v EMA12/26: 2.4733 < 2.4771 v | v OBV: -53001.9901 (-13.0700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 13:00:00 | RLC-USD | 3600 | Close: 2.4320 | v EMA12/26: 2.4670 < 2.4738 v | ^ OBV: -65405.3801 (23.4000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 14:00:00 | RLC-USD | 3600 | Close: 2.4129 | v EMA12/26: 2.4587 < 2.4693 v | ^ OBV: -114455.7001 (74.9900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 15:00:00 | RLC-USD | 3600 | Close: 2.4300 | v EMA12/26: 2.4542 < 2.4664 v | v OBV: -98246.7901 (-14.1600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 16:00:00 | RLC-USD | 3600 | Close: 2.4210 | v EMA12/26: 2.4491 < 2.4630 v | ^ OBV: -104898.4301 (6.7700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 17:00:00 | RLC-USD | 3600 | Close: 2.4670 | v EMA12/26: 2.4519 < 2.4633 v | v OBV: -73093.8101 (-30.3200%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 18:00:00 | RLC-USD | 3600 | Close: 2.4940 | v EMA12/26: 2.4583 < 2.4656 v | v OBV: 488.5699 (-100.6700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 19:00:00 | RLC-USD | 3600 | Close: 2.5270 | v EMA12/26: 2.4689 < 2.4701 v | ^ OBV: 34720.7499 (7006.6100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-25 20:00:00 | RLC-USD | 3600 | Close: 2.5250 | *^ EMA12/26: 2.4775 > 2.4742 ^* | v OBV: -46359.0801 (-233.5200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 21:00:00 | RLC-USD | 3600 | Close: 2.4990 | ^ EMA12/26: 2.4808 > 2.4760 ^ | ^ OBV: -86427.5601 (86.4300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 22:00:00 | RLC-USD | 3600 | Close: 2.4810 | ^ EMA12/26: 2.4808 > 2.4764 ^ | ^ OBV: -94732.0801 (9.6100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 23:00:00 | RLC-USD | 3600 | Close: 2.5310 | ^ EMA12/26: 2.4885 > 2.4804 ^ | v OBV: -60699.7101 (-35.9200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 00:00:00 | RLC-USD | 3600 | Close: 2.6280 | ^ EMA12/26: 2.5100 > 2.4913 ^ | v OBV: -26586.7201 (-56.2000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 01:00:00 | RLC-USD | 3600 | Close: 2.6650 | ^ EMA12/26: 2.5338 > 2.5042 ^ | v OBV: 247686.9999 (-1031.6200%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 02:00:00 | RLC-USD | 3600 | Close: 2.6600 | ^ EMA12/26: 2.5532 > 2.5157 ^ | v OBV: 116141.6599 (-53.1100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 03:00:00 | RLC-USD | 3600 | Close: 2.7040 | ^ EMA12/26: 2.5764 > 2.5297 ^ | ^ OBV: 206596.9099 (77.8800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-26 04:00:00 | RLC-USD | 3600 | Close: 2.7010 | ^ EMA12/26: 2.5956 > 2.5424 ^ | v OBV: 171960.2299 (-16.7700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 05:00:00 | RLC-USD | 3600 | Close: 2.7530 | ^ EMA12/26: 2.6198 > 2.5580 ^ | ^ OBV: 260810.4299 (51.6700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 06:00:00 | RLC-USD | 3600 | Close: 2.7070 | ^ EMA12/26: 2.6332 > 2.5690 ^ | v OBV: 226487.2999 (-13.1600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 07:00:00 | RLC-USD | 3600 | Close: 2.6780 | ^ EMA12/26: 2.6401 > 2.5771 ^ | v OBV: 113830.3899 (-49.7400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 08:00:00 | RLC-USD | 3600 | Close: 2.7280 | ^ EMA12/26: 2.6536 > 2.5882 ^ | ^ OBV: 140891.5799 (23.7700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 09:00:00 | RLC-USD | 3600 | Close: 2.7190 | ^ EMA12/26: 2.6637 > 2.5979 ^ | v OBV: 106475.6499 (-24.4300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 10:00:00 | RLC-USD | 3600 | Close: 2.7839 | ^ EMA12/26: 2.6822 > 2.6117 ^ | ^ OBV: 246044.0299 (131.0800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 11:00:00 | RLC-USD | 3600 | Close: 2.8150 | ^ EMA12/26: 2.7026 > 2.6268 ^ | ^ OBV: 303347.8899 (23.2900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 12:00:00 | RLC-USD | 3600 | Close: 2.7500 | ^ EMA12/26: 2.7099 > 2.6359 ^ | v OBV: 240541.6799 (-20.7000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 13:00:00 | RLC-USD | 3600 | Close: 2.7080 | ^ EMA12/26: 2.7096 > 2.6412 ^ | v OBV: 199253.1199 (-17.1600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 14:00:00 | RLC-USD | 3600 | Close: 2.8140 | ^ EMA12/26: 2.7256 > 2.6540 ^ | ^ OBV: 271102.2500 (36.0600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 15:00:00 | RLC-USD | 3600 | Close: 2.8070 | ^ EMA12/26: 2.7381 > 2.6653 ^ | v OBV: 153354.8800 (-43.4300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 16:00:00 | RLC-USD | 3600 | Close: 2.7890 | ^ EMA12/26: 2.7460 > 2.6745 ^ | v OBV: 103463.9700 (-32.5300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 17:00:00 | RLC-USD | 3600 | Close: 2.7780 | ^ EMA12/26: 2.7509 > 2.6822 ^ | v OBV: 86077.0900 (-16.8000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 18:00:00 | RLC-USD | 3600 | Close: 2.7759 | ^ EMA12/26: 2.7547 > 2.6891 ^ | v OBV: 33043.6400 (-61.6100%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-26 19:00:00 | RLC-USD | 3600 | Close: 2.7639 | ^ EMA12/26: 2.7562 > 2.6947 ^ | v OBV: 4051.7399 (-87.7400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 20:00:00 | RLC-USD | 3600 | Close: 2.6520 | ^ EMA12/26: 2.7401 > 2.6915 ^ | v OBV: -126126.1401 (-3212.8900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 21:00:00 | RLC-USD | 3600 | Close: 2.5970 | ^ EMA12/26: 2.7181 > 2.6845 ^ | ^ OBV: -208341.8100 (65.1900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 22:00:00 | RLC-USD | 3600 | Close: 2.6040 | ^ EMA12/26: 2.7005 > 2.6785 ^ | v OBV: -183307.4700 (-12.0200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 23:00:00 | RLC-USD | 3600 | Close: 2.5480 | ^ EMA12/26: 2.6771 > 2.6689 ^ | ^ OBV: -215348.9000 (17.4800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 00:00:00 | RLC-USD | 3600 | Close: 2.5690 | *v EMA12/26: 2.6604 < 2.6615 v* | v OBV: -185425.9300 (-13.9000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 01:00:00 | RLC-USD | 3600 | Close: 2.4700 | v EMA12/26: 2.6311 < 2.6473 v | ^ OBV: -236489.7100 (27.5400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 02:00:00 | RLC-USD | 3600 | Close: 2.4850 | v EMA12/26: 2.6086 < 2.6352 v | v OBV: -187371.3000 (-20.7700%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 03:00:00 | RLC-USD | 3600 | Close: 2.4830 | v EMA12/26: 2.5893 < 2.6240 v | ^ OBV: -202749.6000 (8.2100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-27 04:00:00 | RLC-USD | 3600 | Close: 2.4830 | v EMA12/26: 2.5729 < 2.6135 v | OBV: -202749.6000 (0.0000%)ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 05:00:00 | RLC-USD | 3600 | Close: 2.5210 | v EMA12/26: 2.5649 < 2.6067 v | v OBV: -192763.4400 (-4.9300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 06:00:00 | RLC-USD | 3600 | Close: 2.5040 | v EMA12/26: 2.5556 < 2.5991 v | ^ OBV: -207722.3000 (7.7600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 07:00:00 | RLC-USD | 3600 | Close: 2.4980 | v EMA12/26: 2.5467 < 2.5916 v | ^ OBV: -212177.2100 (2.1400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 08:00:00 | RLC-USD | 3600 | Close: 2.5410 | v EMA12/26: 2.5458 < 2.5878 v | v OBV: -201641.5300 (-4.9700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 09:00:00 | RLC-USD | 3600 | Close: 2.5620 | v EMA12/26: 2.5483 < 2.5859 v | v OBV: -193536.3200 (-4.0200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 10:00:00 | RLC-USD | 3600 | Close: 2.5700 | v EMA12/26: 2.5516 < 2.5847 v | v OBV: -180961.7200 (-6.5000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 11:00:00 | RLC-USD | 3600 | Close: 2.6220 | v EMA12/26: 2.5624 < 2.5875 v | v OBV: -163702.7400 (-9.5400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 12:00:00 | RLC-USD | 3600 | Close: 2.6349 | v EMA12/26: 2.5736 < 2.5910 v | v OBV: -137063.1500 (-16.2700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 13:00:00 | RLC-USD | 3600 | Close: 2.6610 | v EMA12/26: 2.5870 < 2.5962 v | v OBV: -109922.4700 (-19.8000%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 14:00:00 | RLC-USD | 3600 | Close: 2.6380 | v EMA12/26: 2.5949 < 2.5993 v | ^ OBV: -160103.1401 (45.6500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 15:00:00 | RLC-USD | 3600 | Close: 2.6340 | v EMA12/26: 2.6009 < 2.6018 v | ^ OBV: -175348.8500 (9.5200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 16:00:00 | RLC-USD | 3600 | Close: 2.5700 | v EMA12/26: 2.5961 < 2.5995 v | ^ OBV: -196766.3200 (12.2100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 17:00:00 | RLC-USD | 3600 | Close: 2.5900 | v EMA12/26: 2.5952 < 2.5988 v | v OBV: -189394.4500 (-3.7500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 18:00:00 | RLC-USD | 3600 | Close: 2.6760 | *^ EMA12/26: 2.6076 > 2.6045 ^* | v OBV: -141446.2801 (-25.3200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 19:00:00 | RLC-USD | 3600 | Close: 2.6460 | ^ EMA12/26: 2.6135 > 2.6076 ^ | ^ OBV: -183580.8801 (29.7900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 20:00:00 | RLC-USD | 3600 | Close: 2.6629 | ^ EMA12/26: 2.6211 > 2.6117 ^ | v OBV: -162647.6101 (-11.4000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 21:00:00 | RLC-USD | 3600 | Close: 2.6520 | ^ EMA12/26: 2.6259 > 2.6146 ^ | ^ OBV: -200725.7101 (23.4100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 22:00:00 | RLC-USD | 3600 | Close: 2.6730 | ^ EMA12/26: 2.6331 > 2.6190 ^ | v OBV: -188451.4101 (-6.1100%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-27 23:00:00 | RLC-USD | 3600 | Close: 2.6580 | ^ EMA12/26: 2.6369 > 2.6219 ^ | ^ OBV: -224959.6801 (19.3700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 00:00:00 | RLC-USD | 3600 | Close: 2.6200 | ^ EMA12/26: 2.6343 > 2.6217 ^ | ^ OBV: -252763.4301 (12.3600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 01:00:00 | RLC-USD | 3600 | Close: 2.6780 | ^ EMA12/26: 2.6410 > 2.6259 ^ | v OBV: -240752.3501 (-4.7500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 02:00:00 | RLC-USD | 3600 | Close: 2.6440 | ^ EMA12/26: 2.6415 > 2.6272 ^ | ^ OBV: -265257.3601 (10.1800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 03:00:00 | RLC-USD | 3600 | Close: 2.6200 | ^ EMA12/26: 2.6382 > 2.6267 ^ | ^ OBV: -276778.5800 (4.3400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 04:00:00 | RLC-USD | 3600 | Close: 2.5750 | ^ EMA12/26: 2.6284 > 2.6228 ^ | ^ OBV: -287701.7500 (3.9500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 05:00:00 | RLC-USD | 3600 | Close: 2.6290 | ^ EMA12/26: 2.6285 > 2.6233 ^ | v OBV: -276279.7900 (-3.9700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 06:00:00 | RLC-USD | 3600 | Close: 2.5900 | ^ EMA12/26: 2.6226 > 2.6208 ^ | ^ OBV: -290959.2600 (5.3099%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 07:00:00 | RLC-USD | 3600 | Close: 2.6160 | ^ EMA12/26: 2.6216 > 2.6205 ^ | v OBV: -286711.2500 (-1.4600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 08:00:00 | RLC-USD | 3600 | Close: 2.6160 | ^ EMA12/26: 2.6207 > 2.6201 ^ | OBV: -286711.2500 (0.0000%)ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 09:00:00 | RLC-USD | 3600 | Close: 2.6309 | ^ EMA12/26: 2.6223 > 2.6209 ^ | v OBV: -280618.1000 (-2.1300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 10:00:00 | RLC-USD | 3600 | Close: 2.6000 | *v EMA12/26: 2.6188 < 2.6194 v* | ^ OBV: -287311.2000 (2.3900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 11:00:00 | RLC-USD | 3600 | Close: 2.6220 | v EMA12/26: 2.6193 < 2.6196 v | v OBV: -270350.6800 (-5.9000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 12:00:00 | RLC-USD | 3600 | Close: 2.5660 | v EMA12/26: 2.6111 < 2.6156 v | ^ OBV: -309386.9800 (14.4400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-28 13:00:00 | RLC-USD | 3600 | Close: 2.5610 | v EMA12/26: 2.6034 < 2.6115 v | ^ OBV: -316866.9000 (2.4200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 14:00:00 | RLC-USD | 3600 | Close: 2.5910 | v EMA12/26: 2.6015 < 2.6100 v | v OBV: -310002.1800 (-2.1700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 15:00:00 | RLC-USD | 3600 | Close: 2.5990 | v EMA12/26: 2.6011 < 2.6092 v | v OBV: -303570.6900 (-2.0700%) v | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-28 16:00:00 | RLC-USD | 3600 | Close: 2.6080 | v EMA12/26: 2.6021 < 2.6091 v | v OBV: -297103.8400 (-2.1300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 17:00:00 | RLC-USD | 3600 | Close: 2.5179 | v EMA12/26: 2.5892 < 2.6024 v | ^ OBV: -334496.6800 (12.5900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 18:00:00 | RLC-USD | 3600 | Close: 2.6020 | v EMA12/26: 2.5912 < 2.6023 v | v OBV: -310279.8300 (-7.2400%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 19:00:00 | RLC-USD | 3600 | Close: 2.6410 | v EMA12/26: 2.5988 < 2.6052 v | v OBV: -231770.8400 (-25.3000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 20:00:00 | RLC-USD | 3600 | Close: 2.6090 | v EMA12/26: 2.6004 < 2.6055 v | ^ OBV: -277258.5100 (19.6300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 21:00:00 | RLC-USD | 3600 | Close: 2.6309 | v EMA12/26: 2.6051 < 2.6074 v | v OBV: -259777.1200 (-6.3100%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-28 22:00:00 | RLC-USD | 3600 | Close: 2.6410 | *^ EMA12/26: 2.6106 > 2.6098 ^* | v OBV: -250411.3000 (-3.6100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 23:00:00 | RLC-USD | 3600 | Close: 2.6730 | ^ EMA12/26: 2.6202 > 2.6145 ^ | v OBV: -225076.1100 (-10.1200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 00:00:00 | RLC-USD | 3600 | Close: 2.6160 | ^ EMA12/26: 2.6195 > 2.6146 ^ | ^ OBV: -242335.6400 (7.6700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 01:00:00 | RLC-USD | 3600 | Close: 2.6860 | ^ EMA12/26: 2.6298 > 2.6199 ^ | v OBV: -212042.7500 (-12.5000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 02:00:00 | RLC-USD | 3600 | Close: 2.6589 | ^ EMA12/26: 2.6342 > 2.6228 ^ | ^ OBV: -287594.6000 (35.6300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 03:00:00 | RLC-USD | 3600 | Close: 2.6469 | ^ EMA12/26: 2.6362 > 2.6246 ^ | ^ OBV: -309198.8800 (7.5100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 04:00:00 | RLC-USD | 3600 | Close: 2.6950 | ^ EMA12/26: 2.6452 > 2.6298 ^ | v OBV: -295515.8900 (-4.4300%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-29 05:00:00 | RLC-USD | 3600 | Close: 2.7000 | ^ EMA12/26: 2.6537 > 2.6350 ^ | v OBV: -270194.4900 (-8.5700%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 06:00:00 | RLC-USD | 3600 | Close: 2.7170 | ^ EMA12/26: 2.6634 > 2.6411 ^ | v OBV: -208268.0300 (-22.9201%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 07:00:00 | RLC-USD | 3600 | Close: 2.7750 | ^ EMA12/26: 2.6806 > 2.6510 ^ | v OBV: -158725.0900 (-23.7900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 08:00:00 | RLC-USD | 3600 | Close: 2.7670 | ^ EMA12/26: 2.6938 > 2.6596 ^ | ^ OBV: -217480.7900 (37.0200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-29 09:00:00 | RLC-USD | 3600 | Close: 2.7830 | ^ EMA12/26: 2.7076 > 2.6687 ^ | v OBV: -193179.5600 (-11.1700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 10:00:00 | RLC-USD | 3600 | Close: 2.7510 | ^ EMA12/26: 2.7142 > 2.6748 ^ | ^ OBV: -220758.9400 (14.2800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 11:00:00 | RLC-USD | 3600 | Close: 2.6870 | ^ EMA12/26: 2.7100 > 2.6757 ^ | ^ OBV: -234494.3400 (6.2200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 12:00:00 | RLC-USD | 3600 | Close: 2.6740 | ^ EMA12/26: 2.7045 > 2.6756 ^ | ^ OBV: -254103.5400 (8.3600%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 13:00:00 | RLC-USD | 3600 | Close: 2.7060 | ^ EMA12/26: 2.7047 > 2.6778 ^ | v OBV: -232328.6000 (-8.5700%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-29 14:00:00 | RLC-USD | 3600 | Close: 2.7130 | ^ EMA12/26: 2.7060 > 2.6804 ^ | v OBV: -226622.6000 (-2.4600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 15:00:00 | RLC-USD | 3600 | Close: 2.7440 | ^ EMA12/26: 2.7118 > 2.6851 ^ | v OBV: -212822.2900 (-6.0900%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 16:00:00 | RLC-USD | 3600 | Close: 2.7519 | ^ EMA12/26: 2.7180 > 2.6901 ^ | v OBV: -180016.4400 (-15.4100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 17:00:00 | RLC-USD | 3600 | Close: 2.7100 | ^ EMA12/26: 2.7168 > 2.6916 ^ | ^ OBV: -201309.3600 (11.8300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 18:00:00 | RLC-USD | 3600 | Close: 2.6640 | ^ EMA12/26: 2.7086 > 2.6895 ^ | ^ OBV: -250018.6800 (24.2000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 19:00:00 | RLC-USD | 3600 | Close: 2.6580 | ^ EMA12/26: 2.7008 > 2.6872 ^ | ^ OBV: -267645.3700 (7.0500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-29 20:00:00 | RLC-USD | 3600 | Close: 2.6750 | ^ EMA12/26: 2.6969 > 2.6863 ^ | v OBV: -251086.4300 (-6.1901%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 21:00:00 | RLC-USD | 3600 | Close: 2.7210 | ^ EMA12/26: 2.7006 > 2.6888 ^ | v OBV: -178491.3500 (-28.9100%) v | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-29 22:00:00 | RLC-USD | 3600 | Close: 2.8170 | ^ EMA12/26: 2.7185 > 2.6983 ^ | v OBV: -99408.9100 (-44.3100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 23:00:00 | RLC-USD | 3600 | Close: 2.7890 | ^ EMA12/26: 2.7293 > 2.7050 ^ | ^ OBV: -149273.0600 (50.1599%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-30 00:00:00 | RLC-USD | 3600 | Close: 2.7870 | ^ EMA12/26: 2.7382 > 2.7111 ^ | ^ OBV: -231575.2300 (55.1400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-30 01:00:00 | RLC-USD | 3600 | Close: 2.8050 | ^ EMA12/26: 2.7484 > 2.7181 ^ | v OBV: -183160.2400 (-20.9100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-30 02:00:00 | RLC-USD | 3600 | Close: 2.8100 | ^ EMA12/26: 2.7579 > 2.7249 ^ | v OBV: -133424.3000 (-27.1500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 03:00:00 | RLC-USD | 3600 | Close: 2.8400 | ^ EMA12/26: 2.7705 > 2.7334 ^ | v OBV: 54822.7300 (-141.0900%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-30 04:00:00 | RLC-USD | 3600 | Close: 2.8460 | ^ EMA12/26: 2.7821 > 2.7417 ^ | ^ OBV: 86194.8800 (57.2200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-30 05:00:00 | RLC-USD | 3600 | Close: 2.8040 | ^ EMA12/26: 2.7855 > 2.7463 ^ | v OBV: 64933.4900 (-24.6701%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-30 06:00:00 | RLC-USD | 3600 | Close: 2.8530 | ^ EMA12/26: 2.7959 > 2.7542 ^ | ^ OBV: 107105.6200 (64.9500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-30 07:00:00 | RLC-USD | 3600 | Close: 2.8390 | ^ EMA12/26: 2.8025 > 2.7605 ^ | v OBV: 72244.3800 (-32.5500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-30 08:00:00 | RLC-USD | 3600 | Close: 2.7080 | ^ EMA12/26: 2.7880 > 2.7566 ^ | v OBV: 42809.5700 (-40.7400%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-30 09:00:00 | RLC-USD | 3600 | Close: 2.6990 | ^ EMA12/26: 2.7743 > 2.7523 ^ | v OBV: 16460.5700 (-61.5500%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-30 10:00:00 | RLC-USD | 3600 | Close: 2.7060 | ^ EMA12/26: 2.7638 > 2.7489 ^ | ^ OBV: 65506.8500 (297.9600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 11:00:00 | RLC-USD | 3600 | Close: 2.6870 | ^ EMA12/26: 2.7519 > 2.7443 ^ | v OBV: 49384.7600 (-24.6100%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 12:00:00 | RLC-USD | 3600 | Close: 2.6970 | ^ EMA12/26: 2.7435 > 2.7408 ^ | ^ OBV: 62462.8700 (26.4800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 13:00:00 | RLC-USD | 3600 | Close: 2.7070 | *v EMA12/26: 2.7379 < 2.7383 v* | ^ OBV: 88806.6700 (42.1800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-30 14:00:00 | RLC-USD | 3600 | Close: 2.7480 | *^ EMA12/26: 2.7394 > 2.7390 ^* | ^ OBV: 115408.6900 (29.9500%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-30 14:00:00 | RLC-USD | 3600 | Close: 2.7480 | BUY
+ Fibonacci Retracement Levels:{'ratio0_768': 2.71, 'ratio0_618': 2.91}
+ Resistance level of 3.165 formed at 2021-08-03 12:00:00
+2021-07-30 15:00:00 | RLC-USD | 3600 | Close: 2.7440 | ^ EMA12/26: 2.7401 > 2.7394 ^ | v OBV: 62915.1900 (-45.4800%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.1417% (delta: -0.004)
+support: 2.68, resistance: 2.805, fibonacci (l): 2.71, fibonacci (u): 2.91
+! Ignore Sell Signal (No Sell At Loss)
+2021-07-30 16:00:00 | RLC-USD | 3600 | Close: 2.6930 | *v EMA12/26: 2.7329 < 2.7359 v* | v OBV: 34707.8700 (-44.8300%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.9790% (delta: -0.055)
+support: 2.68, resistance: 2.805, fibonacci (l): 2.4, fibonacci (u): 2.71
+2021-07-30 17:00:00 | RLC-USD | 3600 | Close: 2.7200 | v EMA12/26: 2.7309 < 2.7348 v | ^ OBV: 47769.6300 (37.6300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.0063% (delta: -0.028)
+support: 2.68, resistance: 2.805, fibonacci (l): 2.71, fibonacci (u): 2.91
+2021-07-30 18:00:00 | RLC-USD | 3600 | Close: 2.7330 | v EMA12/26: 2.7312 < 2.7346 v | ^ OBV: 62547.5400 (30.9400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.5380% (delta: -0.015)
+support: 2.68, resistance: 2.805, fibonacci (l): 2.71, fibonacci (u): 2.91
+2021-07-30 19:00:00 | RLC-USD | 3600 | Close: 2.7799 | *^ EMA12/26: 2.7387 > 2.7380 ^* | ^ OBV: 100056.7900 (59.9700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.1553% (delta: 0.032)
+support: 2.68, resistance: 2.805, fibonacci (l): 2.71, fibonacci (u): 2.91
+2021-07-30 20:00:00 | RLC-USD | 3600 | Close: 3.1140 | ^ EMA12/26: 2.7964 > 2.7658 ^ | ^ OBV: 694029.0500 (593.6400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 12.1884% (delta: 0.366)
+support: 2.805, resistance: 3.165, fibonacci (l): 3.07, fibonacci (u): 3.22
+2021-07-30 21:00:00 | RLC-USD | 3600 | Close: 3.1330 | ^ EMA12/26: 2.8482 > 2.7930 ^ | ^ OBV: 1123768.4500 (61.9200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 12.8729% (delta: 0.385)
+support: 2.805, resistance: 3.165, fibonacci (l): 3.07, fibonacci (u): 3.22
+2021-07-30 22:00:00 | RLC-USD | 3600 | Close: 3.1760 | ^ EMA12/26: 2.8986 > 2.8214 ^ | ^ OBV: 1281781.6500 (14.0600%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 14.4221% (delta: 0.428)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.07, fibonacci (u): 3.22
+2021-07-30 23:00:00 | RLC-USD | 3600 | Close: 3.3420 | ^ EMA12/26: 2.9668 > 2.8599 ^ | ^ OBV: 2410805.7800 (88.0800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 20.4026% (delta: 0.594)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-07-31 00:00:00 | RLC-USD | 3600 | Close: 3.4010 | ^ EMA12/26: 3.0336 > 2.9000 ^ | ^ OBV: 2880966.7200 (19.5000%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 22.5282% (delta: 0.653)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 01:00:00 | RLC-USD | 3600 | Close: 3.4920 | ^ EMA12/26: 3.1041 > 2.9439 ^ | ^ OBV: 3232532.6600 (12.2000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 25.8066% (delta: 0.744)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 02:00:00 | RLC-USD | 3600 | Close: 3.5790 | ^ EMA12/26: 3.1772 > 2.9909 ^ | ^ OBV: 3640098.0100 (12.6100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 28.9410% (delta: 0.831)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 03:00:00 | RLC-USD | 3600 | Close: 3.5550 | ^ EMA12/26: 3.2353 > 3.0327 ^ | v OBV: 3487596.8900 (-4.1901%) v | ERI: sell |  | WAIT | Last Action: BUY | 28.0763% (delta: 0.807)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 04:00:00 | RLC-USD | 3600 | Close: 3.7210 | ^ EMA12/26: 3.3100 > 3.0837 ^ | ^ OBV: 3872268.2100 (11.0300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 34.0568% (delta: 0.973)
+support: 3.616, resistance: 3.859, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 05:00:00 | RLC-USD | 3600 | Close: 3.7430 | ^ EMA12/26: 3.3766 > 3.1325 ^ | ^ OBV: 4151925.2000 (7.2200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 34.8494% (delta: 0.995)
+support: 3.616, resistance: 3.859, fibonacci (l): 3.74, fibonacci (u): 4.1
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 06:00:00 | RLC-USD | 3600 | Close: 3.7130 | ^ EMA12/26: 3.4284 > 3.1755 ^ | v OBV: 3874079.4200 (-6.6900%) v | ERI: buy |  | WAIT | Last Action: BUY | 33.7686% (delta: 0.965)
+support: 3.616, resistance: 3.859, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 07:00:00 | RLC-USD | 3600 | Close: 3.6510 | ^ EMA12/26: 3.4626 > 3.2107 ^ | v OBV: 3679444.9300 (-5.0200%) v | ERI: sell |  | WAIT | Last Action: BUY | 31.5349% (delta: 0.903)
+support: 3.616, resistance: 3.859, fibonacci (l): 3.35, fibonacci (u): 3.74
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 08:00:00 | RLC-USD | 3600 | Close: 3.6500 | ^ EMA12/26: 3.4914 > 3.2433 ^ | v OBV: 3586030.2899 (-2.5400%) v | ERI: sell |  | WAIT | Last Action: BUY | 31.4989% (delta: 0.902)
+support: 3.616, resistance: 3.859, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 09:00:00 | RLC-USD | 3600 | Close: 3.5690 | ^ EMA12/26: 3.5034 > 3.2674 ^ | v OBV: 3479496.9900 (-2.9701%) v | ERI: sell |  | WAIT | Last Action: BUY | 28.5807% (delta: 0.821)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 10:00:00 | RLC-USD | 3600 | Close: 3.5470 | ^ EMA12/26: 3.5101 > 3.2881 ^ | v OBV: 3405053.5799 (-2.1400%) v | ERI: sell |  | WAIT | Last Action: BUY | 27.7881% (delta: 0.799)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 11:00:00 | RLC-USD | 3600 | Close: 3.5810 | ^ EMA12/26: 3.5210 > 3.3098 ^ | ^ OBV: 3612746.4100 (6.1000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 29.0130% (delta: 0.833)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 12:00:00 | RLC-USD | 3600 | Close: 3.5550 | ^ EMA12/26: 3.5262 > 3.3279 ^ | v OBV: 3524893.2499 (-2.4300%) v | ERI: sell |  | WAIT | Last Action: BUY | 28.0763% (delta: 0.807)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 13:00:00 | RLC-USD | 3600 | Close: 3.4510 | ^ EMA12/26: 3.5146 > 3.3371 ^ | v OBV: 3365049.9699 (-4.5300%) v | ERI: sell |  | WAIT | Last Action: BUY | 24.3295% (delta: 0.703)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 14:00:00 | RLC-USD | 3600 | Close: 3.4200 | ^ EMA12/26: 3.5001 > 3.3432 ^ | v OBV: 3112422.1599 (-7.5100%) v | ERI: sell |  | WAIT | Last Action: BUY | 23.2127% (delta: 0.672)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 15:00:00 | RLC-USD | 3600 | Close: 3.4030 | ^ EMA12/26: 3.4851 > 3.3476 ^ | v OBV: 3015008.1199 (-3.1300%) v | ERI: buy |  | WAIT | Last Action: BUY | 22.6002% (delta: 0.655)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 16:00:00 | RLC-USD | 3600 | Close: 3.3870 | ^ EMA12/26: 3.4700 > 3.3505 ^ | v OBV: 2801589.8299 (-7.0800%) v | ERI: buy |  | WAIT | Last Action: BUY | 22.0238% (delta: 0.639)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 17:00:00 | RLC-USD | 3600 | Close: 3.3660 | ^ EMA12/26: 3.4540 > 3.3517 ^ | v OBV: 2701601.1399 (-3.5700%) v | ERI: sell |  | WAIT | Last Action: BUY | 21.2672% (delta: 0.618)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 18:00:00 | RLC-USD | 3600 | Close: 3.3840 | ^ EMA12/26: 3.4432 > 3.3541 ^ | ^ OBV: 2820730.6199 (4.4100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 21.9157% (delta: 0.636)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-31 19:00:00 | RLC-USD | 3600 | Close: 3.3780 | ^ EMA12/26: 3.4332 > 3.3558 ^ | v OBV: 2747829.5599 (-2.5800%) v | ERI: sell |  | WAIT | Last Action: BUY | 21.6995% (delta: 0.63)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 20:00:00 | RLC-USD | 3600 | Close: 3.3180 | ^ EMA12/26: 3.4155 > 3.3530 ^ | v OBV: 2605006.1099 (-5.2000%) v | ERI: buy |  | WAIT | Last Action: BUY | 19.5379% (delta: 0.57)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 21:00:00 | RLC-USD | 3600 | Close: 3.3530 | ^ EMA12/26: 3.4058 > 3.3530 ^ | ^ OBV: 2847542.9499 (9.3100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 20.7989% (delta: 0.605)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 22:00:00 | RLC-USD | 3600 | Close: 3.4070 | ^ EMA12/26: 3.4060 > 3.3570 ^ | ^ OBV: 2923179.5299 (2.6600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 22.7443% (delta: 0.659)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-07-31 23:00:00 | RLC-USD | 3600 | Close: 3.3180 | ^ EMA12/26: 3.3925 > 3.3541 ^ | v OBV: 2848340.0599 (-2.5600%) v | ERI: buy |  | WAIT | Last Action: BUY | 19.5379% (delta: 0.57)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-01 00:00:00 | RLC-USD | 3600 | Close: 3.3310 | ^ EMA12/26: 3.3830 > 3.3524 ^ | ^ OBV: 3181897.8699 (11.7100%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 20.0063% (delta: 0.583)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-01 01:00:00 | RLC-USD | 3600 | Close: 3.3460 | ^ EMA12/26: 3.3773 > 3.3519 ^ | ^ OBV: 3225338.7399 (1.3700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 20.5467% (delta: 0.598)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-01 02:00:00 | RLC-USD | 3600 | Close: 3.3740 | ^ EMA12/26: 3.3768 > 3.3536 ^ | ^ OBV: 3284073.5099 (1.8200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 21.5554% (delta: 0.626)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 03:00:00 | RLC-USD | 3600 | Close: 3.4100 | ^ EMA12/26: 3.3819 > 3.3577 ^ | ^ OBV: 3398010.9499 (3.4700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 22.8524% (delta: 0.662)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-01 04:00:00 | RLC-USD | 3600 | Close: 3.4310 | ^ EMA12/26: 3.3894 > 3.3632 ^ | ^ OBV: 3485170.9699 (2.5700%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 23.6090% (delta: 0.683)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 05:00:00 | RLC-USD | 3600 | Close: 3.4810 | ^ EMA12/26: 3.4035 > 3.3719 ^ | ^ OBV: 3588387.3399 (2.9600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 25.4103% (delta: 0.733)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 06:00:00 | RLC-USD | 3600 | Close: 3.4600 | ^ EMA12/26: 3.4122 > 3.3784 ^ | v OBV: 3494116.9399 (-2.6300%) v | ERI: buy |  | WAIT | Last Action: BUY | 24.6538% (delta: 0.712)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 07:00:00 | RLC-USD | 3600 | Close: 3.4600 | ^ EMA12/26: 3.4195 > 3.3845 ^ | OBV: 3494116.9399 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | 24.6538% (delta: 0.712)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 08:00:00 | RLC-USD | 3600 | Close: 3.6190 | ^ EMA12/26: 3.4502 > 3.4018 ^ | ^ OBV: 3824828.5399 (9.4600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 30.3821% (delta: 0.871)
+support: 3.616, resistance: 3.859, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 09:00:00 | RLC-USD | 3600 | Close: 3.5870 | ^ EMA12/26: 3.4713 > 3.4155 ^ | v OBV: 3748420.1400 (-2.0000%) v | ERI: sell |  | WAIT | Last Action: BUY | 29.2292% (delta: 0.839)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 10:00:00 | RLC-USD | 3600 | Close: 3.4810 | ^ EMA12/26: 3.4727 > 3.4204 ^ | v OBV: 3666919.7800 (-2.1700%) v | ERI: sell |  | WAIT | Last Action: BUY | 25.4103% (delta: 0.733)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 11:00:00 | RLC-USD | 3600 | Close: 3.5600 | ^ EMA12/26: 3.4862 > 3.4307 ^ | ^ OBV: 3770575.1600 (2.8300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 28.2565% (delta: 0.812)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 12:00:00 | RLC-USD | 3600 | Close: 3.5450 | ^ EMA12/26: 3.4952 > 3.4392 ^ | v OBV: 3710119.6699 (-1.6000%) v | ERI: buy |  | WAIT | Last Action: BUY | 27.7161% (delta: 0.797)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 13:00:00 | RLC-USD | 3600 | Close: 3.5110 | ^ EMA12/26: 3.4976 > 3.4445 ^ | v OBV: 3664274.1099 (-1.2400%) v | ERI: sell |  | WAIT | Last Action: BUY | 26.4911% (delta: 0.763)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 14:00:00 | RLC-USD | 3600 | Close: 3.4990 | ^ EMA12/26: 3.4978 > 3.4485 ^ | v OBV: 3591565.3899 (-1.9800%) v | ERI: sell |  | WAIT | Last Action: BUY | 26.0588% (delta: 0.751)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 15:00:00 | RLC-USD | 3600 | Close: 3.4700 | ^ EMA12/26: 3.4935 > 3.4501 ^ | v OBV: 3547514.4399 (-1.2300%) v | ERI: sell |  | WAIT | Last Action: BUY | 25.0140% (delta: 0.722)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-01 16:00:00 | RLC-USD | 3600 | Close: 3.4620 | ^ EMA12/26: 3.4887 > 3.4510 ^ | v OBV: 3462077.1499 (-2.4100%) v | ERI: sell |  | WAIT | Last Action: BUY | 24.7258% (delta: 0.714)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 17:00:00 | RLC-USD | 3600 | Close: 3.4390 | ^ EMA12/26: 3.4810 > 3.4501 ^ | v OBV: 3424441.6299 (-1.0900%) v | ERI: buy |  | WAIT | Last Action: BUY | 23.8972% (delta: 0.691)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 18:00:00 | RLC-USD | 3600 | Close: 3.4920 | ^ EMA12/26: 3.4827 > 3.4532 ^ | ^ OBV: 3461045.9999 (1.0700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 25.8066% (delta: 0.744)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 19:00:00 | RLC-USD | 3600 | Close: 3.5430 | ^ EMA12/26: 3.4920 > 3.4598 ^ | ^ OBV: 3522610.6799 (1.7800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 27.6440% (delta: 0.795)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-01 20:00:00 | RLC-USD | 3600 | Close: 3.5350 | ^ EMA12/26: 3.4986 > 3.4654 ^ | v OBV: 3468583.7999 (-1.5300%) v | ERI: buy |  | WAIT | Last Action: BUY | 27.3558% (delta: 0.787)
+support: 3.47, resistance: 3.616, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 21:00:00 | RLC-USD | 3600 | Close: 3.4630 | ^ EMA12/26: 3.4931 > 3.4652 ^ | v OBV: 3416613.2499 (-1.5000%) v | ERI: sell |  | WAIT | Last Action: BUY | 24.7618% (delta: 0.715)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 22:00:00 | RLC-USD | 3600 | Close: 3.4020 | ^ EMA12/26: 3.4791 > 3.4605 ^ | v OBV: 3321743.3299 (-2.7800%) v | ERI: sell |  | WAIT | Last Action: BUY | 22.5642% (delta: 0.654)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-01 23:00:00 | RLC-USD | 3600 | Close: 3.3600 | ^ EMA12/26: 3.4608 > 3.4531 ^ | v OBV: 3226789.5099 (-2.8600%) v | ERI: sell |  | WAIT | Last Action: BUY | 21.0510% (delta: 0.612)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-02 00:00:00 | RLC-USD | 3600 | Close: 3.2950 | *v EMA12/26: 3.4352 < 3.4414 v* | v OBV: 3178646.0700 (-1.4900%) v | ERI: buy |  | SELL | Last Action: BUY | 18.7093% (delta: 0.547)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-02 00:00:00 | RLC-USD | 3600 | SELL | 3.295 | BUY | 2.748 | DIFF | 0.5469999999999997 | DIFF | 187.32677921 | MARGIN NO FEES | 18.7093% | MARGIN FEES | 5.9727
+2021-08-02 01:00:00 | RLC-USD | 3600 | Close: 3.3220 | v EMA12/26: 3.4178 < 3.4325 v | ^ OBV: 3277707.6799 (3.1200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 02:00:00 | RLC-USD | 3600 | Close: 3.3940 | v EMA12/26: 3.4141 < 3.4297 v | ^ OBV: 3327752.5799 (1.5300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 03:00:00 | RLC-USD | 3600 | Close: 3.3390 | v EMA12/26: 3.4026 < 3.4230 v | v OBV: 3291916.2499 (-1.0800%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-02 04:00:00 | RLC-USD | 3600 | Close: 3.3390 | v EMA12/26: 3.3928 < 3.4167 v | OBV: 3291916.2499 (0.0000%)ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 05:00:00 | RLC-USD | 3600 | Close: 3.3500 | v EMA12/26: 3.3862 < 3.4118 v | ^ OBV: 3314806.1999 (0.7000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 06:00:00 | RLC-USD | 3600 | Close: 3.4340 | v EMA12/26: 3.3935 < 3.4134 v | ^ OBV: 3346907.6199 (0.9700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-02 07:00:00 | RLC-USD | 3600 | Close: 3.4310 | v EMA12/26: 3.3993 < 3.4147 v | v OBV: 3321978.3600 (-0.7400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 08:00:00 | RLC-USD | 3600 | Close: 3.3560 | v EMA12/26: 3.3926 < 3.4104 v | v OBV: 3289238.6900 (-0.9900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 09:00:00 | RLC-USD | 3600 | Close: 3.4170 | v EMA12/26: 3.3964 < 3.4109 v | ^ OBV: 3306967.9800 (0.5400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 10:00:00 | RLC-USD | 3600 | Close: 3.4520 | v EMA12/26: 3.4049 < 3.4139 v | ^ OBV: 3332437.9600 (0.7700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-02 11:00:00 | RLC-USD | 3600 | Close: 3.4470 | v EMA12/26: 3.4114 < 3.4163 v | v OBV: 3318541.8400 (-0.4200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 12:00:00 | RLC-USD | 3600 | Close: 3.4620 | v EMA12/26: 3.4192 < 3.4197 v | ^ OBV: 3398226.7799 (2.4000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 13:00:00 | RLC-USD | 3600 | Close: 3.4870 | *^ EMA12/26: 3.4296 > 3.4247 ^* | ^ OBV: 3433903.9299 (1.0500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Shooting Star ("Weak - Reversal - Bearish Pattern - Down")
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-02 14:00:00 | RLC-USD | 3600 | Close: 3.4840 | ^ EMA12/26: 3.4380 > 3.4291 ^ | v OBV: 3403275.4699 (-0.8900%) v | ERI: buy |  | WAIT | Last Action: SELL
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-02 15:00:00 | RLC-USD | 3600 | Close: 3.4930 | ^ EMA12/26: 3.4464 > 3.4338 ^ | ^ OBV: 3437482.6800 (1.0100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 16:00:00 | RLC-USD | 3600 | Close: 3.4680 | ^ EMA12/26: 3.4497 > 3.4364 ^ | v OBV: 3397087.3200 (-1.1800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 17:00:00 | RLC-USD | 3600 | Close: 3.4840 | ^ EMA12/26: 3.4550 > 3.4399 ^ | ^ OBV: 3411326.5500 (0.4200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 18:00:00 | RLC-USD | 3600 | Close: 3.4460 | ^ EMA12/26: 3.4536 > 3.4403 ^ | v OBV: 3388879.5900 (-0.6600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 19:00:00 | RLC-USD | 3600 | Close: 3.3990 | ^ EMA12/26: 3.4452 > 3.4373 ^ | v OBV: 3359503.7300 (-0.8700%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 20:00:00 | RLC-USD | 3600 | Close: 3.3740 | ^ EMA12/26: 3.4342 > 3.4326 ^ | v OBV: 3331259.8400 (-0.8400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 21:00:00 | RLC-USD | 3600 | Close: 3.4100 | *v EMA12/26: 3.4305 < 3.4309 v* | ^ OBV: 3354345.1700 (0.6899%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 22:00:00 | RLC-USD | 3600 | Close: 3.4790 | *^ EMA12/26: 3.4380 > 3.4345 ^* | ^ OBV: 3380825.5600 (0.7900%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-08-02 22:00:00 | RLC-USD | 3600 | Close: 3.4790 | BUY
+ Fibonacci Retracement Levels:{'ratio0_286': 3.35, 'ratio0': 3.74}
+ Support level of 3.165 formed at 2021-08-03 12:00:00
+2021-08-02 23:00:00 | RLC-USD | 3600 | Close: 3.4310 | ^ EMA12/26: 3.4369 > 3.4342 ^ | v OBV: 3364308.0000 (-0.4900%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.3635% (delta: -0.048)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+! Ignore Sell Signal (No Sell At Loss)
+2021-08-03 00:00:00 | RLC-USD | 3600 | Close: 3.3800 | *v EMA12/26: 3.4281 < 3.4302 v* | v OBV: 3337603.7200 (-0.7900%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.8148% (delta: -0.099)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-03 01:00:00 | RLC-USD | 3600 | Close: 3.3080 | v EMA12/26: 3.4096 < 3.4211 v | v OBV: 3322355.4300 (-0.4600%) v | ERI: sell |  | WAIT | Last Action: BUY | -5.8637% (delta: -0.171)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 02:00:00 | RLC-USD | 3600 | Close: 3.3420 | v EMA12/26: 3.3992 < 3.4153 v | ^ OBV: 3378256.7300 (1.6800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -4.8962% (delta: -0.137)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 03:00:00 | RLC-USD | 3600 | Close: 3.3330 | v EMA12/26: 3.3890 < 3.4092 v | v OBV: 3355136.4700 (-0.6801%) v | ERI: buy |  | WAIT | Last Action: BUY | -5.1523% (delta: -0.146)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 04:00:00 | RLC-USD | 3600 | Close: 3.2650 | v EMA12/26: 3.3699 < 3.3985 v | v OBV: 3337353.7400 (-0.5300%) v | ERI: sell |  | WAIT | Last Action: BUY | -7.0874% (delta: -0.214)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 05:00:00 | RLC-USD | 3600 | Close: 3.2470 | v EMA12/26: 3.3510 < 3.3873 v | v OBV: 3278435.4000 (-1.7700%) v | ERI: sell |  | WAIT | Last Action: BUY | -7.5996% (delta: -0.232)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 06:00:00 | RLC-USD | 3600 | Close: 3.2639 | v EMA12/26: 3.3376 < 3.3781 v | ^ OBV: 3300822.6500 (0.6800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -7.1158% (delta: -0.215)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 07:00:00 | RLC-USD | 3600 | Close: 3.2710 | v EMA12/26: 3.3274 < 3.3702 v | ^ OBV: 3308511.3800 (0.2300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -6.9166% (delta: -0.208)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 08:00:00 | RLC-USD | 3600 | Close: 3.2610 | v EMA12/26: 3.3171 < 3.3621 v | v OBV: 3296394.6400 (-0.3700%) v | ERI: buy |  | WAIT | Last Action: BUY | -7.2012% (delta: -0.218)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 09:00:00 | RLC-USD | 3600 | Close: 3.2870 | v EMA12/26: 3.3125 < 3.3565 v | ^ OBV: 3300333.1800 (0.1200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -6.4613% (delta: -0.192)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 10:00:00 | RLC-USD | 3600 | Close: 3.2840 | v EMA12/26: 3.3081 < 3.3512 v | v OBV: 3296468.5900 (-0.1200%) v | ERI: buy |  | WAIT | Last Action: BUY | -6.5467% (delta: -0.195)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 11:00:00 | RLC-USD | 3600 | Close: 3.2220 | v EMA12/26: 3.2949 < 3.3416 v | v OBV: 3277089.8100 (-0.5900%) v | ERI: buy |  | WAIT | Last Action: BUY | -8.3110% (delta: -0.257)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 12:00:00 | RLC-USD | 3600 | Close: 3.2460 | v EMA12/26: 3.2873 < 3.3345 v | ^ OBV: 3303024.5300 (0.7900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -7.6281% (delta: -0.233)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 13:00:00 | RLC-USD | 3600 | Close: 3.2800 | v EMA12/26: 3.2862 < 3.3305 v | ^ OBV: 3320733.5200 (0.5400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -6.6605% (delta: -0.199)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 14:00:00 | RLC-USD | 3600 | Close: 3.2840 | v EMA12/26: 3.2858 < 3.3270 v | ^ OBV: 3336480.3700 (0.4700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -6.5467% (delta: -0.195)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-03 15:00:00 | RLC-USD | 3600 | Close: 3.2759 | v EMA12/26: 3.2843 < 3.3232 v | v OBV: 3318396.7000 (-0.5400%) v | ERI: sell |  | WAIT | Last Action: BUY | -6.7744% (delta: -0.203)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 16:00:00 | RLC-USD | 3600 | Close: 3.2850 | v EMA12/26: 3.2844 < 3.3204 v | ^ OBV: 3372731.9300 (1.6400%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -6.5182% (delta: -0.194)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 17:00:00 | RLC-USD | 3600 | Close: 3.2300 | v EMA12/26: 3.2760 < 3.3137 v | v OBV: 3354099.4400 (-0.5500%) v | ERI: sell |  | WAIT | Last Action: BUY | -8.0834% (delta: -0.249)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 18:00:00 | RLC-USD | 3600 | Close: 3.2430 | v EMA12/26: 3.2710 < 3.3085 v | ^ OBV: 3368975.9000 (0.4400%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -7.7134% (delta: -0.236)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 19:00:00 | RLC-USD | 3600 | Close: 3.2330 | v EMA12/26: 3.2651 < 3.3029 v | v OBV: 3341468.9000 (-0.8200%) v | ERI: buy |  | WAIT | Last Action: BUY | -7.9980% (delta: -0.246)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 20:00:00 | RLC-USD | 3600 | Close: 3.2300 | v EMA12/26: 3.2597 < 3.2975 v | v OBV: 3310554.2200 (-0.9300%) v | ERI: sell |  | WAIT | Last Action: BUY | -8.0834% (delta: -0.249)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 21:00:00 | RLC-USD | 3600 | Close: 3.2410 | v EMA12/26: 3.2568 < 3.2933 v | ^ OBV: 3320496.0800 (0.3000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -7.7704% (delta: -0.238)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-03 22:00:00 | RLC-USD | 3600 | Close: 3.2630 | v EMA12/26: 3.2578 < 3.2910 v | ^ OBV: 3341459.5800 (0.6300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -7.1443% (delta: -0.216)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-03 23:00:00 | RLC-USD | 3600 | Close: 3.2540 | v EMA12/26: 3.2572 < 3.2883 v | v OBV: 3303803.8100 (-1.1300%) v | ERI: buy |  | WAIT | Last Action: BUY | -7.4004% (delta: -0.225)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-04 00:00:00 | RLC-USD | 3600 | Close: 3.2550 | v EMA12/26: 3.2568 < 3.2858 v | ^ OBV: 3317889.7000 (0.4300%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -7.3720% (delta: -0.224)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-04 01:00:00 | RLC-USD | 3600 | Close: 3.2630 | v EMA12/26: 3.2578 < 3.2841 v | ^ OBV: 3324350.9500 (0.1900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -7.1443% (delta: -0.216)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-04 02:00:00 | RLC-USD | 3600 | Close: 3.2350 | v EMA12/26: 3.2543 < 3.2805 v | v OBV: 3318262.9500 (-0.1800%) v | ERI: buy |  | WAIT | Last Action: BUY | -7.9411% (delta: -0.244)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-04 03:00:00 | RLC-USD | 3600 | Close: 3.1990 | v EMA12/26: 3.2458 < 3.2744 v | v OBV: 3297210.0500 (-0.6300%) v | ERI: sell |  | WAIT | Last Action: BUY | -8.9656% (delta: -0.28)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.07, fibonacci (u): 3.22
+2021-08-04 04:00:00 | RLC-USD | 3600 | Close: 3.2250 | v EMA12/26: 3.2426 < 3.2708 v | ^ OBV: 3310228.5100 (0.3900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -8.2257% (delta: -0.254)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-04 05:00:00 | RLC-USD | 3600 | Close: 3.2200 | v EMA12/26: 3.2391 < 3.2670 v | v OBV: 3306784.4100 (-0.1000%) v | ERI: buy |  | WAIT | Last Action: BUY | -8.3680% (delta: -0.259)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-04 06:00:00 | RLC-USD | 3600 | Close: 3.2140 | v EMA12/26: 3.2352 < 3.2631 v | v OBV: 3302938.9000 (-0.1200%) v | ERI: sell |  | WAIT | Last Action: BUY | -8.5387% (delta: -0.265)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.07, fibonacci (u): 3.22
+2021-08-04 07:00:00 | RLC-USD | 3600 | Close: 3.2080 | v EMA12/26: 3.2310 < 3.2590 v | v OBV: 3294853.5100 (-0.2400%) v | ERI: sell |  | WAIT | Last Action: BUY | -8.7094% (delta: -0.271)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.07, fibonacci (u): 3.22
+2021-08-04 08:00:00 | RLC-USD | 3600 | Close: 3.1640 | v EMA12/26: 3.2207 < 3.2520 v | v OBV: 3288153.7700 (-0.2000%) v | ERI: buy |  | WAIT | Last Action: BUY | -9.9616% (delta: -0.315)
+support: 2.805, resistance: 3.165, fibonacci (l): 3.07, fibonacci (u): 3.22
+2021-08-04 09:00:00 | RLC-USD | 3600 | Close: 3.1710 | v EMA12/26: 3.2130 < 3.2460 v | ^ OBV: 3299500.7000 (0.3500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -9.7624% (delta: -0.308)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.07, fibonacci (u): 3.22
+2021-08-04 10:00:00 | RLC-USD | 3600 | Close: 3.1890 | v EMA12/26: 3.2093 < 3.2417 v | ^ OBV: 3307942.0100 (0.2600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -9.2501% (delta: -0.29)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.07, fibonacci (u): 3.22
+2021-08-04 11:00:00 | RLC-USD | 3600 | Close: 3.2190 | v EMA12/26: 3.2108 < 3.2400 v | ^ OBV: 3322125.8300 (0.4300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -8.3964% (delta: -0.26)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.07, fibonacci (u): 3.22
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-08-04 12:00:00 | RLC-USD | 3600 | Close: 3.2710 | v EMA12/26: 3.2201 < 3.2423 v | ^ OBV: 3332663.3900 (0.3200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -6.9166% (delta: -0.208)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-04 13:00:00 | RLC-USD | 3600 | Close: 3.2960 | v EMA12/26: 3.2317 < 3.2463 v | ^ OBV: 3384197.6200 (1.5500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -6.2052% (delta: -0.183)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-08-04 14:00:00 | RLC-USD | 3600 | Close: 3.2900 | v EMA12/26: 3.2407 < 3.2495 v | v OBV: 3373994.1000 (-0.3000%) v | ERI: sell |  | WAIT | Last Action: BUY | -6.3760% (delta: -0.189)
+support: 3.165, resistance: 3.31, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-04 15:00:00 | RLC-USD | 3600 | Close: 3.3480 | *^ EMA12/26: 3.2572 > 3.2568 ^* | ^ OBV: 3490493.2400 (3.4500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.7254% (delta: -0.131)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.22, fibonacci (u): 3.35
+2021-08-04 16:00:00 | RLC-USD | 3600 | Close: 3.3830 | ^ EMA12/26: 3.2765 > 3.2662 ^ | ^ OBV: 3539470.0700 (1.4000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.7294% (delta: -0.096)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-04 17:00:00 | RLC-USD | 3600 | Close: 3.3520 | ^ EMA12/26: 3.2881 > 3.2725 ^ | v OBV: 3495913.5600 (-1.2300%) v | ERI: sell |  | WAIT | Last Action: BUY | -4.6116% (delta: -0.127)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-04 18:00:00 | RLC-USD | 3600 | Close: 3.3800 | ^ EMA12/26: 3.3023 > 3.2805 ^ | ^ OBV: 3524432.0200 (0.8200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -3.8148% (delta: -0.099)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-04 19:00:00 | RLC-USD | 3600 | Close: 3.3900 | ^ EMA12/26: 3.3158 > 3.2886 ^ | ^ OBV: 3546151.8700 (0.6200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.5302% (delta: -0.089)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-04 20:00:00 | RLC-USD | 3600 | Close: 3.4010 | ^ EMA12/26: 3.3289 > 3.2969 ^ | ^ OBV: 3563385.0500 (0.4900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -3.2172% (delta: -0.078)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-04 21:00:00 | RLC-USD | 3600 | Close: 3.3960 | ^ EMA12/26: 3.3392 > 3.3042 ^ | v OBV: 3553759.9700 (-0.2700%) v | ERI: sell |  | WAIT | Last Action: BUY | -3.3595% (delta: -0.083)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-04 22:00:00 | RLC-USD | 3600 | Close: 3.3560 | ^ EMA12/26: 3.3418 > 3.3081 ^ | v OBV: 3544423.3500 (-0.2600%) v | ERI: sell |  | WAIT | Last Action: BUY | -4.4978% (delta: -0.123)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+2021-08-04 23:00:00 | RLC-USD | 3600 | Close: 3.3600 | ^ EMA12/26: 3.3446 > 3.3119 ^ | ^ OBV: 3555256.2900 (0.3100%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -4.3840% (delta: -0.119)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.35, fibonacci (u): 3.74
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-08-05 00:00:00 | RLC-USD | 3600 | Close: 3.3370 | ^ EMA12/26: 3.3434 > 3.3138 ^ | v OBV: 3510610.6600 (-1.2600%) v | ERI: buy |  | WAIT | Last Action: BUY | -5.0385% (delta: -0.142)
+support: 3.31, resistance: 3.47, fibonacci (l): 3.22, fibonacci (u): 3.35
+
+Simulation Summary: 
+
+
+        Note : "sell at loss" is disabled and you have an open trade, if the margin
+               result below is negative it will assume you sold at the end of the
+               simulation which may not be ideal. Try setting --sellatloss 1
+
+
+   Buy Count : 3
+  Sell Count : 2
+   First Buy : 1000
+   Last Sell : 1188.5747346879418
+
+
+      Margin : 18.8574%
+
+
+  ** non-live simulation, assuming highest fees

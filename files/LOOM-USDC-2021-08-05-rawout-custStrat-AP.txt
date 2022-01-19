@@ -1,0 +1,505 @@
+--------------------------------------------------------------------------------
+|                             Python Crypto Bot                                |
+--------------------------------------------------------------------------------
+|                Release : v2.49.1                                             | 
+--------------------------------------------------------------------------------
+|               Bot Mode : TEST - test trades using dummy funds :)             | 
+|            Bot Started : 2021-08-05 23:59:15.431094                          | 
+================================================================================
+ |    Trailing Stop Loss : -1.5%                                               | 
+|           Sell At Loss : False  --sellatloss False                           | 
+|     Sell At Resistance : False  --sellatresistance                           | 
+|        Trade Bull Only : False  --disablebullonly                            | 
+|          Buy Near High : True  --disablebuynearhigh                          | 
+|           Use Buy MACD : False  --disablebuymacd                             | 
+|            Use Buy EMA : True  --disablebuyema                               | 
+|            Use Buy OBV : True  --disablebuyobv                               | 
+|      Use Buy Elder-Ray : True  --disablebuyelderray                          | 
+|     Sell Fibonacci Low : False  --disablefailsafefibonaccilow                | 
+|   Candlestick Reversal : False  --disableprofitbankreversal                  | 
+|               Telegram : False  --disabletelegram                            | 
+|                    Log : True  --disablelog                                  | 
+|                Tracker : False  --disabletracker                             | 
+|       Auto restart Bot : True  --autorestart                                 | 
+================================================================================
+ |    Sampling start : 2021-07-24T00:00:00                                     | 
+ |      Sampling end : 2021-08-05T00:00:00                                     | 
+ |     WARNING: Using less than 300 intervals                                  | 
+ |     Interval size : 287                                                     | 
+================================================================================
+2021-07-24 00:00:00 | LOOM-USDC | 3600 | Close: 0.0558 | EMA12/26: 0.0558 = 0.0558 | OBV: 0.0 (0.0000%)ERI: |  | WAIT | Last Action: SELL
+2021-07-24 01:00:00 | LOOM-USDC | 3600 | Close: 0.0557 | *v EMA12/26: 0.0558 < 0.0558 v* | v OBV: 0.0 (-81.0300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-24 02:00:00 | LOOM-USDC | 3600 | Close: 0.0557 | v EMA12/26: 0.0558 < 0.0558 v | ^ OBV: 0.0 (295.3200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 03:00:00 | LOOM-USDC | 3600 | Close: 0.0560 | *^ EMA12/26: 0.0558 > 0.0558 ^* | ^ OBV: 0.0 (13.0900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-24 04:00:00 | LOOM-USDC | 3600 | Close: 0.0555 | *v EMA12/26: 0.0558 < 0.0558 v* | v OBV: 0.0 (-3.8200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-24 05:00:00 | LOOM-USDC | 3600 | Close: 0.0559 | v EMA12/26: 0.0558 < 0.0558 v | ^ OBV: 0.0 (0.6200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-24 06:00:00 | LOOM-USDC | 3600 | Close: 0.0565 | *^ EMA12/26: 0.0559 > 0.0558 ^* | ^ OBV: 0.0 (9.7000%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-24 06:00:00 | LOOM-USDC | 3600 | Close: 0.0565 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 0.05, 'ratio0_768': 0.06}
+ Resistance level of 0.084588 formed at 2021-08-02 07:00:00
+2021-07-24 07:00:00 | LOOM-USDC | 3600 | Close: 0.0560 | ^ EMA12/26: 0.0559 > 0.0559 ^ | v OBV: 0.0 (-0.2700%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.8939% (delta: -0.0005)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 08:00:00 | LOOM-USDC | 3600 | Close: 0.0565 | ^ EMA12/26: 0.0560 > 0.0559 ^ | ^ OBV: 0.0 (0.0400%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.0011% (delta: -0.0)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 09:00:00 | LOOM-USDC | 3600 | Close: 0.0566 | ^ EMA12/26: 0.0561 > 0.0559 ^ | ^ OBV: 0.0 (1.8800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.9100% (delta: 0.0)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 10:00:00 | LOOM-USDC | 3600 | Close: 0.0573 | ^ EMA12/26: 0.0563 > 0.0560 ^ | ^ OBV: 0.0 (22.9500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.4310% (delta: 0.0008)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 11:00:00 | LOOM-USDC | 3600 | Close: 0.0565 | ^ EMA12/26: 0.0563 > 0.0561 ^ | v OBV: 0.0 (-6.6100%) v | ERI: sell |  | WAIT | Last Action: BUY | -1.0448% (delta: -0.0)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 12:00:00 | LOOM-USDC | 3600 | Close: 0.0570 | ^ EMA12/26: 0.0564 > 0.0561 ^ | ^ OBV: 0.0 (5.6500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.1117% (delta: 0.0005)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 13:00:00 | LOOM-USDC | 3600 | Close: 0.0575 | ^ EMA12/26: 0.0566 > 0.0562 ^ | ^ OBV: 0.0 (144.4700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.7637% (delta: 0.001)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-24 14:00:00 | LOOM-USDC | 3600 | Close: 0.0576 | ^ EMA12/26: 0.0567 > 0.0564 ^ | ^ OBV: 0.0 (22.1800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.0140% (delta: 0.0011)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 15:00:00 | LOOM-USDC | 3600 | Close: 0.0573 | ^ EMA12/26: 0.0568 > 0.0564 ^ | v OBV: 0.0 (-7.2100%) v | ERI: buy |  | WAIT | Last Action: BUY | 0.4398% (delta: 0.0008)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 16:00:00 | LOOM-USDC | 3600 | Close: 0.0581 | ^ EMA12/26: 0.0570 > 0.0565 ^ | ^ OBV: 0.0 (6.4700%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 1.7843% (delta: 0.0016)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 17:00:00 | LOOM-USDC | 3600 | Close: 0.0579 | ^ EMA12/26: 0.0572 > 0.0566 ^ | v OBV: 0.0 (-7.8600%) v | ERI: sell |  | WAIT | Last Action: BUY | 1.4692% (delta: 0.0014)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 18:00:00 | LOOM-USDC | 3600 | Close: 0.0580 | ^ EMA12/26: 0.0573 > 0.0567 ^ | ^ OBV: 0.0 (2.5500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 1.5497% (delta: 0.0015)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 19:00:00 | LOOM-USDC | 3600 | Close: 0.0577 | ^ EMA12/26: 0.0574 > 0.0568 ^ | v OBV: 0.0 (-17.6100%) v | ERI: buy |  | WAIT | Last Action: BUY | 1.1348% (delta: 0.0012)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 20:00:00 | LOOM-USDC | 3600 | Close: 0.0574 | ^ EMA12/26: 0.0574 > 0.0569 ^ | v OBV: 0.0 (-11.8801%) v | ERI: sell |  | WAIT | Last Action: BUY | 0.6359% (delta: 0.0009)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 21:00:00 | LOOM-USDC | 3600 | Close: 0.0575 | ^ EMA12/26: 0.0574 > 0.0569 ^ | ^ OBV: 0.0 (0.7800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 0.7181% (delta: 0.001)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 22:00:00 | LOOM-USDC | 3600 | Close: 0.0577 | ^ EMA12/26: 0.0574 > 0.0570 ^ | ^ OBV: 0.0 (0.9800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.1506% (delta: 0.0012)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-24 23:00:00 | LOOM-USDC | 3600 | Close: 0.0579 | ^ EMA12/26: 0.0575 > 0.0570 ^ | ^ OBV: 0.0 (5.4700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 1.4009% (delta: 0.0014)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 00:00:00 | LOOM-USDC | 3600 | Close: 0.0565 | ^ EMA12/26: 0.0574 > 0.0570 ^ | v OBV: 0.0 (-33.3700%) v | ERI: buy |  | WAIT | Last Action: BUY | -0.9153% (delta: 0.0)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 01:00:00 | LOOM-USDC | 3600 | Close: 0.0562 | ^ EMA12/26: 0.0572 > 0.0569 ^ | v OBV: 0.0 (-17.2900%) v | ERI: buy |  | WAIT | Last Action: BUY | -1.5140% (delta: -0.0003)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+! Trailing Stop Loss Triggered (< -1.5%)
+2021-07-25 02:00:00 | LOOM-USDC | 3600 | Close: 0.0571 | ^ EMA12/26: 0.0572 > 0.0570 ^ | ^ OBV: 0.0 (71.2000%) ^ | ERI: buy |  | SELL | Last Action: BUY | 0.0861% (delta: 0.0006)
+support: 0.056035, resistance: 0.058175, fibonacci (l): 0.05, fibonacci (u): 0.06
+2021-07-25 02:00:00 | LOOM-USDC | 3600 | SELL | 0.057169 | BUY | 0.05655 | DIFF | 0.0006189999999999946 | DIFF | 0.86187842 | MARGIN NO FEES | 0.0861% | MARGIN FEES | 5.0295
+2021-07-25 03:00:00 | LOOM-USDC | 3600 | Close: 0.0576 | ^ EMA12/26: 0.0572 > 0.0570 ^ | ^ OBV: 0.0 (1.1500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 04:00:00 | LOOM-USDC | 3600 | Close: 0.0580 | ^ EMA12/26: 0.0574 > 0.0571 ^ | ^ OBV: 0.0 (6.7400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 05:00:00 | LOOM-USDC | 3600 | Close: 0.0580 | ^ EMA12/26: 0.0575 > 0.0571 ^ | v OBV: 0.0 (-0.1300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 06:00:00 | LOOM-USDC | 3600 | Close: 0.0578 | ^ EMA12/26: 0.0575 > 0.0572 ^ | v OBV: 0.0 (-2.1000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 07:00:00 | LOOM-USDC | 3600 | Close: 0.0576 | ^ EMA12/26: 0.0575 > 0.0572 ^ | v OBV: 0.0 (-1.2100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 08:00:00 | LOOM-USDC | 3600 | Close: 0.0580 | ^ EMA12/26: 0.0576 > 0.0573 ^ | OBV: 0.0 (0.0000%)ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 09:00:00 | LOOM-USDC | 3600 | Close: 0.0580 | ^ EMA12/26: 0.0577 > 0.0573 ^ | ^ OBV: 0.0 (0.2100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 10:00:00 | LOOM-USDC | 3600 | Close: 0.0576 | ^ EMA12/26: 0.0576 > 0.0574 ^ | v OBV: 0.0 (-7.9000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 11:00:00 | LOOM-USDC | 3600 | Close: 0.0575 | ^ EMA12/26: 0.0576 > 0.0574 ^ | v OBV: 0.0 (-0.1100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 12:00:00 | LOOM-USDC | 3600 | Close: 0.0575 | ^ EMA12/26: 0.0576 > 0.0574 ^ | v OBV: 0.0 (-1.4100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 13:00:00 | LOOM-USDC | 3600 | Close: 0.0569 | ^ EMA12/26: 0.0575 > 0.0573 ^ | v OBV: 0.0 (-22.8800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 14:00:00 | LOOM-USDC | 3600 | Close: 0.0564 | ^ EMA12/26: 0.0573 > 0.0573 ^ | v OBV: 0.0 (-35.4800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 15:00:00 | LOOM-USDC | 3600 | Close: 0.0564 | *v EMA12/26: 0.0572 < 0.0572 v* | ^ OBV: 0.0 (41.1700%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 16:00:00 | LOOM-USDC | 3600 | Close: 0.0566 | v EMA12/26: 0.0571 < 0.0572 v | ^ OBV: 0.0 (21.1400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 17:00:00 | LOOM-USDC | 3600 | Close: 0.0566 | v EMA12/26: 0.0570 < 0.0571 v | v OBV: 0.0 (-10.2700%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 18:00:00 | LOOM-USDC | 3600 | Close: 0.0566 | v EMA12/26: 0.0570 < 0.0571 v | ^ OBV: 0.0 (5.2300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 19:00:00 | LOOM-USDC | 3600 | Close: 0.0568 | v EMA12/26: 0.0569 < 0.0571 v | ^ OBV: 0.0 (9.7800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 20:00:00 | LOOM-USDC | 3600 | Close: 0.0581 | v EMA12/26: 0.0571 < 0.0571 v | ^ OBV: 0.0 (172.4400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-25 21:00:00 | LOOM-USDC | 3600 | Close: 0.0582 | *^ EMA12/26: 0.0573 > 0.0572 ^* | ^ OBV: 0.0 (6.6000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 22:00:00 | LOOM-USDC | 3600 | Close: 0.0582 | ^ EMA12/26: 0.0574 > 0.0573 ^ | ^ OBV: 0.0 (3.3300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-25 23:00:00 | LOOM-USDC | 3600 | Close: 0.0584 | ^ EMA12/26: 0.0576 > 0.0574 ^ | ^ OBV: 0.0 (5.1600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 00:00:00 | LOOM-USDC | 3600 | Close: 0.0589 | ^ EMA12/26: 0.0578 > 0.0575 ^ | ^ OBV: 0.0 (11.2899%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 01:00:00 | LOOM-USDC | 3600 | Close: 0.0595 | ^ EMA12/26: 0.0581 > 0.0576 ^ | ^ OBV: 0.0 (57.9800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 02:00:00 | LOOM-USDC | 3600 | Close: 0.0599 | ^ EMA12/26: 0.0583 > 0.0578 ^ | ^ OBV: 0.0 (20.3500%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 03:00:00 | LOOM-USDC | 3600 | Close: 0.0594 | ^ EMA12/26: 0.0585 > 0.0579 ^ | v OBV: 0.0 (-14.8600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 04:00:00 | LOOM-USDC | 3600 | Close: 0.0597 | ^ EMA12/26: 0.0587 > 0.0581 ^ | ^ OBV: 0.0 (2.6800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 05:00:00 | LOOM-USDC | 3600 | Close: 0.0600 | ^ EMA12/26: 0.0589 > 0.0582 ^ | ^ OBV: 0.0 (0.9200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 06:00:00 | LOOM-USDC | 3600 | Close: 0.0608 | ^ EMA12/26: 0.0592 > 0.0584 ^ | ^ OBV: 0.0 (31.6100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 07:00:00 | LOOM-USDC | 3600 | Close: 0.0606 | ^ EMA12/26: 0.0594 > 0.0586 ^ | v OBV: 0.0 (-1.2600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 08:00:00 | LOOM-USDC | 3600 | Close: 0.0604 | ^ EMA12/26: 0.0595 > 0.0587 ^ | v OBV: 0.0 (-4.7800%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 09:00:00 | LOOM-USDC | 3600 | Close: 0.0607 | ^ EMA12/26: 0.0597 > 0.0588 ^ | ^ OBV: 0.0 (1.0600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 10:00:00 | LOOM-USDC | 3600 | Close: 0.0606 | ^ EMA12/26: 0.0599 > 0.0590 ^ | v OBV: 0.0 (-3.1500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 11:00:00 | LOOM-USDC | 3600 | Close: 0.0607 | ^ EMA12/26: 0.0600 > 0.0591 ^ | ^ OBV: 0.0 (0.5699%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 12:00:00 | LOOM-USDC | 3600 | Close: 0.0619 | ^ EMA12/26: 0.0603 > 0.0593 ^ | ^ OBV: 0.0 (6.2900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 13:00:00 | LOOM-USDC | 3600 | Close: 0.0619 | ^ EMA12/26: 0.0605 > 0.0595 ^ | ^ OBV: 0.0 (2.3500%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 14:00:00 | LOOM-USDC | 3600 | Close: 0.0613 | ^ EMA12/26: 0.0607 > 0.0596 ^ | v OBV: 0.0 (-6.7500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 15:00:00 | LOOM-USDC | 3600 | Close: 0.0620 | ^ EMA12/26: 0.0609 > 0.0598 ^ | ^ OBV: 0.0 (2.2400%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 16:00:00 | LOOM-USDC | 3600 | Close: 0.0618 | ^ EMA12/26: 0.0610 > 0.0600 ^ | v OBV: 0.0 (-4.7600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 17:00:00 | LOOM-USDC | 3600 | Close: 0.0626 | ^ EMA12/26: 0.0613 > 0.0602 ^ | ^ OBV: 0.0 (2.0299%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 18:00:00 | LOOM-USDC | 3600 | Close: 0.0624 | ^ EMA12/26: 0.0614 > 0.0603 ^ | v OBV: 0.0 (-22.5000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 19:00:00 | LOOM-USDC | 3600 | Close: 0.0626 | ^ EMA12/26: 0.0616 > 0.0605 ^ | ^ OBV: 0.0 (19.7300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-26 20:00:00 | LOOM-USDC | 3600 | Close: 0.0603 | ^ EMA12/26: 0.0614 > 0.0605 ^ | v OBV: 0.0 (-62.4300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 21:00:00 | LOOM-USDC | 3600 | Close: 0.0592 | ^ EMA12/26: 0.0611 > 0.0604 ^ | v OBV: 0.0 (-81.9500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 22:00:00 | LOOM-USDC | 3600 | Close: 0.0598 | ^ EMA12/26: 0.0609 > 0.0603 ^ | ^ OBV: 0.0 (142.5000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-26 23:00:00 | LOOM-USDC | 3600 | Close: 0.0600 | ^ EMA12/26: 0.0607 > 0.0603 ^ | ^ OBV: 0.0 (9.3900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 00:00:00 | LOOM-USDC | 3600 | Close: 0.0679 | ^ EMA12/26: 0.0618 > 0.0609 ^ | ^ OBV: 0.0 (575.5800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 01:00:00 | LOOM-USDC | 3600 | Close: 0.0677 | ^ EMA12/26: 0.0627 > 0.0614 ^ | v OBV: 0.0 (-68.2600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 02:00:00 | LOOM-USDC | 3600 | Close: 0.0650 | ^ EMA12/26: 0.0631 > 0.0616 ^ | v OBV: 0.0 (-130.5600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 03:00:00 | LOOM-USDC | 3600 | Close: 0.0659 | ^ EMA12/26: 0.0635 > 0.0620 ^ | v OBV: 0.0 (-75.2100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 04:00:00 | LOOM-USDC | 3600 | Close: 0.0663 | ^ EMA12/26: 0.0639 > 0.0623 ^ | v OBV: 0.0 (-234.1200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 05:00:00 | LOOM-USDC | 3600 | Close: 0.0679 | ^ EMA12/26: 0.0646 > 0.0627 ^ | ^ OBV: 0.0 (537.8600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 06:00:00 | LOOM-USDC | 3600 | Close: 0.0662 | ^ EMA12/26: 0.0648 > 0.0630 ^ | v OBV: 0.0 (-30.7900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 07:00:00 | LOOM-USDC | 3600 | Close: 0.0640 | ^ EMA12/26: 0.0647 > 0.0630 ^ | v OBV: 0.0 (-68.8200%) v | ERI: sell |  | WAIT | Last Action: SELL
+* Candlestick Detected: Three Black Crows ("Strong - Reversal - Bearish Pattern - Down")
+2021-07-27 08:00:00 | LOOM-USDC | 3600 | Close: 0.0637 | ^ EMA12/26: 0.0645 > 0.0631 ^ | v OBV: 0.0 (-82.9301%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 09:00:00 | LOOM-USDC | 3600 | Close: 0.0626 | ^ EMA12/26: 0.0642 > 0.0630 ^ | v OBV: 0.0 (-558.8600%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 10:00:00 | LOOM-USDC | 3600 | Close: 0.0635 | ^ EMA12/26: 0.0641 > 0.0631 ^ | v OBV: 0.0 (-33.3500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 11:00:00 | LOOM-USDC | 3600 | Close: 0.0638 | ^ EMA12/26: 0.0641 > 0.0631 ^ | v OBV: 0.0 (-64.8400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 12:00:00 | LOOM-USDC | 3600 | Close: 0.0639 | ^ EMA12/26: 0.0640 > 0.0632 ^ | v OBV: 0.0 (-334.2000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 13:00:00 | LOOM-USDC | 3600 | Close: 0.0642 | ^ EMA12/26: 0.0641 > 0.0633 ^ | ^ OBV: 0.0 (349.6800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 14:00:00 | LOOM-USDC | 3600 | Close: 0.0636 | ^ EMA12/26: 0.0640 > 0.0633 ^ | v OBV: 0.0 (-200.9300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-27 15:00:00 | LOOM-USDC | 3600 | Close: 0.0628 | ^ EMA12/26: 0.0638 > 0.0633 ^ | ^ OBV: 0.0 (2.5400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 16:00:00 | LOOM-USDC | 3600 | Close: 0.0616 | ^ EMA12/26: 0.0635 > 0.0631 ^ | ^ OBV: 0.0 (159.2900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 17:00:00 | LOOM-USDC | 3600 | Close: 0.0615 | ^ EMA12/26: 0.0632 > 0.0630 ^ | ^ OBV: 0.0 (10.2400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Morning Star ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-27 18:00:00 | LOOM-USDC | 3600 | Close: 0.0630 | ^ EMA12/26: 0.0631 > 0.0630 ^ | v OBV: 0.0 (-7.2200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 19:00:00 | LOOM-USDC | 3600 | Close: 0.0632 | ^ EMA12/26: 0.0631 > 0.0630 ^ | v OBV: 0.0 (-75.0100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 20:00:00 | LOOM-USDC | 3600 | Close: 0.0630 | ^ EMA12/26: 0.0631 > 0.0630 ^ | ^ OBV: 0.0 (14.5400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 21:00:00 | LOOM-USDC | 3600 | Close: 0.0628 | ^ EMA12/26: 0.0631 > 0.0630 ^ | ^ OBV: 0.0 (13.0000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 22:00:00 | LOOM-USDC | 3600 | Close: 0.0639 | ^ EMA12/26: 0.0632 > 0.0631 ^ | v OBV: 0.0 (-49.4400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-27 23:00:00 | LOOM-USDC | 3600 | Close: 0.0639 | ^ EMA12/26: 0.0633 > 0.0631 ^ | ^ OBV: 0.0 (186.1900%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 00:00:00 | LOOM-USDC | 3600 | Close: 0.0623 | ^ EMA12/26: 0.0632 > 0.0631 ^ | ^ OBV: 0.0 (16.1200%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 01:00:00 | LOOM-USDC | 3600 | Close: 0.0628 | ^ EMA12/26: 0.0631 > 0.0631 ^ | v OBV: 0.0 (-28.4000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 02:00:00 | LOOM-USDC | 3600 | Close: 0.0639 | ^ EMA12/26: 0.0632 > 0.0631 ^ | v OBV: 0.0 (-98.5100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 03:00:00 | LOOM-USDC | 3600 | Close: 0.0632 | ^ EMA12/26: 0.0632 > 0.0631 ^ | ^ OBV: 0.0 (3423.6900%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 04:00:00 | LOOM-USDC | 3600 | Close: 0.0626 | ^ EMA12/26: 0.0631 > 0.0631 ^ | ^ OBV: 0.0 (12.1300%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 05:00:00 | LOOM-USDC | 3600 | Close: 0.0627 | ^ EMA12/26: 0.0631 > 0.0631 ^ | v OBV: 0.0 (-70.1500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 06:00:00 | LOOM-USDC | 3600 | Close: 0.0623 | *v EMA12/26: 0.0629 < 0.0630 v* | ^ OBV: 0.0 (61.8000%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 07:00:00 | LOOM-USDC | 3600 | Close: 0.0618 | v EMA12/26: 0.0628 < 0.0629 v | ^ OBV: 0.0 (26.5700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 08:00:00 | LOOM-USDC | 3600 | Close: 0.0623 | v EMA12/26: 0.0627 < 0.0629 v | v OBV: 0.0 (-35.9300%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 09:00:00 | LOOM-USDC | 3600 | Close: 0.0625 | v EMA12/26: 0.0627 < 0.0628 v | v OBV: 0.0 (-2.8600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 10:00:00 | LOOM-USDC | 3600 | Close: 0.0617 | v EMA12/26: 0.0625 < 0.0628 v | ^ OBV: 0.0 (43.2700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 11:00:00 | LOOM-USDC | 3600 | Close: 0.0624 | v EMA12/26: 0.0625 < 0.0627 v | v OBV: 0.0 (-14.6400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 12:00:00 | LOOM-USDC | 3600 | Close: 0.0618 | v EMA12/26: 0.0624 < 0.0627 v | ^ OBV: 0.0 (42.4799%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 13:00:00 | LOOM-USDC | 3600 | Close: 0.0612 | v EMA12/26: 0.0622 < 0.0626 v | ^ OBV: 0.0 (50.9600%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-07-28 14:00:00 | LOOM-USDC | 3600 | Close: 0.0617 | v EMA12/26: 0.0621 < 0.0625 v | v OBV: 0.0 (-45.8500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 15:00:00 | LOOM-USDC | 3600 | Close: 0.0620 | v EMA12/26: 0.0621 < 0.0625 v | v OBV: 0.0 (-684.1200%) v | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-28 16:00:00 | LOOM-USDC | 3600 | Close: 0.0620 | v EMA12/26: 0.0621 < 0.0624 v | ^ OBV: 0.0 (3.5400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 17:00:00 | LOOM-USDC | 3600 | Close: 0.0610 | v EMA12/26: 0.0619 < 0.0623 v | v OBV: 0.0 (-22.1500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 18:00:00 | LOOM-USDC | 3600 | Close: 0.0620 | v EMA12/26: 0.0619 < 0.0623 v | ^ OBV: 0.0 (4.3099%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 19:00:00 | LOOM-USDC | 3600 | Close: 0.0618 | v EMA12/26: 0.0619 < 0.0623 v | v OBV: 0.0 (-14.6400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 20:00:00 | LOOM-USDC | 3600 | Close: 0.0620 | v EMA12/26: 0.0619 < 0.0622 v | ^ OBV: 0.0 (1.7000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 21:00:00 | LOOM-USDC | 3600 | Close: 0.0632 | v EMA12/26: 0.0621 < 0.0623 v | ^ OBV: 0.0 (14.6700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 22:00:00 | LOOM-USDC | 3600 | Close: 0.0628 | v EMA12/26: 0.0622 < 0.0623 v | v OBV: 0.0 (-4.9100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-28 23:00:00 | LOOM-USDC | 3600 | Close: 0.0631 | v EMA12/26: 0.0624 < 0.0624 v | ^ OBV: 0.0 (13.3600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 00:00:00 | LOOM-USDC | 3600 | Close: 0.0625 | v EMA12/26: 0.0624 < 0.0624 v | v OBV: 0.0 (-41.7701%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-07-29 01:00:00 | LOOM-USDC | 3600 | Close: 0.0649 | *^ EMA12/26: 0.0628 > 0.0626 ^* | ^ OBV: 0.0 (141.1000%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-07-29 01:00:00 | LOOM-USDC | 3600 | Close: 0.0649 | BUY
+ Fibonacci Retracement Levels:{'ratio1': 0.05, 'ratio0_768': 0.06}
+ Resistance level of 0.084588 formed at 2021-08-02 07:00:00
+2021-07-29 02:00:00 | LOOM-USDC | 3600 | Close: 0.0650 | ^ EMA12/26: 0.0631 > 0.0628 ^ | ^ OBV: 0.0 (26.7800%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.7704% (delta: 0.0001)
+support: 0.062991, resistance: 0.065971, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-29 03:00:00 | LOOM-USDC | 3600 | Close: 0.0650 | ^ EMA12/26: 0.0634 > 0.0629 ^ | v OBV: 0.0 (-4.2200%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.8924% (delta: 0.0001)
+support: 0.062991, resistance: 0.065971, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-29 04:00:00 | LOOM-USDC | 3600 | Close: 0.0655 | ^ EMA12/26: 0.0637 > 0.0631 ^ | ^ OBV: 0.0 (19.1900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -0.1408% (delta: 0.0006)
+support: 0.062991, resistance: 0.065971, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-29 05:00:00 | LOOM-USDC | 3600 | Close: 0.0660 | ^ EMA12/26: 0.0641 > 0.0633 ^ | ^ OBV: 0.0 (51.9000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 0.7175% (delta: 0.0011)
+support: 0.065971, resistance: 0.0693, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-29 06:00:00 | LOOM-USDC | 3600 | Close: 0.0685 | ^ EMA12/26: 0.0648 > 0.0637 ^ | ^ OBV: 0.0 (115.0100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 4.5304% (delta: 0.0036)
+support: 0.065971, resistance: 0.0693, fibonacci (l): 0.06, fibonacci (u): 0.07
+2021-07-29 07:00:00 | LOOM-USDC | 3600 | Close: 0.0718 | ^ EMA12/26: 0.0658 > 0.0643 ^ | ^ OBV: 0.0 (17.9899%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 9.4607% (delta: 0.0069)
+support: 0.0693, resistance: 0.082228, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 08:00:00 | LOOM-USDC | 3600 | Close: 0.0778 | ^ EMA12/26: 0.0677 > 0.0653 ^ | ^ OBV: 0.0 (59.3300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 18.6276% (delta: 0.0129)
+support: 0.0693, resistance: 0.082228, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 09:00:00 | LOOM-USDC | 3600 | Close: 0.0720 | ^ EMA12/26: 0.0683 > 0.0658 ^ | v OBV: 0.0 (-38.7400%) v | ERI: sell |  | WAIT | Last Action: BUY | 9.7671% (delta: 0.0071)
+support: 0.0693, resistance: 0.082228, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 10:00:00 | LOOM-USDC | 3600 | Close: 0.0714 | ^ EMA12/26: 0.0688 > 0.0662 ^ | v OBV: 0.0 (-7.1000%) v | ERI: sell |  | WAIT | Last Action: BUY | 8.9423% (delta: 0.0065)
+support: 0.0693, resistance: 0.082228, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 11:00:00 | LOOM-USDC | 3600 | Close: 0.0715 | ^ EMA12/26: 0.0692 > 0.0666 ^ | ^ OBV: 0.0 (18.4000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 9.0399% (delta: 0.0066)
+support: 0.0693, resistance: 0.082228, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 12:00:00 | LOOM-USDC | 3600 | Close: 0.0720 | ^ EMA12/26: 0.0696 > 0.0670 ^ | ^ OBV: 0.0 (27.9100%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 9.8479% (delta: 0.0071)
+support: 0.0693, resistance: 0.082228, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 13:00:00 | LOOM-USDC | 3600 | Close: 0.0724 | ^ EMA12/26: 0.0701 > 0.0674 ^ | ^ OBV: 0.0 (3.3000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 10.4166% (delta: 0.0075)
+support: 0.0693, resistance: 0.082228, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 14:00:00 | LOOM-USDC | 3600 | Close: 0.0723 | ^ EMA12/26: 0.0704 > 0.0678 ^ | v OBV: 0.0 (-3.9700%) v | ERI: sell |  | WAIT | Last Action: BUY | 10.3540% (delta: 0.0074)
+support: 0.0693, resistance: 0.082228, fibonacci (l): 0.07, fibonacci (u): 0.08
+2021-07-29 15:00:00 | LOOM-USDC | 3600 | Close: 0.1040 | ^ EMA12/26: 0.0756 > 0.0705 ^ | ^ OBV: 0.0 (256.1100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 58.5503% (delta: 0.0391)
+support: 0.097123, resistance: 0.104144, fibonacci (l): 0.1, fibonacci (u): 0.11
+2021-07-29 16:00:00 | LOOM-USDC | 3600 | Close: 0.0961 | ^ EMA12/26: 0.0787 > 0.0723 ^ | v OBV: 0.0 (-36.7100%) v | ERI: sell |  | WAIT | Last Action: BUY | 46.5066% (delta: 0.0312)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-29 17:00:00 | LOOM-USDC | 3600 | Close: 0.0972 | ^ EMA12/26: 0.0816 > 0.0742 ^ | ^ OBV: 0.0 (20.1100%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 48.2201% (delta: 0.0323)
+support: 0.097123, resistance: 0.104144, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-29 18:00:00 | LOOM-USDC | 3600 | Close: 0.0939 | ^ EMA12/26: 0.0835 > 0.0756 ^ | v OBV: 0.0 (-6.9300%) v | ERI: sell |  | WAIT | Last Action: BUY | 43.2441% (delta: 0.029)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-29 19:00:00 | LOOM-USDC | 3600 | Close: 0.0901 | ^ EMA12/26: 0.0845 > 0.0767 ^ | v OBV: 0.0 (-12.1400%) v | ERI: sell |  | WAIT | Last Action: BUY | 37.4235% (delta: 0.0252)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-29 20:00:00 | LOOM-USDC | 3600 | Close: 0.0900 | ^ EMA12/26: 0.0853 > 0.0777 ^ | v OBV: 0.0 (-2.7300%) v | ERI: sell |  | WAIT | Last Action: BUY | 37.2070% (delta: 0.0251)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-29 21:00:00 | LOOM-USDC | 3600 | Close: 0.0892 | ^ EMA12/26: 0.0859 > 0.0785 ^ | v OBV: 0.0 (-5.4401%) v | ERI: buy |  | WAIT | Last Action: BUY | 36.0697% (delta: 0.0243)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-07-29 22:00:00 | LOOM-USDC | 3600 | Close: 0.0850 | ^ EMA12/26: 0.0858 > 0.0790 ^ | v OBV: 0.0 (-5.1000%) v | ERI: sell |  | WAIT | Last Action: BUY | 29.6606% (delta: 0.0201)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-07-29 23:00:00 | LOOM-USDC | 3600 | Close: 0.0893 | ^ EMA12/26: 0.0863 > 0.0798 ^ | ^ OBV: 0.0 (5.8300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 36.1764% (delta: 0.0244)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-07-30 00:00:00 | LOOM-USDC | 3600 | Close: 0.0954 | ^ EMA12/26: 0.0877 > 0.0809 ^ | ^ OBV: 0.0 (13.8000%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 45.5797% (delta: 0.0306)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-30 01:00:00 | LOOM-USDC | 3600 | Close: 0.0941 | ^ EMA12/26: 0.0887 > 0.0819 ^ | v OBV: 0.0 (-7.0900%) v | ERI: buy |  | WAIT | Last Action: BUY | 43.5505% (delta: 0.0292)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 02:00:00 | LOOM-USDC | 3600 | Close: 0.1005 | ^ EMA12/26: 0.0905 > 0.0833 ^ | ^ OBV: 0.0 (8.8300%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 53.3166% (delta: 0.0356)
+support: 0.097123, resistance: 0.104144, fibonacci (l): 0.1, fibonacci (u): 0.11
+2021-07-30 03:00:00 | LOOM-USDC | 3600 | Close: 0.1030 | ^ EMA12/26: 0.0924 > 0.0848 ^ | ^ OBV: 0.0 (11.3699%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 57.1020% (delta: 0.0381)
+support: 0.097123, resistance: 0.104144, fibonacci (l): 0.1, fibonacci (u): 0.11
+* Candlestick Detected: Hammer ("Weak - Reversal - Bullish Signal - Up")
+2021-07-30 04:00:00 | LOOM-USDC | 3600 | Close: 0.1032 | ^ EMA12/26: 0.0941 > 0.0861 ^ | ^ OBV: 0.0 (2.6700%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 57.4374% (delta: 0.0383)
+support: 0.097123, resistance: 0.104144, fibonacci (l): 0.1, fibonacci (u): 0.11
+2021-07-30 05:00:00 | LOOM-USDC | 3600 | Close: 0.1017 | ^ EMA12/26: 0.0953 > 0.0873 ^ | v OBV: 0.0 (-4.3400%) v | ERI: sell |  | WAIT | Last Action: BUY | 55.0439% (delta: 0.0368)
+support: 0.097123, resistance: 0.104144, fibonacci (l): 0.1, fibonacci (u): 0.11
+2021-07-30 06:00:00 | LOOM-USDC | 3600 | Close: 0.1028 | ^ EMA12/26: 0.0964 > 0.0884 ^ | ^ OBV: 0.0 (1.5700%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 56.8261% (delta: 0.0379)
+support: 0.097123, resistance: 0.104144, fibonacci (l): 0.1, fibonacci (u): 0.11
+2021-07-30 07:00:00 | LOOM-USDC | 3600 | Close: 0.1024 | ^ EMA12/26: 0.0973 > 0.0895 ^ | v OBV: 0.0 (-2.0600%) v | ERI: sell |  | WAIT | Last Action: BUY | 56.1202% (delta: 0.0375)
+support: 0.097123, resistance: 0.104144, fibonacci (l): 0.1, fibonacci (u): 0.11
+2021-07-30 08:00:00 | LOOM-USDC | 3600 | Close: 0.0991 | ^ EMA12/26: 0.0976 > 0.0902 ^ | v OBV: 0.0 (-2.8300%) v | ERI: sell |  | WAIT | Last Action: BUY | 51.1183% (delta: 0.0342)
+support: 0.097123, resistance: 0.104144, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 09:00:00 | LOOM-USDC | 3600 | Close: 0.0966 | ^ EMA12/26: 0.0975 > 0.0906 ^ | v OBV: 0.0 (-3.1700%) v | ERI: sell |  | WAIT | Last Action: BUY | 47.3710% (delta: 0.0317)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 10:00:00 | LOOM-USDC | 3600 | Close: 0.0964 | ^ EMA12/26: 0.0973 > 0.0911 ^ | v OBV: 0.0 (-0.3600%) v | ERI: buy |  | WAIT | Last Action: BUY | 46.9883% (delta: 0.0315)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 11:00:00 | LOOM-USDC | 3600 | Close: 0.0963 | ^ EMA12/26: 0.0971 > 0.0915 ^ | v OBV: 0.0 (-0.4500%) v | ERI: buy |  | WAIT | Last Action: BUY | 46.9441% (delta: 0.0314)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 12:00:00 | LOOM-USDC | 3600 | Close: 0.0930 | ^ EMA12/26: 0.0965 > 0.0916 ^ | v OBV: 0.0 (-0.8101%) v | ERI: sell |  | WAIT | Last Action: BUY | 41.8324% (delta: 0.0281)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 13:00:00 | LOOM-USDC | 3600 | Close: 0.0920 | ^ EMA12/26: 0.0958 > 0.0916 ^ | v OBV: 0.0 (-0.8400%) v | ERI: sell |  | WAIT | Last Action: BUY | 40.2865% (delta: 0.0271)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 14:00:00 | LOOM-USDC | 3600 | Close: 0.0946 | ^ EMA12/26: 0.0956 > 0.0918 ^ | ^ OBV: 0.0 (3.5800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 44.2533% (delta: 0.0297)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 15:00:00 | LOOM-USDC | 3600 | Close: 0.0930 | ^ EMA12/26: 0.0952 > 0.0919 ^ | v OBV: 0.0 (-0.3300%) v | ERI: buy |  | WAIT | Last Action: BUY | 41.7806% (delta: 0.0281)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 16:00:00 | LOOM-USDC | 3600 | Close: 0.0942 | ^ EMA12/26: 0.0951 > 0.0921 ^ | ^ OBV: 0.0 (0.5200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 43.7106% (delta: 0.0293)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 17:00:00 | LOOM-USDC | 3600 | Close: 0.0957 | ^ EMA12/26: 0.0951 > 0.0923 ^ | ^ OBV: 0.0 (0.5800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 45.9135% (delta: 0.0308)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 18:00:00 | LOOM-USDC | 3600 | Close: 0.0953 | ^ EMA12/26: 0.0952 > 0.0926 ^ | v OBV: 0.0 (-0.0900%) v | ERI: sell |  | WAIT | Last Action: BUY | 45.3921% (delta: 0.0304)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 19:00:00 | LOOM-USDC | 3600 | Close: 0.0930 | ^ EMA12/26: 0.0948 > 0.0926 ^ | v OBV: 0.0 (-0.5800%) v | ERI: sell |  | WAIT | Last Action: BUY | 41.8522% (delta: 0.0281)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 20:00:00 | LOOM-USDC | 3600 | Close: 0.0934 | ^ EMA12/26: 0.0946 > 0.0927 ^ | ^ OBV: 0.0 (2.2700%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 42.4605% (delta: 0.0285)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 21:00:00 | LOOM-USDC | 3600 | Close: 0.0927 | ^ EMA12/26: 0.0943 > 0.0927 ^ | v OBV: 0.0 (-1.2100%) v | ERI: buy |  | WAIT | Last Action: BUY | 41.3415% (delta: 0.0278)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 22:00:00 | LOOM-USDC | 3600 | Close: 0.0918 | ^ EMA12/26: 0.0939 > 0.0926 ^ | v OBV: 0.0 (-0.7300%) v | ERI: sell |  | WAIT | Last Action: BUY | 39.9679% (delta: 0.0269)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-30 23:00:00 | LOOM-USDC | 3600 | Close: 0.0920 | ^ EMA12/26: 0.0936 > 0.0925 ^ | ^ OBV: 0.0 (0.1700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 40.2972% (delta: 0.0271)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 00:00:00 | LOOM-USDC | 3600 | Close: 0.0918 | ^ EMA12/26: 0.0933 > 0.0925 ^ | v OBV: 0.0 (-0.8800%) v | ERI: buy |  | WAIT | Last Action: BUY | 40.0274% (delta: 0.0269)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 01:00:00 | LOOM-USDC | 3600 | Close: 0.0913 | ^ EMA12/26: 0.0930 > 0.0924 ^ | v OBV: 0.0 (-1.5400%) v | ERI: sell |  | WAIT | Last Action: BUY | 39.1965% (delta: 0.0264)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 02:00:00 | LOOM-USDC | 3600 | Close: 0.0911 | ^ EMA12/26: 0.0927 > 0.0923 ^ | v OBV: 0.0 (-0.1500%) v | ERI: buy |  | WAIT | Last Action: BUY | 39.0120% (delta: 0.0262)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+*** Candlestick Detected: Morning Star ("Strong - Reversal - Bullish Pattern - Up")
+2021-07-31 03:00:00 | LOOM-USDC | 3600 | Close: 0.0924 | ^ EMA12/26: 0.0927 > 0.0923 ^ | ^ OBV: 0.0 (0.3600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 40.9375% (delta: 0.0275)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 04:00:00 | LOOM-USDC | 3600 | Close: 0.0928 | ^ EMA12/26: 0.0927 > 0.0923 ^ | ^ OBV: 0.0 (0.0800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 41.5473% (delta: 0.0279)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 05:00:00 | LOOM-USDC | 3600 | Close: 0.0913 | ^ EMA12/26: 0.0925 > 0.0923 ^ | v OBV: 0.0 (-2.3500%) v | ERI: buy |  | WAIT | Last Action: BUY | 39.3154% (delta: 0.0264)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 06:00:00 | LOOM-USDC | 3600 | Close: 0.0913 | ^ EMA12/26: 0.0923 > 0.0922 ^ | v OBV: 0.0 (-0.1900%) v | ERI: sell |  | WAIT | Last Action: BUY | 39.1889% (delta: 0.0264)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 07:00:00 | LOOM-USDC | 3600 | Close: 0.0912 | ^ EMA12/26: 0.0921 > 0.0921 ^ | v OBV: 0.0 (-1.8700%) v | ERI: buy |  | WAIT | Last Action: BUY | 39.1477% (delta: 0.0263)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 08:00:00 | LOOM-USDC | 3600 | Close: 0.0929 | ^ EMA12/26: 0.0922 > 0.0922 ^ | ^ OBV: 0.0 (0.3200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 41.6388% (delta: 0.028)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 09:00:00 | LOOM-USDC | 3600 | Close: 0.0925 | ^ EMA12/26: 0.0923 > 0.0922 ^ | v OBV: 0.0 (-0.1900%) v | ERI: buy |  | WAIT | Last Action: BUY | 41.0976% (delta: 0.0276)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 10:00:00 | LOOM-USDC | 3600 | Close: 0.0929 | ^ EMA12/26: 0.0924 > 0.0923 ^ | ^ OBV: 0.0 (0.0500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 41.6586% (delta: 0.028)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 11:00:00 | LOOM-USDC | 3600 | Close: 0.0925 | ^ EMA12/26: 0.0924 > 0.0923 ^ | v OBV: 0.0 (-0.3900%) v | ERI: sell |  | WAIT | Last Action: BUY | 41.0274% (delta: 0.0276)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 12:00:00 | LOOM-USDC | 3600 | Close: 0.0926 | ^ EMA12/26: 0.0924 > 0.0923 ^ | ^ OBV: 0.0 (0.2900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 41.2927% (delta: 0.0277)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+* Candlestick Detected: Inverted Hammer ("Weak - Continuation - Bullish Pattern - Up")
+2021-07-31 13:00:00 | LOOM-USDC | 3600 | Close: 0.0926 | ^ EMA12/26: 0.0925 > 0.0923 ^ | ^ OBV: 0.0 (0.0600%) ^ | ERI: sell |  | WAIT | Last Action: BUY | 41.3110% (delta: 0.0278)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 14:00:00 | LOOM-USDC | 3600 | Close: 0.0915 | ^ EMA12/26: 0.0923 > 0.0923 ^ | v OBV: 0.0 (-0.9600%) v | ERI: buy |  | WAIT | Last Action: BUY | 39.5852% (delta: 0.0266)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 15:00:00 | LOOM-USDC | 3600 | Close: 0.0921 | ^ EMA12/26: 0.0923 > 0.0922 ^ | ^ OBV: 0.0 (0.1300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 40.4786% (delta: 0.0272)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 16:00:00 | LOOM-USDC | 3600 | Close: 0.0920 | ^ EMA12/26: 0.0922 > 0.0922 ^ | v OBV: 0.0 (-0.1100%) v | ERI: buy |  | WAIT | Last Action: BUY | 40.2560% (delta: 0.0271)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 17:00:00 | LOOM-USDC | 3600 | Close: 0.0929 | ^ EMA12/26: 0.0923 > 0.0923 ^ | ^ OBV: 0.0 (0.8500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 41.7348% (delta: 0.028)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 18:00:00 | LOOM-USDC | 3600 | Close: 0.0939 | ^ EMA12/26: 0.0926 > 0.0924 ^ | ^ OBV: 0.0 (1.8900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 43.2471% (delta: 0.029)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 19:00:00 | LOOM-USDC | 3600 | Close: 0.0925 | ^ EMA12/26: 0.0926 > 0.0924 ^ | v OBV: 0.0 (-0.0300%) v | ERI: buy |  | WAIT | Last Action: BUY | 41.0579% (delta: 0.0276)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 20:00:00 | LOOM-USDC | 3600 | Close: 0.0943 | ^ EMA12/26: 0.0928 > 0.0925 ^ | ^ OBV: 0.0 (0.1100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 43.8310% (delta: 0.0294)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 21:00:00 | LOOM-USDC | 3600 | Close: 0.0939 | ^ EMA12/26: 0.0930 > 0.0926 ^ | v OBV: 0.0 (-0.3500%) v | ERI: sell |  | WAIT | Last Action: BUY | 43.2471% (delta: 0.029)
+support: 0.093479, resistance: 0.097123, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 22:00:00 | LOOM-USDC | 3600 | Close: 0.0926 | ^ EMA12/26: 0.0929 > 0.0926 ^ | v OBV: 0.0 (-0.5200%) v | ERI: buy |  | WAIT | Last Action: BUY | 41.2851% (delta: 0.0277)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-07-31 23:00:00 | LOOM-USDC | 3600 | Close: 0.0930 | ^ EMA12/26: 0.0929 > 0.0927 ^ | ^ OBV: 0.0 (0.0700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | 41.7912% (delta: 0.0281)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-01 00:00:00 | LOOM-USDC | 3600 | Close: 0.0911 | ^ EMA12/26: 0.0927 > 0.0926 ^ | v OBV: 0.0 (-2.1700%) v | ERI: buy |  | WAIT | Last Action: BUY | 39.0090% (delta: 0.0262)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-01 01:00:00 | LOOM-USDC | 3600 | Close: 0.0905 | *v EMA12/26: 0.0923 < 0.0924 v* | v OBV: 0.0 (-1.0100%) v | ERI: sell |  | SELL | Last Action: BUY | 37.9738% (delta: 0.0256)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-01 01:00:00 | LOOM-USDC | 3600 | SELL | 0.090503 | BUY | 0.06494 | DIFF | 0.025563000000000002 | DIFF | 380.06601013 | MARGIN NO FEES | 37.9738% | MARGIN FEES | 6.9393
+2021-08-01 02:00:00 | LOOM-USDC | 3600 | Close: 0.0912 | v EMA12/26: 0.0921 < 0.0923 v | ^ OBV: 0.0 (0.6100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 03:00:00 | LOOM-USDC | 3600 | Close: 0.0904 | v EMA12/26: 0.0919 < 0.0922 v | v OBV: 0.0 (-0.6600%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 04:00:00 | LOOM-USDC | 3600 | Close: 0.0902 | v EMA12/26: 0.0916 < 0.0920 v | v OBV: 0.0 (-0.8800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 05:00:00 | LOOM-USDC | 3600 | Close: 0.0904 | v EMA12/26: 0.0914 < 0.0919 v | ^ OBV: 0.0 (6.0599%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 06:00:00 | LOOM-USDC | 3600 | Close: 0.0933 | v EMA12/26: 0.0917 < 0.0920 v | ^ OBV: 0.0 (2.2000%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 07:00:00 | LOOM-USDC | 3600 | Close: 0.0918 | v EMA12/26: 0.0917 < 0.0920 v | v OBV: 0.0 (-0.0701%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 08:00:00 | LOOM-USDC | 3600 | Close: 0.0918 | v EMA12/26: 0.0917 < 0.0920 v | ^ OBV: 0.0 (0.0200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 09:00:00 | LOOM-USDC | 3600 | Close: 0.0914 | v EMA12/26: 0.0917 < 0.0919 v | v OBV: 0.0 (-0.0200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 10:00:00 | LOOM-USDC | 3600 | Close: 0.0918 | v EMA12/26: 0.0917 < 0.0919 v | ^ OBV: 0.0 (0.0100%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 11:00:00 | LOOM-USDC | 3600 | Close: 0.0920 | v EMA12/26: 0.0917 < 0.0919 v | ^ OBV: 0.0 (0.0600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 12:00:00 | LOOM-USDC | 3600 | Close: 0.0900 | v EMA12/26: 0.0915 < 0.0918 v | v OBV: 0.0 (-0.1000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 13:00:00 | LOOM-USDC | 3600 | Close: 0.0890 | v EMA12/26: 0.0911 < 0.0916 v | v OBV: 0.0 (-0.2500%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 14:00:00 | LOOM-USDC | 3600 | Close: 0.0900 | v EMA12/26: 0.0909 < 0.0915 v | ^ OBV: 0.0 (0.0400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 15:00:00 | LOOM-USDC | 3600 | Close: 0.0900 | v EMA12/26: 0.0908 < 0.0914 v | ^ OBV: 0.0 (0.1200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 16:00:00 | LOOM-USDC | 3600 | Close: 0.0903 | v EMA12/26: 0.0907 < 0.0913 v | ^ OBV: 0.0 (0.1300%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 17:00:00 | LOOM-USDC | 3600 | Close: 0.0909 | v EMA12/26: 0.0907 < 0.0912 v | ^ OBV: 0.0 (0.2200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Evening Star ("Strong - Reversal - Bearish Pattern - Down")
+2021-08-01 18:00:00 | LOOM-USDC | 3600 | Close: 0.0887 | v EMA12/26: 0.0904 < 0.0911 v | v OBV: 0.0 (-2.1900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-01 19:00:00 | LOOM-USDC | 3600 | Close: 0.0886 | v EMA12/26: 0.0902 < 0.0909 v | v OBV: 0.0 (-0.2500%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 20:00:00 | LOOM-USDC | 3600 | Close: 0.0890 | v EMA12/26: 0.0900 < 0.0907 v | ^ OBV: 0.0 (0.5800%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 21:00:00 | LOOM-USDC | 3600 | Close: 0.0875 | v EMA12/26: 0.0896 < 0.0905 v | v OBV: 0.0 (-0.1000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 22:00:00 | LOOM-USDC | 3600 | Close: 0.0870 | v EMA12/26: 0.0892 < 0.0902 v | v OBV: 0.0 (-1.8100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-01 23:00:00 | LOOM-USDC | 3600 | Close: 0.0852 | v EMA12/26: 0.0886 < 0.0899 v | v OBV: 0.0 (-1.7100%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 00:00:00 | LOOM-USDC | 3600 | Close: 0.0822 | v EMA12/26: 0.0876 < 0.0893 v | v OBV: 0.0 (-2.6800%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 01:00:00 | LOOM-USDC | 3600 | Close: 0.0842 | v EMA12/26: 0.0871 < 0.0889 v | ^ OBV: 0.0 (3.5600%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 02:00:00 | LOOM-USDC | 3600 | Close: 0.0815 | v EMA12/26: 0.0862 < 0.0884 v | v OBV: 0.0 (-2.8100%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 03:00:00 | LOOM-USDC | 3600 | Close: 0.0832 | v EMA12/26: 0.0857 < 0.0880 v | ^ OBV: 0.0 (0.6400%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 04:00:00 | LOOM-USDC | 3600 | Close: 0.0831 | v EMA12/26: 0.0853 < 0.0876 v | v OBV: 0.0 (-0.4000%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 05:00:00 | LOOM-USDC | 3600 | Close: 0.0828 | v EMA12/26: 0.0849 < 0.0873 v | v OBV: 0.0 (-0.0400%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 06:00:00 | LOOM-USDC | 3600 | Close: 0.0842 | v EMA12/26: 0.0848 < 0.0870 v | ^ OBV: 0.0 (0.2700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 07:00:00 | LOOM-USDC | 3600 | Close: 0.0844 | v EMA12/26: 0.0848 < 0.0868 v | ^ OBV: 0.0 (0.0700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+*** Candlestick Detected: Evening Star ("Strong - Reversal - Bearish Pattern - Down")
+2021-08-02 08:00:00 | LOOM-USDC | 3600 | Close: 0.0830 | v EMA12/26: 0.0845 < 0.0866 v | v OBV: 0.0 (-0.3900%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 09:00:00 | LOOM-USDC | 3600 | Close: 0.0828 | v EMA12/26: 0.0842 < 0.0863 v | v OBV: 0.0 (-0.0300%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 10:00:00 | LOOM-USDC | 3600 | Close: 0.0826 | v EMA12/26: 0.0840 < 0.0860 v | v OBV: 0.0 (-0.5200%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 11:00:00 | LOOM-USDC | 3600 | Close: 0.0826 | v EMA12/26: 0.0838 < 0.0858 v | v OBV: 0.0 (-0.2801%) v | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 12:00:00 | LOOM-USDC | 3600 | Close: 0.0830 | v EMA12/26: 0.0837 < 0.0856 v | ^ OBV: 0.0 (0.2700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 13:00:00 | LOOM-USDC | 3600 | Close: 0.0836 | v EMA12/26: 0.0837 < 0.0854 v | ^ OBV: 0.0 (0.3100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 14:00:00 | LOOM-USDC | 3600 | Close: 0.0837 | v EMA12/26: 0.0837 < 0.0853 v | ^ OBV: 0.0 (0.0700%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 15:00:00 | LOOM-USDC | 3600 | Close: 0.0863 | v EMA12/26: 0.0841 < 0.0854 v | ^ OBV: 0.0 (1.9100%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 16:00:00 | LOOM-USDC | 3600 | Close: 0.0885 | v EMA12/26: 0.0847 < 0.0856 v | ^ OBV: 0.0 (1.4200%) ^ | ERI: buy |  | WAIT | Last Action: SELL
+2021-08-02 17:00:00 | LOOM-USDC | 3600 | Close: 0.0865 | v EMA12/26: 0.0850 < 0.0857 v | v OBV: 0.0 (-0.8000%) v | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 18:00:00 | LOOM-USDC | 3600 | Close: 0.0870 | v EMA12/26: 0.0853 < 0.0858 v | ^ OBV: 0.0 (0.1800%) ^ | ERI: sell |  | WAIT | Last Action: SELL
+2021-08-02 19:00:00 | LOOM-USDC | 3600 | Close: 0.0917 | *^ EMA12/26: 0.0863 > 0.0862 ^* | ^ OBV: 0.0 (8.1400%) ^ | ERI: buy |  | BUY | Last Action: SELL
+2021-08-02 19:00:00 | LOOM-USDC | 3600 | Close: 0.0917 | BUY
+ Fibonacci Retracement Levels:{'ratio0_286': 0.09, 'ratio0': 0.1}
+ Support level of 0.084588 formed at 2021-08-02 07:00:00
+2021-08-02 20:00:00 | LOOM-USDC | 3600 | Close: 0.0906 | ^ EMA12/26: 0.0870 > 0.0865 ^ | v OBV: 0.0 (-1.5600%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.1970% (delta: -0.0011)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-02 21:00:00 | LOOM-USDC | 3600 | Close: 0.0911 | ^ EMA12/26: 0.0876 > 0.0869 ^ | ^ OBV: 0.0 (1.3500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.7310% (delta: -0.0007)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-02 22:00:00 | LOOM-USDC | 3600 | Close: 0.0921 | ^ EMA12/26: 0.0883 > 0.0873 ^ | ^ OBV: 0.0 (0.2000%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.5844% (delta: 0.0004)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-02 23:00:00 | LOOM-USDC | 3600 | Close: 0.0906 | ^ EMA12/26: 0.0887 > 0.0875 ^ | v OBV: 0.0 (-1.3701%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.1690% (delta: -0.0011)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 00:00:00 | LOOM-USDC | 3600 | Close: 0.0913 | ^ EMA12/26: 0.0891 > 0.0878 ^ | ^ OBV: 0.0 (1.0500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.4506% (delta: -0.0004)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 01:00:00 | LOOM-USDC | 3600 | Close: 0.0906 | ^ EMA12/26: 0.0893 > 0.0880 ^ | v OBV: 0.0 (-0.7900%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.1948% (delta: -0.0011)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 02:00:00 | LOOM-USDC | 3600 | Close: 0.0912 | ^ EMA12/26: 0.0896 > 0.0882 ^ | ^ OBV: 0.0 (0.4200%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -1.5714% (delta: -0.0005)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 03:00:00 | LOOM-USDC | 3600 | Close: 0.0901 | ^ EMA12/26: 0.0897 > 0.0884 ^ | v OBV: 0.0 (-0.8500%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.7342% (delta: -0.0016)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 04:00:00 | LOOM-USDC | 3600 | Close: 0.0908 | ^ EMA12/26: 0.0899 > 0.0886 ^ | ^ OBV: 0.0 (0.9100%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -2.0050% (delta: -0.0009)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 05:00:00 | LOOM-USDC | 3600 | Close: 0.0901 | ^ EMA12/26: 0.0899 > 0.0887 ^ | v OBV: 0.0 (-0.1900%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.7320% (delta: -0.0016)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 06:00:00 | LOOM-USDC | 3600 | Close: 0.0901 | ^ EMA12/26: 0.0899 > 0.0888 ^ | OBV: 0.0 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | -2.7320% (delta: -0.0016)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 07:00:00 | LOOM-USDC | 3600 | Close: 0.0912 | ^ EMA12/26: 0.0901 > 0.0890 ^ | ^ OBV: 0.0 (0.0200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.5779% (delta: -0.0005)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 08:00:00 | LOOM-USDC | 3600 | Close: 0.0901 | ^ EMA12/26: 0.0901 > 0.0890 ^ | OBV: 0.0 (0.0000%)ERI: sell |  | WAIT | Last Action: BUY | -2.7266% (delta: -0.0016)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 09:00:00 | LOOM-USDC | 3600 | Close: 0.0900 | ^ EMA12/26: 0.0901 > 0.0891 ^ | v OBV: 0.0 (-0.6200%) v | ERI: buy |  | WAIT | Last Action: BUY | -2.9078% (delta: -0.0018)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 10:00:00 | LOOM-USDC | 3600 | Close: 0.0900 | ^ EMA12/26: 0.0901 > 0.0892 ^ | v OBV: 0.0 (-0.1300%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.9219% (delta: -0.0018)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-03 11:00:00 | LOOM-USDC | 3600 | Close: 0.0872 | ^ EMA12/26: 0.0896 > 0.0890 ^ | v OBV: 0.0 (-0.4800%) v | ERI: sell |  | WAIT | Last Action: BUY | -5.8612% (delta: -0.0045)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+* Candlestick Detected: Three Black Crows ("Strong - Reversal - Bearish Pattern - Down")
+2021-08-03 12:00:00 | LOOM-USDC | 3600 | Close: 0.0861 | ^ EMA12/26: 0.0891 > 0.0888 ^ | v OBV: 0.0 (-1.1201%) v | ERI: sell |  | WAIT | Last Action: BUY | -7.0423% (delta: -0.0056)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 13:00:00 | LOOM-USDC | 3600 | Close: 0.0869 | ^ EMA12/26: 0.0888 > 0.0887 ^ | ^ OBV: 0.0 (0.1800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -6.1632% (delta: -0.0048)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+! Ignore Sell Signal (No Sell At Loss)
+2021-08-03 14:00:00 | LOOM-USDC | 3600 | Close: 0.0872 | *v EMA12/26: 0.0885 < 0.0886 v* | ^ OBV: 0.0 (0.0500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -5.8471% (delta: -0.0045)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 15:00:00 | LOOM-USDC | 3600 | Close: 0.0860 | v EMA12/26: 0.0881 < 0.0884 v | v OBV: 0.0 (-0.3800%) v | ERI: buy |  | WAIT | Last Action: BUY | -7.2267% (delta: -0.0058)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 16:00:00 | LOOM-USDC | 3600 | Close: 0.0871 | v EMA12/26: 0.0880 < 0.0883 v | ^ OBV: 0.0 (1.9500%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -6.0111% (delta: -0.0046)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 17:00:00 | LOOM-USDC | 3600 | Close: 0.0862 | v EMA12/26: 0.0877 < 0.0881 v | v OBV: 0.0 (-0.2400%) v | ERI: buy |  | WAIT | Last Action: BUY | -6.9668% (delta: -0.0055)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 18:00:00 | LOOM-USDC | 3600 | Close: 0.0883 | v EMA12/26: 0.0878 < 0.0881 v | ^ OBV: 0.0 (0.2200%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.6596% (delta: -0.0034)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 19:00:00 | LOOM-USDC | 3600 | Close: 0.0875 | v EMA12/26: 0.0878 < 0.0881 v | v OBV: 0.0 (-0.0900%) v | ERI: buy |  | WAIT | Last Action: BUY | -5.5516% (delta: -0.0042)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 20:00:00 | LOOM-USDC | 3600 | Close: 0.0876 | v EMA12/26: 0.0877 < 0.0881 v | ^ OBV: 0.0 (0.8300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -5.4750% (delta: -0.0042)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 21:00:00 | LOOM-USDC | 3600 | Close: 0.0883 | v EMA12/26: 0.0878 < 0.0881 v | ^ OBV: 0.0 (0.5600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.7232% (delta: -0.0035)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 22:00:00 | LOOM-USDC | 3600 | Close: 0.0888 | v EMA12/26: 0.0880 < 0.0881 v | ^ OBV: 0.0 (0.2600%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -4.1094% (delta: -0.0029)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-03 23:00:00 | LOOM-USDC | 3600 | Close: 0.0868 | v EMA12/26: 0.0878 < 0.0880 v | v OBV: 0.0 (-0.3300%) v | ERI: buy |  | WAIT | Last Action: BUY | -6.2959% (delta: -0.0049)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 00:00:00 | LOOM-USDC | 3600 | Close: 0.0862 | v EMA12/26: 0.0876 < 0.0879 v | v OBV: 0.0 (-0.3600%) v | ERI: buy |  | WAIT | Last Action: BUY | -6.9269% (delta: -0.0055)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 01:00:00 | LOOM-USDC | 3600 | Close: 0.0871 | v EMA12/26: 0.0875 < 0.0878 v | ^ OBV: 0.0 (0.0300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -6.0251% (delta: -0.0047)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 02:00:00 | LOOM-USDC | 3600 | Close: 0.0876 | v EMA12/26: 0.0875 < 0.0878 v | ^ OBV: 0.0 (0.8700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -5.4416% (delta: -0.0041)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 03:00:00 | LOOM-USDC | 3600 | Close: 0.0870 | v EMA12/26: 0.0874 < 0.0878 v | v OBV: 0.0 (-0.0900%) v | ERI: buy |  | WAIT | Last Action: BUY | -6.1427% (delta: -0.0048)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 04:00:00 | LOOM-USDC | 3600 | Close: 0.0873 | v EMA12/26: 0.0874 < 0.0877 v | OBV: 0.0 (0.0000%)ERI: buy |  | WAIT | Last Action: BUY | -5.7921% (delta: -0.0044)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 05:00:00 | LOOM-USDC | 3600 | Close: 0.0866 | v EMA12/26: 0.0873 < 0.0876 v | v OBV: 0.0 (-0.0200%) v | ERI: buy |  | WAIT | Last Action: BUY | -6.5461% (delta: -0.0051)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 06:00:00 | LOOM-USDC | 3600 | Close: 0.0862 | v EMA12/26: 0.0871 < 0.0875 v | v OBV: 0.0 (-0.1100%) v | ERI: buy |  | WAIT | Last Action: BUY | -6.9279% (delta: -0.0055)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 07:00:00 | LOOM-USDC | 3600 | Close: 0.0865 | v EMA12/26: 0.0870 < 0.0875 v | ^ OBV: 0.0 (0.7500%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -6.6497% (delta: -0.0052)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 10:00:00 | LOOM-USDC | 3600 | Close: 0.0871 | v EMA12/26: 0.0870 < 0.0874 v | ^ OBV: 0.0 (0.0900%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -5.9485% (delta: -0.0046)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+*** Candlestick Detected: Three White Soldiers ("Strong - Reversal - Bullish Pattern - Up")
+2021-08-04 11:00:00 | LOOM-USDC | 3600 | Close: 0.0873 | v EMA12/26: 0.0871 < 0.0874 v | ^ OBV: 0.0 (0.0100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -5.8040% (delta: -0.0045)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 12:00:00 | LOOM-USDC | 3600 | Close: 0.0894 | v EMA12/26: 0.0874 < 0.0876 v | ^ OBV: 0.0 (0.6100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.4666% (delta: -0.0023)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 13:00:00 | LOOM-USDC | 3600 | Close: 0.0901 | *^ EMA12/26: 0.0879 > 0.0878 ^* | ^ OBV: 0.0 (1.6100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.7525% (delta: -0.0016)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-04 14:00:00 | LOOM-USDC | 3600 | Close: 0.0911 | ^ EMA12/26: 0.0883 > 0.0880 ^ | ^ OBV: 0.0 (0.1300%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.7181% (delta: -0.0007)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-04 15:00:00 | LOOM-USDC | 3600 | Close: 0.0901 | ^ EMA12/26: 0.0886 > 0.0882 ^ | v OBV: 0.0 (-0.6200%) v | ERI: sell |  | WAIT | Last Action: BUY | -2.7590% (delta: -0.0016)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-04 16:00:00 | LOOM-USDC | 3600 | Close: 0.0874 | ^ EMA12/26: 0.0884 > 0.0881 ^ | v OBV: 0.0 (-3.4400%) v | ERI: buy |  | WAIT | Last Action: BUY | -5.6314% (delta: -0.0043)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 17:00:00 | LOOM-USDC | 3600 | Close: 0.0879 | ^ EMA12/26: 0.0884 > 0.0881 ^ | ^ OBV: 0.0 (0.8600%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -5.0856% (delta: -0.0038)
+support: 0.084588, resistance: 0.088817, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 18:00:00 | LOOM-USDC | 3600 | Close: 0.0889 | ^ EMA12/26: 0.0884 > 0.0882 ^ | ^ OBV: 0.0 (1.2700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -4.0825% (delta: -0.0029)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 19:00:00 | LOOM-USDC | 3600 | Close: 0.0896 | ^ EMA12/26: 0.0886 > 0.0883 ^ | ^ OBV: 0.0 (0.3800%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -3.3533% (delta: -0.0022)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 20:00:00 | LOOM-USDC | 3600 | Close: 0.0904 | ^ EMA12/26: 0.0889 > 0.0884 ^ | ^ OBV: 0.0 (0.1700%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -2.3858% (delta: -0.0013)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-04 21:00:00 | LOOM-USDC | 3600 | Close: 0.0897 | ^ EMA12/26: 0.0890 > 0.0885 ^ | v OBV: 0.0 (-1.2200%) v | ERI: buy |  | WAIT | Last Action: BUY | -3.2314% (delta: -0.0021)
+support: 0.088817, resistance: 0.091205, fibonacci (l): 0.08, fibonacci (u): 0.09
+2021-08-04 22:00:00 | LOOM-USDC | 3600 | Close: 0.0913 | ^ EMA12/26: 0.0894 > 0.0887 ^ | ^ OBV: 0.0 (1.2100%) ^ | ERI: buy |  | WAIT | Last Action: BUY | -1.4128% (delta: -0.0004)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-04 23:00:00 | LOOM-USDC | 3600 | Close: 0.0919 | ^ EMA12/26: 0.0898 > 0.0890 ^ | ^ OBV: 0.0 (0.3900%) ^ | ERI: sell |  | WAIT | Last Action: BUY | -0.7904% (delta: 0.0002)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+2021-08-05 00:00:00 | LOOM-USDC | 3600 | Close: 0.0919 | ^ EMA12/26: 0.0901 > 0.0892 ^ | v OBV: 0.0 (-0.8500%) v | ERI: sell |  | WAIT | Last Action: BUY | -0.8401% (delta: 0.0001)
+support: 0.091205, resistance: 0.093479, fibonacci (l): 0.09, fibonacci (u): 0.1
+
+Simulation Summary: 
+
+
+        Note : "sell at loss" is disabled and you have an open trade, if the margin
+               result below is negative it will assume you sold at the end of the
+               simulation which may not be ideal. Try setting --sellatloss 1
+
+
+   Buy Count : 3
+  Sell Count : 2
+   First Buy : 1000
+   Last Sell : 1380.9278885500667
+
+
+      Margin : 38.0927%
+
+
+  ** non-live simulation, assuming highest fees

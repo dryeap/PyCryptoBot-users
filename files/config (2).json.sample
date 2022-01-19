@@ -1,0 +1,33 @@
+{
+    "coinbasepro": {
+        "api_url": "https://api.pro.coinbase.com",
+        "api_key_file": "coinbasepro.key",
+        "config": {
+            "base_currency": "BTC",
+            "quote_currency": "EUR",
+            "autorestart": 1,
+            "live": 1,
+            "disabletelegram" : 0,
+            "sellatloss" : 1,
+            "selllowerpcnt" : -15,
+            "nosellminpcnt" : -15,
+            "nosellmaxpcnt" : 10,
+            "trailingstoplosstrigger" : 15,
+            "trailingstoploss" : -1.5,
+            "sellatresistance" : 1,
+            "disablebuynearhigh" : 1,
+            "buynearhighpcnt" : 6,
+            "disablebuymacd" : 0,
+            "disablebuyobv" : 0,
+            "disablebuyelderray" : 0,
+            "disablefailsafefibonaccilow" : 1,
+            "disableprofitbankreversal" : 1,
+            "disabletracker" : 1,
+            "autorestart" : 1,
+            "graphs" : 0,
+            "verbose" : 0,
+            "stats" : 0,
+            "buymaxsize": 100
+        },
+    }
+}

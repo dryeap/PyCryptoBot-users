@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------
+|                             Python Crypto Bot                                |
+--------------------------------------------------------------------------------
+|                Release : v2.49.1                                             | 
+--------------------------------------------------------------------------------
+|               Bot Mode : TEST - test trades using dummy funds :)             | 
+|            Bot Started : 2021-08-05 22:39:38.423235                          | 
+================================================================================
+ |    Trailing Stop Loss : -1.5%                                               | 
+|           Sell At Loss : False  --sellatloss False                           | 
+|     Sell At Resistance : False  --sellatresistance                           | 
+|        Trade Bull Only : False  --disablebullonly                            | 
+|          Buy Near High : True  --disablebuynearhigh                          | 
+|           Use Buy MACD : False  --disablebuymacd                             | 
+|            Use Buy EMA : True  --disablebuyema                               | 
+|            Use Buy OBV : True  --disablebuyobv                               | 
+|      Use Buy Elder-Ray : True  --disablebuyelderray                          | 
+|     Sell Fibonacci Low : False  --disablefailsafefibonaccilow                | 
+|   Candlestick Reversal : False  --disableprofitbankreversal                  | 
+|               Telegram : False  --disabletelegram                            | 
+|                    Log : True  --disablelog                                  | 
+|                Tracker : False  --disabletracker                             | 
+|       Auto restart Bot : True  --autorestart                                 | 
+|           Max Buy Size : 50.0  --buymaxsize <size>                           | 
+================================================================================
+             *** getting smartswitch (900) market data ***
+             *** getting smartswitch (3600) market data ***
+             *** getting smartswitch (21600) market data ***
+ |    Sampling start : 2021-08-04T00:00:00                                     | 
+ |      Sampling end : 2021-08-05T22:39:38                                     | 
+================================================================================
+2021-07-24 11:00:00 | 1INCH-USD | 3600 | Close: 2.0640 | EMA12/26: 2.0640 = 2.0640OBV: 152720.1300 (0.0000%) | ERI: | WAIT | Last Action: SELL
+*** smart switch from granularity 3600 (1 hour) to 900 (15 min) ***
+2021-07-24 12:00:00 | 1INCH-USD | 900 | Close: 2.0660 | *^ EMA12/26: 2.0643 > 2.0641 ^* | ^ OBV: 199899.2700 (30.8900%) ^ | ERI: buy | BUY | Last Action: SELL
+2021-07-24 12:00:00 | 1INCH-USD | 900 | Close: 2.0660 | BUY
+ Fibonacci Retracement Levels:{'ratio0_286': 2.06, 'ratio0': 2.06, 'ratio1_272': 2.06}
+Restarting application after exception: KeyError('2021-07-24 13:00:00')
+KeyError('2021-07-24 14:00:00')
+Traceback (most recent call last):
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1039, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1627131600000000000
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas/_libs/index.pyx", line 446, in pandas._libs.index.DatetimeEngine.get_loc
+KeyError: Timestamp('2021-07-24 13:00:00')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: Timestamp('2021-07-24 13:00:00')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.8/site-packages/pandas/core/indexes/datetimes.py", line 627, in get_loc
+    raise KeyError(orig_key) from err
+KeyError: '2021-07-24 13:00:00'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1039, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1627135200000000000
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "pandas/_libs/index.pyx", line 446, in pandas._libs.index.DatetimeEngine.get_loc
+KeyError: Timestamp('2021-07-24 14:00:00')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: Timestamp('2021-07-24 14:00:00')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.8/site-packages/pandas/core/indexes/datetimes.py", line 627, in get_loc
+    raise KeyError(orig_key) from err
+KeyError: '2021-07-24 14:00:00'
