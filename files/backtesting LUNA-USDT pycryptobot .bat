@@ -1,0 +1,1 @@
+python pycryptobot.py --market LUNA-USDT --sim fast-sample --simstartdate 2021-11-01 --simenddate 2021-12-31 --verbose 1
